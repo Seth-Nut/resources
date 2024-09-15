@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.5.57">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-<meta name="author" content="IME-USP">
-
-<title>Relatórios reprodutíveis com R – Seth&amp;Nut</title>
+<meta name="author" content="Francisco Alfaro">
+<title>Introducción Python – Seth&amp;Nut</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,7 +19,6 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 </style>
-
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../../site_libs/quarto-nav/headroom.min.js"></script>
@@ -40,8 +36,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -67,22 +62,15 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Enviar",
     "search-label": "Buscar"
   }
-}</script>
-<style>html{ scroll-behavior: smooth; }</style>
-
-
+}</script><style>html{ scroll-behavior: smooth; }</style>
 </head>
-
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
+  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/doberman.png" alt="" class="navbar-logo">
-    </a>
+    <img src="../../images/doberman.png" alt="" class="navbar-logo"></a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Seth&amp;Nut</span>
     </a>
@@ -93,12 +81,12 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item dropdown ">
+<li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-nosotros" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Nosotros</span>
     </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-nosotros">    
-        <li>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-nosotros">
+<li>
     <a class="dropdown-item" href="../../fran.html">
  <span class="dropdown-text">Francisco Alfaro</span></a>
   </li>  
@@ -107,7 +95,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Valeska Canales</span></a>
   </li>  
     </ul>
-  </li>
+</li>
   <li class="nav-item">
     <a class="nav-link" href="../../posts/index.html"> 
 <span class="menu-text">Blog</span></a>
@@ -136,25 +124,29 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text"></span></a>
   </li>  
 </ul>
-          </div> <!-- /navcollapse -->
+</div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
-    </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+    </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">En esta página</h2>
+   
+  <ul>
+<li>
+<a href="#contenidos" id="toc-contenidos" class="nav-link active" data-scroll-target="#contenidos">Contenidos</a>
+  <ul class="collapse">
+<li><a href="#programaci%C3%B3n-python" id="toc-programación-python" class="nav-link" data-scroll-target="#programaci%C3%B3n-python">Programación &amp; Python</a></li>
+  <li><a href="#sobre-python" id="toc-sobre-python" class="nav-link" data-scroll-target="#sobre-python">Sobre Python</a></li>
+  </ul>
+</li>
+  </ul></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Relatórios reprodutíveis com R</h1>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
+<h1 class="title">Introducción Python</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Curso</div>
   </div>
@@ -167,14 +159,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Autor/a</div>
     <div class="quarto-title-meta-contents">
-             <p>IME-USP </p>
+             <p>Francisco Alfaro </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Fecha de publicación</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">23 de enero de 2023</p>
+      <p class="date">1 de agosto de 2024</p>
     </div>
   </div>
   
@@ -183,15 +175,28 @@ ul.task-list li input[type="checkbox"] {
   
 
 
-</header>
-
-
+</header><script src="https://kit.fontawesome.com/1bb720cc6f.js" crossorigin="anonymous"></script><h2 class="anchored">
+Materiais
+</h2>
+<br><center>
+<a href="https://fralfaro.github.io/python_intro/" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-globe"></i> Material</button></a> <a href="https://github.com/fralfaro/python_intro" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-brands fa-github"></i> GitHub</button></a> <br><br><img src="../../images/teaching/python.png" class="img-fluid quarto-figure-center" style="max-width:80%"><br>
+</center>
 <hr>
+<section id="contenidos" class="level2"><h2 class="anchored" data-anchor-id="contenidos">Contenidos</h2>
+<section id="programación-python" class="level3"><h3 class="anchored" data-anchor-id="programación-python">Programación &amp; Python</h3>
+<p><strong>Programación:</strong> La programación es el arte de dar vida a las computadoras mediante la escritura de código. A lo largo de este curso, aprenderemos a comunicarnos con las máquinas y a resolver problemas de manera eficiente utilizando Python como nuestra herramienta principal.</p>
+<p><strong>Motivación:</strong> ¿Por qué aprender a programar en Python? Python es conocido por su simplicidad y legibilidad, lo que lo hace perfecto para principiantes. Además, es ampliamente utilizado en la industria para una variedad de aplicaciones, desde desarrollo web hasta inteligencia artificial. Aprender Python puede abrirte muchas puertas en el mundo de la tecnología.</p>
+</section><section id="sobre-python" class="level3"><h3 class="anchored" data-anchor-id="sobre-python">Sobre Python</h3>
+<p><strong>Nomenclatura:</strong> Antes de sumergirnos en la programación real, es fundamental comprender las reglas y convenciones que rigen la nomenclatura en Python. Aprenderemos cómo nombrar variables, funciones y más de manera consistente y fácil de entender.</p>
+<p><strong>Control de Flujo:</strong> Descubriremos cómo dirigir el flujo de ejecución de un programa mediante la toma de decisiones y la repetición de acciones. Las estructuras de control de flujo, como las condicionales y los bucles, serán nuestras herramientas para lograrlo.</p>
+<p><strong>Estructura de Datos:</strong> Las estructuras de datos son cruciales para organizar y manipular información de manera eficiente. Exploraremos listas, tuplas, conjuntos y diccionarios, y aprenderemos cuándo y cómo usar cada uno de ellos.</p>
+<p><strong>Funciones y Módulos:</strong> Las funciones nos permiten encapsular lógica y reutilizar código. También aprenderemos sobre la modularización, que nos ayudará a mantener nuestros programas ordenados y fáciles de mantener.</p>
+<p><strong>Programación Funcional:</strong> Python admite la programación funcional, un paradigma que nos permite escribir código más declarativo y elegante. Exploraremos conceptos como funciones de orden superior y expresiones lambda.</p>
+<p><strong>Excepciones:</strong> A veces, las cosas no salen como se esperaba. Aprenderemos a manejar errores y excepciones de manera efectiva para que nuestros programas sean más robustos.</p>
+<p><strong>Buenas Prácticas:</strong> No solo aprenderemos a programar, sino que también nos enfocaremos en escribir código limpio y seguir las mejores prácticas de desarrollo. Esto es esencial para colaborar con otros programadores y mantener proyectos a largo plazo.</p>
 
 
-
-</main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+</section></section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -615,14 +620,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
-</script>
-<script src="https://giscus.app/client.js" data-repo="beatrizmilz/blog-en" data-repo-id="R_kgDOHc0DoQ" data-category="General" data-category-id="DIC_kwDOHc0Doc4CPeUR" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
-</script>
-<input type="hidden" id="giscus-base-theme" value="light">
-<input type="hidden" id="giscus-alt-theme" value="dark">
+</script><script src="https://giscus.app/client.js" data-repo="beatrizmilz/blog-en" data-repo-id="R_kgDOHc0DoQ" data-category="General" data-category-id="DIC_kwDOHc0Doc4CPeUR" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+</script><input type="hidden" id="giscus-base-theme" value="light"><input type="hidden" id="giscus-alt-theme" value="dark">
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
+<footer class="footer"><div class="nav-footer">
     <div class="nav-footer-left">
 <p>Website made with <a href="https://quarto.org/">Quarto</a>, by Francisco Alfaro. License: <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>.</p>
 </div>   
@@ -631,7 +632,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
-    <li class="nav-item compact">
+<li class="nav-item compact">
     <a class="nav-link" href="https://github.com/fralfaro">
       <i class="bi bi-github" role="img">
 </i> 
@@ -656,11 +657,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </a>
   </li>  
 </ul>
-    </div>
+</div>
   </div>
 </footer>
-
-
 
 
 <script src="../../site_libs/quarto-html/zenscroll-min.js"></script>

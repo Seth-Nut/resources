@@ -9,10 +9,14 @@
       "/posts/2019-08-21-desenvolvendo-meu-primeiro-shiny-app/pt/index.html",
       "/posts/2019-06-24-compartilhando-contedo-utilizando-r/pt/index.html",
       "/posts/2019-01-29-meio-ano-r/pt/index.html",
-      "/teaching/2022-05-cebrap-lab-intro-R/index.html",
-      "/teaching/2023-06-cebrap-lab-intro-R/index.html",
-      "/teaching/2022-01-verao-ime-usp-relatorios/index.html",
-      "/teaching/2023-01-verao-ime-usp-relatorios/index.html"
+      "/teaching/big_data/index.html",
+      "/teaching/eda/index.html",
+      "/teaching/dl/index.html",
+      "/teaching/software/index.html",
+      "/teaching/tools/index.html",
+      "/teaching/python/index.html",
+      "/teaching/r/index.html",
+      "/teaching/ml/index.html"
     ]
   },
   {
@@ -31,10 +35,14 @@
   {
     "listing": "/teaching/index.html",
     "items": [
-      "/teaching/2023-06-cebrap-lab-intro-R/index.html",
-      "/teaching/2023-01-verao-ime-usp-relatorios/index.html",
-      "/teaching/2022-05-cebrap-lab-intro-R/index.html",
-      "/teaching/2022-01-verao-ime-usp-relatorios/index.html"
+      "/teaching/big_data/index.html",
+      "/teaching/software/index.html",
+      "/teaching/dl/index.html",
+      "/teaching/ml/index.html",
+      "/teaching/eda/index.html",
+      "/teaching/python/index.html",
+      "/teaching/r/index.html",
+      "/teaching/tools/index.html"
     ]
   },
   {

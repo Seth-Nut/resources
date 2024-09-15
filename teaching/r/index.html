@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.5.57">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-<meta name="author" content="CEBRAP">
-
-<title>Introdução ao R – Seth&amp;Nut</title>
+<meta name="author" content="Francisco Alfaro">
+<title>Introducción R – Seth&amp;Nut</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,7 +19,6 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 </style>
-
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../../site_libs/quarto-nav/headroom.min.js"></script>
@@ -40,8 +36,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -67,22 +62,15 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Enviar",
     "search-label": "Buscar"
   }
-}</script>
-<style>html{ scroll-behavior: smooth; }</style>
-
-
+}</script><style>html{ scroll-behavior: smooth; }</style>
 </head>
-
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
+  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/doberman.png" alt="" class="navbar-logo">
-    </a>
+    <img src="../../images/doberman.png" alt="" class="navbar-logo"></a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Seth&amp;Nut</span>
     </a>
@@ -93,12 +81,12 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item dropdown ">
+<li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-nosotros" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Nosotros</span>
     </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-nosotros">    
-        <li>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-nosotros">
+<li>
     <a class="dropdown-item" href="../../fran.html">
  <span class="dropdown-text">Francisco Alfaro</span></a>
   </li>  
@@ -107,7 +95,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Valeska Canales</span></a>
   </li>  
     </ul>
-  </li>
+</li>
   <li class="nav-item">
     <a class="nav-link" href="../../posts/index.html"> 
 <span class="menu-text">Blog</span></a>
@@ -136,25 +124,31 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text"></span></a>
   </li>  
 </ul>
-          </div> <!-- /navcollapse -->
+</div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
-    </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+    </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">En esta página</h2>
+   
+  <ul>
+<li>
+<a href="#contenidos" id="toc-contenidos" class="nav-link active" data-scroll-target="#contenidos">Contenidos</a>
+  <ul class="collapse">
+<li><a href="#introducci%C3%B3n-a-r" id="toc-introducción-a-r" class="nav-link" data-scroll-target="#introducci%C3%B3n-a-r">Introducción a R</a></li>
+  <li><a href="#nomenclatura" id="toc-nomenclatura" class="nav-link" data-scroll-target="#nomenclatura">Nomenclatura</a></li>
+  <li><a href="#introducci%C3%B3n-a-dplyr" id="toc-introducción-a-dplyr" class="nav-link" data-scroll-target="#introducci%C3%B3n-a-dplyr">Introducción a dplyr</a></li>
+  <li><a href="#introducci%C3%B3n-a-ggplot2" id="toc-introducción-a-ggplot2" class="nav-link" data-scroll-target="#introducci%C3%B3n-a-ggplot2">Introducción a ggplot2</a></li>
+  </ul>
+</li>
+  </ul></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Introdução ao R</h1>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
+<h1 class="title">Introducción R</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Curso</div>
   </div>
@@ -167,14 +161,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Autor/a</div>
     <div class="quarto-title-meta-contents">
-             <p>CEBRAP </p>
+             <p>Francisco Alfaro </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Fecha de publicación</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">9 de mayo de 2022</p>
+      <p class="date">1 de agosto de 2024</p>
     </div>
   </div>
   
@@ -183,16 +177,29 @@ ul.task-list li input[type="checkbox"] {
   
 
 
-</header>
-
-
+</header><script src="https://kit.fontawesome.com/1bb720cc6f.js" crossorigin="anonymous"></script><h2 class="anchored">
+Materiais
+</h2>
+<br><center>
+<a href="https://fralfaro.github.io/r_intro/" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-globe"></i> Material</button></a> <a href="https://github.com/fralfaro/r_intro" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-brands fa-github"></i> GitHub</button></a> <br><br><img src="../../images/teaching/rlogo.png" class="img-fluid quarto-figure-center" style="max-width:80%"><br>
+</center>
 <hr>
-<p>A linguagem de programação R é utilizada para organização, análise e apresentação de dados. O curso apresentará a linguagem R e o ambiente de desenvolvimento (IDE) RStudio. Serão apresentados conceitos usando R base, e então falaremos em como fazer algumas tarefas usando o pacote tidyverse, como: importar uma tabela para o R, exportar uma tabela para o computador, selecionar colunas, filtrar linhas, ordenar uma base de dados, transformar variáveis, obter sumarização por grupos, obter estatísticas descritivas, gerar gráficos simples, entre outros. O curso tem como público alvo pessoas que tenham interesse em utilizar R para análise de dados. Todas as ferramentas utilizadas são gratuitas.</p>
+<section id="contenidos" class="level2"><h2 class="anchored" data-anchor-id="contenidos">Contenidos</h2>
+<section id="introducción-a-r" class="level3"><h3 class="anchored" data-anchor-id="introducción-a-r">Introducción a R</h3>
+<p><strong>R:</strong> R es un lenguaje de programación y entorno de software libre utilizado principalmente para el análisis de datos y la estadística. En este curso, aprenderemos a utilizar R como una herramienta para manipular, analizar y visualizar datos, aprovechando su extenso ecosistema de paquetes especializados.</p>
+<p><strong>Motivación:</strong> ¿Por qué aprender R? R es altamente valorado en el ámbito de la ciencia de datos y la investigación académica debido a su capacidad para realizar análisis estadísticos avanzados y crear visualizaciones detalladas. Además, es una herramienta clave para cualquier persona interesada en la investigación de datos y la estadística, especialmente en áreas como la biología, la economía y las ciencias sociales.</p>
+</section><section id="nomenclatura" class="level3"><h3 class="anchored" data-anchor-id="nomenclatura">Nomenclatura</h3>
+<p><strong>Nombres en R:</strong> Antes de comenzar a programar, es importante familiarizarse con las convenciones de nomenclatura en R. Exploraremos cómo nombrar variables, funciones y otros elementos del código de manera clara y consistente, siguiendo las buenas prácticas de desarrollo en el ecosistema de R.</p>
+<p><strong>Buenas Prácticas:</strong> La coherencia en la nomenclatura es clave para escribir código comprensible y fácil de mantener. Aprenderemos las mejores prácticas para asegurarnos de que nuestro código sea legible tanto para nosotros como para otros colaboradores.</p>
+</section><section id="introducción-a-dplyr" class="level3"><h3 class="anchored" data-anchor-id="introducción-a-dplyr">Introducción a dplyr</h3>
+<p><strong>Manipulación de Datos:</strong> dplyr es uno de los paquetes más poderosos y populares de R para la manipulación de datos. Con dplyr, aprenderemos a filtrar, seleccionar, mutar y organizar conjuntos de datos de forma sencilla y eficiente utilizando un enfoque basado en verbos intuitivos.</p>
+<p><strong>Flujo de Trabajo:</strong> dplyr permite encadenar operaciones de manera fluida y coherente, lo que facilita el análisis de datos sin necesidad de escribir código complejo. Descubriremos cómo realizar transformaciones rápidas y cómo optimizar nuestro flujo de trabajo en R.</p>
+</section><section id="introducción-a-ggplot2" class="level3"><h3 class="anchored" data-anchor-id="introducción-a-ggplot2">Introducción a ggplot2</h3>
+<p><strong>Visualización de Datos:</strong> ggplot2 es el paquete más conocido para la visualización de datos en R. Aprenderemos los principios fundamentales del “Grammar of Graphics” y cómo utilizarlos para crear visualizaciones personalizadas y efectivas que nos permitan comunicar los resultados de nuestros análisis de manera clara.</p>
+<p><strong>Gráficos Personalizados:</strong> Exploraremos cómo generar gráficos como histogramas, gráficos de dispersión, diagramas de cajas y más. También aprenderemos a ajustar detalles visuales, agregar capas a nuestros gráficos y adaptar las visualizaciones a las necesidades específicas de nuestros proyectos.</p>
 
 
-
-</main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+</section></section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -616,14 +623,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
-</script>
-<script src="https://giscus.app/client.js" data-repo="beatrizmilz/blog-en" data-repo-id="R_kgDOHc0DoQ" data-category="General" data-category-id="DIC_kwDOHc0Doc4CPeUR" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
-</script>
-<input type="hidden" id="giscus-base-theme" value="light">
-<input type="hidden" id="giscus-alt-theme" value="dark">
+</script><script src="https://giscus.app/client.js" data-repo="beatrizmilz/blog-en" data-repo-id="R_kgDOHc0DoQ" data-category="General" data-category-id="DIC_kwDOHc0Doc4CPeUR" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+</script><input type="hidden" id="giscus-base-theme" value="light"><input type="hidden" id="giscus-alt-theme" value="dark">
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
+<footer class="footer"><div class="nav-footer">
     <div class="nav-footer-left">
 <p>Website made with <a href="https://quarto.org/">Quarto</a>, by Francisco Alfaro. License: <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>.</p>
 </div>   
@@ -632,7 +635,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
-    <li class="nav-item compact">
+<li class="nav-item compact">
     <a class="nav-link" href="https://github.com/fralfaro">
       <i class="bi bi-github" role="img">
 </i> 
@@ -657,11 +660,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </a>
   </li>  
 </ul>
-    </div>
+</div>
   </div>
 </footer>
-
-
 
 
 <script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
