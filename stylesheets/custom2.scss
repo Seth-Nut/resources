@@ -1,0 +1,31 @@
+/*-- scss:defaults --*/
+$bs-blue: #000000 !default;
+
+
+/*-- scss:rules --*/
+main, p{
+    font-size: 1.1rem !important;
+    
+  }
+
+div.quarto-post .listing-categories .listing-category {
+    color: #000000;
+    border: solid 1px var(--bs-gray-400);
+    font-size: .8em;
+    
+}
+
+
+/* Ajusta la imagen dentro del contenedor */
+div.quarto-post .thumbnail img {
+    max-width: 150px; /* Establece un ancho máximo para la imagen */
+    max-height: 150px; /* Establece un alto máximo para la imagen */
+    height: auto; /* Mantiene la proporción de aspecto */
+    display: block; /* Permite centrar la imagen */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+.footer-items .nav-link .bi {
+    font-size: 20px; /* Ajusta el tamaño del ícono según sea necesario */
+  }
+

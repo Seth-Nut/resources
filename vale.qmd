@@ -1,0 +1,50 @@
+---
+title: "Francisco Alfaro M."
+comments: false
+image:  images/vale.png
+about:
+  template: trestles
+  links:
+    - icon: globe
+      text: Portfolio
+      href: https://vcanalesp.github.io/portafolio/
+    - icon: file-pdf
+      text: Resume
+      href: https://gitlab.com/vcanalesp/cv
+    - icon: github
+      text: GitHub
+      href: https://github.com/vcanalesp
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/vcanalesp/  
+---
+
+
+<center>
+
+::: {.btn-group role="group" aria-label="About"}
+<a href="vale.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">Español</button></a>
+:::
+
+</center>
+
+
+::: {#hero-heading}
+
+
+Hola👋 Mi nombre es Valeska!
+
+* **Profesión**: 📊 Ingeniera en Bioprocesos
+* **Trabajo actual**: 
+    * 💻 Asistente Programadora (Independiente)
+    * 🗨️ Charlista (DUOC UC)
+
+### Intereses
+
+💪 Deporte | 🍰 Pastelería | 🐶 Perritos
+
+✅ Educación  <br>
+✅ Visualización  <br>
+✅ Machine Learning <br> 
+✅ Inteligencia Artificial  
+:::

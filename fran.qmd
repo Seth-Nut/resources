@@ -1,0 +1,44 @@
+---
+title: "Francisco Alfaro M."
+comments: false
+image:  images/fran.png
+about:
+  template: trestles
+  links:
+    - icon: globe
+      text: Portfolio
+      href: https://fralfaro.github.io/portfolio/
+    - icon: file-pdf
+      text: Resume
+      href: https://gitlab.com/fralfaro/cv
+    - icon: github
+      text: GitHub
+      href: https://github.com/fralfaro
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/faam/  
+
+---
+::: {.btn-group role="group" aria-label="About"}
+<a href="fran.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">Español</button></a>
+:::
+
+
+::: {#hero-heading}
+Hola👋 Mi nombre es Francisco!
+
+
+* **Profesión**: 📊 Ingeniero Matemático
+* **Trabajo actual**: 
+    * 💻 Head of Advanced Analytics (Grupo Security)
+    * 📖 Profesor Adjunto (UTFSM)
+
+### Intereses
+
+🎮🦊[SSBM-Dark](https://www.youtube.com/watch?v=xwDHs6UXgR8) | 🏀👑[Basketball-LBJ](https://www.youtube.com/watch?v=6fQk1Od5kUw)
+
+✅ Software Development  <br>
+✅ Statistical Modelling, Time Series <br> 
+✅ Machine/Deep Learning <br> 
+✅ Cloud computing, Big Data
+:::
