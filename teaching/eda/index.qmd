@@ -1,0 +1,14 @@
+---
+# THIS FILE WAS CONVERTED FROM BLOGDOWN!
+toc: true
+author: Francisco Alfaro
+categories: Curso
+date: '2024-08-02'
+title: Data Manipulation
+image: ../../images/teaching/data.png
+
+---
+
+
+
+------------------------------------------------------------------------

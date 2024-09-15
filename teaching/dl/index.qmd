@@ -1,0 +1,10 @@
+---
+# THIS FILE WAS CONVERTED FROM BLOGDOWN!
+toc: true
+author: Francisco Alfaro
+categories: Curso
+date: '2024-08-03'
+title: Deep Learning
+image: ../../images/teaching/dl.png
+
+---

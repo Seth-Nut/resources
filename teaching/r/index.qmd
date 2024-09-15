@@ -1,0 +1,66 @@
+---
+# THIS FILE WAS CONVERTED FROM BLOGDOWN!
+toc: true
+author: Francisco Alfaro
+categories: Curso
+date: '2024-08-01'
+title: Introducción R
+image: ../../images/teaching/rlogo.png
+links:
+- icon: globe
+  icon_pack: fas
+  name: Material
+  url: https://fralfaro.github.io/r_intro/
+- icon: github
+  icon_pack: fab
+  name: GitHub
+  url: https://github.com/fralfaro/r_intro
+
+---
+
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+
+------------------------------------------------------------------------
+
+
+## Contenidos
+
+### Introducción a R
+
+**R:**
+R es un lenguaje de programación y entorno de software libre utilizado principalmente para el análisis de datos y la estadística. En este curso, aprenderemos a utilizar R como una herramienta para manipular, analizar y visualizar datos, aprovechando su extenso ecosistema de paquetes especializados.
+
+**Motivación:**
+¿Por qué aprender R? R es altamente valorado en el ámbito de la ciencia de datos y la investigación académica debido a su capacidad para realizar análisis estadísticos avanzados y crear visualizaciones detalladas. Además, es una herramienta clave para cualquier persona interesada en la investigación de datos y la estadística, especialmente en áreas como la biología, la economía y las ciencias sociales.
+
+### Nomenclatura
+
+**Nombres en R:**
+Antes de comenzar a programar, es importante familiarizarse con las convenciones de nomenclatura en R. Exploraremos cómo nombrar variables, funciones y otros elementos del código de manera clara y consistente, siguiendo las buenas prácticas de desarrollo en el ecosistema de R.
+
+**Buenas Prácticas:**
+La coherencia en la nomenclatura es clave para escribir código comprensible y fácil de mantener. Aprenderemos las mejores prácticas para asegurarnos de que nuestro código sea legible tanto para nosotros como para otros colaboradores.
+
+### Introducción a dplyr
+
+**Manipulación de Datos:**
+dplyr es uno de los paquetes más poderosos y populares de R para la manipulación de datos. Con dplyr, aprenderemos a filtrar, seleccionar, mutar y organizar conjuntos de datos de forma sencilla y eficiente utilizando un enfoque basado en verbos intuitivos.
+
+**Flujo de Trabajo:**
+dplyr permite encadenar operaciones de manera fluida y coherente, lo que facilita el análisis de datos sin necesidad de escribir código complejo. Descubriremos cómo realizar transformaciones rápidas y cómo optimizar nuestro flujo de trabajo en R.
+
+### Introducción a ggplot2
+
+**Visualización de Datos:**
+ggplot2 es el paquete más conocido para la visualización de datos en R. Aprenderemos los principios fundamentales del “Grammar of Graphics” y cómo utilizarlos para crear visualizaciones personalizadas y efectivas que nos permitan comunicar los resultados de nuestros análisis de manera clara.
+
+**Gráficos Personalizados:**
+Exploraremos cómo generar gráficos como histogramas, gráficos de dispersión, diagramas de cajas y más. También aprenderemos a ajustar detalles visuales, agregar capas a nuestros gráficos y adaptar las visualizaciones a las necesidades específicas de nuestros proyectos.
+

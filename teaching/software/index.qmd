@@ -1,0 +1,70 @@
+---
+# THIS FILE WAS CONVERTED FROM BLOGDOWN!
+toc: true
+author: Francisco Alfaro
+categories: Curso
+date: '2024-08-04'
+title: Diseño de Software
+image: ../../images/teaching/software.png
+
+---
+
+
+
+------------------------------------------------------------------------
+
+
+
+
+<img src="../../images/teaching/software.png" alt="" align="center" width="500"/>
+
+## Contenidos
+
+### Herramientas Básicas
+
+**Linux:**
+Linux es un sistema operativo potente y flexible, ampliamente utilizado en entornos de desarrollo y servidores. A lo largo de este curso, exploraremos los comandos básicos de la terminal, la gestión de archivos y permisos, así como herramientas esenciales para interactuar con el sistema de manera eficiente. Aprender a utilizar Linux te permitirá ser más productivo y dominar un entorno de trabajo profesional.
+
+**Motivación:**
+¿Por qué aprender Linux? El uso de Linux es común en el mundo de la programación y la ciencia de datos. Su versatilidad, seguridad y personalización lo convierten en el sistema operativo elegido por muchos desarrolladores y administradores de sistemas. Dominar Linux te brindará un control completo sobre tu entorno de trabajo y te abrirá puertas en roles relacionados con DevOps, administración de sistemas y desarrollo de software.
+
+### Git
+
+**Control de Versiones:**
+Git es una herramienta fundamental para el control de versiones, permitiéndonos rastrear cambios en el código y colaborar con otros desarrolladores de manera eficiente. Aprenderemos cómo crear repositorios, realizar commits, y trabajar con ramas para gestionar proyectos de software de cualquier tamaño.
+
+**Colaboración en Proyectos:**
+Git facilita la colaboración entre múltiples programadores, permitiendo el desarrollo simultáneo en diferentes partes de un proyecto. Exploraremos plataformas como GitHub para alojar repositorios y colaborar con otros mediante pull requests y revisiones de código.
+
+### IDE’s (Entornos de Desarrollo Integrados)
+
+**Introducción a los IDEs:**
+Un IDE (Integrated Development Environment) es una herramienta que integra diversas funcionalidades necesarias para el desarrollo de software, como edición de código, depuración y ejecución. Exploraremos algunas de las opciones más populares, como Visual Studio Code y PyCharm, y aprenderemos cómo configurarlas para ser más eficientes al escribir código en Python.
+
+**Ventajas de los IDE’s:**
+Utilizar un IDE bien configurado no solo mejora la productividad, sino que también facilita la depuración y el análisis de código, brindando acceso a complementos útiles y a una experiencia de desarrollo más fluida.
+
+### Python
+
+**El Lenguaje Python:**
+Python es el lenguaje de programación principal que utilizaremos en este curso. Conoceremos sus características más importantes y cómo instalarlo en distintos entornos. Python es conocido por su simplicidad y facilidad de uso, lo que lo convierte en una excelente opción tanto para principiantes como para profesionales.
+
+**Manejo de Entornos Virtuales:**
+Aprenderemos a gestionar entornos virtuales en Python, lo que nos permitirá aislar dependencias y evitar conflictos de versiones al trabajar en múltiples proyectos.
+
+### Jupyter
+
+**Notebooks Interactivos:**
+Jupyter Notebooks es una herramienta interactiva que permite combinar código, texto y gráficos en un solo documento. Veremos cómo utilizar Jupyter para experimentar con código en tiempo real, crear análisis interactivos y compartir nuestros resultados de manera efectiva.
+
+**Aplicaciones en Ciencia de Datos:**
+Jupyter es una herramienta indispensable en el campo de la ciencia de datos, permitiendo el análisis de grandes volúmenes de información de forma clara y estructurada. Aprenderemos a trabajar con datos, generar visualizaciones y documentar nuestras investigaciones.
+
+### Google Colab
+
+**Colaboración en la Nube:**
+Google Colab es una plataforma gratuita basada en Jupyter que permite ejecutar código en la nube sin necesidad de instalar nada en tu computadora. Exploraremos cómo utilizar Colab para ejecutar scripts en Python, compartir notebooks con otros usuarios y aprovechar el poder computacional de los servidores de Google.
+
+**Uso Práctico para Proyectos:**
+Colab es ideal para proyectos colaborativos y para trabajar con grandes volúmenes de datos. Aprenderemos a importar datos desde diferentes fuentes, utilizar GPUs y TPUs para acelerar el procesamiento, y crear notebooks interactivos que se puedan compartir fácilmente con colegas o compañeros de clase.
+
