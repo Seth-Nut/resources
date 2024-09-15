@@ -1,7 +1,6 @@
 project:
   type: website
-  preview:
-    port: 4200
+  output-dir: docs
 
 website:
   title: "Seth&Nut"

@@ -3,20 +3,19 @@ on:
   push:
     branches: main
 
-name: Render and Publish
-
+name: Quarto Publish
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Check out repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-
-      # add software dependencies here
 
       - uses: r-lib/actions/setup-r@v2
         with:
@@ -32,11 +31,9 @@ jobs:
             any::here
             any::janitor
 
-
-      - name: Publish to GitHub Pages (and render)
+      - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
-          path: "_site/"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
