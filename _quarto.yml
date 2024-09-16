@@ -11,13 +11,12 @@ website:
     left: "Website made with [Quarto](https://quarto.org/), by Francisco Alfaro. License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
     right:
       - icon: github
-        href: https://github.com/fralfaro
+        href: https://github.com/Seth-Nut
       - icon: linkedin
-        href: https://www.linkedin.com/in/faam/
+        href: https://www.linkedin.com/company/Seth-Nut/
       - icon: globe
-        href: https://fralfaro.github.io/portfolio/
-      - icon: pencil
-        href: https://github.com/fralfaro/blog
+        href: https://seth-nut.github.io/website/
+
 
 
   navbar:
@@ -46,11 +45,11 @@ website:
       # - icon: newspaper
       #   href: https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7129591797797797888
       - icon: github
-        href: https://github.com/fralfaro
+        href: https://github.com/Seth-Nut
       - icon: linkedin
-        href: https://www.linkedin.com/in/faam/
+        href: https://www.linkedin.com/company/Seth-Nut/
       - icon: globe
-        href: https://fralfaro.github.io/portfolio/
+        href: https://seth-nut.github.io/website/
 
 lang: es
 

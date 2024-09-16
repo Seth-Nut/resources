@@ -2,7 +2,7 @@
 #title: "Seth&Nut"
 listing:
   - id: posts
-    contents: "*/*.qmd"
+    contents: "*/*.{qmd,ipynb}"
     type: default
     fields: [image, date, title, subtitle, categories, author, reading-time]  
     sort: "date desc"

@@ -10,7 +10,7 @@ listing:
     filter-ui: false
     page-size: 3
   - id: posts
-    contents: posts/**/index.qmd
+    contents: posts/*/index.{qmd,ipynb}
     type: grid
     fields: [image, date, title, subtitle, categories, author, reading-time]  
     sort: "date desc"

@@ -4,18 +4,18 @@ subtitle: DUOC-UC
 author: 
   - "Francisco Alfaro"
   - "Valeska Canales"
-categories: [chatgpt, inteligencia-artificial, duoc-uc, educación]
+categories: [AI, chatgpt, duoc-uc, educación]
 date: "2024-09-13"
 image: "images/chatgpt.png"
 links:
 - icon: globe
   icon_pack: fas
   name: Material
-  url: https://pyschool.cl/
+  url: https://github.com/Seth-Nut/resources/blob/main/files/2024_09_13_chatgpt.pdf
 - icon: linkedin
   icon_pack: fab
   name: linkedin
-  url: https://www.linkedin.com/feed/update/urn:li:activity:7240904610884849664
+  url: https://www.linkedin.com/feed/update/urn:li:activity:7241536525845368832
 
 
 ---
@@ -50,8 +50,7 @@ Queremos expresar nuestro agradecimiento y reconocimiento al equipo por su traba
 
 ### 📅 Próximos Eventos
 
-Gracias a todos los asistentes y a nuestro equipo por hacer de esta charla un éxito. ¡Mantente atento a futuros eventos y oportunidades para aprender más!
-
+Gracias a todos los que hicieron posible este evento. ¡Mantente atento a futuros eventos y oportunidades para aprender más!
 
 ### 📷 Fotos del Evento
 
