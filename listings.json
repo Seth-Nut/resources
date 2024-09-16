@@ -1,29 +1,20 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/posts/index.html",
     "items": [
-      "/talks/es/2024-chatgpt/index.html",
-      "/talks/es/2024-pyschool/index.html",
-      "/posts/index.html",
-      "/posts/2019-08-31-um-ano-aprendendo-r/pt/index.html",
-      "/posts/2019-08-21-desenvolvendo-meu-primeiro-shiny-app/pt/index.html",
-      "/posts/2019-06-24-compartilhando-contedo-utilizando-r/pt/index.html",
-      "/posts/2019-01-29-meio-ano-r/pt/index.html",
-      "/teaching/big_data/index.html",
-      "/teaching/eda/index.html",
-      "/teaching/dl/index.html",
-      "/teaching/software/index.html",
-      "/teaching/tools/index.html",
-      "/teaching/python/index.html",
-      "/teaching/r/index.html",
-      "/teaching/ml/index.html"
+      "/posts/2024-08-07-google_colab/index.html",
+      "/posts/2024-08-07-jb/index.html",
+      "/posts/2024-08-07-python/index.html",
+      "/posts/2024-08-01-gh_readme/index.html",
+      "/posts/2024-08-01-gh_profile/index.html",
+      "/posts/2024-08-01-gh_account/index.html",
+      "/posts/2024-08-07-markdown/index.html"
     ]
   },
   {
-    "listing": "/talks/index.html",
+    "listing": "/research/index.html",
     "items": [
-      "/talks/es/2024-chatgpt/index.html",
-      "/talks/es/2024-pyschool/index.html"
+      "/research/en/2022-ambiagua/index.html"
     ]
   },
   {
@@ -40,18 +31,32 @@
     ]
   },
   {
-    "listing": "/research/index.html",
+    "listing": "/talks/index.html",
     "items": [
-      "/research/en/2022-ambiagua/index.html"
+      "/talks/es/2024-chatgpt/index.html",
+      "/talks/es/2024-pyschool/index.html"
     ]
   },
   {
-    "listing": "/posts/index.html",
+    "listing": "/index.html",
     "items": [
-      "/posts/2019-08-31-um-ano-aprendendo-r/pt/index.html",
-      "/posts/2019-08-21-desenvolvendo-meu-primeiro-shiny-app/pt/index.html",
-      "/posts/2019-06-24-compartilhando-contedo-utilizando-r/pt/index.html",
-      "/posts/2019-01-29-meio-ano-r/pt/index.html"
+      "/talks/es/2024-chatgpt/index.html",
+      "/talks/es/2024-pyschool/index.html",
+      "/posts/2024-08-07-google_colab/index.html",
+      "/posts/2024-08-07-jb/index.html",
+      "/posts/2024-08-07-python/index.html",
+      "/posts/2024-08-01-gh_readme/index.html",
+      "/posts/2024-08-01-gh_profile/index.html",
+      "/posts/2024-08-01-gh_account/index.html",
+      "/posts/2024-08-07-markdown/index.html",
+      "/teaching/big_data/index.html",
+      "/teaching/eda/index.html",
+      "/teaching/dl/index.html",
+      "/teaching/software/index.html",
+      "/teaching/tools/index.html",
+      "/teaching/python/index.html",
+      "/teaching/r/index.html",
+      "/teaching/ml/index.html"
     ]
   }
 ]
