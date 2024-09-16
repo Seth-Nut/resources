@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.5.57">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
 <meta name="author" content="Francisco Alfaro">
-
 <title>Deep Learning – Seth&amp;Nut</title>
 <style>
 code{white-space: pre-wrap;}
@@ -22,7 +19,6 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 </style>
-
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../../site_libs/quarto-nav/headroom.min.js"></script>
@@ -40,8 +36,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -67,22 +62,15 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Enviar",
     "search-label": "Buscar"
   }
-}</script>
-<style>html{ scroll-behavior: smooth; }</style>
-
-
+}</script><style>html{ scroll-behavior: smooth; }</style>
 </head>
-
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
+  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/doberman.png" alt="" class="navbar-logo">
-    </a>
+    <img src="../../images/doberman.png" alt="" class="navbar-logo"></a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Seth&amp;Nut</span>
     </a>
@@ -93,12 +81,12 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item dropdown ">
+<li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-nosotros" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Nosotros</span>
     </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-nosotros">    
-        <li>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-nosotros">
+<li>
     <a class="dropdown-item" href="../../fran.html">
  <span class="dropdown-text">Francisco Alfaro</span></a>
   </li>  
@@ -107,7 +95,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Valeska Canales</span></a>
   </li>  
     </ul>
-  </li>
+</li>
   <li class="nav-item">
     <a class="nav-link" href="../../posts/index.html"> 
 <span class="menu-text">Blog</span></a>
@@ -136,24 +124,31 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text"></span></a>
   </li>  
 </ul>
-          </div> <!-- /navcollapse -->
+</div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
-    </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+    </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">En esta página</h2>
+   
+  <ul>
+<li>
+<a href="#contenidos" id="toc-contenidos" class="nav-link active" data-scroll-target="#contenidos">Contenidos</a>
+  <ul class="collapse">
+<li><a href="#deep-learning" id="toc-deep-learning" class="nav-link" data-scroll-target="#deep-learning">Deep Learning</a></li>
+  <li><a href="#redes-neuronales-artificiales" id="toc-redes-neuronales-artificiales" class="nav-link" data-scroll-target="#redes-neuronales-artificiales">Redes Neuronales Artificiales</a></li>
+  <li><a href="#redes-neuronales-convolucionales-cnn" id="toc-redes-neuronales-convolucionales-cnn" class="nav-link" data-scroll-target="#redes-neuronales-convolucionales-cnn">Redes Neuronales Convolucionales (CNN)</a></li>
+  <li><a href="#redes-neuronales-recurrentes-rnn" id="toc-redes-neuronales-recurrentes-rnn" class="nav-link" data-scroll-target="#redes-neuronales-recurrentes-rnn">Redes Neuronales Recurrentes (RNN)</a></li>
+  <li><a href="#aprendizaje-profundo-en-pr%C3%A1ctica" id="toc-aprendizaje-profundo-en-práctica" class="nav-link" data-scroll-target="#aprendizaje-profundo-en-pr%C3%A1ctica">Aprendizaje Profundo en Práctica</a></li>
+  </ul>
+</li>
+  </ul></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
 <h1 class="title">Deep Learning</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Curso</div>
@@ -183,14 +178,26 @@ ul.task-list li input[type="checkbox"] {
   
 
 
-</header>
+</header><script src="https://kit.fontawesome.com/1bb720cc6f.js" crossorigin="anonymous"></script><a href="" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-globe"></i> Material</button></a> <a href="" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-brands fa-github"></i> GitHub</button></a> <br><br><img src="../../images/teaching/dl.png" class="img-fluid quarto-figure-center" style="max-width:50%"><br><hr>
+<section id="contenidos" class="level2"><h2 class="anchored" data-anchor-id="contenidos">Contenidos</h2>
+<section id="deep-learning" class="level3"><h3 class="anchored" data-anchor-id="deep-learning">Deep Learning</h3>
+<p><strong>Deep Learning:</strong> Deep Learning es un subcampo del Machine Learning que se enfoca en el uso de redes neuronales artificiales con muchas capas (profundas) para aprender representaciones complejas a partir de grandes volúmenes de datos. En este curso, aprenderemos los fundamentos de las redes neuronales y cómo implementarlas para resolver problemas de reconocimiento de imágenes, procesamiento de lenguaje natural y otras tareas avanzadas.</p>
+<p><strong>Motivación:</strong> ¿Por qué aprender Deep Learning? En los últimos años, el Deep Learning ha revolucionado la inteligencia artificial y ha impulsado avances en áreas como la visión por computadora, el reconocimiento de voz y la generación de texto. Comprender los principios del Deep Learning te permitirá trabajar con tecnologías de punta y aplicar soluciones de inteligencia artificial en una amplia gama de dominios.</p>
+</section><section id="redes-neuronales-artificiales" class="level3"><h3 class="anchored" data-anchor-id="redes-neuronales-artificiales">Redes Neuronales Artificiales</h3>
+<p><strong>Estructura de las Redes Neuronales:</strong> Las redes neuronales están inspiradas en el funcionamiento del cerebro humano y están formadas por capas de neuronas artificiales que procesan datos. Aprenderemos cómo funciona una red neuronal básica, las funciones de activación y cómo estas capas transforman los datos de entrada en predicciones.</p>
+<p><strong>Entrenamiento de Redes:</strong> El proceso de entrenamiento de una red neuronal implica ajustar los pesos de las conexiones entre neuronas para minimizar el error en las predicciones. Veremos cómo utilizar técnicas como el descenso de gradiente y el backpropagation para optimizar los modelos.</p>
+</section><section id="redes-neuronales-convolucionales-cnn" class="level3"><h3 class="anchored" data-anchor-id="redes-neuronales-convolucionales-cnn">Redes Neuronales Convolucionales (CNN)</h3>
+<p><strong>Visión por Computadora:</strong> Las CNN son especialmente útiles para tareas de visión por computadora, como el reconocimiento de imágenes y la clasificación. Exploraremos cómo las CNN aprenden a identificar características como bordes, texturas y patrones en imágenes a través de filtros y capas de convolución.</p>
+<p><strong>Aplicaciones de las CNN:</strong> Desde la detección de objetos hasta el reconocimiento facial, las CNN han demostrado ser una herramienta poderosa para resolver problemas relacionados con imágenes. Veremos cómo implementar una CNN utilizando bibliotecas de Deep Learning como TensorFlow y PyTorch.</p>
+</section><section id="redes-neuronales-recurrentes-rnn" class="level3"><h3 class="anchored" data-anchor-id="redes-neuronales-recurrentes-rnn">Redes Neuronales Recurrentes (RNN)</h3>
+<p><strong>Procesamiento de Secuencias:</strong> Las RNN son ideales para procesar datos secuenciales, como texto o series temporales. A diferencia de las redes tradicionales, las RNN tienen la capacidad de recordar información previa, lo que les permite capturar patrones en secuencias de datos.</p>
+<p><strong>Aplicaciones de las RNN:</strong> Las RNN se utilizan ampliamente en tareas como el procesamiento del lenguaje natural (NLP), la predicción de series temporales y la generación de texto. Aprenderemos cómo implementar modelos RNN y cómo optimizarlos utilizando técnicas avanzadas como LSTM y GRU.</p>
+</section><section id="aprendizaje-profundo-en-práctica" class="level3"><h3 class="anchored" data-anchor-id="aprendizaje-profundo-en-práctica">Aprendizaje Profundo en Práctica</h3>
+<p><strong>Entrenamiento de Modelos:</strong> Implementar un modelo de Deep Learning requiere no solo entender la arquitectura de las redes, sino también manejar grandes volúmenes de datos y entrenar modelos de manera eficiente. Aprenderemos cómo preparar conjuntos de datos, ajustar hiperparámetros y utilizar hardware acelerado (como GPUs) para acelerar el entrenamiento.</p>
+<p><strong>Evaluación y Ajuste de Modelos:</strong> El éxito en Deep Learning depende de la capacidad para evaluar y ajustar los modelos de manera iterativa. Veremos cómo utilizar métricas de evaluación, ajustar los modelos para mejorar su rendimiento y evitar problemas como el overfitting.</p>
 
 
-
-
-
-</main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+</section></section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -614,14 +621,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
-</script>
-<script src="https://giscus.app/client.js" data-repo="beatrizmilz/blog-en" data-repo-id="R_kgDOHc0DoQ" data-category="General" data-category-id="DIC_kwDOHc0Doc4CPeUR" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
-</script>
-<input type="hidden" id="giscus-base-theme" value="light">
-<input type="hidden" id="giscus-alt-theme" value="dark">
+</script><script src="https://giscus.app/client.js" data-repo="beatrizmilz/blog-en" data-repo-id="R_kgDOHc0DoQ" data-category="General" data-category-id="DIC_kwDOHc0Doc4CPeUR" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+</script><input type="hidden" id="giscus-base-theme" value="light"><input type="hidden" id="giscus-alt-theme" value="dark">
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
+<footer class="footer"><div class="nav-footer">
     <div class="nav-footer-left">
 <p>Website made with <a href="https://quarto.org/">Quarto</a>, by Francisco Alfaro. License: <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>.</p>
 </div>   
@@ -630,7 +633,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
-    <li class="nav-item compact">
+<li class="nav-item compact">
     <a class="nav-link" href="https://github.com/fralfaro">
       <i class="bi bi-github" role="img">
 </i> 
@@ -655,11 +658,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </a>
   </li>  
 </ul>
-    </div>
+</div>
   </div>
 </footer>
-
-
 
 
 <script src="../../site_libs/quarto-html/zenscroll-min.js"></script>

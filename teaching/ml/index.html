@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.5.57">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
 <meta name="author" content="Francisco Alfaro">
-
 <title>Machine Learning – Seth&amp;Nut</title>
 <style>
 code{white-space: pre-wrap;}
@@ -22,7 +19,6 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 </style>
-
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../../site_libs/quarto-nav/headroom.min.js"></script>
@@ -40,8 +36,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -67,22 +62,15 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Enviar",
     "search-label": "Buscar"
   }
-}</script>
-<style>html{ scroll-behavior: smooth; }</style>
-
-
+}</script><style>html{ scroll-behavior: smooth; }</style>
 </head>
-
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
+  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/doberman.png" alt="" class="navbar-logo">
-    </a>
+    <img src="../../images/doberman.png" alt="" class="navbar-logo"></a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Seth&amp;Nut</span>
     </a>
@@ -93,12 +81,12 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item dropdown ">
+<li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-nosotros" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Nosotros</span>
     </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-nosotros">    
-        <li>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-nosotros">
+<li>
     <a class="dropdown-item" href="../../fran.html">
  <span class="dropdown-text">Francisco Alfaro</span></a>
   </li>  
@@ -107,7 +95,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Valeska Canales</span></a>
   </li>  
     </ul>
-  </li>
+</li>
   <li class="nav-item">
     <a class="nav-link" href="../../posts/index.html"> 
 <span class="menu-text">Blog</span></a>
@@ -136,24 +124,31 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text"></span></a>
   </li>  
 </ul>
-          </div> <!-- /navcollapse -->
+</div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
-    </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+    </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">En esta página</h2>
+   
+  <ul>
+<li>
+<a href="#contenidos" id="toc-contenidos" class="nav-link active" data-scroll-target="#contenidos">Contenidos</a>
+  <ul class="collapse">
+<li><a href="#introducci%C3%B3n-a-machine-learning" id="toc-introducción-a-machine-learning" class="nav-link" data-scroll-target="#introducci%C3%B3n-a-machine-learning">Introducción a Machine Learning</a></li>
+  <li><a href="#regresi%C3%B3n" id="toc-regresión" class="nav-link" data-scroll-target="#regresi%C3%B3n">Regresión</a></li>
+  <li><a href="#clasificaci%C3%B3n" id="toc-clasificación" class="nav-link" data-scroll-target="#clasificaci%C3%B3n">Clasificación</a></li>
+  <li><a href="#modelos-no-supervisados" id="toc-modelos-no-supervisados" class="nav-link" data-scroll-target="#modelos-no-supervisados">Modelos No Supervisados</a></li>
+  <li><a href="#series-temporales" id="toc-series-temporales" class="nav-link" data-scroll-target="#series-temporales">Series Temporales</a></li>
+  </ul>
+</li>
+  </ul></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
 <h1 class="title">Machine Learning</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Curso</div>
@@ -183,15 +178,21 @@ ul.task-list li input[type="checkbox"] {
   
 
 
-</header>
+</header><script src="https://kit.fontawesome.com/1bb720cc6f.js" crossorigin="anonymous"></script><a href="https://fralfaro.github.io/python_ml/" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-globe"></i> Material</button></a> <a href="https://github.com/fralfaro/python_ml" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-brands fa-github"></i> GitHub</button></a> <br><br><img src="../../images/teaching/ml.png" class="img-fluid quarto-figure-center" style="max-width:50%"><br><hr>
+<section id="contenidos" class="level2"><h2 class="anchored" data-anchor-id="contenidos">Contenidos</h2>
+<section id="introducción-a-machine-learning" class="level3"><h3 class="anchored" data-anchor-id="introducción-a-machine-learning">Introducción a Machine Learning</h3>
+<p><strong>Machine Learning</strong> es un campo de la inteligencia artificial que permite a las máquinas aprender y tomar decisiones basadas en datos. Este curso abarca las técnicas y algoritmos fundamentales para construir modelos predictivos, clasificar información, identificar patrones y analizar series temporales.</p>
+</section><section id="regresión" class="level3"><h3 class="anchored" data-anchor-id="regresión">Regresión</h3>
+<p>La <strong>regresión</strong> es una técnica de Machine Learning supervisado que se utiliza para predecir un valor numérico continuo basado en una o más variables independientes. Se exploran métodos como la regresión lineal, regresión polinómica y modelos avanzados como la regresión Ridge y Lasso.</p>
+</section><section id="clasificación" class="level3"><h3 class="anchored" data-anchor-id="clasificación">Clasificación</h3>
+<p>La <strong>clasificación</strong> es otra técnica de Machine Learning supervisado utilizada para asignar etiquetas a nuevas observaciones basándose en ejemplos etiquetados previamente. Este curso cubre algoritmos populares como el k-NN, árboles de decisión, máquinas de soporte vectorial (SVM), y redes neuronales.</p>
+</section><section id="modelos-no-supervisados" class="level3"><h3 class="anchored" data-anchor-id="modelos-no-supervisados">Modelos No Supervisados</h3>
+<p>Los <strong>modelos no supervisados</strong> se utilizan cuando no se dispone de etiquetas para los datos. Este curso incluye técnicas como el clustering, análisis de componentes principales (PCA) y modelos de mezcla gaussiana, que son fundamentales para descubrir patrones ocultos y estructura en los datos.</p>
+</section><section id="series-temporales" class="level3"><h3 class="anchored" data-anchor-id="series-temporales">Series Temporales</h3>
+<p>El análisis de <strong>series temporales</strong> se centra en la predicción de datos secuenciales a lo largo del tiempo. Este curso explora modelos de series temporales como ARIMA, modelos de suavizado exponencial y redes neuronales recurrentes (RNN), que son esenciales para aplicaciones como la predicción de ventas y análisis de tendencias.</p>
 
 
-<hr>
-
-
-
-</main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+</section></section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -615,14 +616,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
-</script>
-<script src="https://giscus.app/client.js" data-repo="beatrizmilz/blog-en" data-repo-id="R_kgDOHc0DoQ" data-category="General" data-category-id="DIC_kwDOHc0Doc4CPeUR" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
-</script>
-<input type="hidden" id="giscus-base-theme" value="light">
-<input type="hidden" id="giscus-alt-theme" value="dark">
+</script><script src="https://giscus.app/client.js" data-repo="beatrizmilz/blog-en" data-repo-id="R_kgDOHc0DoQ" data-category="General" data-category-id="DIC_kwDOHc0Doc4CPeUR" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+</script><input type="hidden" id="giscus-base-theme" value="light"><input type="hidden" id="giscus-alt-theme" value="dark">
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
+<footer class="footer"><div class="nav-footer">
     <div class="nav-footer-left">
 <p>Website made with <a href="https://quarto.org/">Quarto</a>, by Francisco Alfaro. License: <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>.</p>
 </div>   
@@ -631,7 +628,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
-    <li class="nav-item compact">
+<li class="nav-item compact">
     <a class="nav-link" href="https://github.com/fralfaro">
       <i class="bi bi-github" role="img">
 </i> 
@@ -656,11 +653,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </a>
   </li>  
 </ul>
-    </div>
+</div>
   </div>
 </footer>
-
-
 
 
 <script src="../../site_libs/quarto-html/zenscroll-min.js"></script>

@@ -2,8 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
-      "/talks/es/2022-latinr-translaton/index.html",
-      "/talks/es/2020-funciones-r4ds/index.html",
+      "/talks/es/2024-chatgpt/index.html",
+      "/talks/es/2024-pyschool/index.html",
       "/posts/index.html",
       "/posts/2019-08-31-um-ano-aprendendo-r/pt/index.html",
       "/posts/2019-08-21-desenvolvendo-meu-primeiro-shiny-app/pt/index.html",
@@ -20,16 +20,10 @@
     ]
   },
   {
-    "listing": "/talks/es/index.html",
+    "listing": "/talks/index.html",
     "items": [
-      "/talks/es/2022-latinr-translaton/index.html",
-      "/talks/es/2020-funciones-r4ds/index.html"
-    ]
-  },
-  {
-    "listing": "/research/index.html",
-    "items": [
-      "/research/en/2022-ambiagua/index.html"
+      "/talks/es/2024-chatgpt/index.html",
+      "/talks/es/2024-pyschool/index.html"
     ]
   },
   {
@@ -46,10 +40,9 @@
     ]
   },
   {
-    "listing": "/talks/index.html",
+    "listing": "/research/index.html",
     "items": [
-      "/talks/es/2022-latinr-translaton/index.html",
-      "/talks/es/2020-funciones-r4ds/index.html"
+      "/research/en/2022-ambiagua/index.html"
     ]
   },
   {

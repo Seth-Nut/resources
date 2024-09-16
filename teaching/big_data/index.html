@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.5.57">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
 <meta name="author" content="Francisco Alfaro">
-
 <title>Big Data – Seth&amp;Nut</title>
 <style>
 code{white-space: pre-wrap;}
@@ -22,7 +19,6 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 </style>
-
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../../site_libs/quarto-nav/headroom.min.js"></script>
@@ -40,8 +36,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -67,22 +62,15 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Enviar",
     "search-label": "Buscar"
   }
-}</script>
-<style>html{ scroll-behavior: smooth; }</style>
-
-
+}</script><style>html{ scroll-behavior: smooth; }</style>
 </head>
-
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
+  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/doberman.png" alt="" class="navbar-logo">
-    </a>
+    <img src="../../images/doberman.png" alt="" class="navbar-logo"></a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Seth&amp;Nut</span>
     </a>
@@ -93,12 +81,12 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item dropdown ">
+<li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-nosotros" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Nosotros</span>
     </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-nosotros">    
-        <li>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-nosotros">
+<li>
     <a class="dropdown-item" href="../../fran.html">
  <span class="dropdown-text">Francisco Alfaro</span></a>
   </li>  
@@ -107,7 +95,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Valeska Canales</span></a>
   </li>  
     </ul>
-  </li>
+</li>
   <li class="nav-item">
     <a class="nav-link" href="../../posts/index.html"> 
 <span class="menu-text">Blog</span></a>
@@ -136,24 +124,32 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text"></span></a>
   </li>  
 </ul>
-          </div> <!-- /navcollapse -->
+</div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
-    </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+    </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">En esta página</h2>
+   
+  <ul>
+<li>
+<a href="#contenidos" id="toc-contenidos" class="nav-link active" data-scroll-target="#contenidos">Contenidos</a>
+  <ul class="collapse">
+<li><a href="#big-data" id="toc-big-data" class="nav-link" data-scroll-target="#big-data">Big Data</a></li>
+  <li><a href="#conceptos-b%C3%A1sicos-de-big-data" id="toc-conceptos-básicos-de-big-data" class="nav-link" data-scroll-target="#conceptos-b%C3%A1sicos-de-big-data">Conceptos Básicos de Big Data</a></li>
+  <li><a href="#paralelizaci%C3%B3n-y-distribuci%C3%B3n" id="toc-paralelización-y-distribución" class="nav-link" data-scroll-target="#paralelizaci%C3%B3n-y-distribuci%C3%B3n">Paralelización y Distribución</a></li>
+  <li><a href="#pyspark" id="toc-pyspark" class="nav-link" data-scroll-target="#pyspark">PySpark</a></li>
+  <li><a href="#polars" id="toc-polars" class="nav-link" data-scroll-target="#polars">Polars</a></li>
+  <li><a href="#aplicaciones-de-big-data" id="toc-aplicaciones-de-big-data" class="nav-link" data-scroll-target="#aplicaciones-de-big-data">Aplicaciones de Big Data</a></li>
+  </ul>
+</li>
+  </ul></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
 <h1 class="title">Big Data</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Curso</div>
@@ -183,15 +179,29 @@ ul.task-list li input[type="checkbox"] {
   
 
 
-</header>
+</header><script src="https://kit.fontawesome.com/1bb720cc6f.js" crossorigin="anonymous"></script><a href="https://fralfaro.gitlab.io/python_big_data/" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-globe"></i> Material</button></a> <a href="https://gitlab.com/fralfaro/python_big_data" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-brands fa-github"></i> GitHub</button></a> <br><br><img src="../../images/teaching/bigdata.png" class="img-fluid quarto-figure-center" style="max-width:50%"><br><hr>
+<section id="contenidos" class="level2"><h2 class="anchored" data-anchor-id="contenidos">Contenidos</h2>
+<section id="big-data" class="level3"><h3 class="anchored" data-anchor-id="big-data">Big Data</h3>
+<p><strong>Big Data:</strong> Big Data se refiere al manejo y procesamiento de grandes volúmenes de datos que superan las capacidades de las herramientas tradicionales de análisis y procesamiento. En este curso, aprenderemos los conceptos clave de Big Data, sus desafíos y las tecnologías que permiten gestionar, almacenar y analizar grandes cantidades de información de manera eficiente.</p>
+<p><strong>Motivación:</strong> ¿Por qué aprender Big Data? En la era digital, las organizaciones generan y almacenan enormes cantidades de datos que contienen información valiosa. Big Data permite a las empresas y científicos de datos extraer insights clave de estos datos masivos, mejorando la toma de decisiones, optimizando procesos y descubriendo patrones ocultos que no serían visibles con análisis tradicionales.</p>
+</section><section id="conceptos-básicos-de-big-data" class="level3"><h3 class="anchored" data-anchor-id="conceptos-básicos-de-big-data">Conceptos Básicos de Big Data</h3>
+<p><strong>Características del Big Data:</strong> El Big Data se caracteriza por las 5 V’s: Volumen, Velocidad, Variedad, Veracidad y Valor. Estas dimensiones explican por qué el manejo de grandes volúmenes de datos requiere nuevas arquitecturas y enfoques computacionales. Veremos cómo estas características influyen en las decisiones técnicas al trabajar con grandes conjuntos de datos.</p>
+<p><strong>Herramientas y Tecnologías:</strong> Existen diversas tecnologías para manejar Big Data, como Hadoop, Spark y bases de datos distribuidas como Cassandra. Aprenderemos cuándo y por qué usar estas herramientas según los requerimientos de los proyectos de Big Data.</p>
+</section><section id="paralelización-y-distribución" class="level3"><h3 class="anchored" data-anchor-id="paralelización-y-distribución">Paralelización y Distribución</h3>
+<p><strong>Procesamiento en Paralelo:</strong> El procesamiento en paralelo es fundamental para gestionar grandes volúmenes de datos de manera eficiente. Veremos cómo dividir tareas en múltiples núcleos de procesamiento y distribuir el trabajo entre varios nodos de un clúster para maximizar el rendimiento.</p>
+<p><strong>Computación Distribuida:</strong> La computación distribuida permite procesar grandes volúmenes de datos distribuyendo las tareas entre múltiples máquinas. Exploraremos cómo los sistemas distribuidos, como Hadoop y Spark, permiten manejar Big Data a gran escala mediante técnicas de particionamiento y replicación de datos.</p>
+</section><section id="pyspark" class="level3"><h3 class="anchored" data-anchor-id="pyspark">PySpark</h3>
+<p><strong>Introducción a PySpark:</strong> PySpark es la interfaz de Apache Spark para Python y una herramienta clave para procesar grandes volúmenes de datos de manera distribuida. Veremos cómo utilizar PySpark para realizar tareas de procesamiento de datos, desde la lectura de archivos hasta la transformación y agregación de datos en grandes clústeres.</p>
+<p><strong>Operaciones en PySpark:</strong> Aprenderemos a aplicar transformaciones y acciones sobre DataFrames de PySpark, aprovechando su capacidad para trabajar con datos distribuidos de manera eficiente. También veremos cómo ejecutar consultas SQL sobre datos distribuidos con Spark SQL.</p>
+</section><section id="polars" class="level3"><h3 class="anchored" data-anchor-id="polars">Polars</h3>
+<p><strong>Introducción a Polars:</strong> Polars es una biblioteca de procesamiento de datos que ofrece un rendimiento muy rápido al trabajar con DataFrames en comparación con pandas. Veremos cómo Polars aprovecha la paralelización y optimización para procesar grandes volúmenes de datos de manera más eficiente, especialmente en sistemas locales donde el uso de memoria y CPU es crítico.</p>
+<p><strong>Ventajas y Comparación con pandas:</strong> Compararemos Polars con pandas y otras herramientas de procesamiento de datos, y aprenderemos cuándo es más ventajoso utilizar Polars, especialmente en proyectos que requieren el manejo de grandes volúmenes de datos sin la necesidad de un clúster distribuido como en PySpark.</p>
+</section><section id="aplicaciones-de-big-data" class="level3"><h3 class="anchored" data-anchor-id="aplicaciones-de-big-data">Aplicaciones de Big Data</h3>
+<p><strong>Casos de Uso:</strong> Veremos ejemplos reales de cómo Big Data está siendo utilizado en diferentes industrias, desde la salud hasta el comercio electrónico, para mejorar la toma de decisiones y optimizar operaciones. También exploraremos el papel del Big Data en la inteligencia artificial y el aprendizaje automático.</p>
+<p><strong>Desafíos y Soluciones:</strong> El trabajo con Big Data presenta desafíos, como el almacenamiento eficiente, la limpieza de datos y el manejo de la latencia. Aprenderemos estrategias para superar estos desafíos y cómo configurar entornos de trabajo que maximicen el rendimiento y minimicen los costos.</p>
 
 
-<hr>
-
-
-
-</main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+</section></section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -615,14 +625,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
-</script>
-<script src="https://giscus.app/client.js" data-repo="beatrizmilz/blog-en" data-repo-id="R_kgDOHc0DoQ" data-category="General" data-category-id="DIC_kwDOHc0Doc4CPeUR" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
-</script>
-<input type="hidden" id="giscus-base-theme" value="light">
-<input type="hidden" id="giscus-alt-theme" value="dark">
+</script><script src="https://giscus.app/client.js" data-repo="beatrizmilz/blog-en" data-repo-id="R_kgDOHc0DoQ" data-category="General" data-category-id="DIC_kwDOHc0Doc4CPeUR" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+</script><input type="hidden" id="giscus-base-theme" value="light"><input type="hidden" id="giscus-alt-theme" value="dark">
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
+<footer class="footer"><div class="nav-footer">
     <div class="nav-footer-left">
 <p>Website made with <a href="https://quarto.org/">Quarto</a>, by Francisco Alfaro. License: <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>.</p>
 </div>   
@@ -631,7 +637,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
-    <li class="nav-item compact">
+<li class="nav-item compact">
     <a class="nav-link" href="https://github.com/fralfaro">
       <i class="bi bi-github" role="img">
 </i> 
@@ -656,11 +662,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </a>
   </li>  
 </ul>
-    </div>
+</div>
   </div>
 </footer>
-
-
 
 
 <script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
