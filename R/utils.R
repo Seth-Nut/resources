@@ -95,7 +95,7 @@ read_yaml_talks_pt <- function(){
   }
 
   if(!is.null(yaml_atual$event_url)){
-    cat(paste0("<b>Link do evento:</b> <a href='", yaml_atual$event_url, "'>", yaml_atual$event_url, "</a><br>"))
+    cat(paste0("<b>Link del evento:</b> <a href='", yaml_atual$event_url, "'>", yaml_atual$event_url, "</a><br>"))
   }
 
   if(!is.null(yaml_atual$location)){
@@ -105,7 +105,7 @@ read_yaml_talks_pt <- function(){
 
 
   if(!is.null(yaml_atual$links)){
-    cat(paste0("<h2> Materiais</h2> <br><center>"))
+    #cat(paste0("<h2>Material</h2> <br><center>"))
 
 
     for (position in 1:length(yaml_atual$links)) {
@@ -121,7 +121,7 @@ read_yaml_talks_pt <- function(){
     }
 
     if(!is.null(yaml_atual$image)){
-      cat(paste0("<br><br><img src='", yaml_atual$image, "' class='img-fluid quarto-figure-center' style='max-width:80%'><br>"))
+      cat(paste0("<br><br><img src='", yaml_atual$image, "' class='img-fluid quarto-figure-center' style='max-width:50%'><br>"))
     }
 
 

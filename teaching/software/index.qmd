@@ -6,65 +6,95 @@ categories: Curso
 date: '2024-08-04'
 title: Diseño de Software
 image: ../../images/teaching/software.png
+links:
+- icon: globe
+  icon_pack: fas
+  name: Material
+  url: https://fralfaro.github.io/python_sdk/
+- icon: github
+  icon_pack: fab
+  name: GitHub
+  url: https://github.com/fralfaro/python_sdk
 
 ---
 
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
 
 
 ------------------------------------------------------------------------
 
 
-
-
-<img src="../../images/teaching/software.png" alt="" align="center" width="500"/>
-
 ## Contenidos
 
-### Herramientas Básicas
+### Diseño de Software
 
-**Linux:**
-Linux es un sistema operativo potente y flexible, ampliamente utilizado en entornos de desarrollo y servidores. A lo largo de este curso, exploraremos los comandos básicos de la terminal, la gestión de archivos y permisos, así como herramientas esenciales para interactuar con el sistema de manera eficiente. Aprender a utilizar Linux te permitirá ser más productivo y dominar un entorno de trabajo profesional.
+**Introducción:**
+El diseño de software es una disciplina clave en el desarrollo de aplicaciones robustas, escalables y mantenibles. En este curso, aprenderemos los conceptos fundamentales de diseño de software en Python, desde la configuración del entorno hasta la implementación de pruebas, utilizando herramientas y técnicas modernas.
 
 **Motivación:**
-¿Por qué aprender Linux? El uso de Linux es común en el mundo de la programación y la ciencia de datos. Su versatilidad, seguridad y personalización lo convierten en el sistema operativo elegido por muchos desarrolladores y administradores de sistemas. Dominar Linux te brindará un control completo sobre tu entorno de trabajo y te abrirá puertas en roles relacionados con DevOps, administración de sistemas y desarrollo de software.
+¿Por qué es importante el diseño de software? Un buen diseño de software permite escribir código limpio, fácil de entender y mantener, reduciendo el riesgo de errores y facilitando la colaboración en equipos de desarrollo. Implementar buenas prácticas de diseño es crucial para proyectos a largo plazo y para el éxito de cualquier equipo de desarrollo de software.
 
-### Git
+### Configuración (Setup)
+
+**Entorno de Desarrollo:**
+En esta sección, aprenderemos a configurar un entorno de desarrollo eficiente en Python. Veremos cómo instalar y gestionar diferentes versiones de Python con Pyenv, cómo crear y aislar entornos virtuales con Virtualenv, y cómo utilizar Poetry para la gestión de dependencias y la configuración de proyectos.
 
 **Control de Versiones:**
-Git es una herramienta fundamental para el control de versiones, permitiéndonos rastrear cambios en el código y colaborar con otros desarrolladores de manera eficiente. Aprenderemos cómo crear repositorios, realizar commits, y trabajar con ramas para gestionar proyectos de software de cualquier tamaño.
+Git y GitHub son herramientas fundamentales para el control de versiones y la colaboración en proyectos de software. Aprenderemos a trabajar con Git para rastrear cambios en el código y colaborar de manera efectiva en proyectos utilizando flujos de trabajo modernos como Gitflow.
 
-**Colaboración en Proyectos:**
-Git facilita la colaboración entre múltiples programadores, permitiendo el desarrollo simultáneo en diferentes partes de un proyecto. Exploraremos plataformas como GitHub para alojar repositorios y colaborar con otros mediante pull requests y revisiones de código.
+### Programación
 
-### IDE’s (Entornos de Desarrollo Integrados)
+**Principios SOLID:**
+El diseño de software se basa en principios sólidos que facilitan la extensibilidad y el mantenimiento del código. Exploraremos los cinco principios SOLID y cómo aplicarlos en Python para escribir código más modular y fácil de probar.
 
-**Introducción a los IDEs:**
-Un IDE (Integrated Development Environment) es una herramienta que integra diversas funcionalidades necesarias para el desarrollo de software, como edición de código, depuración y ejecución. Exploraremos algunas de las opciones más populares, como Visual Studio Code y PyCharm, y aprenderemos cómo configurarlas para ser más eficientes al escribir código en Python.
+**Patrones de Diseño:**
+Aprenderemos patrones de diseño comunes, como el Singleton, el Factory y el Observer, que nos ayudarán a resolver problemas comunes de diseño de software de manera estructurada y reutilizable.
 
-**Ventajas de los IDE’s:**
-Utilizar un IDE bien configurado no solo mejora la productividad, sino que también facilita la depuración y el análisis de código, brindando acceso a complementos útiles y a una experiencia de desarrollo más fluida.
+**Refactorización:**
+Refactorizar es el proceso de mejorar la estructura de un código sin cambiar su funcionalidad. Veremos técnicas de refactorización que nos ayudarán a mantener nuestro código limpio y libre de deuda técnica, mejorando su calidad a lo largo del tiempo.
 
-### Python
+### Ecosistema
 
-**El Lenguaje Python:**
-Python es el lenguaje de programación principal que utilizaremos en este curso. Conoceremos sus características más importantes y cómo instalarlo en distintos entornos. Python es conocido por su simplicidad y facilidad de uso, lo que lo convierte en una excelente opción tanto para principiantes como para profesionales.
+**PEP y Mejores Prácticas:**
+Los Python Enhancement Proposals (PEP) son documentos que definen buenas prácticas y estándares en Python. Exploraremos los PEP más importantes, como el PEP 8 (guía de estilo) y el PEP 20 (el Zen de Python), y cómo integrarlos en nuestro flujo de trabajo.
 
-**Manejo de Entornos Virtuales:**
-Aprenderemos a gestionar entornos virtuales en Python, lo que nos permitirá aislar dependencias y evitar conflictos de versiones al trabajar en múltiples proyectos.
+**Paradigmas de Programación:**
+Python soporta múltiples paradigmas de programación, como la programación orientada a objetos (OOP), la programación funcional y la programación estructurada. Veremos cómo utilizar estos paradigmas para resolver diferentes tipos de problemas de manera efectiva.
 
-### Jupyter
+**Tipificación y Pydantic:**
+Python admite anotaciones de tipos, lo que mejora la legibilidad y el mantenimiento del código. Aprenderemos a utilizar herramientas como Pydantic para realizar validación de datos y aprovechar los beneficios de la tipificación estática en Python.
 
-**Notebooks Interactivos:**
-Jupyter Notebooks es una herramienta interactiva que permite combinar código, texto y gráficos en un solo documento. Veremos cómo utilizar Jupyter para experimentar con código en tiempo real, crear análisis interactivos y compartir nuestros resultados de manera efectiva.
+### Utilidades (Utilities)
 
-**Aplicaciones en Ciencia de Datos:**
-Jupyter es una herramienta indispensable en el campo de la ciencia de datos, permitiendo el análisis de grandes volúmenes de información de forma clara y estructurada. Aprenderemos a trabajar con datos, generar visualizaciones y documentar nuestras investigaciones.
+**Logging y Estilización:**
+El registro de eventos (logging) es esencial para depurar y monitorear aplicaciones. Aprenderemos a configurar y utilizar el módulo `logging` de Python para rastrear el comportamiento de nuestras aplicaciones. Además, cubriremos herramientas de estilización de código para mantener la consistencia en proyectos.
 
-### Google Colab
+**Automatización con Pre-commit:**
+Pre-commit es una herramienta que nos permite automatizar tareas antes de realizar un commit. Veremos cómo configurarlo para ejecutar pruebas, verificar el estilo de código, y otras tareas útiles que aseguren la calidad del código en cada commit.
 
-**Colaboración en la Nube:**
-Google Colab es una plataforma gratuita basada en Jupyter que permite ejecutar código en la nube sin necesidad de instalar nada en tu computadora. Exploraremos cómo utilizar Colab para ejecutar scripts en Python, compartir notebooks con otros usuarios y aprovechar el poder computacional de los servidores de Google.
+### Pruebas (Testing)
 
-**Uso Práctico para Proyectos:**
-Colab es ideal para proyectos colaborativos y para trabajar con grandes volúmenes de datos. Aprenderemos a importar datos desde diferentes fuentes, utilizar GPUs y TPUs para acelerar el procesamiento, y crear notebooks interactivos que se puedan compartir fácilmente con colegas o compañeros de clase.
+**Introducción a Pytest:**
+Las pruebas son una parte esencial del ciclo de desarrollo de software. Aprenderemos a escribir pruebas unitarias con Pytest y a medir la cobertura del código para garantizar que todas las partes de nuestra aplicación estén bien probadas.
 
+**Mocking y Hypothesis:**
+El mocking nos permite simular dependencias en pruebas, mientras que Hypothesis nos ayuda a generar datos de prueba automáticamente para mejorar la cobertura. Veremos cómo aplicar estas técnicas para escribir pruebas más robustas y confiables.
+
+### Documentación
+
+**Documentar con Mkdocs:**
+La documentación es clave para que otros desarrolladores puedan entender y contribuir a nuestros proyectos. Aprenderemos a crear documentación estática con Mkdocs y a personalizarla con el tema Mkdocs-Material. También veremos cómo extender la funcionalidad de la documentación utilizando plugins de Mkdocs.
+
+**Personalización y Extensiones:**
+Exploraremos opciones avanzadas para personalizar y extender la documentación de nuestros proyectos, agregando funcionalidades como búsqueda, navegación mejorada y soporte para múltiples idiomas.
+
+### Extras
+
+**Recursos y Herramientas Adicionales:**
+Finalmente, exploraremos algunas herramientas adicionales y recursos útiles para mejorar aún más nuestro flujo de trabajo en el diseño de software, como linters, analizadores estáticos y herramientas de control de calidad del código.

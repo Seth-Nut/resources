@@ -6,9 +6,77 @@ categories: Curso
 date: '2024-08-04'
 title: Big Data
 image: ../../images/teaching/bigdata.png
+links:
+- icon: globe
+  icon_pack: fas
+  name: Material
+  url: https://fralfaro.gitlab.io/python_big_data/
+- icon: github
+  icon_pack: fab
+  name: GitHub
+  url: https://gitlab.com/fralfaro/python_big_data
 
 ---
 
 
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
 
 ------------------------------------------------------------------------
+
+
+## Contenidos
+
+### Big Data
+
+**Big Data:**
+Big Data se refiere al manejo y procesamiento de grandes volúmenes de datos que superan las capacidades de las herramientas tradicionales de análisis y procesamiento. En este curso, aprenderemos los conceptos clave de Big Data, sus desafíos y las tecnologías que permiten gestionar, almacenar y analizar grandes cantidades de información de manera eficiente.
+
+**Motivación:**
+¿Por qué aprender Big Data? En la era digital, las organizaciones generan y almacenan enormes cantidades de datos que contienen información valiosa. Big Data permite a las empresas y científicos de datos extraer insights clave de estos datos masivos, mejorando la toma de decisiones, optimizando procesos y descubriendo patrones ocultos que no serían visibles con análisis tradicionales.
+
+### Conceptos Básicos de Big Data
+
+**Características del Big Data:**
+El Big Data se caracteriza por las 5 V’s: Volumen, Velocidad, Variedad, Veracidad y Valor. Estas dimensiones explican por qué el manejo de grandes volúmenes de datos requiere nuevas arquitecturas y enfoques computacionales. Veremos cómo estas características influyen en las decisiones técnicas al trabajar con grandes conjuntos de datos.
+
+**Herramientas y Tecnologías:**
+Existen diversas tecnologías para manejar Big Data, como Hadoop, Spark y bases de datos distribuidas como Cassandra. Aprenderemos cuándo y por qué usar estas herramientas según los requerimientos de los proyectos de Big Data.
+
+### Paralelización y Distribución
+
+**Procesamiento en Paralelo:**
+El procesamiento en paralelo es fundamental para gestionar grandes volúmenes de datos de manera eficiente. Veremos cómo dividir tareas en múltiples núcleos de procesamiento y distribuir el trabajo entre varios nodos de un clúster para maximizar el rendimiento.
+
+**Computación Distribuida:**
+La computación distribuida permite procesar grandes volúmenes de datos distribuyendo las tareas entre múltiples máquinas. Exploraremos cómo los sistemas distribuidos, como Hadoop y Spark, permiten manejar Big Data a gran escala mediante técnicas de particionamiento y replicación de datos.
+
+### PySpark
+
+**Introducción a PySpark:**
+PySpark es la interfaz de Apache Spark para Python y una herramienta clave para procesar grandes volúmenes de datos de manera distribuida. Veremos cómo utilizar PySpark para realizar tareas de procesamiento de datos, desde la lectura de archivos hasta la transformación y agregación de datos en grandes clústeres.
+
+**Operaciones en PySpark:**
+Aprenderemos a aplicar transformaciones y acciones sobre DataFrames de PySpark, aprovechando su capacidad para trabajar con datos distribuidos de manera eficiente. También veremos cómo ejecutar consultas SQL sobre datos distribuidos con Spark SQL.
+
+### Polars
+
+**Introducción a Polars:**
+Polars es una biblioteca de procesamiento de datos que ofrece un rendimiento muy rápido al trabajar con DataFrames en comparación con pandas. Veremos cómo Polars aprovecha la paralelización y optimización para procesar grandes volúmenes de datos de manera más eficiente, especialmente en sistemas locales donde el uso de memoria y CPU es crítico.
+
+**Ventajas y Comparación con pandas:**
+Compararemos Polars con pandas y otras herramientas de procesamiento de datos, y aprenderemos cuándo es más ventajoso utilizar Polars, especialmente en proyectos que requieren el manejo de grandes volúmenes de datos sin la necesidad de un clúster distribuido como en PySpark.
+
+### Aplicaciones de Big Data
+
+**Casos de Uso:**
+Veremos ejemplos reales de cómo Big Data está siendo utilizado en diferentes industrias, desde la salud hasta el comercio electrónico, para mejorar la toma de decisiones y optimizar operaciones. También exploraremos el papel del Big Data en la inteligencia artificial y el aprendizaje automático.
+
+**Desafíos y Soluciones:**
+El trabajo con Big Data presenta desafíos, como el almacenamiento eficiente, la limpieza de datos y el manejo de la latencia. Aprenderemos estrategias para superar estos desafíos y cómo configurar entornos de trabajo que maximicen el rendimiento y minimicen los costos.
+

@@ -1,0 +1,67 @@
+---
+title: Prompts Perfectos, Respuestas Poderosas - Optimiza tu Uso de ChatGPT
+subtitle: DUOC-UC
+author: 
+  - "Francisco Alfaro"
+  - "Valeska Canales"
+categories: [chatgpt, inteligencia-artificial, duoc-uc, educación]
+date: "2024-09-13"
+image: "images/chatgpt.png"
+links:
+- icon: globe
+  icon_pack: fas
+  name: Material
+  url: https://pyschool.cl/
+- icon: linkedin
+  icon_pack: fab
+  name: linkedin
+  url: https://www.linkedin.com/feed/update/urn:li:activity:7240904610884849664
+
+
+---
+
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+
+------------------------------------------------------------------------
+
+
+## 🎉 Éxito en la Charla sobre "Prompts Perfectos, Respuestas Poderosas"
+
+Estamos emocionados de felicitar al equipo por su excelente charla, **"Prompts Perfectos, Respuestas Poderosas: Optimiza tu Uso de ChatGPT"**. En esta presentación, exploraron en profundidad los fundamentos, la evolución, y las aplicaciones de los modelos de lenguaje de gran escala (LLM), así como los retos éticos asociados.
+
+### 🌟 Contenido Destacado
+
+El equipo abordó temas clave como:
+
+- **Introducción a los LLM**: Una visión general completa sobre los modelos de lenguaje.
+- **ChatGPT**: Explicación de qué es, cómo usar prompts eficaces, problemas comunes y consideraciones éticas.
+- **Aplicaciones de los LLM**: Ejemplos prácticos y casos de uso de los modelos de lenguaje en diversas industrias.
+
+### 👏 ¡Felicitaciones!
+
+Queremos expresar nuestro agradecimiento y reconocimiento al equipo por su trabajo excepcional. Su charla no solo educó, sino que también inspiró a todos los participantes a optimizar su uso de ChatGPT y explorar nuevas posibilidades con los LLM.
+
+### 📅 Próximos Eventos
+
+Gracias a todos los asistentes y a nuestro equipo por hacer de esta charla un éxito. ¡Mantente atento a futuros eventos y oportunidades para aprender más!
+
+
+### 📷 Fotos del Evento
+
+::: {layout-ncol=2}
+![](images/img_03.jpeg)
+
+![](images/img_01.jpeg)
+
+![](images/img_02.jpeg)
+
+![](images/img_05.jpeg)
+:::
+

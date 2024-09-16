@@ -1,0 +1,62 @@
+---
+title: Pyschool
+subtitle: Python Chile + DUOC-UC
+author: 
+  - "Francisco Alfaro"
+  - "Valeska Canales"
+categories: [python, python-chile, duoc-uc, educación]
+date: "2024-08-23"
+image: "images/pyschool.png"
+links:
+- icon: globe
+  icon_pack: fas
+  name: Material
+  url: https://pyschool.cl/
+- icon: linkedin
+  icon_pack: fab
+  name: linkedin
+  url: https://www.linkedin.com/feed/update/urn:li:activity:7240904610884849664
+
+
+---
+
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+
+------------------------------------------------------------------------
+
+
+## 🎉 Éxito en la Primera PySchool Chile
+
+Estamos encantados de felicitar a **Valeska Canales Pozo** y **Francisco Alfaro Medina** por su destacada participación en la primera **PySchool Chile**. Ambos brillaron como talleristas, ofreciendo sesiones valiosas y altamente apreciadas por los asistentes.
+
+### 🌟 Aporte Fundamental
+
+Valeska y Francisco jugaron un rol esencial en el evento, brindando conocimientos prácticos y motivación a todos los participantes. Su profesionalismo y entusiasmo fueron clave para el éxito de la PySchool.
+
+### 👏 ¡Felicitaciones!
+
+Queremos expresar nuestro reconocimiento y agradecimiento por su excelente trabajo. ¡Felicitaciones a ambos por su gran contribución!
+
+### 📅 Próximos Pasos
+
+Gracias a todos los que hicieron posible este evento. ¡Estén atentos para futuros eventos y oportunidades!
+
+### 📷 Fotos del Evento
+
+::: {layout-ncol=2}
+![](images/img_01.jpeg)
+
+![](images/img_06.jpg)
+
+![](images/img_02.jpeg)
+
+![](images/img_03.jpeg)
+:::
+
