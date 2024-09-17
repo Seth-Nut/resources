@@ -16,8 +16,10 @@ links:
   icon_pack: fab
   name: linkedin
   url: https://www.linkedin.com/feed/update/urn:li:activity:7241536525845368832
-
-
+- icon: rocket
+  icon_pack: fas
+  name: App
+  url: https://kwaj9nsgz9cccwteeq83oq.streamlit.app/
 ---
 
 
