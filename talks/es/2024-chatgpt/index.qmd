@@ -19,7 +19,7 @@ links:
 - icon: rocket
   icon_pack: fas
   name: App
-  url: https://kwaj9nsgz9cccwteeq83oq.streamlit.app/
+  url: https://recetas-ai.streamlit.app/
 ---
 
 
