@@ -1,0 +1,64 @@
+---
+title: Potenciando tu Perfil en GitHub - Estrategias y Herramientas para Destacar como Desarrollador
+subtitle: Pyday 2024
+author: 
+  - "Francisco Alfaro"
+categories: [github, python, educación]
+date: "2024-06-28"
+image: "images/pyday.png"
+links:
+- icon: globe
+  icon_pack: fas
+  name: Material
+  url: https://github.com/fralfaro/portfolio/blob/main/docs/files/talks/PyDayChile2024_talk.pdf
+- icon: linkedin
+  icon_pack: fab
+  name: linkedin
+  url: https://www.linkedin.com/posts/pythonchiledev_conoce-a-nuestros-incre%C3%ADbles-charlistas-activity-7212288815032320000-BGUr?utm_source=share&utm_medium=member_desktop
+---
+
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+
+------------------------------------------------------------------------
+
+
+## 🎉 Participación en PyDay Valparaíso 2024
+
+Nos complace compartir que nuestros colaboradores participaron en la **PyDay Valparaíso 2024**, celebrado por tercera vez en el FabLab de la Facultad de Ingeniería. Fue un día lleno de innovación, aprendizaje y creatividad, donde se exploraron las infinitas posibilidades de Python.
+
+### 🌟 Lo Mejor del Evento
+
+El PyDay incluyó:
+
+- **Talleres interactivos**: Sesiones prácticas donde los participantes aprendieron y experimentaron con las herramientas y aplicaciones de Python.
+- **Charlas inspiradoras**: Expertos compartieron su conocimiento y experiencias en el uso de Python en diversas industrias.
+- **Ambiente colaborativo**: Un espacio ideal para conectar con otros entusiastas de Python y compartir ideas.
+
+### 👏 ¡Felicitaciones!
+
+Felicitamos a nuestros colaboradores por su destacada participación en este evento. Su presencia contribuyó al espíritu de innovación y aprendizaje que caracteriza a PyDay. ¡Gracias por inspirar a otros y compartir sus conocimientos con la comunidad!
+
+### 📅 ¡Nos Vemos en el Próximo Evento!
+
+Gracias a todos los que hicieron posible este encuentro. ¡Mantente atento a futuros eventos para seguir aprendiendo y explorando el mundo de Python!
+
+
+### 📷 Fotos del Evento
+
+::: {layout-ncol=2}
+![](images/img_01.jpg)
+
+![](images/img_02.jpg)
+
+![](images/img_03.jpg)
+
+![](images/img_04.jpg)
+:::
+
