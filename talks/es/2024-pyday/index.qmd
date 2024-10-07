@@ -31,7 +31,7 @@ read_yaml_talks_pt()
 
 ## 🎉 Participación en PyDay Valparaíso 2024
 
-Nos complace compartir que nuestros colaboradores participaron en la **PyDay Valparaíso 2024**, celebrado por tercera vez en el FabLab de la Facultad de Ingeniería. Fue un día lleno de innovación, aprendizaje y creatividad, donde se exploraron las infinitas posibilidades de Python.
+Nos complace compartir que nuestros colaboradores participaron en  **PyDay Valparaíso 2024**, celebrado por tercera vez en el FabLab de la Facultad de Ingeniería. Fue un día lleno de innovación, aprendizaje y creatividad, donde se exploraron las infinitas posibilidades de Python.
 
 ### 🌟 Lo Mejor del Evento
 
@@ -61,4 +61,13 @@ Gracias a todos los que hicieron posible este encuentro. ¡Mantente atento a fut
 
 ![](images/img_04.jpg)
 :::
+
+### 📋 Sobre la presentación 
+
+La presentación "Potenciando tu Perfil en GitHub" destaca estrategias clave para que los desarrolladores mejoren su visibilidad. Los objetivos principales incluyen aprender sobre la importancia del perfil de GitHub, la creación de README efectivos, y consejos prácticos para destacar en la comunidad.
+
+La charla concluye enfatizando la motivación para compartir trabajos con la comunidad Open Source y el uso de herramientas como GitHub Actions y GitHub Pages.
+
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/4P4ITLUh1MHcnh?hostedIn=slideshare&page=upload" width="700" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
 

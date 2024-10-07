@@ -66,3 +66,10 @@ Gracias a todos los que hicieron posible este evento. ¡Mantente atento a futuro
 ![](images/img_05.jpeg)
 :::
 
+### 📋 Sobre la presentación 
+
+La presentación "Prompts Perfectos, Respuestas Poderosas: Optimiza tu Uso de ChatGPT" explora los fundamentos y aplicaciones de los modelos de lenguaje de gran escala (LLM). Se discute cómo redactar prompts efectivos para obtener respuestas más precisas, los problemas comunes y las consideraciones éticas en el uso de ChatGPT. 
+
+La charla concluye destacando la importancia de los prompts y el uso responsable de estos modelos en diversas áreas, junto con una práctica para integrar Python y OpenAI en la creación de recetas.
+
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/yBuN6ODxQZYuui?hostedIn=slideshare&page=upload" width="700" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
