@@ -1,6 +1,6 @@
 ---
-title: Prompts Perfectos, Respuestas Poderosas - Optimiza tu Uso de ChatGPT
-subtitle: DUOC-UC
+title: Prompts Perfectos, Respuestas Poderosas
+subtitle: DUOC UC
 author: 
   - "Francisco Alfaro"
   - "Valeska Canales"

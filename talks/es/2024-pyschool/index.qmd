@@ -1,6 +1,6 @@
 ---
-title: Pyschool
-subtitle: Python Chile + DUOC-UC
+title: PySchool - Python para Alumnos de Secundaria
+subtitle: Python Chile 
 author: 
   - "Francisco Alfaro"
   - "Valeska Canales"

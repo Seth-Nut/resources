@@ -1,5 +1,5 @@
 ---
-title: Potenciando tu Perfil en GitHub - Estrategias y Herramientas para Destacar como Desarrollador
+title: Potenciando tu Perfil en GitHub
 subtitle: Pyday 2024
 author: 
   - "Francisco Alfaro"
