@@ -10,7 +10,7 @@ links:
 - icon: globe
   icon_pack: fas
   name: Material
-  url: https://github.com/fralfaro/portfolio/blob/main/docs/files/talks/tel_2024_talk.pdf
+  url: https://github.com/Seth-Nut/resources/blob/main/files/tel_2024_talk.pdf
 - icon: linkedin
   icon_pack: fab
   name: linkedin
