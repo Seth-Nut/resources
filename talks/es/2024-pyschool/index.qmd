@@ -62,3 +62,13 @@ Gracias a todos los que hicieron posible este evento. ¡Mantente atento a futuro
 ![](images/img_03.jpeg)
 :::
 
+### 📋 Sobre la presentación
+
+La iniciativa **PySchool** ha sido creada con el objetivo de motivar a los estudiantes a aprender el lenguaje de programación Python. El repositorio incluye ejemplos autocontenidos que permiten comprender y practicar los conceptos fundamentales de Python de manera interactiva.
+
+### 📋 Sobre PySchool
+
+**PySchool** es una iniciativa de **Python Chile** y **DUOC** creada para motivar a los estudiantes a aprender Python. Incluye ejemplos prácticos y autocontenidos para facilitar la comprensión de los conceptos básicos del lenguaje.
+
+🌐 Puedes verlo en el siguiente enlace: [pyschool.cl](https://pyschool.cl/).
+

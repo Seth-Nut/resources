@@ -1,0 +1,71 @@
+---
+title: Mujeres Impulsando la Ciencia y la Tecnología
+subtitle: UTFSM Telemática
+author: 
+  - "Francisco Alfaro"
+categories: [Universidad, educación]
+date: "2024-10-07"
+image: "images/tel.png"
+links:
+- icon: globe
+  icon_pack: fas
+  name: Material
+  url: https://github.com/fralfaro/portfolio/blob/main/docs/files/talks/tel_2024_talk.pdf
+- icon: linkedin
+  icon_pack: fab
+  name: linkedin
+  url: https://www.linkedin.com/feed/update/urn:li:activity:7249234776618856448
+---
+
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+
+------------------------------------------------------------------------
+
+
+
+## 🎉 Participación en el Workshop: Mujeres Impulsando la Ciencia y la Tecnología
+
+Nos complace anunciar que nuestros colaboradores participaron activamente en el **Workshop: Mujeres Impulsando la Ciencia y la Tecnología**, realizado el 7 de octubre de 2024 en la Facultad de Ingeniería. Este evento tuvo como objetivo destacar y empoderar a mujeres académicas y estudiantes en los campos de ciencia y tecnología.
+
+### 🌟 Lo Mejor del Evento
+
+El workshop incluyó:
+
+- **Presentaciones inspiradoras**: Expertas compartieron conocimientos en neurociencia aplicada, sesgo de género en modelos de lenguaje y control automático, brindando nuevas perspectivas e ideas.
+- **Espacio de colaboración**: Un focus group con profesores y estudiantes permitió un enriquecedor intercambio de ideas, destacando líneas de investigación y fortaleciendo el liderazgo femenino en estos campos.
+
+### 👏 ¡Felicitaciones!
+
+Felicitamos a nuestras colaboradoras por su destacada participación y contribución al evento. Gracias a su compromiso, se promovió la igualdad de oportunidades y se inspiró a futuras generaciones a liderar en ciencia y tecnología.
+
+### 📅 ¡Nos Vemos en el Próximo Evento!
+
+Agradecemos a todos los organizadores y participantes que hicieron posible este evento. ¡Estén atentos para futuros encuentros y actividades!
+
+### 📷 Fotos del Evento
+
+::: {layout-ncol=2}
+![](images/img_01.jpeg)
+
+![](images/img_02.jpeg)
+
+![](images/img_03.jpeg)
+
+![](images/img_04.jpeg)
+:::
+
+### 📋 Sobre el Workshop
+
+El **Workshop: Mujeres Impulsando la Ciencia y la Tecnología** buscó visibilizar el rol de las mujeres en áreas como la Ingeniería Civil Telemática. A través de presentaciones, actividades colaborativas y espacios de intercambio, se fomentó la perspectiva de género en la ciencia y la tecnología.
+
+
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/c5sahH6L09kdHk?hostedIn=slideshare&page=upload" width="700" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+
