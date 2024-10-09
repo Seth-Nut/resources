@@ -15,6 +15,9 @@ links:
   icon_pack: fab
   name: linkedin
   url: https://www.linkedin.com/posts/pythonchiledev_conoce-a-nuestros-incre%C3%ADbles-charlistas-activity-7212288815032320000-BGUr?utm_source=share&utm_medium=member_desktop
+filters:
+   - lightbox
+lightbox: auto
 ---
 
 
@@ -52,15 +55,18 @@ Gracias a todos los que hicieron posible este encuentro. ¡Mantente atento a fut
 
 ### 📷 Fotos del Evento
 
-::: {layout-ncol=2}
-![](images/img_01.jpg)
+::: {style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1em;"}
 
-![](images/img_02.jpg)
+![](images/img_01.jpg){group="my-gallery"}
 
-![](images/img_03.jpg)
+![](images/img_02.jpg){group="my-gallery"}
 
-![](images/img_04.jpg)
+![](images/img_03.jpg){group="my-gallery"}
+
+![](images/img_04.jpg){group="my-gallery"}
+
 :::
+
 
 ### 📋 Sobre la presentación 
 
