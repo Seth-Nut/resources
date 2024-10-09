@@ -31,9 +31,6 @@ jobs:
             any::here
             any::janitor
 
-      - name: Install Quarto Extension - Lightbox
-        run: quarto add quarto-ext/lightbox
-
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
