@@ -20,6 +20,9 @@ links:
   icon_pack: fas
   name: App
   url: https://recetas-ai.streamlit.app/
+filters:
+   - lightbox
+lightbox: auto
 ---
 
 
@@ -56,14 +59,16 @@ Gracias a todos los que hicieron posible este evento. ¡Mantente atento a futuro
 
 ### 📷 Fotos del Evento
 
-::: {layout-ncol=2}
-![](images/img_03.jpeg)
+::: {style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1em;"}
 
-![](images/img_01.jpeg)
+![](images/img_03.jpeg){group="my-gallery"}
 
-![](images/img_02.jpeg)
+![](images/img_01.jpeg){group="my-gallery"}
 
-![](images/img_05.jpeg)
+![](images/img_02.jpeg){group="my-gallery"}
+
+![](images/img_05.jpeg){group="my-gallery"}
+
 :::
 
 ### 📋 Sobre la presentación 
