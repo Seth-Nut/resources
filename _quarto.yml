@@ -8,7 +8,7 @@ website:
   favicon: 'images/logo_sn.png'
   image: 'images/logo_sn.png'
   page-footer:
-    left: "Website made with [Quarto](https://quarto.org/), by Francisco Alfaro. License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
+    left: "Website creado con [Quarto](https://quarto.org/) por Francisco Alfaro. Licencia: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
     right:
       - icon: github
         href: https://github.com/Seth-Nut
@@ -21,29 +21,20 @@ website:
 
   navbar:
     logo: /images/doberman.png
-    right:
-      - text: Nosotros
-        menu:
-          - text: Francisco Alfaro
-            href: fran.qmd
-          - text: Valeska Canales
-            href: vale.qmd
+    left:
       - text: Blog
         href: posts/index.qmd
       - text: Cursos
         href: teaching/index.qmd
       - text: Charlas
         href: talks/index.qmd
-      #- text: Otros
-      #  menu:
-      #    # - text: Research (PT-BR)
-      #    #   href: research/index.qmd
-      #    - quarto.qmd
-      #    - videos.qmd
-      # - text: Resume
-      #   href: https://beatrizmilz.github.io/resume/index.pdf
-      # - icon: newspaper
-      #   href: https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7129591797797797888
+      - text: Nosotros
+        menu:
+          - text: Francisco Alfaro
+            href: fran.qmd
+          - text: Valeska Canales
+            href: vale.qmd
+    right:
       - icon: github
         href: https://github.com/Seth-Nut
       - icon: linkedin

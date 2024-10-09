@@ -17,8 +17,8 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/faam/  
-
 ---
+
 ::: {.btn-group role="group" aria-label="About"}
 <a href="fran.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">Español</button></a>
 :::

@@ -20,13 +20,9 @@ about:
 ---
 
 
-<center>
-
 ::: {.btn-group role="group" aria-label="About"}
 <a href="vale.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">Español</button></a>
 :::
-
-</center>
 
 
 ::: {#hero-heading}
