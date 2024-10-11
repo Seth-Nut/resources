@@ -1,0 +1,90 @@
+---
+title: Olimpiadas Escolares de Matemática USM
+subtitle: UTFSM Matemática
+author: 
+  - "Francisco Alfaro"
+categories: [python, matemáticas, educación]
+date: "2024-10-11"
+image: "images/dmat.png"
+links:
+- icon: globe
+  icon_pack: fas
+  name: Material
+  url: https://fralfaro.github.io/DMAT-SJ-Olimpiadas/
+- icon: linkedin
+  icon_pack: fab
+  name: linkedin
+  url: https://www.linkedin.com/feed/update/urn:li:activity:7250578292523569153
+filters:
+   - lightbox
+lightbox: auto
+---
+
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+
+------------------------------------------------------------------------
+
+
+
+
+## 🎉 Éxito en la Primera Olimpiada Escolar de Matemáticas
+
+Nos complace felicitar a **Valeska Canales Pozo** y **Francisco Alfaro Medina** por su destacada participación en la primera Olimpiada Escolar de Matemáticas, que tuvo lugar los días 10 y 11 de octubre de 2024 en el Campus San Joaquín, Santiago.
+
+### 🌟 Contribución Fundamental
+
+Valeska y Francisco desempeñaron un papel crucial en el evento al ser facilitadores de los talleres organizados para profesores y alumnos. Su dedicación y esfuerzo contribuyeron al éxito de esta iniciativa.
+
+### 👏 ¡Felicitaciones!
+
+Queremos expresar nuestro sincero reconocimiento y agradecimiento por su excelente trabajo. ¡Felicitaciones a ambos por su valiosa contribución!
+
+### 📅 Próximos Eventos
+
+Agradecemos a todos quienes hicieron posible este evento. ¡Mantente atento a futuras actividades y oportunidades para seguir aprendiendo!
+
+### 📷 Fotos del Evento
+
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
+
+![](images/img_01.jpeg){group="my-gallery"}
+
+![](images/img_02.jpeg){group="my-gallery"}
+
+![](images/img_03.jpeg){group="my-gallery"}
+
+![](images/img_11.jpg){group="my-gallery"}
+
+![](images/img_06.jpeg){group="my-gallery"}
+
+![](images/img_09.jpeg){group="my-gallery"}
+
+![](images/img_08.jpeg){group="my-gallery"}
+
+![](images/img_04.jpeg){group="my-gallery"}
+
+![](images/img_12.jpeg){group="my-gallery"}
+
+:::
+
+
+### 📋 Sobre los Talleres
+
+
+En el marco de las **Olimpiadas de Matemáticas Federico Santa María 2024**, se llevaron a cabo dos talleres:
+
+- **Estudiantes:** *Matemáticas Divertidas con Python*.
+- **Profesores:** *Integración de Python en la Enseñanza de Matemáticas*.
+
+Estos talleres ofrecieron ejemplos prácticos de programación en Python y su aplicación en conceptos matemáticos, motivando a los participantes a aprender de manera activa.
+
+
+🌐 Puedes verlo en el siguiente enlace: [DMAT-SJ-Olimpiadas](https://fralfaro.github.io/DMAT-SJ-Olimpiadas/).
+

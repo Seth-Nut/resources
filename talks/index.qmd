@@ -19,7 +19,7 @@ toc: true
 <!-- ## Próximas atividades/Next activities -->
 
 
-## 💬 Charlas
+## 💬 Eventos
 
 ::: {#talks}
 :::

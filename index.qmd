@@ -70,9 +70,9 @@ about:
 ::: {#posts}
 :::
 
-## 💬 Charlas
+## 💬 Eventos
 
-[Ver todos nuestras Charlas!](/talks/index.html)
+[Ver todos nuestros Eventos!](/talks/index.html)
 
 ::: {#talks}
 :::
