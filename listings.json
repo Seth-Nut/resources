@@ -27,6 +27,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/talks/es/2024-olimpiadas/index.html",
       "/talks/es/2024-tel/index.html",
       "/talks/es/2024-chatgpt/index.html",
       "/talks/es/2024-pyschool/index.html",
@@ -51,6 +52,7 @@
   {
     "listing": "/talks/index.html",
     "items": [
+      "/talks/es/2024-olimpiadas/index.html",
       "/talks/es/2024-tel/index.html",
       "/talks/es/2024-chatgpt/index.html",
       "/talks/es/2024-pyschool/index.html",
