@@ -52,7 +52,6 @@ format:
       - custom.scss
     link-external-icon: false
     link-external-newwindow: true
-    link-external-filter: '^(?:http:|https:)\/\/www\.beamilz\.com\/**'
     citations-hover: true
     footnotes-hover: true
     toc: true
@@ -62,7 +61,7 @@ editor: visual
 
 comments:
   giscus:
-    repo: beatrizmilz/blog-en
+    repo: Seth-Nut/resources
 
 execute:
   freeze: true
