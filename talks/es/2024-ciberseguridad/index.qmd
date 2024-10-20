@@ -55,9 +55,7 @@ Queremos expresar nuestro más sincero agradecimiento a los oradores por su vali
 
 Agradecemos a todos quienes participaron en la organización y ejecución de este exitoso evento. ¡Estén atentos a futuras actividades relacionadas con la ciberseguridad y la protección de datos!
 
----
 
-Espero que este formato se ajuste a lo que necesitas. ¡Déjame saber si te gustaría algún ajuste adicional!
 ### 📷 Fotos del Evento
 
 ::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
