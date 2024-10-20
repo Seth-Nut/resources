@@ -1,5 +1,5 @@
 ---
-title: Olimpiadas Escolares de Matemática USM
+title: Olimpiadas Escolares de Matemática UTFSM
 subtitle: UTFSM Matemática
 author: 
   - "Francisco Alfaro"

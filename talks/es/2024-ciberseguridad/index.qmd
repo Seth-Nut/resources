@@ -1,11 +1,11 @@
 ---
-title: Summit Ciberseguridad
+title: Sexto Summit de Ciberseguridad DUOC UC 
 subtitle: DUOC UC 
 author: 
   - "Francisco Alfaro"
   - "Valeska Canales"
-categories: [python, matemáticas, educación]
-date: "2024-16-11"
+categories: [cibseguridad, legislación, educación]
+date: "2024-11-16"
 image: "images/duoc.png"
 links:
 - icon: globe
