@@ -3,6 +3,7 @@ title: Olimpiadas Escolares de Matemática USM
 subtitle: UTFSM Matemática
 author: 
   - "Francisco Alfaro"
+  - "Valeska Canales"
 categories: [python, matemáticas, educación]
 date: "2024-10-11"
 image: "images/dmat.png"
