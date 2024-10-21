@@ -14,7 +14,7 @@ links:
   url: https://fralfaro.github.io/DMAT-SJ-Olimpiadas/
 - icon: linkedin
   icon_pack: fab
-  name: linkedin
+  name: LinkedIn
   url: https://www.linkedin.com/feed/update/urn:li:activity:7250578292523569153
 filters:
    - lightbox

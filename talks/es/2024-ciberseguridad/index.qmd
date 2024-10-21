@@ -14,8 +14,12 @@ links:
   url: https://github.com/Seth-Nut/resources/blob/main/files/2024_10_16_ley_proteccion_datos.pdf
 - icon: linkedin
   icon_pack: fab
-  name: linkedin
+  name: LinkedIn
   url: https://www.linkedin.com/posts/cedestra_duocuc-cedestra-ciberseguridad-activity-7252401796315250689-etOY?utm_source=share&utm_medium=member_desktop
+- icon: rocket
+  icon_pack: fas
+  name: App
+  url: https://leyes-datos-chile.streamlit.app/
 filters:
    - lightbox
 lightbox: auto

@@ -13,7 +13,7 @@ links:
   url: https://github.com/fralfaro/portfolio/blob/main/docs/files/talks/PyDayChile2024_talk.pdf
 - icon: linkedin
   icon_pack: fab
-  name: linkedin
+  name: LinkedIn
   url: https://www.linkedin.com/posts/pythonchiledev_conoce-a-nuestros-incre%C3%ADbles-charlistas-activity-7212288815032320000-BGUr?utm_source=share&utm_medium=member_desktop
 filters:
    - lightbox

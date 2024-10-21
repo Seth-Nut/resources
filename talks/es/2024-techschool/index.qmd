@@ -1,0 +1,76 @@
+---
+title: TechSchool - Python para Excel Lovers
+subtitle: TechSchool 2024
+author: 
+  - "Francisco Alfaro"
+categories: [github, python, educación]
+date: "2024-04-06"
+image: "images/js_chile2.jpg"
+links:
+- icon: globe
+  icon_pack: fas
+  name: Material
+  url: https://fralfaro.github.io/techschool/
+- icon: linkedin
+  icon_pack: fab
+  name: LinkedIn
+  url: https://www.linkedin.com/posts/javascriptchile_techschool-valparaiso-v1-2024-activity-7177059674976858112-uYzM?utm_source=share&utm_medium=member_desktop
+- icon: instagram
+  icon_pack: fab
+  name: Instagram
+  url: https://www.instagram.com/reel/C5mHorxOacl/?utm_source=ig_web_copy_link
+filters:
+   - lightbox
+lightbox: auto
+---
+
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+
+------------------------------------------------------------------------
+
+
+
+
+## 🎉 Participación en TechSchool Valparaíso 2024
+
+Nos complace compartir que nuestros colaboradores participaron en **TechSchool Valparaíso 2024**, un evento innovador enfocado en la tecnología y la educación, celebrado el **6 de abril**. Fue un día lleno de aprendizaje, colaboración y crecimiento, donde se conectaron apasionados de la tecnología con expertos de la industria.
+
+### 🌟 Lo Mejor del Evento
+
+TechSchool incluyó:
+
+- **Sesiones interactivas y talleres prácticos**: Dirigidos por especialistas en tecnología, donde los participantes aprendieron y experimentaron con herramientas y metodologías innovadoras.
+- **Charlas inspiradoras**: Expertos compartieron su conocimiento y experiencias sobre las tendencias y tecnologías que están moldeando el futuro de la educación.
+- **Ambiente colaborativo**: Un espacio ideal para conectar con otros entusiastas de la tecnología y compartir ideas y experiencias.
+
+### 👏 ¡Felicitaciones!
+
+Felicitamos a nuestros colaboradores por su destacada participación en este evento. Su presencia contribuyó al espíritu de innovación y aprendizaje que caracteriza a TechSchool. ¡Gracias por inspirar a otros y compartir sus conocimientos con la comunidad!
+
+### 📅 ¡Nos Vemos en el Próximo Evento!
+
+Agradecemos a todos los que hicieron posible este encuentro. ¡Mantente atento a futuros eventos para seguir aprendiendo y explorando el emocionante mundo de la tecnología!
+
+### 📷 Fotos del Evento
+
+::: {style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 1em;"}
+
+![](images/img_01.jpg){group="my-gallery"}
+:::
+
+
+### 📋 Sobre la presentación 
+
+La presentación **"Python para Excel Lovers"** está diseñada para mostrar cómo los usuarios de Excel pueden aprovechar las herramientas de Python para mejorar la manipulación y análisis de datos. Los temas incluyen una introducción a los formatos de archivos como `.xlsx` y `.csv`, una explicación sobre la librería **Pandas** y su relación con Excel, y un caso de estudio práctico utilizando datos de películas de IMDB.
+
+El taller finaliza proporcionando ejemplos de cómo leer, procesar y guardar archivos de Excel utilizando **Pandas**, además de mostrar funciones básicas para la exploración y transformación de datos.
+
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/17peEySfcMHmAE?hostedIn=slideshare&page=upload" width="700" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+

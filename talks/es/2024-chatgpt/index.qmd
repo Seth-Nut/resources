@@ -14,7 +14,7 @@ links:
   url: https://github.com/Seth-Nut/resources/blob/main/files/2024_09_13_chatgpt.pdf
 - icon: linkedin
   icon_pack: fab
-  name: linkedin
+  name: LinkedIn
   url: https://www.linkedin.com/feed/update/urn:li:activity:7241536525845368832
 - icon: rocket
   icon_pack: fas

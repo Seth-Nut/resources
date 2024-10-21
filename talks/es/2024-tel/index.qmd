@@ -13,7 +13,7 @@ links:
   url: https://github.com/Seth-Nut/resources/blob/main/files/tel_2024_talk.pdf
 - icon: linkedin
   icon_pack: fab
-  name: linkedin
+  name: LinkedIn
   url: https://www.linkedin.com/feed/update/urn:li:activity:7249234776618856448
 
 filters:

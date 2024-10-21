@@ -14,7 +14,7 @@ links:
   url: https://pyschool.cl/
 - icon: linkedin
   icon_pack: fab
-  name: linkedin
+  name: LinkedIn
   url: https://www.linkedin.com/feed/update/urn:li:activity:7240904610884849664
 filters:
    - lightbox
