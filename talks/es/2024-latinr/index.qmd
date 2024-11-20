@@ -1,0 +1,71 @@
+---
+title: Uso de Quarto para crear clases interactivas
+subtitle: LatinR 2024
+author: 
+  - "Francisco Alfaro"
+categories: [quarto, latinr, educación]
+date: "2024-11-20"
+image: "images/latinr.png"
+links:
+- icon: globe
+  icon_pack: fas
+  name: Material
+  url: https://seth-nut.github.io/talks/latinr_2024/presentacion.html#/title-slide
+- icon: youtube
+  icon_pack: fab
+  name: Youtube
+  url: https://www.youtube.com/watch?v=MG08Gly8tck
+- icon: linkedin
+  icon_pack: fab
+  name: LinkedIn
+  url: https://www.linkedin.com/posts/latinrconf_latinr2024-activity-7264987476123959296-c55c?utm_source=share&utm_medium=member_desktop
+filters:
+   - lightbox
+lightbox: auto
+---
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+------------------------------------------------------------------------
+
+
+## 🎉 Éxito en LatinR 2024
+
+Nos llena de entusiasmo felicitar a **Francisco Alfaro** por su sobresaliente presentación en **LatinR 2024** titulada **"Uso de Quarto para crear clases interactivas: Una propuesta práctica para la educación en línea"**. La charla cautivó a los asistentes, quienes destacaron su enfoque práctico y su capacidad para transformar la enseñanza en línea.
+
+### 🌟 Aporte Fundamental
+
+Francisco demostró cómo **Quarto** se puede utilizar como una herramienta poderosa para crear materiales educativos dinámicos e interactivos. Además, exploró el uso de extensiones como **Quarto WebR** y **Quarto Pyodide**, que permiten integrar funcionalidades interactivas directamente en los materiales, como la ejecución de código en vivo desde el navegador, sin necesidad de configuraciones adicionales.
+
+### 👏 ¡Felicitaciones!
+
+Queremos reconocer el esfuerzo y la dedicación de Francisco en esta presentación, que dejó una marca significativa en la audiencia. ¡Felicitaciones por compartir ideas innovadoras para mejorar la educación con tecnología moderna!
+
+### 📅 Próximos Eventos
+
+Gracias a todos los que asistieron y apoyaron esta charla. ¡Sigue conectado para más eventos y recursos que revolucionen la educación en línea!
+
+### 📷 Fotos del Evento
+
+::: {style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1em;"}
+![](images/img_05.png ){group="my-gallery" width="95%"}
+
+![](images/img_03.png){group="my-gallery"}
+
+![](images/img_02.png ){group="my-gallery" width="95%"}
+
+![](images/img_04.png){group="my-gallery"}
+:::
+
+### 📋 Sobre la presentación
+
+La charla **"Uso de Quarto para crear clases interactivas"** mostró cómo esta herramienta permite a los docentes diseñar materiales educativos dinámicos que incluyen ejercicios en vivo, simulaciones y actividades interactivas. Con extensiones como **Quarto WebR** y **Quarto Pyodide**, se amplían las posibilidades de interactividad, permitiendo a los estudiantes ejecutar código y explorar conceptos directamente en sus navegadores.
+
+
+🌐 Más detalles sobre la charla y el material presentado están disponibles en el siguiente enlace: [seth-nut.github.io/talks/latinr_2024](https://seth-nut.github.io/talks/latinr_2024/presentacion.html#/title-slide).
+
