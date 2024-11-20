@@ -1,5 +1,5 @@
 ---
-title: Uso de Quarto para crear clases interactivas
+title: Uso de Quarto para Crear Clases Interactivas 
 subtitle: LatinR 2024
 author: 
   - "Francisco Alfaro"
