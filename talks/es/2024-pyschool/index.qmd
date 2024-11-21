@@ -15,12 +15,11 @@ links:
 - icon: linkedin
   icon_pack: fab
   name: LinkedIn
-  url: https://www.linkedin.com/feed/update/urn:li:activity:7240904610884849664
+  url: https://www.linkedin.com/posts/pythonchiledev_pyschool-python-educaciaejn-activity-7234401423780696064-oyoq?utm_source=share&utm_medium=member_desktop
 filters:
    - lightbox
 lightbox: auto
 ---
-
 
 ```{r}
 #| echo: false
@@ -29,9 +28,7 @@ source(here::here("R/utils.R"))
 read_yaml_talks_pt()
 ```
 
-
 ------------------------------------------------------------------------
-
 
 ## 🎉 Éxito en la Primera PySchool Chile
 
@@ -45,16 +42,13 @@ Valeska y Francisco jugaron un rol esencial en el evento, brindando conocimiento
 
 Queremos expresar nuestro reconocimiento y agradecimiento por su excelente trabajo. ¡Felicitaciones a ambos por su gran contribución!
 
-
 ### 📅 Próximos Eventos
 
 Gracias a todos los que hicieron posible este evento. ¡Mantente atento a futuros eventos y oportunidades para aprender más!
 
-
 ### 📷 Fotos del Evento
 
 ::: {style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1em;"}
-
 ![](images/img_01.jpeg){group="my-gallery"}
 
 ![](images/img_06.jpg){group="my-gallery"}
@@ -62,9 +56,7 @@ Gracias a todos los que hicieron posible este evento. ¡Mantente atento a futuro
 ![](images/img_02.jpeg){group="my-gallery"}
 
 ![](images/img_03.jpeg){group="my-gallery"}
-
 :::
-
 
 ### 📋 Sobre la presentación
 
@@ -75,4 +67,3 @@ La iniciativa **PySchool** ha sido creada con el objetivo de motivar a los estud
 **PySchool** es una iniciativa de **Python Chile** y **DUOC** creada para motivar a los estudiantes a aprender Python. Incluye ejemplos prácticos y autocontenidos para facilitar la comprensión de los conceptos básicos del lenguaje.
 
 🌐 Puedes verlo en el siguiente enlace: [pyschool.cl](https://pyschool.cl/).
-

@@ -15,12 +15,11 @@ links:
 - icon: linkedin
   icon_pack: fab
   name: LinkedIn
-  url: https://www.linkedin.com/feed/update/urn:li:activity:7250578292523569153
+  url: https://www.linkedin.com/posts/faam_educaciaejn-programaciaejn-matemaerticas-activity-7250576828581441536-avBq?utm_source=share&utm_medium=member_desktop
 filters:
    - lightbox
 lightbox: auto
 ---
-
 
 ```{r}
 #| echo: false
@@ -29,11 +28,7 @@ source(here::here("R/utils.R"))
 read_yaml_talks_pt()
 ```
 
-
 ------------------------------------------------------------------------
-
-
-
 
 ## 🎉 Éxito en la Primera Olimpiada Escolar de Matemáticas
 
@@ -54,7 +49,6 @@ Agradecemos a todos quienes hicieron posible este evento. ¡Mantente atento a fu
 ### 📷 Fotos del Evento
 
 ::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
-
 ![](images/img_01.jpeg){group="my-gallery"}
 
 ![](images/img_02.jpeg){group="my-gallery"}
@@ -72,20 +66,15 @@ Agradecemos a todos quienes hicieron posible este evento. ¡Mantente atento a fu
 ![](images/img_04.jpeg){group="my-gallery"}
 
 ![](images/img_12.jpeg){group="my-gallery"}
-
 :::
-
 
 ### 📋 Sobre los Talleres
 
-
 En el marco de las **Olimpiadas de Matemáticas Federico Santa María 2024**, se llevaron a cabo dos talleres:
 
-- **Estudiantes:** *Matemáticas Divertidas con Python*.
-- **Profesores:** *Integración de Python en la Enseñanza de Matemáticas*.
+-   **Estudiantes:** *Matemáticas Divertidas con Python*.
+-   **Profesores:** *Integración de Python en la Enseñanza de Matemáticas*.
 
 Estos talleres ofrecieron ejemplos prácticos de programación en Python y su aplicación en conceptos matemáticos, motivando a los participantes a aprender de manera activa.
 
-
 🌐 Puedes verlo en el siguiente enlace: [DMAT-SJ-Olimpiadas](https://fralfaro.github.io/DMAT-SJ-Olimpiadas/).
-

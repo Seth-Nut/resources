@@ -15,7 +15,7 @@ links:
 - icon: linkedin
   icon_pack: fab
   name: LinkedIn
-  url: https://www.linkedin.com/feed/update/urn:li:activity:7241536525845368832
+  url: https://www.linkedin.com/posts/vcanalesp_chatgpt-ia-educaciaejn-activity-7241530112452497409-JA43?utm_source=share&utm_medium=member_desktop
 - icon: rocket
   icon_pack: fas
   name: App
@@ -25,7 +25,6 @@ filters:
 lightbox: auto
 ---
 
-
 ```{r}
 #| echo: false
 #| results: asis
@@ -33,9 +32,7 @@ source(here::here("R/utils.R"))
 read_yaml_talks_pt()
 ```
 
-
 ------------------------------------------------------------------------
-
 
 ## 🎉 Éxito en la Charla sobre "Prompts Perfectos, Respuestas Poderosas"
 
@@ -45,9 +42,9 @@ Estamos emocionados de felicitar al equipo por su excelente charla, **"Prompts P
 
 El equipo abordó temas clave como:
 
-- **Introducción a los LLM**: Una visión general completa sobre los modelos de lenguaje.
-- **ChatGPT**: Explicación de qué es, cómo usar prompts eficaces, problemas comunes y consideraciones éticas.
-- **Aplicaciones de los LLM**: Ejemplos prácticos y casos de uso de los modelos de lenguaje en diversas industrias.
+-   **Introducción a los LLM**: Una visión general completa sobre los modelos de lenguaje.
+-   **ChatGPT**: Explicación de qué es, cómo usar prompts eficaces, problemas comunes y consideraciones éticas.
+-   **Aplicaciones de los LLM**: Ejemplos prácticos y casos de uso de los modelos de lenguaje en diversas industrias.
 
 ### 👏 ¡Felicitaciones!
 
@@ -60,7 +57,6 @@ Gracias a todos los que hicieron posible este evento. ¡Mantente atento a futuro
 ### 📷 Fotos del Evento
 
 ::: {style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1em;"}
-
 ![](images/img_03.jpeg){group="my-gallery"}
 
 ![](images/img_01.jpeg){group="my-gallery"}
@@ -68,13 +64,15 @@ Gracias a todos los que hicieron posible este evento. ¡Mantente atento a futuro
 ![](images/img_02.jpeg){group="my-gallery"}
 
 ![](images/img_05.jpeg){group="my-gallery"}
-
 :::
 
-### 📋 Sobre la presentación 
+### 📋 Sobre la presentación
 
-La presentación "Prompts Perfectos, Respuestas Poderosas: Optimiza tu Uso de ChatGPT" explora los fundamentos y aplicaciones de los modelos de lenguaje de gran escala (LLM). Se discute cómo redactar prompts efectivos para obtener respuestas más precisas, los problemas comunes y las consideraciones éticas en el uso de ChatGPT. 
+La presentación "Prompts Perfectos, Respuestas Poderosas: Optimiza tu Uso de ChatGPT" explora los fundamentos y aplicaciones de los modelos de lenguaje de gran escala (LLM). Se discute cómo redactar prompts efectivos para obtener respuestas más precisas, los problemas comunes y las consideraciones éticas en el uso de ChatGPT.
 
 La charla concluye destacando la importancia de los prompts y el uso responsable de estos modelos en diversas áreas, junto con una práctica para integrar Python y OpenAI en la creación de recetas.
 
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/yBuN6ODxQZYuui?hostedIn=slideshare&page=upload" width="700" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/yBuN6ODxQZYuui?hostedIn=slideshare&amp;page=upload" width="700" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
+
+</iframe>
+
