@@ -27,6 +27,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/talks/es/2024-mads/index.html",
       "/talks/es/2024-latinr/index.html",
       "/talks/es/2024-ciberseguridad/index.html",
       "/talks/es/2024-olimpiadas/index.html",
@@ -55,6 +56,7 @@
   {
     "listing": "/talks/index.html",
     "items": [
+      "/talks/es/2024-mads/index.html",
       "/talks/es/2024-latinr/index.html",
       "/talks/es/2024-ciberseguridad/index.html",
       "/talks/es/2024-olimpiadas/index.html",
