@@ -1,0 +1,101 @@
+---
+title: Conferencia Internacional MADS + Bootcamp
+subtitle: UTFSM MADS
+author: 
+  - "Francisco Alfaro"
+  - "Valeska Canales"
+categories: [bootcamp, universidad, educación]
+date: "2024-11-22"
+image: "images/mads.png"
+links:
+- icon: book
+  icon_pack: fas
+  name: Bootcamp
+  url: https://fralfaro.github.io/MADS-Workshops/
+- icon: link
+  icon_pack: fas
+  name: Charla
+  url: https://seth-nut.github.io/talks/mads_2024/presentacion.html#/title-slide
+- icon: linkedin
+  icon_pack: fab
+  name: LinkedIn
+  url: https://www.linkedin.com/posts/vcanalesp_chatgpt-ia-educaciaejn-activity-7241530112452497409-JA43?utm_source=share&utm_medium=member_desktop
+filters:
+   - lightbox
+lightbox: auto
+---
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+------------------------------------------------------------------------
+
+## 🎉 Éxito en la **Conferencia Internacional MADS**
+
+Estamos encantados de felicitar a **Francisco Alfaro** y **Valeska Canales** por su destacada participación en la **Conferencia Internacional MADS + Bootcamp**, organizada en la **UTFSM MADS**. Ambos contribuyeron con su experiencia y entusiasmo, enriqueciendo la jornada y dejando una marca significativa en los asistentes.
+
+## 🌟 Primera Parte: Inteligencia Artificial en la Educación
+
+Por la mañana, **Francisco Alfaro** presentó temas relacionados con la **Inteligencia Artificial en la Educación**, destacando cómo estas herramientas pueden transformar la enseñanza y el aprendizaje. Su presentación fue bien recibida, generando reflexiones y conversaciones interesantes entre los participantes.
+
+
+## 🖥️ Bootcamp: Python para Excel Lovers
+
+En la tarde, tuvo lugar el esperado **Bootcamp**, titulado **"Python para Excel Lovers"**, donde tanto **Francisco Alfaro** como **Valeska Canales** lideraron las sesiones prácticas. Este bootcamp fue una experiencia única que permitió a los asistentes explorar cómo aprovechar **Python** para potenciar sus habilidades en el manejo de datos y automatizar tareas comunes realizadas en Excel.
+
+
+### 👏 ¡Felicitaciones!
+
+Queremos expresar nuestro reconocimiento a **Francisco Alfaro** y **Valeska Canales** por su contribución fundamental en esta conferencia. Su profesionalismo, pasión por la enseñanza y dedicación fueron clave para el éxito del evento. ¡Gracias y muchas felicidades!
+
+
+### 📅 Próximos Eventos
+
+Gracias a todos los que hicieron posible este evento. ¡Mantente atento a futuros eventos y oportunidades para aprender más!
+
+### 📷 Fotos del Evento
+
+::: {style="display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: 1em;"}
+
+![](images/img_03.jpeg){group="my-gallery"}
+
+![](images/img_04.jpeg){group="my-gallery"}
+
+![](images/img_05.jpeg){group="my-gallery"}
+
+![](images/img_01.jpeg){group="my-gallery"}
+
+![](images/img_02.jpeg){group="my-gallery"}
+
+![](images/img_06.jpeg){group="my-gallery"}
+
+![](images/img_07.jpeg){group="my-gallery"}
+
+![](images/img_08.jpeg){group="my-gallery"}
+
+![](images/img_09.jpeg){group="my-gallery"}
+
+![](images/img_10.jpeg){group="my-gallery"}
+
+![](images/img_11.jpeg){group="my-gallery"}
+
+![](images/img_12.jpeg){group="my-gallery"}
+:::
+
+### 📋 Sobre la Presentación
+
+La **Conferencia Internacional MADS + Bootcamp** inspiró a estudiantes y profesionales a descubrir el potencial de **Python** en distintos campos. Durante la presentación, se exploraron temas clave como el impacto de la inteligencia artificial en la educación, proporcionando ejemplos prácticos para facilitar su comprensión. La sesión promovió el aprendizaje interactivo y reflexivo, destacando el papel transformador de estas tecnologías en el ámbito educativo.
+
+🌐 Accede al material de la presentación aquí: [Inteligencia Artificial en la Educación](https://seth-nut.github.io/talks/mads_2024/presentacion.html#/title-slide).
+
+
+
+### 📋 Sobre el Bootcamp
+
+El **Bootcamp: Python para Excel Lovers**, parte de la **Conferencia Internacional MADS + Bootcamp**, se centró en la enseñanza práctica de **Python** para resolver problemas comunes en el análisis de datos y automatización, especialmente en contextos relacionados con Excel. Con un enfoque práctico y colaborativo, los asistentes trabajaron en desafíos grupales que consolidaron los conceptos aprendidos y los conectaron con casos de uso reales.
+
+🌐 Accede al material del bootcamp aquí: [MADS Workshops](https://fralfaro.github.io/MADS-Workshops/).
