@@ -19,7 +19,7 @@ links:
 - icon: linkedin
   icon_pack: fab
   name: LinkedIn
-  url: https://www.linkedin.com/posts/vcanalesp_chatgpt-ia-educaciaejn-activity-7241530112452497409-JA43?utm_source=share&utm_medium=member_desktop
+  url: https://www.linkedin.com/posts/ingenier%C3%ADa-comercial-usm-a73b4b147_icom-usm-imparte-la-segunda-conferencia-internacional-activity-7267255810232127488-KoiB?utm_source=share&utm_medium=member_desktop
 filters:
    - lightbox
 lightbox: auto
@@ -42,16 +42,13 @@ Estamos encantados de felicitar a **Francisco Alfaro** y **Valeska Canales** por
 
 Por la mañana, **Francisco Alfaro** presentó temas relacionados con la **Inteligencia Artificial en la Educación**, destacando cómo estas herramientas pueden transformar la enseñanza y el aprendizaje. Su presentación fue bien recibida, generando reflexiones y conversaciones interesantes entre los participantes.
 
-
 ## 🖥️ Bootcamp: Python para Excel Lovers
 
 En la tarde, tuvo lugar el esperado **Bootcamp**, titulado **"Python para Excel Lovers"**, donde tanto **Francisco Alfaro** como **Valeska Canales** lideraron las sesiones prácticas. Este bootcamp fue una experiencia única que permitió a los asistentes explorar cómo aprovechar **Python** para potenciar sus habilidades en el manejo de datos y automatizar tareas comunes realizadas en Excel.
 
-
 ### 👏 ¡Felicitaciones!
 
 Queremos expresar nuestro reconocimiento a **Francisco Alfaro** y **Valeska Canales** por su contribución fundamental en esta conferencia. Su profesionalismo, pasión por la enseñanza y dedicación fueron clave para el éxito del evento. ¡Gracias y muchas felicidades!
-
 
 ### 📅 Próximos Eventos
 
@@ -60,7 +57,6 @@ Gracias a todos los que hicieron posible este evento. ¡Mantente atento a futuro
 ### 📷 Fotos del Evento
 
 ::: {style="display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: 1em;"}
-
 ![](images/img_03.jpeg){group="my-gallery"}
 
 ![](images/img_04.jpeg){group="my-gallery"}
@@ -92,10 +88,9 @@ La **Conferencia Internacional MADS + Bootcamp** inspiró a estudiantes y profes
 
 🌐 Accede al material de la presentación aquí: [Inteligencia Artificial en la Educación](https://seth-nut.github.io/talks/mads_2024/presentacion.html#/title-slide).
 
-
-
 ### 📋 Sobre el Bootcamp
 
 El **Bootcamp: Python para Excel Lovers**, parte de la **Conferencia Internacional MADS + Bootcamp**, se centró en la enseñanza práctica de **Python** para resolver problemas comunes en el análisis de datos y automatización, especialmente en contextos relacionados con Excel. Con un enfoque práctico y colaborativo, los asistentes trabajaron en desafíos grupales que consolidaron los conceptos aprendidos y los conectaron con casos de uso reales.
 
 🌐 Accede al material del bootcamp aquí: [MADS Workshops](https://fralfaro.github.io/MADS-Workshops/).
+
