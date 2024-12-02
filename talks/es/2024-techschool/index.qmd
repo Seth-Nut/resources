@@ -24,7 +24,6 @@ filters:
 lightbox: auto
 ---
 
-
 ```{r}
 #| echo: false
 #| results: asis
@@ -32,11 +31,7 @@ source(here::here("R/utils.R"))
 read_yaml_talks_pt()
 ```
 
-
 ------------------------------------------------------------------------
-
-
-
 
 ## 🎉 Participación en TechSchool Valparaíso 2024
 
@@ -46,9 +41,9 @@ Nos complace compartir que nuestros colaboradores participaron en **TechSchool V
 
 TechSchool incluyó:
 
-- **Sesiones interactivas y talleres prácticos**: Dirigidos por especialistas en tecnología, donde los participantes aprendieron y experimentaron con herramientas y metodologías innovadoras.
-- **Charlas inspiradoras**: Expertos compartieron su conocimiento y experiencias sobre las tendencias y tecnologías que están moldeando el futuro de la educación.
-- **Ambiente colaborativo**: Un espacio ideal para conectar con otros entusiastas de la tecnología y compartir ideas y experiencias.
+-   **Sesiones interactivas y talleres prácticos**: Dirigidos por especialistas en tecnología, donde los participantes aprendieron y experimentaron con herramientas y metodologías innovadoras.
+-   **Charlas inspiradoras**: Expertos compartieron su conocimiento y experiencias sobre las tendencias y tecnologías que están moldeando el futuro de la educación.
+-   **Ambiente colaborativo**: Un espacio ideal para conectar con otros entusiastas de la tecnología y compartir ideas y experiencias.
 
 ### 👏 ¡Felicitaciones!
 
@@ -61,16 +56,15 @@ Agradecemos a todos los que hicieron posible este encuentro. ¡Mantente atento a
 ### 📷 Fotos del Evento
 
 ::: {style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 1em;"}
-
 ![](images/img_01.jpg){group="my-gallery"}
 :::
 
-
-### 📋 Sobre la presentación 
+### 📋 Sobre la presentación
 
 La presentación **"Python para Excel Lovers"** está diseñada para mostrar cómo los usuarios de Excel pueden aprovechar las herramientas de Python para mejorar la manipulación y análisis de datos. Los temas incluyen una introducción a los formatos de archivos como `.xlsx` y `.csv`, una explicación sobre la librería **Pandas** y su relación con Excel, y un caso de estudio práctico utilizando datos de películas de IMDB.
 
 El taller finaliza proporcionando ejemplos de cómo leer, procesar y guardar archivos de Excel utilizando **Pandas**, además de mostrar funciones básicas para la exploración y transformación de datos.
 
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/17peEySfcMHmAE?hostedIn=slideshare&page=upload" width="700" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/17peEySfcMHmAE?hostedIn=slideshare&amp;page=upload" width="700" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
 
+</iframe>

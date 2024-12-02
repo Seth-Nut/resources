@@ -93,4 +93,3 @@ La **Conferencia Internacional MADS + Bootcamp** inspiró a estudiantes y profes
 El **Bootcamp: Python para Excel Lovers**, parte de la **Conferencia Internacional MADS + Bootcamp**, se centró en la enseñanza práctica de **Python** para resolver problemas comunes en el análisis de datos y automatización, especialmente en contextos relacionados con Excel. Con un enfoque práctico y colaborativo, los asistentes trabajaron en desafíos grupales que consolidaron los conceptos aprendidos y los conectaron con casos de uso reales.
 
 🌐 Accede al material del bootcamp aquí: [MADS Workshops](https://fralfaro.github.io/MADS-Workshops/).
-
