@@ -14,11 +14,11 @@ links:
 - icon: linkedin
   icon_pack: fab
   name: LinkedIn
-  url: https://www.linkedin.com/posts/pontificia-universidad-cat%C3%B3lica-de-chile--facultad-de-matem%C3%A1ticas_uc-matuc-activity-7249402712084086785-zL7d?utm_source=share&utm_medium=member_desktop
-- icon: instagram
-  icon_pack: fab
-  name: Instagram
-  url: https://www.instagram.com/p/DB9i64nyMPL/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+  url: https://www.linkedin.com/posts/faam_educaciaejn-innovaciaejn-matemaerticas-activity-7269717234149732354-kHlx?utm_source=share&utm_medium=member_desktop
+- icon: newspaper
+  icon_pack: fas
+  name: Noticias
+  url: https://www.mat.uc.cl/noticias/2024-12-03/amplia-participacion-en-el-ii-encuentro-de-docencia-e-innovacion-en-matematica-universitaria-2024-profesores-de-todo-el-pais-llegaron-hasta-la-uc-para-impulsar-nuevas-metodologias-de-ensenanza.html
 filters:
    - lightbox
 lightbox: auto
