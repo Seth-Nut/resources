@@ -25,7 +25,6 @@ filters:
 lightbox: auto
 ---
 
-
 ```{r}
 #| echo: false
 #| results: asis
@@ -33,11 +32,7 @@ source(here::here("R/utils.R"))
 read_yaml_talks_pt()
 ```
 
-
 ------------------------------------------------------------------------
-
-
-
 
 ## 🎉 Éxito en el Summit Ciberseguridad en Duoc UC
 
@@ -47,9 +42,9 @@ Nos complace felicitar a **Valeska Canales Pozo** y **Francisco Alfaro Medina** 
 
 Cada uno de los expertos desempeñó un papel fundamental en la jornada, aportando sus conocimientos y experiencia sobre temas críticos en el ámbito de la ciberseguridad:
 
-- **Michael Heavey**: Asesor del Senador Pugh, abordó los contenidos e impactos de la **Ley Marco de Ciberseguridad**.
-- **Francisco Alfaro**,**Valeska Canales Pozo**: Especialistas en Inteligencia Artificial, explicaron los aspectos clave de la **Ley de Protección de Datos**. 
-- **Jorge Rebolledo**: Teniente Coronel del Batallón de Ciberdefensa, compartió las experiencias del **Laboratorio de Ciberdefensa en Chile**.
+-   **Michael Heavey**: Asesor del Senador Pugh, abordó los contenidos e impactos de la **Ley Marco de Ciberseguridad**.
+-   **Francisco Alfaro**,**Valeska Canales Pozo**: Especialistas en Inteligencia Artificial, explicaron los aspectos clave de la **Ley de Protección de Datos**.
+-   **Jorge Rebolledo**: Teniente Coronel del Batallón de Ciberdefensa, compartió las experiencias del **Laboratorio de Ciberdefensa en Chile**.
 
 ### 👏 ¡Felicitaciones!
 
@@ -59,11 +54,9 @@ Queremos expresar nuestro más sincero agradecimiento a los oradores por su vali
 
 Agradecemos a todos quienes participaron en la organización y ejecución de este exitoso evento. ¡Estén atentos a futuras actividades relacionadas con la ciberseguridad y la protección de datos!
 
-
 ### 📷 Fotos del Evento
 
 ::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
-
 ![](images/img_01.jpg){group="my-gallery"}
 
 ![](images/img_02.jpg){group="my-gallery"}
@@ -81,23 +74,18 @@ Agradecemos a todos quienes participaron en la organización y ejecución de est
 ![](images/img_11.jpg){group="my-gallery"}
 
 ![](images/img_06.jpg){group="my-gallery"}
-
-
-
-
-
 :::
-
 
 ### 📋 Sobre la presentación
 
 La presentación **"Entendiendo la Ley de Protección de Datos: Lo que Todos Debemos Saber"** aborda los aspectos fundamentales de la legislación en Chile, enfocándose en cómo esta ley protege los derechos de las personas sobre sus datos personales. Los objetivos principales incluyen:
 
-- **Conocer los principios básicos**: Ley 19.628, su cobertura, y su relación con el GDPR.
-- **Explorar los derechos**: acceso, modificación y eliminación de sus datos personales.
-- **Entender los riesgos**: filtración de datos y cómo la ley busca prevenir abusos.
+-   **Conocer los principios básicos**: Ley 19.628, su cobertura, y su relación con el GDPR.
+-   **Explorar los derechos**: acceso, modificación y eliminación de sus datos personales.
+-   **Entender los riesgos**: filtración de datos y cómo la ley busca prevenir abusos.
 
 La charla concluyó con un llamado a la acción sobre la **responsabilidad de las organizaciones** en el tratamiento ético y seguro de la información personal, destacando la importancia de **adaptar las prácticas de ciberseguridad** a las necesidades actuales.
 
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/hTmkePNQttiY5z?hostedIn=slideshare&page=upload" width="700" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/hTmkePNQttiY5z?hostedIn=slideshare&amp;page=upload" width="700" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
 
+</iframe>
