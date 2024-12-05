@@ -347,7 +347,7 @@
     "href": "talks/es/2024-mads/index.html",
     "title": "Conferencia Internacional MADS + Bootcamp",
     "section": "",
-    "text": "Warning in readLines(input_file): incomplete final line found on 'index.qmd'"
+    "text": "Bootcamp"
   },
   {
     "objectID": "talks/es/2024-mads/index.html#éxito-en-la-conferencia-internacional-mads",
@@ -389,7 +389,7 @@
     "href": "talks/es/2024-techschool/index.html",
     "title": "TechSchool - Python para Excel Lovers",
     "section": "",
-    "text": "Warning in readLines(input_file): incomplete final line found on 'index.qmd'"
+    "text": "Material"
   },
   {
     "objectID": "talks/es/2024-techschool/index.html#participación-en-techschool-valparaíso-2024",
