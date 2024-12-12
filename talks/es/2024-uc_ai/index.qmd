@@ -1,0 +1,99 @@
+---
+title:  Seminario Inteligencia Artificia en Educación
+subtitle:  UC Matemática
+author: 
+  - "Francisco Alfaro"
+  - "Valeska Canales"
+categories: [AI, programación, educación]
+date: "2024-12-11"
+image: "images/uc.png"
+links:
+- icon: globe
+  icon_pack: fas
+  name: Material
+  url: https://www.canva.com/design/DAGYPvNs9HY/vDIv8hMUpoqN9M2aLhzvKA/view?utm_content=DAGYPvNs9HY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he1bb6cde0a
+- icon: linkedin
+  icon_pack: fab
+  name: LinkedIn
+  url: https://www.linkedin.com/posts/dccuc_inteligencia-artificial-educaci%C3%B3n-extendemos-activity-7270082804946722816-m03a/?utm_source=share&utm_medium=member_desktop
+
+filters:
+   - lightbox
+lightbox: auto
+---
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+------------------------------------------------------------------------
+
+## 🎉 Éxito en el Seminario "Inteligencia Artificial y Educación"  
+
+Nos complace destacar la participación de **Francisco Alfaro** y **Valeska Canales** en el seminario **"Inteligencia Artificial y Educación - UC"**, un evento que reunió a expertos de distintas instituciones para explorar cómo la inteligencia artificial puede transformar el ámbito educativo.  
+
+## 🌟 Contribución Fundamental  
+
+Francisco y Valeska presentaron el póster titulado **"Data Storytelling + A.I."**, donde compartieron ideas innovadoras sobre cómo convertir datos complejos en narrativas claras y cautivadoras utilizando herramientas de inteligencia artificial.  
+
+La presentación abordó temas clave como: 
+
+- **Narrativas visuales efectivas:** Estrategias para captar la atención del público y facilitar la toma de decisiones.  
+- **Teoría de visualización de Noah Iliinsky:** Uso de propósito, contenido, estructura y formato para maximizar el impacto de los datos.  
+- **IA en acción:** Aplicación de chatbots para personalizar plantillas, generar traducciones contextuales y facilitar el diseño de visualizaciones.  
+
+## 👏 ¡Felicitaciones!  
+
+Queremos felicitar a **Francisco Alfaro** y **Valeska Canales** por su destacada contribución al evento. Su trabajo no solo inspira a profesionales, sino que también destaca la importancia de la innovación en la educación mediante el uso de inteligencia artificial.  
+
+## 📅 Próximos Eventos  
+
+Agradecemos a todos los participantes por su interés en este seminario y los invitamos a estar atentos a futuros eventos que exploren la intersección entre tecnología y educación.  
+
+## 📷 Fotos del Evento  
+
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
+![](images/img_01.jpeg){group="my-gallery"}
+
+![](images/img_08.jpeg){group="my-gallery"}
+
+![](images/img_09.jpeg){group="my-gallery"}
+
+![](images/img_02.jpeg){group="my-gallery"}
+
+![](images/img_03.jpeg){group="my-gallery"}
+
+![](images/img_04.jpeg){group="my-gallery"}
+
+![](images/img_05.jpeg){group="my-gallery"}
+
+![](images/img_06.jpeg){group="my-gallery"}
+
+![](images/img_07.jpeg){group="my-gallery"}
+
+![](images/img_10.jpeg){group="my-gallery"}
+
+![](images/img_11.jpeg){group="my-gallery"}
+
+![](images/img_12.jpeg){group="my-gallery"}
+
+:::
+
+## 📋 Sobre el Póster  
+
+El póster **"Data Storytelling + A.I."** destacó las siguientes ideas clave:  
+
+- **Transformación de datos complejos:** Estrategias efectivas para comunicar información de manera clara, atractiva y accesible.  
+- **Herramientas tecnológicas:** Uso de **Streamlit**, **Quarto** y **ChatGPT** para diseñar visualizaciones y narrativas innovadoras que potencien la comunicación de datos.  
+- **Optimización con IA:** Aplicación de chatbots de inteligencia artificial para generar contenidos personalizados, ejemplos contextuales y mejorar la experiencia educativa.  
+
+Además, durante el seminario se presentaron otros pósters igualmente interesantes relacionados con el tema, los cuales compartiremos a continuación.  
+
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/EW3hyitoG1fFqW?hostedIn=slideshare&page=upload" width="700" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
+
+</iframe>
+
+

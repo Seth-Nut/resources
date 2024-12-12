@@ -1,0 +1,96 @@
+---
+title: MAT281 - Aplicaciones de la Matemática en la Ingeniería
+subtitle: UTFSM Matemática
+author: 
+  - "Francisco Alfaro"
+categories: [python, matemáticas, educación]
+date: "2024-12-12"
+image: "images/dmat.png"
+links:
+- icon: globe
+  icon_pack: fas
+  name: Material
+  url: https://github.com/fralfaro/MAT281_2024
+- icon: linkedin
+  icon_pack: fab
+  name: LinkedIn
+  url: https://www.linkedin.com/in/dmatusm/
+
+filters:
+   - lightbox
+lightbox: auto
+---
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+------------------------------------------------------------------------
+
+## 🎉 Finalización del Curso MAT281
+
+Nos complace anunciar la **exitosa finalización del curso MAT281 - Aplicaciones de la Matemática en la Ingeniería**, impartido en la **Universidad Técnica Federico Santa María (UTFSM)**. Este hito tuvo lugar el día de hoy con presentaciones finales de los estudiantes sobre el desafío de Kaggle **Spaceship Titanic**, una experiencia que combinó innovación, análisis de datos y trabajo en equipo.
+
+### 🌟 Lo Mejor del Curso
+
+Durante el semestre, los estudiantes desarrollaron habilidades fundamentales como **Data Scientists** utilizando el lenguaje de programación **Python**. Algunas de las competencias adquiridas incluyen:
+
+- **Manipulación de datos**: A través de herramientas como **Pandas** y **NumPy**.
+- **Visualización de datos**: Utilizando librerías como **Matplotlib** y **Seaborn** para comunicar resultados de manera efectiva.
+- **Machine Learning**: Enfocados en resolución de problemas reales con datasets relevantes.
+
+### 👏 ¡Felicitaciones a Nuestros Estudiantes!
+
+Felicitamos a todos los estudiantes por su esfuerzo, dedicación y compromiso a lo largo del curso. Las presentaciones finales destacaron el dominio de conceptos clave y la capacidad de aplicar el aprendizaje en un desafío del mundo real. ¡Su crecimiento como profesionales en este campo es un motivo de orgullo para la comunidad universitaria!
+
+### 📅 Próximos Desafíos
+
+Este curso marca el inicio de un camino lleno de oportunidades en el mundo de la ciencia de datos. Invitamos a nuestros estudiantes a continuar desarrollando sus habilidades, participando en proyectos y explorando nuevas competencias en este apasionante campo.
+
+### 📷 Fotos de las Presentaciones Finales
+
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
+![](images/img_01.jpeg){group="my-gallery"}
+
+![](images/img_02.jpeg){group="my-gallery"}
+
+![](images/img_04.jpeg){group="my-gallery"}
+
+![](images/img_05.jpeg){group="my-gallery"}
+
+![](images/img_06.jpeg){group="my-gallery"}
+
+![](images/img_07.jpeg){group="my-gallery"}
+
+:::
+
+
+### 📋 Sobre las Presentaciones  
+
+Las presentaciones del curso estuvieron enfocadas en resolver y exponer los principales insights relacionados con el desafío de Kaggle **Spaceship Titanic**. Este problema retador permitió a los estudiantes aplicar sus conocimientos en análisis de datos, visualización y modelado para identificar patrones y responder preguntas clave del dataset, promoviendo el desarrollo de habilidades prácticas en ciencia de datos.  
+
+**Grupo 1**: Héctor Silva, Sebastián Rosas.
+
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/BEuTmw4Irb1Viv?hostedIn=slideshare&page=upload" width="700" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
+
+</iframe>
+
+<br>
+
+**Grupo 2**: Joaquín Ramírez, Nicolás Rodríguez, Vicente Moreno, Alejandro Salas.
+
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/nRhiu326vcBPnW?hostedIn=slideshare&page=upload" width="700" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
+
+</iframe>
+
+<br>
+
+**Grupo 3**: María José Núñez, Alexei Arenas, Andrés Ángel, Tomás Rojas.
+
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/eUNDWTAdYMfD7M?hostedIn=slideshare&page=upload" width="700" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
+
+</iframe>
+
