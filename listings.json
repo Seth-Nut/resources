@@ -27,6 +27,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/talks/es/2024-mat281/index.html",
+      "/talks/es/2024-uc_ai/index.html",
       "/talks/es/2024-uc/index.html",
       "/talks/es/2024-mads/index.html",
       "/talks/es/2024-latinr/index.html",
@@ -57,6 +59,8 @@
   {
     "listing": "/talks/index.html",
     "items": [
+      "/talks/es/2024-mat281/index.html",
+      "/talks/es/2024-uc_ai/index.html",
       "/talks/es/2024-uc/index.html",
       "/talks/es/2024-mads/index.html",
       "/talks/es/2024-latinr/index.html",
