@@ -14,7 +14,7 @@ links:
 - icon: linkedin
   icon_pack: fab
   name: LinkedIn
-  url: https://www.linkedin.com/in/dmatusm/
+  url: https://www.linkedin.com/posts/faam_mat281-datascience-utfsm-activity-7274384001761480704-YBfQ?utm_source=share&utm_medium=member_desktop
 
 filters:
    - lightbox
