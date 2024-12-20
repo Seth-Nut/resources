@@ -15,7 +15,7 @@ links:
 - icon: linkedin
   icon_pack: fab
   name: LinkedIn
-  url: https://www.linkedin.com/posts/dccuc_inteligencia-artificial-educaci%C3%B3n-extendemos-activity-7270082804946722816-m03a/?utm_source=share&utm_medium=member_desktop
+  url: https://www.linkedin.com/posts/vcanalesp_ia-educaciaejn-datastorytelling-activity-7274566976277024769-B9DU?utm_source=share&utm_medium=member_desktop
 
 filters:
    - lightbox
@@ -94,4 +94,3 @@ Además, durante el seminario se presentaron otros pósters igualmente interesan
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/EW3hyitoG1fFqW?hostedIn=slideshare&amp;page=upload" width="700" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
 
 </iframe>
-
