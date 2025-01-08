@@ -27,6 +27,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/talks/es/2025-escuela/index.html",
       "/talks/es/2024-mat281/index.html",
       "/talks/es/2024-uc_ai/index.html",
       "/talks/es/2024-uc/index.html",
@@ -59,6 +60,7 @@
   {
     "listing": "/talks/index.html",
     "items": [
+      "/talks/es/2025-escuela/index.html",
       "/talks/es/2024-mat281/index.html",
       "/talks/es/2024-uc_ai/index.html",
       "/talks/es/2024-uc/index.html",
