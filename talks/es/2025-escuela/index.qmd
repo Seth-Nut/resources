@@ -15,7 +15,7 @@ links:
 - icon: linkedin
   icon_pack: fab
   name: LinkedIn
-  url: https://www.linkedin.com/posts/facultad-de-ciencias-de-la-universidad-de-chile_veranomatemaertico-matematicasdivertidas-activity-7274875467285815297-GH0x?utm_source=share&utm_medium=member_desktop
+  url: https://www.linkedin.com/posts/vcanalesp_educaciaejn-matemaerticas-programaciaejn-activity-7283091974901923840-3VY3?utm_source=share&utm_medium=member_desktop
 - icon: newspaper
   icon_pack: fas
   name: Evento
