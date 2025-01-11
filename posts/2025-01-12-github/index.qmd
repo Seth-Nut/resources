@@ -1,0 +1,537 @@
+---
+title: "Tutorial - Git + GitHub"
+subtitle: "Aprende Git y GitHub con un Mini Proyecto Práctico."
+
+author: "Valeska Canales"
+date: "2025-01-12"
+categories: [git, github, python, google-colab]
+image: "images/logo.png"
+links:
+- icon: github
+  icon_pack: fab
+  name: GitHub
+  url: https://github.com/Seth-Nut/proyecto_calificaciones
+- icon: google
+  icon_pack: fab
+  name: Google Colab
+  url: https://colab.research.google.com/drive/1jGBA7llNPhqmQ5d1eBPByYZwREjY0C7p?usp=sharing
+filters:
+   - lightbox
+lightbox: auto
+---
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+------------------------------------------------------------------------
+
+
+## ¿Qué es Git?
+
+<img src="images/git2.png" alt="git" width="200"/>
+
+
+[Git](https://git-scm.com/) es un sistema de control de versiones distribuido que permite a los desarrolladores rastrear cambios en el código, colaborar en proyectos y mantener un historial completo de modificaciones. Es esencial en el desarrollo de software moderno, ya que facilita la colaboración y asegura la integridad del trabajo realizado. 
+
+**Ventajas de Usar Git:**
+
+1. **Control de Versiones:** Permite rastrear todos los cambios en los archivos y revertirlos si es necesario.
+2. **Colaboración:** Facilita que múltiples personas trabajen en el mismo proyecto sin sobrescribir el trabajo de los demás.
+3. **Historial Completo:** Conserva un registro detallado de los cambios realizados en el proyecto, lo que facilita la revisión y auditoría.
+
+### Comandos Básicos de Git
+
+A continuación, se presentan algunos comandos esenciales para comenzar a trabajar con Git:
+
+1. **Configurar Git por Primera Vez:**
+
+   Configura tu nombre y correo electrónico, que se utilizarán en los commits:
+
+   ```bash
+   git config --global user.name "Tu Nombre"
+   git config --global user.email "tu_correo@example.com"
+   ```
+
+2. **Inicializar un Repositorio Git:**
+
+   Crea un nuevo repositorio Git en una carpeta:
+
+   ```bash
+   git init
+   ```
+
+3. **Verificar el Estado del Repositorio:**
+
+   Muestra los cambios en el repositorio:
+
+   ```bash
+   git status
+   ```
+
+4. **Añadir Archivos al Área de Preparación (Staging):**
+
+   Prepara los archivos para el próximo commit:
+
+   ```bash
+   git add nombre_archivo
+   # O para agregar todos los archivos modificados
+   git add .
+   ```
+
+5. **Crear un Commit:**
+
+   Guarda los cambios en el historial de Git con un mensaje descriptivo:
+
+   ```bash
+   git commit -m "Mensaje del commit"
+   ```
+
+6. **Ver el Historial de Commits:**
+
+   Muestra el historial de cambios realizados:
+
+   ```bash
+   git log
+   ```
+
+7. **Conectar un Repositorio Local con un Repositorio Remoto:**
+
+   Enlaza tu proyecto local con un servicio como GitHub:
+
+   ```bash
+   git remote add origin URL_DEL_REPOSITORIO
+   ```
+
+8. **Subir Cambios al Repositorio Remoto:**
+
+   Envía tus commits al repositorio remoto:
+
+   ```bash
+   git push -u origin main
+   ```
+
+### Referencias 
+
+1. **Git**
+   - [Sitio Oficial de Git](https://git-scm.com/)
+   - [Documentación Oficial de Git](https://git-scm.com/doc)
+
+
+
+## ¿Qué es GitHub?
+
+<img src="images/github.png" alt="git" width="200"/>
+
+
+[GitHub](https://github.com/) es una plataforma en la nube que permite a desarrolladores y equipos alojar repositorios Git, gestionar proyectos de manera eficiente y colaborar en tiempo real. Es una de las herramientas más populares en el mundo del desarrollo de software, ya que combina las ventajas de Git con características adicionales para mejorar la productividad y la colaboración.
+
+Además de almacenar código, GitHub ofrece funcionalidades que simplifican la organización y el flujo de trabajo en los proyectos, tales como:
+
+- **Control de versiones centralizado:** Permite a los equipos trabajar simultáneamente sin conflictos.
+- **Herramientas de comunicación:** Como issues y pull requests para coordinar tareas y discutir cambios.
+- **Integraciones y automatizaciones:** Compatibilidad con herramientas de CI/CD como GitHub Actions para automatizar pruebas, despliegues y más.
+
+
+### Conceptos Básicos
+
+1. **Repositorio:** Es el núcleo de GitHub. Almacena todo tu proyecto, incluyendo el código fuente, documentación y el historial de cambios. Los repositorios pueden ser públicos (visibles para todos) o privados (acceso restringido a ciertos usuarios).
+
+2. **Ramas (Branches):** Permiten trabajar en diferentes versiones o características del proyecto de manera independiente. Por ejemplo, puedes crear una rama para desarrollar una nueva funcionalidad sin afectar el código principal.
+
+3. **Commits:** Son puntos de control en el historial del proyecto que registran los cambios realizados en los archivos. Cada commit incluye un mensaje descriptivo para entender qué se modificó y por qué.
+
+4. **Pull Requests (PR):** Se utilizan para proponer cambios en una rama y discutirlos antes de integrarlos en otra rama, como la rama principal (`main` o `master`). Los PR son esenciales para mantener un flujo de trabajo organizado en equipos.
+
+5. **Issues:** Son una herramienta para rastrear tareas, errores o sugerencias en un proyecto. Los issues se pueden categorizar y asignar a diferentes miembros del equipo.
+
+6. **Forks:** Permiten crear una copia independiente de un repositorio para realizar cambios sin afectar el proyecto original. Es ideal para colaborar en proyectos de código abierto.
+
+7. **Colaboración:** GitHub facilita el trabajo en equipo al permitir contribuciones de múltiples desarrolladores, tanto en proyectos públicos como privados. Las herramientas de revisión de código ayudan a mantener estándares de calidad.
+
+8. **Wiki y Páginas de GitHub:** Los repositorios pueden incluir una wiki para documentar el proyecto y GitHub Pages para crear sitios web estáticos directamente desde el repositorio.
+
+### Referencias 
+
+1. **GitHub**
+   - [Documentación Oficial de GitHub](https://docs.github.com/)
+   - [GitHub Learning Lab](https://lab.github.com/) – Aprende GitHub de forma interactiva con ejercicios prácticos.
+
+
+
+## ¿Qué es Google Colab?
+
+<img src="images/colab.png" alt="git" width="200"/>
+
+[Google Colab](https://colab.research.google.com/) es una plataforma basada en la nube que permite a los usuarios escribir, ejecutar y compartir código en Python a través de un entorno Jupyter Notebook. Es ampliamente utilizada en ciencia de datos, aprendizaje automático y enseñanza debido a su facilidad de uso y acceso gratuito.
+
+**Ventajas de Usar Google Colab:**
+
+1. **Acceso Gratuito a Recursos de Cómputo:** Incluye acceso a GPU y TPU para proyectos que requieren gran capacidad de cálculo.
+2. **Colaboración en Tiempo Real:** Similar a Google Docs, permite a múltiples usuarios trabajar simultáneamente en el mismo notebook.
+3. **Sin Instalaciones:** Funciona completamente en el navegador, eliminando la necesidad de configurar Python localmente.
+4. **Integración con Google Drive:** Facilita guardar y cargar archivos directamente desde tu almacenamiento en la nube.
+
+**Características Principales**
+
+1. **Soporte para Python:** Ejecución de código Python con bibliotecas preinstaladas como `pandas`, `numpy`, `matplotlib`, y más.
+2. **Visualizaciones:** Permite generar gráficos interactivos y visualizaciones avanzadas.
+3. **Conexión a Repositorios:** Compatible con Git para clonar y trabajar con proyectos directamente desde la plataforma.
+
+
+### Primeros Pasos 
+
+1. **Crear un Nuevo Notebook:**
+
+   - Accede a [Google Colab](https://colab.research.google.com/).
+   - Haz clic en **"Archivo" → "Nuevo notebook"**.
+
+2. **Conectar a un Entorno de Ejecución:**
+
+   Haz clic en el botón **"Conectar"** para vincular tu notebook con un entorno en la nube.
+
+3. **Ejecutar Código en una Celda:**
+
+   Escribe tu código Python en una celda y presiona `Shift + Enter` para ejecutarlo.
+
+   ```python
+   print("¡Hola, Google Colab!")
+   ```
+
+4. **Subir Archivos desde tu Computadora:**
+
+   Usa la siguiente celda para cargar archivos al entorno:
+
+   ```python
+   from google.colab import files
+   uploaded = files.upload()
+   ```
+
+5. **Montar Google Drive:**
+
+   Conecta tu Google Drive para guardar o cargar archivos:
+
+   ```python
+   from google.colab import drive
+   drive.mount('/content/drive')
+   ```
+
+6. **Instalar Bibliotecas Adicionales:**
+
+   Usa `pip` para instalar cualquier biblioteca necesaria:
+
+   ```python
+   !pip install nombre_libreria
+   ```
+
+
+
+### Referencias 
+
+1. **Google Colab**
+   - [Sitio Oficial de Google Colab](https://colab.research.google.com/)
+   - [Documentación de Google Colab](https://research.google.com/colaboratory/faq.html)
+
+
+
+## Mini Proyecto
+
+<img src="images/mini.png" alt="git" width="200"/>
+
+
+### Descripción
+
+Realiza un análisis de las calificaciones de un grupo de estudiantes para evaluar su desempeño académico, aplicando los siguientes conceptos:
+- Creación de entornos virtuales.
+- Uso de Git y GitHub para control de versiones.
+- Visualización de datos con Matplotlib.
+- Colaboración en la nube utilizando Google Colab.
+
+
+### Requerimientos
+
+
+1. **Crea un Proyecto en GitHub:**
+   - Inicia sesión en [GitHub](https://github.com/) y crea un nuevo repositorio llamado `proyecto_calificaciones`.
+   - En la configuración del repositorio:
+     - Asegúrate de incluir un archivo `README.md` para describir el proyecto.
+     - Opcionalmente, agrega un archivo `.gitignore` para Python desde las plantillas predefinidas de GitHub.
+   - Copia la URL del repositorio (por ejemplo, `https://github.com/TU_USUARIO/proyecto_calificaciones.git`).
+   - En tu terminal, clona el repositorio a tu máquina local:
+     ```bash
+     git clone https://github.com/TU_USUARIO/proyecto_calificaciones.git
+     cd proyecto_calificaciones
+     ```
+
+2. **Crea un Entorno Virtual:**
+   - Crea un entorno virtual llamado `entorno_calificaciones`.
+   - Instala las librerías `pandas` y `matplotlib`.
+
+
+3. **Carga los Datos de Calificaciones:**
+   - Dentro de la carpeta clonada, crea un archivo CSV llamado `calificaciones_estudiantes.csv` con los siguientes datos:
+     ```csv
+     Estudiante,Asignatura,Calificacion
+     Juan,Matemáticas,85
+     María,Ciencias,90
+     Pedro,Historia,75
+     Ana,Matemáticas,95
+     Luis,Ciencias,88
+     Clara,Historia,70
+     Carlos,Matemáticas,80
+     ```
+
+4. **Desarrolla un Archivo Python para el Análisis:**
+   - Archivo: `analisis_calificaciones.py`.
+   - Tareas:
+     - Calcular el promedio de calificaciones por asignatura.
+     - Crear un gráfico de barras mostrando los promedios por asignatura.
+     - Guardar el gráfico como una imagen (PNG).
+   - Asegúrate de hacer commits con mensajes descriptivos después de completar cada tarea:
+     ```bash
+     git add .
+     git commit -m "Añadir análisis inicial de calificaciones"
+     ```
+   - Código de ejemplo:
+  
+     ```python
+     import pandas as pd
+     import matplotlib.pyplot as plt
+     
+     # 1. Cargar los datos desde el archivo CSV
+     df = pd.read_csv('calificaciones_estudiantes.csv')
+     
+     # 2. Calcular el promedio de calificaciones por asignatura
+     promedio_asignatura = df.groupby('Asignatura')['Calificacion'].mean()
+     
+     # 3. Mostrar los resultados en la consola
+     print("Promedio de calificaciones por asignatura:")
+     print(promedio_asignatura)
+     
+     # 4. Crear un gráfico de barras
+     plt.figure(figsize=(8, 6))  # Configurar el tamaño de la figura
+     promedio_asignatura.plot(kind='bar', color='skyblue', edgecolor='black')
+     
+     # Configurar etiquetas y título del gráfico
+     plt.title('Promedio de Calificaciones por Asignatura', fontsize=16)
+     plt.xlabel('Asignatura', fontsize=14)
+     plt.ylabel('Calificación Promedio', fontsize=14)
+     
+     # Guardar el gráfico como imagen PNG
+     plt.savefig('grafico_promedios.png')
+     
+     # Mostrar el gráfico en pantalla
+     plt.show()
+     ```
+
+5. **Sube el Proyecto a GitHub:**
+   - Una vez que completes las tareas, sube los cambios al repositorio remoto:
+     ```bash
+     git push origin main
+     ```
+
+6. **Desarrolla Parte del Proyecto en Google Colab:**
+   - Carga los datos desde el archivo CSV y repite el análisis en un cuaderno de Google Colab.
+   - Guarda el cuaderno en Google Drive y comparte el enlace.
+
+### Entrega del Proyecto
+
+1. **GitHub:** Sube el repositorio completo con el archivo CSV, el script Python y el gráfico generado.
+2. **Google Colab:** Comparte el enlace al cuaderno colaborativo donde desarrollaste parte del análisis.  
+
+
+## **Solución Mini Proyecto**
+
+<img src="images/solution.png" alt="git" width="200"/>
+
+
+::: {.callout-note}
+La solución se desarrollará utilizando **Visual Studio Code** como editor de texto, en un sistema operativo **Windows**. Si prefieres otro editor o sistema operativo, los pasos generales seguirán siendo los mismos.
+:::
+
+
+### 1. Crea un Proyecto en GitHub
+
+1. Inicia sesión en [GitHub](https://github.com/) y crea un nuevo repositorio llamado `proyecto_calificaciones`.
+   - Incluye un archivo `README.md` con una breve descripción del proyecto.
+   - Añade un archivo `.gitignore` para Python desde las plantillas predefinidas de GitHub.
+    
+      ![](images/img_01.png)
+
+2. Copia la URL del repositorio creado (por ejemplo: `https://github.com/TU_USUARIO/proyecto_calificaciones.git`).
+
+      ![](images/img_02.png)
+
+3. Clona el repositorio a tu máquina local:
+   ```bash
+   git clone https://github.com/TU_USUARIO/proyecto_calificaciones.git
+   cd proyecto_calificaciones
+   ```
+
+### 2. Crea un Entorno Virtual
+1. Abre tu terminal o consola.
+2. Navega a la carpeta donde deseas trabajar.
+3. Entorno virtual
+   1. Crea un entorno virtual llamado `entorno_calificaciones`:
+      ```bash
+      python -m venv entorno_calificaciones
+      ```
+   2. Activa el entorno virtual:
+      - **Windows:**  
+        ```bash
+        entorno_calificaciones\Scripts\activate
+        ```
+      - **Linux/Mac:**  
+        ```bash
+        source entorno_calificaciones/bin/activate
+        ```
+
+   ![](images/img_03.png)
+
+4. Crea un archivo `requirements.txt` dentro de tu carpeta de proyecto con el siguiente contenido:
+   ```txt
+   pandas
+   matplotlib
+   ```
+   ![](images/img_04.png)
+
+5. Instala las librerías desde el archivo `requirements.txt`:
+   ```bash
+   pip install -r requirements.txt
+   ```
+   ![](images/img_05.png)
+
+
+### 3. Carga los Datos de Calificaciones
+
+1. Dentro de la carpeta clonada, crea un archivo CSV llamado `calificaciones_estudiantes.csv` con el siguiente contenido:
+   ```csv
+   Estudiante,Asignatura,Calificacion
+   Juan,Matemáticas,85
+   María,Ciencias,90
+   Pedro,Historia,75
+   Ana,Matemáticas,95
+   Luis,Ciencias,88
+   Clara,Historia,70
+   Carlos,Matemáticas,80
+   ```
+   ![](images/img_06.png)
+
+
+### 4. Desarrolla un Archivo Python para el Análisis
+1. Crea un archivo llamado `analisis_calificaciones.py` en la carpeta del proyecto con el siguiente contenido:
+
+   ```python
+   import pandas as pd
+   import matplotlib.pyplot as plt
+
+   # 1. Cargar los datos desde el archivo CSV
+   df = pd.read_csv('calificaciones_estudiantes.csv')
+
+   # 2. Calcular el promedio de calificaciones por asignatura
+   promedio_asignatura = df.groupby('Asignatura')['Calificacion'].mean()
+
+   # 3. Mostrar los resultados en la consola
+   print("Promedio de calificaciones por asignatura:")
+   print(promedio_asignatura)
+
+   # 4. Crear un gráfico de barras
+   plt.figure(figsize=(8, 6))  # Configurar el tamaño de la figura
+   promedio_asignatura.plot(kind='bar', color='skyblue', edgecolor='black')
+
+   # Configurar etiquetas y título del gráfico
+   plt.title('Promedio de Calificaciones por Asignatura', fontsize=16)
+   plt.xlabel('Asignatura', fontsize=14)
+   plt.ylabel('Calificación Promedio', fontsize=14)
+
+   # Guardar el gráfico como imagen PNG
+   plt.savefig('grafico_promedios.png')
+
+   # Mostrar el gráfico en pantalla
+   plt.show()
+   ```
+
+   ![](images/img_07.png)
+
+2. Ejecuta el script en tu terminal para verificar que funciona:
+   ```bash
+   python analisis_calificaciones.py
+   ```
+
+3. Haz commits con los cambios:
+   ```bash
+   git add .
+   git commit -m "Añadir análisis inicial de calificaciones"
+   ```
+
+   ![](images/img_09.png)
+
+   ![](images/img_10.png)
+
+
+
+
+
+### 5. Subir el Proyecto a GitHub
+1. Sube los cambios al repositorio remoto en GitHub:
+   ```bash
+   git push origin main
+   ```
+
+   ![](images/img_11.png)
+
+
+### 6. Desarrolla Parte del Proyecto en Google Colab
+1. Abre [Google Colab](https://colab.research.google.com/).
+2. Carga el archivo `calificaciones_estudiantes.csv` desde tu máquina local.
+3. Realiza el mismo análisis utilizando el código del archivo `analisis_calificaciones.py`.
+   
+   ![](images/img_12.png)
+
+4. Guarda el cuaderno y comparte el enlace.
+   
+   ![](images/img_13.png)
+
+
+### 7. Entrega del Proyecto
+
+**Estructura Final del Proyecto**
+
+Después de seguir todos los pasos, tu proyecto tendrá la siguiente estructura:
+
+```
+proyecto_calificaciones/
+├── entorno_calificaciones/      # Carpeta del entorno virtual (excluida por .gitignore)
+├── calificaciones_estudiantes.csv  # Archivo de datos
+├── analisis_calificaciones.py      # Script Python para el análisis
+├── grafico_promedios.png           # Gráfico generado por el script (se generará al ejecutar el script)
+├── README.md                       # Descripción del proyecto
+├── requirements.txt                # Dependencias del proyecto
+└── .gitignore                      # Configuración para excluir archivos no deseados
+```
+
+
+**Entrega del Proyecto:**
+
+1. **Github**: 
+   * [https://github.com/Seth-Nut/proyecto_calificaciones](https://github.com/Seth-Nut/proyecto_calificaciones)
+
+2. **Google Colab**: 
+   * [https://colab.research.google.com/drive/1jGBA7llNPhqmQ5d1eBPByYZwREjY0C7p?usp=sharing](https://colab.research.google.com/drive/1jGBA7llNPhqmQ5d1eBPByYZwREjY0C7p?usp=sharing)
+
+
+## Conclusiones
+
+En este recorrido, exploramos herramientas clave para el desarrollo y análisis de proyectos:
+
+1. **Git:** Brinda control de versiones, permitiendo rastrear y revertir cambios, esencial para trabajar en equipo.
+2. **GitHub:** Amplía las capacidades de Git con herramientas para colaboración, gestión de tareas y automatización.
+3. **Google Colab:** Proporciona un entorno en la nube para ejecutar código Python con acceso gratuito a recursos avanzados, como GPUs, ideal para proyectos colaborativos.
+
+**Sobre el Proyecto**
+
+El proyecto desarrollado aplicó estas herramientas en un análisis de calificaciones de estudiantes. Utilizamos Git para controlar versiones, GitHub para alojar el código y Google Colab para realizar análisis y visualizaciones en un entorno colaborativo. Esto permitió integrar habilidades prácticas de programación, gestión de proyectos y análisis de datos en un contexto real, destacando la importancia de estas tecnologías en la resolución de problemas.
+
