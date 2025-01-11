@@ -1,30 +1,5 @@
 [
   {
-    "listing": "/teaching/index.html",
-    "items": [
-      "/teaching/big_data/index.html",
-      "/teaching/software/index.html",
-      "/teaching/dl/index.html",
-      "/teaching/ml/index.html",
-      "/teaching/eda/index.html",
-      "/teaching/python/index.html",
-      "/teaching/r/index.html",
-      "/teaching/tools/index.html"
-    ]
-  },
-  {
-    "listing": "/posts/index.html",
-    "items": [
-      "/posts/2024-08-07-google_colab/index.html",
-      "/posts/2024-08-07-jb/index.html",
-      "/posts/2024-08-07-python/index.html",
-      "/posts/2024-08-01-gh_readme/index.html",
-      "/posts/2024-08-01-gh_profile/index.html",
-      "/posts/2024-08-01-gh_account/index.html",
-      "/posts/2024-08-07-markdown/index.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
       "/talks/es/2025-escuela/index.html",
@@ -40,6 +15,7 @@
       "/talks/es/2024-pyschool/index.html",
       "/talks/es/2024-pyday/index.html",
       "/talks/es/2024-techschool/index.html",
+      "/posts/2025-01-12-github/index.html",
       "/posts/2024-08-07-google_colab/index.html",
       "/posts/2024-08-07-jb/index.html",
       "/posts/2024-08-07-python/index.html",
@@ -58,6 +34,19 @@
     ]
   },
   {
+    "listing": "/teaching/index.html",
+    "items": [
+      "/teaching/big_data/index.html",
+      "/teaching/software/index.html",
+      "/teaching/dl/index.html",
+      "/teaching/ml/index.html",
+      "/teaching/eda/index.html",
+      "/teaching/python/index.html",
+      "/teaching/r/index.html",
+      "/teaching/tools/index.html"
+    ]
+  },
+  {
     "listing": "/talks/index.html",
     "items": [
       "/talks/es/2025-escuela/index.html",
@@ -73,6 +62,19 @@
       "/talks/es/2024-pyschool/index.html",
       "/talks/es/2024-pyday/index.html",
       "/talks/es/2024-techschool/index.html"
+    ]
+  },
+  {
+    "listing": "/posts/index.html",
+    "items": [
+      "/posts/2025-01-12-github/index.html",
+      "/posts/2024-08-07-google_colab/index.html",
+      "/posts/2024-08-07-jb/index.html",
+      "/posts/2024-08-07-python/index.html",
+      "/posts/2024-08-01-gh_readme/index.html",
+      "/posts/2024-08-01-gh_profile/index.html",
+      "/posts/2024-08-01-gh_account/index.html",
+      "/posts/2024-08-07-markdown/index.html"
     ]
   },
   {
