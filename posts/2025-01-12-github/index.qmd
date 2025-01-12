@@ -347,10 +347,11 @@ Realiza un análisis de las calificaciones de un grupo de estudiantes para evalu
 
 <img src="images/solution.png" alt="git" width="200"/>
 
-
 ::: {.callout-note}
-La solución se desarrollará utilizando **Visual Studio Code** como editor de texto, en un sistema operativo **Windows**. Si prefieres otro editor o sistema operativo, los pasos generales seguirán siendo los mismos.
-:::
+- Esta solución se desarrollará utilizando **Visual Studio Code**.  
+- Asegúrate de tener instalado **Git** (o **Git Bash**).  
+- Necesitas una cuenta en **GitHub**.  
+::: 
 
 
 ### 1. Crea un Proyecto en GitHub
