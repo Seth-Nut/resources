@@ -1,7 +1,7 @@
 ---
-title: "Francisco Alfaro M."
+title: "Valeska Canales P."
 comments: false
-image:  images/vale.png
+image:  images/vale3.png
 about:
   template: trestles
   links:
@@ -19,28 +19,21 @@ about:
       href: https://www.linkedin.com/in/vcanalesp/  
 ---
 
-
 ::: {.btn-group role="group" aria-label="About"}
 <a href="vale.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">Español</button></a>
 :::
 
-
 ::: {#hero-heading}
-
-
 Hola👋 Mi nombre es Valeska!
 
-* **Profesión**: 📊 Ingeniera en Bioprocesos
-* **Trabajo actual**: 
-    * 💻 Consultor (DataDomz)
-    * 🗨️ Charlista (DUOC UC)
+-   **Profesión**: 📊 Ingeniera en Bioprocesos
+-   **Trabajo actual**:
+    -   💻 Fundadora (Seth&Nut)
+    -   🗨️ Charlista (DUOC UC)
 
 ### Intereses
 
-💪 Deporte | 🍰 Pastelería | 🐶 Perritos
+💪 Deporte \| 🍰 Pastelería \| 🐶 Perritos
 
-✅ Educación  <br>
-✅ Visualización  <br>
-✅ Machine Learning <br> 
-✅ Inteligencia Artificial  
+✅ Educación <br> ✅ Visualización <br> ✅ Machine Learning <br> ✅ Inteligencia Artificial
 :::
