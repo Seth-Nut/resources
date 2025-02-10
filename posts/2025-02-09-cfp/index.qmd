@@ -138,7 +138,7 @@ Si estás interesado en postular charlas en conferencias tecnológicas, especial
    * 🔗 [Sitio web oficial](https://ep2024.europython.eu/)
 
 * **PyCon Latam**: PyCon Latam es una conferencia que reúne a la comunidad de Python de América Latina. Ofrece un espacio para charlas en español y portugués. Las fechas y ubicaciones varían, por lo que es recomendable seguir sus canales oficiales.  
-   * 🔗 [Twitter Oficial](https://pylatam.org/)
+   * 🔗 [Sitio web oficial](https://pylatam.org/)
 
 * **PyCon Chile**: PyCon Chile es un evento anual que reúne a la comunidad de Python en Chile. Ofrece un espacio para charlas, talleres y networking. Mantente atento a su sitio web para conocer las fechas de apertura del CFP.  
    *🔗 [Sitio web oficial](https://pycon.cl/)
