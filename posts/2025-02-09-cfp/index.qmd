@@ -124,6 +124,55 @@ Si no tienes claro cómo estructurar tu propuesta o qué incluir en los formular
 
 >💡 **Consejo:** Si tienes dudas sobre la relevancia de ciertos puntos o cómo abordar un tema complejo, usa la IA para recibir ejemplos prácticos o desglosar conceptos complicados en términos sencillos.
 
+
+## 📃 ¿Dónde postular mi CFP en el mundo tech?
+
+Si estás interesado en postular charlas en conferencias tecnológicas, especialmente en el ámbito de Python y R, aquí te presento algunas opciones destacadas:
+
+### 🐍 Python
+
+* **PyCon US**: PyCon US es una de las conferencias más grandes de Python a nivel mundial. Ofrece un track llamado "Charlas" dedicado a presentaciones en español, brindando una excelente oportunidad para la comunidad hispanohablante. El llamado a propuestas (CFP) suele abrirse con varios meses de antelación.  
+   * 🔗 [Sitio web oficial](https://us.pycon.org/)
+
+* **EuroPython**: EuroPython es la conferencia europea más grande dedicada a Python. Se celebra anualmente en diferentes ciudades de Europa y atrae a una audiencia internacional.  
+   * 🔗 [Sitio web oficial](https://ep2024.europython.eu/)
+
+* **PyCon Latam**: PyCon Latam es una conferencia que reúne a la comunidad de Python de América Latina. Ofrece un espacio para charlas en español y portugués. Las fechas y ubicaciones varían, por lo que es recomendable seguir sus canales oficiales.  
+   * 🔗 [Twitter Oficial](https://pylatam.org/)
+
+* **PyCon Chile**: PyCon Chile es un evento anual que reúne a la comunidad de Python en Chile. Ofrece un espacio para charlas, talleres y networking. Mantente atento a su sitio web para conocer las fechas de apertura del CFP.  
+   *🔗 [Sitio web oficial](https://pycon.cl/)
+
+### 🌐 R
+
+* **LatinR**: LatinR es una conferencia que reúne a la comunidad de usuarios de R en América Latina. Es un espacio ideal para compartir experiencias, desarrollos y aplicaciones en R.  
+   * 🔗 [Sitio web oficial](https://latin-r.com/)
+
+* **posit::conf (anteriormente RStudio Conference)**: posit::conf es una conferencia organizada por Posit (anteriormente RStudio) enfocada en el ecosistema de R y sus aplicaciones.  
+   * 🔗 [Sitio web oficial](https://posit.co/conference/)
+
+* **ShinyConf**: ShinyConf es una conferencia dedicada a Shiny, el paquete de R para construir aplicaciones web interactivas. Es una excelente oportunidad para compartir técnicas y desarrollos en Shiny.  
+   * 🔗 [Sitio web oficial](https://www.shinyconf.com/)
+
+### 📖 Otros Lenguajes de Programación
+
+Si bien Python y R tienen una gran presencia en la comunidad tecnológica, existen muchas otras conferencias enfocadas en distintos lenguajes de programación donde también puedes postular tu CFP.
+
+* **JSConf**: Conferencia global sobre JavaScript con ediciones en distintos países.  
+   * 🔗 [Sitio web oficial](https://jsconf.com/)
+
+* **RustConf**: Conferencia oficial de Rust, con charlas sobre el desarrollo y uso del lenguaje.  
+   * 🔗 [Sitio web oficial](https://rustconf.com/)
+
+* **DockerCon**: Evento anual dedicado a Docker y contenedores.  
+   * 🔗 [Sitio web oficial](https://www.docker.com/dockercon/)
+
+* **GopherCon**: Principal conferencia global para la comunidad de Golang.  
+   * 🔗 [Sitio web oficial](https://gophercon.com/)
+
+* **ElixirConf**: Conferencia oficial para la comunidad de Elixir.  
+   * 🔗 [Sitio web oficial](https://elixirconf.com/)
+
 ## ❌ Propuestas Rechazadas
 
 ### Postulación PyCon Chile 2023 
