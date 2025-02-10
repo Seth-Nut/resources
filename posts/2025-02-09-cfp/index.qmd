@@ -1,0 +1,276 @@
+---
+title: "CFP - Call for Papers "
+subtitle: " Cómo Asegurar que tu Charla Sea Aceptada en una Conferencia Tech."
+
+author: "Francisco Alfaro"
+date: "2025-02-09"
+categories: [cfp, github markdown]
+image: "images/cfp.png"
+links:
+- icon: github
+  icon_pack: fab
+  name: GitHub
+  url: https://github.com/Seth-Nut/tutorials/tree/main/github
+---
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+------------------------------------------------------------------------
+
+Cada año, cientos de conferencias tecnológicas abren su **Call for Papers (CFP)**, brindando a profesionales la oportunidad de compartir su conocimiento con la comunidad. Sin embargo, el proceso de selección es competitivo y muchas propuestas quedan fuera por no cumplir ciertos criterios clave.  
+
+Si quieres presentar en una conferencia pero no sabes cómo hacer que tu propuesta destaque, aquí encontrarás **consejos prácticos para estructurar un CFP sólido y aumentar tus probabilidades de ser aceptado**. ¡Prepárate para llevar tu charla al escenario! 
+
+## 🎯 Cómo Aumentar tus Posibilidades de Ser Aceptado
+
+Cada año, cientos de eventos tecnológicos abren su **Call for Papers (CFP)** en busca de ponentes. Sin embargo, muchas propuestas quedan fuera por errores evitables. Si quieres que tu charla destaque entre la multitud, aquí tienes **consejos clave para estructurar una propuesta sólida y aumentar tus probabilidades de éxito**.
+
+### 1. Investiga a Fondo la Conferencia   
+
+Antes de enviar tu propuesta, dedica tiempo a conocer la conferencia. Esto te permitirá adaptar tu charla para que encaje mejor con la audiencia y los intereses del evento.  
+
+Preguntas clave que debes responder:  
+- **¿Qué tipo de charlas han sido aceptadas en ediciones anteriores?** Analiza los temas, el estilo y el nivel de profundidad de las sesiones previas.  
+- **¿Quién es la audiencia principal?** No es lo mismo hablar en un evento para desarrolladores senior que para principiantes o ejecutivos.  
+- **¿Cuáles son los temas que el evento busca este año?** Muchas conferencias publican una lista de áreas de interés. Si la tuya se alinea con ellas, tendrás más probabilidades de ser aceptado.  
+
+> 💡 **Consejo:** Si la conferencia tiene un código de conducta o una visión específica, asegúrate de que tu charla esté alineada con esos valores.  
+
+### 2. Explica con Claridad el Valor de tu Charla 
+
+Uno de los errores más comunes es no dejar claro **qué aprenderán los asistentes**. Un buen resumen debe responder a la pregunta: **¿Por qué esta charla es valiosa?**  
+
+Para lograrlo:  
+✅ **Incluye un apartado de "Aprendizajes clave" o "Takeaways"** con 3 a 5 puntos claros.  
+✅ **Usa un lenguaje directo y conciso**, evita explicaciones vagas.  
+✅ **Plantea un problema que tu charla resolverá**, de modo que los asistentes vean su utilidad.  
+
+Ejemplo de mejora:  
+
+❌ *“Hablaremos de nuevas tendencias en inteligencia artificial.”* (Vago y sin valor claro)  
+✔️ *“Descubrirás cómo aplicar modelos de IA con datos limitados para mejorar la eficiencia operativa en tu empresa.”* (Preciso y orientado a resultados)  
+
+### 3. Diseña un Título Atractivo y Claro
+
+El título es la primera impresión de tu charla. Si no es lo suficientemente llamativo, los organizadores pueden pasar de largo.  
+
+Un buen título debe ser:  
+- **Atractivo**: Debe generar curiosidad.  
+- **Preciso**: Debe indicar claramente el tema.  
+- **Equilibrado**: Puede ser creativo, pero sin perder claridad.  
+
+Ejemplos:  
+❌ *"Machine Learning en 2024"* → Demasiado genérico.  
+✔️ *"Cómo entrenar modelos de ML con datos limitados y obtener buenos resultados"* → Específico y atractivo.  
+
+> 💡 **Consejo:** Prueba tu título con colegas o en redes sociales antes de enviarlo para medir el interés que genera.  
+
+### 4. Sigue las Instrucciones del CFP al Pie de la Letra 
+
+Cada conferencia tiene requisitos específicos para la presentación de propuestas. Ignorar estos detalles puede hacer que tu charla sea descartada sin siquiera ser revisada.  
+
+Errores comunes que debes evitar:  
+❌ Enviar un resumen demasiado corto o excesivamente largo.  
+❌ No seguir el formato solicitado.  
+❌ No incluir información clave como la duración, el nivel de dificultad o requisitos previos.  
+
+✅ **Solución:** Lee detenidamente las bases del CFP y revisa tu propuesta antes de enviarla.  
+
+### 5. Evita los Discursos de Venta 
+
+Uno de los principales motivos de rechazo es que la charla parezca una presentación comercial en lugar de una sesión educativa.  
+
+✅ Comparte conocimiento basado en experiencias reales y casos de uso.  
+❌ No enfoques la charla en promocionar un producto o servicio.  
+
+> 💡 **Consejo:** Si mencionas una herramienta propia, hazlo en el contexto de la solución a un problema, no como un comercial.  
+
+### 6. Contacta a los Organizadores si Tienes Dudas  
+
+Si no tienes claro algún aspecto del proceso de selección o de los temas que buscan, no dudes en preguntar. Los organizadores suelen estar abiertos a brindar orientación y esto puede ayudarte a ajustar tu propuesta para que encaje mejor con el evento.  
+
+**Preguntas útiles que puedes hacerles:**  
+
+- ¿Hay algún enfoque o tema en particular que buscan destacar este año?  
+- ¿Cuál es el nivel técnico esperado para las charlas?  
+- ¿Hay algún consejo específico para mejorar mi propuesta?  
+
+
+### 7. Comparte Material Adicional y Ejemplos Concretos
+
+Uno de los puntos clave para fortalecer tu propuesta es respaldarla con material adicional y ejemplos claros que demuestren tu experiencia y enfoque.
+
+✅ Comparte **repositorios en GitHub**, **páginas web** o ejemplos de **trabajos previos** que puedan ayudar a los organizadores a evaluar tu nivel de profesionalismo y el alcance de tu propuesta.  
+✅ Incluye **ejemplos concretos** de lo que compartirás en tu charla o taller, como **resultados previos**, **proyectos terminados** o **demostraciones prácticas**. Esto proporcionará una visión clara de lo que los asistentes aprenderán.  
+
+> 💡 **Consejo:** Asegúrate de que los enlaces a tu material sean fácilmente accesibles para los organizadores, ya sea mediante GitHub, tu página web o plataformas similares.
+
+### 8. Usa Inteligencia Artificial para Potenciar tu Propuesta 
+
+Si no tienes claro cómo estructurar tu propuesta o qué incluir en los formularios de postulación, la **Inteligencia Artificial (IA)** puede ser tu aliada. Al utilizar herramientas basadas en IA, puedes obtener ideas frescas, mejorar la redacción y afinar los detalles clave que harán que tu propuesta destaque. Aquí te mostramos cómo aprovecharla:  
+
+✅ **Generación de ideas**: Si no tienes claro el tema, la IA puede ayudarte a explorar diferentes áreas de interés. Puedes usar generadores de temas o simplemente pedirle a la IA que sugiera posibles enfoques relacionados con el evento. Esto te dará una base sólida para elegir el tema más adecuado para la conferencia.  
+
+✅ **Redacción y estructura**: La IA puede ayudarte a estructurar el contenido de tu propuesta de forma clara y profesional. Puede generar resúmenes concisos, identificar los puntos clave y sugerir mejoras en la redacción para que tu propuesta sea más atractiva y directa.  
+
+✅ **Optimización de formularios**: Si te resulta difícil completar los formularios de postulación, la IA puede guiarte en cómo llenar cada campo de manera efectiva. Te ayudará a identificar qué información es crucial para los organizadores de la conferencia y cómo presentarla de manera que cumpla con sus expectativas.  
+
+✅ **Revisión y ajuste de contenido**: La IA puede revisar tu propuesta antes de enviarla, sugiriendo cambios en la redacción, destacando puntos débiles y mejorando la claridad del mensaje. Esto puede garantizar que tu propuesta esté bien elaborada y sin errores antes de enviarla.  
+
+>💡 **Consejo:** Si tienes dudas sobre la relevancia de ciertos puntos o cómo abordar un tema complejo, usa la IA para recibir ejemplos prácticos o desglosar conceptos complicados en términos sencillos.
+
+## ❌ Propuestas Rechazadas
+
+### Postulación PyCon Chile 2023 
+
+A continuación, presentamos el ejemplo de una de las propuestas que nos rechazaron para el evento **PyCon Chile 2023**. Esta propuesta abordaba la importancia de la documentación en el desarrollo de software, con un enfoque en el uso de docstrings y buenas prácticas para mejorar la legibilidad y la colaboración en proyectos. Aunque consideramos que el tema es relevante, creemos que hubo áreas de mejora que podrían haber aumentado nuestras posibilidades de aceptación.
+
+**Título de la propuesta**  
+
+- El arte de escribir buena documentación
+
+**Descripción**
+
+La documentación a menudo es subestimada y pasada por alto en el mundo del desarrollo de software. Sin embargo, en lugar de considerarla una carga inútil, deberíamos verla como una inversión valiosa en nuestro propio futuro y en el éxito de nuestros proyectos. Como dijo una vez Damian Conway: 
+
+> "Una buena documentación es una carta de amor que le escribes a tu yo futuro".  
+
+La falta de documentación, por otro lado, es como tenderle una trampa a nuestro yo futuro.
+
+En esta presentación, exploraremos la importancia de la documentación en el desarrollo de software y aprenderemos cómo mejorar nuestras prácticas. También discutiremos herramientas útiles que pueden facilitar este proceso.
+
+**Estructura de la Presentación:**
+
+1. **Introducción:**
+   - Breve presentación del orador (1 minuto).
+   - **Motivación**: Explicación de por qué estamos aquí y por qué la documentación es crucial en el desarrollo de software.
+
+2. **Documentación:**
+   - Exploraremos qué es la documentación y por qué es esencial.
+   - Hablaremos sobre **docstrings**, cómo usarlos de manera efectiva para documentar código y su importancia en la legibilidad.
+   - Presentaremos herramientas que pueden ayudarnos a generar documentación de manera más eficiente.
+
+3. **Ejemplos Prácticos:**
+   - Mostraremos ejemplos concretos de cómo documentar diferentes aspectos de un proyecto de software.
+   - Proporcionaremos ejemplos de **docstrings** bien escritos.
+   - Ilustraremos cómo las buenas prácticas de documentación pueden facilitar la colaboración y el mantenimiento del código.
+
+4. **Conclusiones y Recomendaciones:**
+   - Resumiremos los puntos clave de la presentación.
+   - Ofreceremos recomendaciones para mejorar la documentación en proyectos de desarrollo de software.
+   - Destacaremos cómo una buena documentación puede ahorrar tiempo y evitar problemas en el futuro.
+
+**Más información** 
+
+* **Nivel**: Intermedio
+* **Categoría**: Ciencia de datos
+* **Día del evento**: Sábado
+* **Modalidad**: Charla Valparaíso
+* **Horario preferente**: Mañana
+
+
+
+### Razones por las cuales la propuesta podría haber sido rechazada
+
+1. **Falta de Enfoque en Ciencia de Datos**: La propuesta se centra en documentación general, pero no aborda los desafíos específicos de la ciencia de datos, como la documentación de pipelines o modelos de machine learning.
+
+2. **Título Genérico**: El título "El arte de escribir buena documentación" es atractivo pero poco específico, lo que podría haber hecho que pasara desapercibido entre otras propuestas más precisas.
+
+3. **Aprendizajes Clave Poco Claros**: La descripción no resalta claramente qué aprenderán los asistentes, ni cómo la charla aplicará directamente a los problemas reales de la ciencia de datos.
+
+4. **Falta de Claridad en el Público Objetivo**: La propuesta está categorizada como intermedia, pero no define claramente el público al que va dirigida, lo que podría generar confusión sobre su nivel de dificultad.
+
+5. **Ejemplos Prácticos Demasiado Generales**: Aunque se mencionan ejemplos prácticos, la propuesta no especifica qué tipo de ejemplos se compartirán, lo cual es esencial para un público técnico.
+
+
+
+## ✅ Propuesta Aceptadas
+
+### PyDay Chile 2023
+
+A continuación, presentamos el ejemplo de una de las propuestas que nos aceptaron para el evento **PyDay Chile 2023**. Esta propuesta se centró en motivar a los participantes a resolver competencias en Kaggle, guiándolos paso a paso a través de un desafío de **Data Science end-to-end**. El objetivo fue ofrecer a los asistentes una experiencia práctica y accesible, utilizando herramientas como **Google Colab**, **GitHub Actions** y **MkDocs** para documentar el proceso. Consideramos que la claridad de la propuesta, su enfoque práctico y el uso de herramientas populares fueron aspectos clave que contribuyeron a su aceptación. 
+
+**Título de la propuesta**  
+
+- Resolviendo tu Primera Competencia de Kaggle
+
+**Descripción**  
+
+Esta presentación busca motivar a la gente a resolver competencias en Kaggle. Resolveremos un problema de Data Science **end-to-end**, detallando cada uno de los pasos.
+
+Lo primero será explicar qué es Kaggle y cómo se utiliza. Luego, presentaremos el desafío de Kaggle a resolver, y finalmente, documentaremos nuestros resultados utilizando **MkDocs**, **Google Colab** y **GitHub Actions**.
+
+**Estructura de la Presentación:**
+
+1. **Introducción (3-5 min):**  
+   - Breve presentación del orador.  
+   - **Motivación:** Explicar el propósito de la charla y por qué Kaggle es una plataforma interesante para aprender y resolver problemas de Data Science.
+
+2. **Kaggle (3-5 min):**  
+   - Explicar qué es Kaggle y su importancia en el mundo de la ciencia de datos.
+   
+3. **Resolver Competencia (8-10 min):**  
+   - Presentar el desafío específico de Kaggle a resolver.
+   - **Resolución del problema**:  
+     - Descripción general del problema.  
+     - **EDA (Exploratory Data Analysis)**: Análisis exploratorio de los datos.  
+     - **Feature Engineering**: Generación de características útiles para el modelo.  
+     - **Modelos**: Presentación y evaluación de modelos para resolver el problema.
+
+4. **Conclusión (1-2 min):**  
+   - Resumen de los puntos clave de la charla.  
+   - **Recomendaciones:** Consejos para quienes deseen empezar a participar en competencias de Kaggle y mejorar sus habilidades en Data Science.
+
+**Más información**  
+
+* **Nivel:** Básico (No requiere conocimientos de programación)
+* **Categoría:** Ciencia de datos  
+* **Día del evento:** Sábado  
+* **Modalidad:** Charla presencial  
+* **Horario preferente:** Mañana  
+* **Jornada Preferencia:** AM  
+* **Idioma:** Español  
+* **Tags:** Ciencia de datos  
+
+**Conocimientos técnicos:**  
+- Python, Jupyter-Notebook  
+- Numpy, pandas, matplotlib, scikit-learn  
+
+> **Nota:** Durante la charla se explicarán los conocimientos técnicos de forma accesible para los asistentes sin experiencia previa en programación.
+
+
+### Razones por las cuales la propuesta podría haber sido aceptada
+
+1. **Enfoque Práctico y Accesible**: La charla se centró en un desafío de Kaggle para principiantes, lo que permitió a los asistentes aplicar lo aprendido directamente a sus proyectos.
+
+2. **Claridad y Relevancia del Tema**: El tema de Kaggle es relevante para quienes inician en ciencia de datos, dejando claro cómo los asistentes pueden mejorar sus habilidades participando en competencias.
+
+3. **Estructura Bien Definida**: La charla tuvo una estructura clara y organizada, con secciones diferenciadas que facilitaron el seguimiento y aprendizaje de los asistentes.
+
+4. **Uso de Herramientas Populares y Accesibles**: Se mencionaron herramientas como Google Colab, GitHub Actions y MkDocs, lo que fortalece la propuesta al usar recursos ampliamente disponibles y fáciles de acceder.
+
+5. **Nivel Adecuado para el Público Objetivo**: La charla de nivel básico fue adecuada tanto para principiantes como para quienes buscan afianzar habilidades en la resolución de problemas prácticos.
+
+6. **Valor para la Comunidad**: La propuesta no solo enseñó, sino que también motivó a los asistentes a participar activamente en plataformas competitivas como Kaggle, impulsando su aprendizaje continuo.
+
+
+## ✏️ Conclusiones
+
+En este post, aprendiste los **consejos clave** para estructurar una propuesta sólida y aumentar tus probabilidades de ser aceptado en una conferencia. Desde investigar la conferencia hasta compartir material adicional, todos estos pasos te ayudarán a destacar tu propuesta de manera efectiva. 
+
+Además, estos consejos también son útiles para otros tipos de propuestas, como **posters**, **talleres**, y **paneles**, lo que te permite adaptarlos a diferentes formatos de presentación.
+
+Recuerda, **no te desanimes si no eres seleccionado**. El proceso de selección es competitivo y, a veces, factores ajenos a la calidad de tu propuesta influyen en la decisión. Sigue perfeccionando tu enfoque y continúa postulando a nuevas oportunidades. ¡Tu próxima charla podría estar a la vuelta de la esquina!
+
+
+## 🔗 Referencias  
+
+- Lewis, Todd. *"13 tips for getting your talk accepted at a tech conference"*. All Things Open, 2020.  
+- CFP Guidelines de eventos como **PyCon, DevOpsDays y All Things Open**.  
+- Experiencias de speakers en conferencias tech compartidas en blogs y foros especializados.  
+

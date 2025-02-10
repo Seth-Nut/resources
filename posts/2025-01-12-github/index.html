@@ -1,0 +1,1199 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.554">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta name="author" content="Valeska Canales">
+<title>Seth&amp;Nut – Tutorial - Git + GitHub</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+<!-- htmldependencies:E3FAD763 --><script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Sin resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
+  }
+}</script><style>html{ scroll-behavior: smooth; }</style>
+</head>
+<body>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="/index.html" class="navbar-brand navbar-brand-logo">
+    <img src="/images/doberman.png" alt="" class="navbar-logo"></a>
+    <a class="navbar-brand" href="/index.html">
+    <span class="navbar-title">Seth&amp;Nut</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Buscar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+<li class="nav-item">
+    <a class="nav-link" href="/posts/index.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="/teaching/index.html"> 
+<span class="menu-text">Cursos</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="/talks/index.html"> 
+<span class="menu-text">Eventos</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-nosotros" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Nosotros</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-nosotros">
+<li>
+    <a class="dropdown-item" href="/fran.html">
+ <span class="dropdown-text">Francisco Alfaro</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="/vale.html">
+ <span class="dropdown-text">Valeska Canales</span></a>
+  </li>  
+    </ul>
+</li>
+</ul>
+<ul class="navbar-nav navbar-nav-scroll ms-auto">
+<li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/Seth-Nut"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/company/Seth-Nut/"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://seth-nut.github.io/website/"> <i class="bi bi-globe" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+</div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <div id="quarto-toc-target"></div>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title-banner">
+    <div class="quarto-title column-body">
+      <h1 class="title">Tutorial - Git + GitHub</h1>
+            <p class="subtitle lead">Aprende Git y GitHub con un Mini Proyecto Práctico.</p>
+                                <div class="quarto-categories">
+                <div class="quarto-category">git</div>
+                <div class="quarto-category">github</div>
+                <div class="quarto-category">python</div>
+                <div class="quarto-category">google-colab</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Autor/a</div>
+      <div class="quarto-title-meta-contents">
+               <p>Valeska Canales </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Fecha de publicación</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">12 de enero de 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><nav id="TOC" role="doc-toc"><h2 id="toc-title">En esta página</h2>
+   
+  <ul>
+<li>
+<a href="#qu%C3%A9-es-git" id="toc-qué-es-git">¿Qué es Git?</a>
+  <ul>
+<li><a href="#comandos-b%C3%A1sicos-de-git" id="toc-comandos-básicos-de-git">Comandos Básicos de Git</a></li>
+  <li><a href="#referencias" id="toc-referencias">Referencias</a></li>
+  </ul>
+</li>
+  <li>
+<a href="#qu%C3%A9-es-github" id="toc-qué-es-github">¿Qué es GitHub?</a>
+  <ul>
+<li><a href="#conceptos-b%C3%A1sicos" id="toc-conceptos-básicos">Conceptos Básicos</a></li>
+  <li><a href="#referencias-1" id="toc-referencias-1">Referencias</a></li>
+  </ul>
+</li>
+  <li>
+<a href="#qu%C3%A9-es-google-colab" id="toc-qué-es-google-colab">¿Qué es Google Colab?</a>
+  <ul>
+<li><a href="#primeros-pasos" id="toc-primeros-pasos">Primeros Pasos</a></li>
+  <li><a href="#referencias-2" id="toc-referencias-2">Referencias</a></li>
+  </ul>
+</li>
+  <li>
+<a href="#mini-proyecto" id="toc-mini-proyecto">Mini Proyecto</a>
+  <ul>
+<li><a href="#descripci%C3%B3n" id="toc-descripción">Descripción</a></li>
+  <li><a href="#requerimientos" id="toc-requerimientos">Requerimientos</a></li>
+  <li><a href="#entrega-del-proyecto" id="toc-entrega-del-proyecto">Entrega del Proyecto</a></li>
+  </ul>
+</li>
+  <li>
+<a href="#soluci%C3%B3n-mini-proyecto" id="toc-solución-mini-proyecto"><strong>Solución Mini Proyecto</strong></a>
+  <ul>
+<li><a href="#crea-un-proyecto-en-github" id="toc-crea-un-proyecto-en-github">1. Crea un Proyecto en GitHub</a></li>
+  <li><a href="#crea-un-entorno-virtual" id="toc-crea-un-entorno-virtual">2. Crea un Entorno Virtual</a></li>
+  <li><a href="#carga-los-datos-de-calificaciones" id="toc-carga-los-datos-de-calificaciones">3. Carga los Datos de Calificaciones</a></li>
+  <li><a href="#desarrolla-un-archivo-python-para-el-an%C3%A1lisis" id="toc-desarrolla-un-archivo-python-para-el-análisis">4. Desarrolla un Archivo Python para el Análisis</a></li>
+  <li><a href="#subir-el-proyecto-a-github" id="toc-subir-el-proyecto-a-github">5. Subir el Proyecto a GitHub</a></li>
+  <li><a href="#desarrolla-parte-del-proyecto-en-google-colab" id="toc-desarrolla-parte-del-proyecto-en-google-colab">6. Desarrolla Parte del Proyecto en Google Colab</a></li>
+  <li><a href="#entrega-del-proyecto-1" id="toc-entrega-del-proyecto-1">7. Entrega del Proyecto</a></li>
+  </ul>
+</li>
+  <li><a href="#conclusiones" id="toc-conclusiones">Conclusiones</a></li>
+  </ul></nav><script src="https://kit.fontawesome.com/1bb720cc6f.js" crossorigin="anonymous"></script><a href="https://github.com/Seth-Nut/proyecto_calificaciones" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-brands fa-github"></i> GitHub</button></a> <a href="https://colab.research.google.com/drive/1jGBA7llNPhqmQ5d1eBPByYZwREjY0C7p?usp=sharing" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-brands fa-google"></i> Google Colab</button></a> <br><br><img src="images/logo.png" class="img-fluid quarto-figure-center" style="max-width:50%"><br><hr>
+<section id="qué-es-git" class="level2"><h2>¿Qué es Git?</h2>
+<p><img src="images/git2.png" alt="git" width="200"></p>
+<p><a href="https://git-scm.com/">Git</a> es un sistema de control de versiones distribuido que permite a los desarrolladores rastrear cambios en el código, colaborar en proyectos y mantener un historial completo de modificaciones. Es esencial en el desarrollo de software moderno, ya que facilita la colaboración y asegura la integridad del trabajo realizado.</p>
+<p><strong>Ventajas de Usar Git:</strong></p>
+<ol type="1">
+<li>
+<strong>Control de Versiones:</strong> Permite rastrear todos los cambios en los archivos y revertirlos si es necesario.</li>
+<li>
+<strong>Colaboración:</strong> Facilita que múltiples personas trabajen en el mismo proyecto sin sobrescribir el trabajo de los demás.</li>
+<li>
+<strong>Historial Completo:</strong> Conserva un registro detallado de los cambios realizados en el proyecto, lo que facilita la revisión y auditoría.</li>
+</ol>
+<section id="comandos-básicos-de-git" class="level3"><h3>Comandos Básicos de Git</h3>
+<p>A continuación, se presentan algunos comandos esenciales para comenzar a trabajar con Git:</p>
+<ol type="1">
+<li>
+<p><strong>Configurar Git por Primera Vez:</strong></p>
+<p>Configura tu nombre y correo electrónico, que se utilizarán en los commits:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.name <span class="st">"Tu Nombre"</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.email <span class="st">"tu_correo@example.com"</span></span></code></pre></div>
+</li>
+<li>
+<p><strong>Inicializar un Repositorio Git:</strong></p>
+<p>Crea un nuevo repositorio Git en una carpeta:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> init</span></code></pre></div>
+</li>
+<li>
+<p><strong>Verificar el Estado del Repositorio:</strong></p>
+<p>Muestra los cambios en el repositorio:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> status</span></code></pre></div>
+</li>
+<li>
+<p><strong>Añadir Archivos al Área de Preparación (Staging):</strong></p>
+<p>Prepara los archivos para el próximo commit:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add nombre_archivo</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># O para agregar todos los archivos modificados</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span></code></pre></div>
+</li>
+<li>
+<p><strong>Crear un Commit:</strong></p>
+<p>Guarda los cambios en el historial de Git con un mensaje descriptivo:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Mensaje del commit"</span></span></code></pre></div>
+</li>
+<li>
+<p><strong>Ver el Historial de Commits:</strong></p>
+<p>Muestra el historial de cambios realizados:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> log</span></code></pre></div>
+</li>
+<li>
+<p><strong>Conectar un Repositorio Local con un Repositorio Remoto:</strong></p>
+<p>Enlaza tu proyecto local con un servicio como GitHub:</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> remote add origin URL_DEL_REPOSITORIO</span></code></pre></div>
+</li>
+<li>
+<p><strong>Subir Cambios al Repositorio Remoto:</strong></p>
+<p>Envía tus commits al repositorio remoto:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push <span class="at">-u</span> origin main</span></code></pre></div>
+</li>
+</ol></section><section id="referencias" class="level3"><h3>Referencias</h3>
+<ol type="1">
+<li>
+<strong>Git</strong>
+<ul>
+<li><a href="https://git-scm.com/">Sitio Oficial de Git</a></li>
+<li><a href="https://git-scm.com/doc">Documentación Oficial de Git</a></li>
+</ul>
+</li>
+</ol></section></section><section id="qué-es-github" class="level2"><h2>¿Qué es GitHub?</h2>
+<p><img src="images/github.png" alt="git" width="200"></p>
+<p><a href="https://github.com/">GitHub</a> es una plataforma en la nube que permite a desarrolladores y equipos alojar repositorios Git, gestionar proyectos de manera eficiente y colaborar en tiempo real. Es una de las herramientas más populares en el mundo del desarrollo de software, ya que combina las ventajas de Git con características adicionales para mejorar la productividad y la colaboración.</p>
+<p>Además de almacenar código, GitHub ofrece funcionalidades que simplifican la organización y el flujo de trabajo en los proyectos, tales como:</p>
+<ul>
+<li>
+<strong>Control de versiones centralizado:</strong> Permite a los equipos trabajar simultáneamente sin conflictos.</li>
+<li>
+<strong>Herramientas de comunicación:</strong> Como issues y pull requests para coordinar tareas y discutir cambios.</li>
+<li>
+<strong>Integraciones y automatizaciones:</strong> Compatibilidad con herramientas de CI/CD como GitHub Actions para automatizar pruebas, despliegues y más.</li>
+</ul>
+<section id="conceptos-básicos" class="level3"><h3>Conceptos Básicos</h3>
+<ol type="1">
+<li><p><strong>Repositorio:</strong> Es el núcleo de GitHub. Almacena todo tu proyecto, incluyendo el código fuente, documentación y el historial de cambios. Los repositorios pueden ser públicos (visibles para todos) o privados (acceso restringido a ciertos usuarios).</p></li>
+<li><p><strong>Ramas (Branches):</strong> Permiten trabajar en diferentes versiones o características del proyecto de manera independiente. Por ejemplo, puedes crear una rama para desarrollar una nueva funcionalidad sin afectar el código principal.</p></li>
+<li><p><strong>Commits:</strong> Son puntos de control en el historial del proyecto que registran los cambios realizados en los archivos. Cada commit incluye un mensaje descriptivo para entender qué se modificó y por qué.</p></li>
+<li><p><strong>Pull Requests (PR):</strong> Se utilizan para proponer cambios en una rama y discutirlos antes de integrarlos en otra rama, como la rama principal (<code>main</code> o <code>master</code>). Los PR son esenciales para mantener un flujo de trabajo organizado en equipos.</p></li>
+<li><p><strong>Issues:</strong> Son una herramienta para rastrear tareas, errores o sugerencias en un proyecto. Los issues se pueden categorizar y asignar a diferentes miembros del equipo.</p></li>
+<li><p><strong>Forks:</strong> Permiten crear una copia independiente de un repositorio para realizar cambios sin afectar el proyecto original. Es ideal para colaborar en proyectos de código abierto.</p></li>
+<li><p><strong>Colaboración:</strong> GitHub facilita el trabajo en equipo al permitir contribuciones de múltiples desarrolladores, tanto en proyectos públicos como privados. Las herramientas de revisión de código ayudan a mantener estándares de calidad.</p></li>
+<li><p><strong>Wiki y Páginas de GitHub:</strong> Los repositorios pueden incluir una wiki para documentar el proyecto y GitHub Pages para crear sitios web estáticos directamente desde el repositorio.</p></li>
+</ol></section><section id="referencias-1" class="level3"><h3>Referencias</h3>
+<ol type="1">
+<li>
+<strong>GitHub</strong>
+<ul>
+<li><a href="https://docs.github.com/">Documentación Oficial de GitHub</a></li>
+<li>
+<a href="https://lab.github.com/">GitHub Learning Lab</a> – Aprende GitHub de forma interactiva con ejercicios prácticos.</li>
+</ul>
+</li>
+</ol></section></section><section id="qué-es-google-colab" class="level2"><h2>¿Qué es Google Colab?</h2>
+<p><img src="images/colab.png" alt="git" width="200"></p>
+<p><a href="https://colab.research.google.com/">Google Colab</a> es una plataforma basada en la nube que permite a los usuarios escribir, ejecutar y compartir código en Python a través de un entorno Jupyter Notebook. Es ampliamente utilizada en ciencia de datos, aprendizaje automático y enseñanza debido a su facilidad de uso y acceso gratuito.</p>
+<p><strong>Ventajas de Usar Google Colab:</strong></p>
+<ol type="1">
+<li>
+<strong>Acceso Gratuito a Recursos de Cómputo:</strong> Incluye acceso a GPU y TPU para proyectos que requieren gran capacidad de cálculo.</li>
+<li>
+<strong>Colaboración en Tiempo Real:</strong> Similar a Google Docs, permite a múltiples usuarios trabajar simultáneamente en el mismo notebook.</li>
+<li>
+<strong>Sin Instalaciones:</strong> Funciona completamente en el navegador, eliminando la necesidad de configurar Python localmente.</li>
+<li>
+<strong>Integración con Google Drive:</strong> Facilita guardar y cargar archivos directamente desde tu almacenamiento en la nube.</li>
+</ol>
+<p><strong>Características Principales</strong></p>
+<ol type="1">
+<li>
+<strong>Soporte para Python:</strong> Ejecución de código Python con bibliotecas preinstaladas como <code>pandas</code>, <code>numpy</code>, <code>matplotlib</code>, y más.</li>
+<li>
+<strong>Visualizaciones:</strong> Permite generar gráficos interactivos y visualizaciones avanzadas.</li>
+<li>
+<strong>Conexión a Repositorios:</strong> Compatible con Git para clonar y trabajar con proyectos directamente desde la plataforma.</li>
+</ol>
+<section id="primeros-pasos" class="level3"><h3>Primeros Pasos</h3>
+<ol type="1">
+<li>
+<p><strong>Crear un Nuevo Notebook:</strong></p>
+<ul>
+<li>Accede a <a href="https://colab.research.google.com/">Google Colab</a>.</li>
+<li>Haz clic en <strong>“Archivo” → “Nuevo notebook”</strong>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Conectar a un Entorno de Ejecución:</strong></p>
+<p>Haz clic en el botón <strong>“Conectar”</strong> para vincular tu notebook con un entorno en la nube.</p>
+</li>
+<li>
+<p><strong>Ejecutar Código en una Celda:</strong></p>
+<p>Escribe tu código Python en una celda y presiona <code>Shift + Enter</code> para ejecutarlo.</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"¡Hola, Google Colab!"</span>)</span></code></pre></div>
+</li>
+<li>
+<p><strong>Subir Archivos desde tu Computadora:</strong></p>
+<p>Usa la siguiente celda para cargar archivos al entorno:</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> google.colab <span class="im">import</span> files</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>uploaded <span class="op">=</span> files.upload()</span></code></pre></div>
+</li>
+<li>
+<p><strong>Montar Google Drive:</strong></p>
+<p>Conecta tu Google Drive para guardar o cargar archivos:</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> google.colab <span class="im">import</span> drive</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>drive.mount(<span class="st">'/content/drive'</span>)</span></code></pre></div>
+</li>
+<li>
+<p><strong>Instalar Bibliotecas Adicionales:</strong></p>
+<p>Usa <code>pip</code> para instalar cualquier biblioteca necesaria:</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install nombre_libreria</span></code></pre></div>
+</li>
+</ol></section><section id="referencias-2" class="level3"><h3>Referencias</h3>
+<ol type="1">
+<li>
+<strong>Google Colab</strong>
+<ul>
+<li><a href="https://colab.research.google.com/">Sitio Oficial de Google Colab</a></li>
+<li><a href="https://research.google.com/colaboratory/faq.html">Documentación de Google Colab</a></li>
+</ul>
+</li>
+</ol></section></section><section id="mini-proyecto" class="level2"><h2>Mini Proyecto</h2>
+<p><img src="images/mini.png" alt="git" width="200"></p>
+<section id="descripción" class="level3"><h3>Descripción</h3>
+<p>Realiza un análisis de las calificaciones de un grupo de estudiantes para evaluar su desempeño académico, aplicando los siguientes conceptos: - Creación de entornos virtuales. - Uso de Git y GitHub para control de versiones. - Visualización de datos con Matplotlib. - Colaboración en la nube utilizando Google Colab.</p>
+</section><section id="requerimientos" class="level3"><h3>Requerimientos</h3>
+<ol type="1">
+<li>
+<strong>Crea un Proyecto en GitHub:</strong>
+<ul>
+<li><p>Inicia sesión en <a href="https://github.com/">GitHub</a> y crea un nuevo repositorio llamado <code>proyecto_calificaciones</code>.</p></li>
+<li>
+<p>En la configuración del repositorio:</p>
+<ul>
+<li>Asegúrate de incluir un archivo <code>README.md</code> para describir el proyecto.</li>
+<li>Opcionalmente, agrega un archivo <code>.gitignore</code> para Python desde las plantillas predefinidas de GitHub.</li>
+</ul>
+</li>
+<li><p>Copia la URL del repositorio (por ejemplo, <code>https://github.com/TU_USUARIO/proyecto_calificaciones.git</code>).</p></li>
+<li>
+<p>En tu terminal, clona el repositorio a tu máquina local:</p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://github.com/TU_USUARIO/proyecto_calificaciones.git</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> proyecto_calificaciones</span></code></pre></div>
+</li>
+</ul>
+</li>
+<li>
+<strong>Crea un Entorno Virtual:</strong>
+<ul>
+<li>Crea un entorno virtual llamado <code>entorno_calificaciones</code>.</li>
+<li>Instala las librerías <code>pandas</code> y <code>matplotlib</code>.</li>
+</ul>
+</li>
+<li>
+<strong>Carga los Datos de Calificaciones:</strong>
+<ul>
+<li>
+<p>Dentro de la carpeta clonada, crea un archivo CSV llamado <code>calificaciones_estudiantes.csv</code> con los siguientes datos:</p>
+<pre class="csv"><code>Estudiante,Asignatura,Calificacion
+Juan,Matemáticas,85
+María,Ciencias,90
+Pedro,Historia,75
+Ana,Matemáticas,95
+Luis,Ciencias,88
+Clara,Historia,70
+Carlos,Matemáticas,80</code></pre>
+</li>
+</ul>
+</li>
+<li>
+<strong>Desarrolla un Archivo Python para el Análisis:</strong>
+<ul>
+<li><p>Archivo: <code>analisis_calificaciones.py</code>.</p></li>
+<li>
+<p>Tareas:</p>
+<ul>
+<li>Calcular el promedio de calificaciones por asignatura.</li>
+<li>Crear un gráfico de barras mostrando los promedios por asignatura.</li>
+<li>Guardar el gráfico como una imagen (PNG).</li>
+</ul>
+</li>
+<li>
+<p>Asegúrate de hacer commits con mensajes descriptivos después de completar cada tarea:</p>
+<div class="sourceCode" id="cb15"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Añadir análisis inicial de calificaciones"</span></span></code></pre></div>
+</li>
+<li>
+<p>Código de ejemplo:</p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Cargar los datos desde el archivo CSV</span></span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">'calificaciones_estudiantes.csv'</span>)</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Calcular el promedio de calificaciones por asignatura</span></span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>promedio_asignatura <span class="op">=</span> df.groupby(<span class="st">'Asignatura'</span>)[<span class="st">'Calificacion'</span>].mean()</span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a><span class="co"># 3. Mostrar los resultados en la consola</span></span>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Promedio de calificaciones por asignatura:"</span>)</span>
+<span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(promedio_asignatura)</span>
+<span id="cb16-13"><a href="#cb16-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-14"><a href="#cb16-14" aria-hidden="true" tabindex="-1"></a><span class="co"># 4. Crear un gráfico de barras</span></span>
+<span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">6</span>))  <span class="co"># Configurar el tamaño de la figura</span></span>
+<span id="cb16-16"><a href="#cb16-16" aria-hidden="true" tabindex="-1"></a>promedio_asignatura.plot(kind<span class="op">=</span><span class="st">'bar'</span>, color<span class="op">=</span><span class="st">'skyblue'</span>, edgecolor<span class="op">=</span><span class="st">'black'</span>)</span>
+<span id="cb16-17"><a href="#cb16-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-18"><a href="#cb16-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Configurar etiquetas y título del gráfico</span></span>
+<span id="cb16-19"><a href="#cb16-19" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Promedio de Calificaciones por Asignatura'</span>, fontsize<span class="op">=</span><span class="dv">16</span>)</span>
+<span id="cb16-20"><a href="#cb16-20" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'Asignatura'</span>, fontsize<span class="op">=</span><span class="dv">14</span>)</span>
+<span id="cb16-21"><a href="#cb16-21" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'Calificación Promedio'</span>, fontsize<span class="op">=</span><span class="dv">14</span>)</span>
+<span id="cb16-22"><a href="#cb16-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-23"><a href="#cb16-23" aria-hidden="true" tabindex="-1"></a><span class="co"># Guardar el gráfico como imagen PNG</span></span>
+<span id="cb16-24"><a href="#cb16-24" aria-hidden="true" tabindex="-1"></a>plt.savefig(<span class="st">'grafico_promedios.png'</span>)</span>
+<span id="cb16-25"><a href="#cb16-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-26"><a href="#cb16-26" aria-hidden="true" tabindex="-1"></a><span class="co"># Mostrar el gráfico en pantalla</span></span>
+<span id="cb16-27"><a href="#cb16-27" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+</li>
+</ul>
+</li>
+<li>
+<strong>Sube el Proyecto a GitHub:</strong>
+<ul>
+<li>
+<p>Una vez que completes las tareas, sube los cambios al repositorio remoto:</p>
+<div class="sourceCode" id="cb17"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push origin main</span></code></pre></div>
+</li>
+</ul>
+</li>
+<li>
+<strong>Desarrolla Parte del Proyecto en Google Colab:</strong>
+<ul>
+<li>Carga los datos desde el archivo CSV y repite el análisis en un cuaderno de Google Colab.</li>
+<li>Guarda el cuaderno en Google Drive y comparte el enlace.</li>
+</ul>
+</li>
+</ol></section><section id="entrega-del-proyecto" class="level3"><h3>Entrega del Proyecto</h3>
+<ol type="1">
+<li>
+<strong>GitHub:</strong> Sube el repositorio completo con el archivo CSV, el script Python y el gráfico generado.</li>
+<li>
+<strong>Google Colab:</strong> Comparte el enlace al cuaderno colaborativo donde desarrollaste parte del análisis.</li>
+</ol></section></section><section id="solución-mini-proyecto" class="level2"><h2><strong>Solución Mini Proyecto</strong></h2>
+<p><img src="images/solution.png" alt="git" width="200"></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Esta solución se desarrollará utilizando <strong>Visual Studio Code</strong>.<br>
+</li>
+<li>Asegúrate de tener instalado <strong>Git</strong> (o <strong>Git Bash</strong>).<br>
+</li>
+<li>Necesitas una cuenta en <strong>GitHub</strong>.<br>
+</li>
+</ul>
+</div>
+</div>
+<section id="crea-un-proyecto-en-github" class="level3"><h3>1. Crea un Proyecto en GitHub</h3>
+<ol type="1">
+<li>
+<p>Inicia sesión en <a href="https://github.com/">GitHub</a> y crea un nuevo repositorio llamado <code>proyecto_calificaciones</code>.</p>
+<ul>
+<li><p>Incluye un archivo <code>README.md</code> con una breve descripción del proyecto.</p></li>
+<li>
+<p>Añade un archivo <code>.gitignore</code> para Python desde las plantillas predefinidas de GitHub.</p>
+<p><a href="images/img_01.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="images/img_01.png" class="img-fluid"></a></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Copia la URL del repositorio creado (por ejemplo: <code>https://github.com/TU_USUARIO/proyecto_calificaciones.git</code>).</p>
+<p><a href="images/img_02.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="images/img_02.png" class="img-fluid"></a></p>
+</li>
+<li>
+<p>Clona el repositorio a tu máquina local:</p>
+<div class="sourceCode" id="cb18"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://github.com/TU_USUARIO/proyecto_calificaciones.git</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> proyecto_calificaciones</span></code></pre></div>
+</li>
+</ol></section><section id="crea-un-entorno-virtual" class="level3"><h3>2. Crea un Entorno Virtual</h3>
+<ol type="1">
+<li><p>Abre tu terminal o consola.</p></li>
+<li><p>Navega a la carpeta donde deseas trabajar.</p></li>
+<li>
+<p>Entorno virtual</p>
+<ol type="1">
+<li>
+<p>Crea un entorno virtual llamado <code>entorno_calificaciones</code>:</p>
+<div class="sourceCode" id="cb19"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-m</span> venv entorno_calificaciones</span></code></pre></div>
+</li>
+<li>
+<p>Activa el entorno virtual:</p>
+<ul>
+<li>
+<p><strong>Windows:</strong></p>
+<div class="sourceCode" id="cb20"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="ex">entorno_calificaciones\Scripts\activate</span></span></code></pre></div>
+</li>
+<li>
+<p><strong>Linux/Mac:</strong></p>
+<div class="sourceCode" id="cb21"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="bu">source</span> entorno_calificaciones/bin/activate</span></code></pre></div>
+</li>
+</ul>
+</li>
+</ol>
+<p><a href="images/img_03.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="images/img_03.png" class="img-fluid"></a></p>
+</li>
+<li>
+<p>Crea un archivo <code>requirements.txt</code> dentro de tu carpeta de proyecto con el siguiente contenido:</p>
+<div class="sourceCode" id="cb22"><pre class="sourceCode txt"><code class="sourceCode default"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>pandas</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>matplotlib</span></code></pre></div>
+<p><a href="images/img_04.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="images/img_04.png" class="img-fluid"></a></p>
+</li>
+<li>
+<p>Instala las librerías desde el archivo <code>requirements.txt</code>:</p>
+<div class="sourceCode" id="cb23"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install <span class="at">-r</span> requirements.txt</span></code></pre></div>
+<p><a href="images/img_05.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="images/img_05.png" class="img-fluid"></a></p>
+</li>
+</ol></section><section id="carga-los-datos-de-calificaciones" class="level3"><h3>3. Carga los Datos de Calificaciones</h3>
+<ol type="1">
+<li>
+<p>Dentro de la carpeta clonada, crea un archivo CSV llamado <code>calificaciones_estudiantes.csv</code> con el siguiente contenido:</p>
+<pre class="csv"><code>Estudiante,Asignatura,Calificacion
+Juan,Matemáticas,85
+María,Ciencias,90
+Pedro,Historia,75
+Ana,Matemáticas,95
+Luis,Ciencias,88
+Clara,Historia,70
+Carlos,Matemáticas,80</code></pre>
+<p><a href="images/img_06.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="images/img_06.png" class="img-fluid"></a></p>
+</li>
+</ol></section><section id="desarrolla-un-archivo-python-para-el-análisis" class="level3"><h3>4. Desarrolla un Archivo Python para el Análisis</h3>
+<ol type="1">
+<li>
+<p>Crea un archivo llamado <code>analisis_calificaciones.py</code> en la carpeta del proyecto con el siguiente contenido:</p>
+<div class="sourceCode" id="cb25"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Cargar los datos desde el archivo CSV</span></span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">'calificaciones_estudiantes.csv'</span>)</span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Calcular el promedio de calificaciones por asignatura</span></span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a>promedio_asignatura <span class="op">=</span> df.groupby(<span class="st">'Asignatura'</span>)[<span class="st">'Calificacion'</span>].mean()</span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a><span class="co"># 3. Mostrar los resultados en la consola</span></span>
+<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Promedio de calificaciones por asignatura:"</span>)</span>
+<span id="cb25-12"><a href="#cb25-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(promedio_asignatura)</span>
+<span id="cb25-13"><a href="#cb25-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-14"><a href="#cb25-14" aria-hidden="true" tabindex="-1"></a><span class="co"># 4. Crear un gráfico de barras</span></span>
+<span id="cb25-15"><a href="#cb25-15" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">6</span>))  <span class="co"># Configurar el tamaño de la figura</span></span>
+<span id="cb25-16"><a href="#cb25-16" aria-hidden="true" tabindex="-1"></a>promedio_asignatura.plot(kind<span class="op">=</span><span class="st">'bar'</span>, color<span class="op">=</span><span class="st">'skyblue'</span>, edgecolor<span class="op">=</span><span class="st">'black'</span>)</span>
+<span id="cb25-17"><a href="#cb25-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-18"><a href="#cb25-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Configurar etiquetas y título del gráfico</span></span>
+<span id="cb25-19"><a href="#cb25-19" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Promedio de Calificaciones por Asignatura'</span>, fontsize<span class="op">=</span><span class="dv">16</span>)</span>
+<span id="cb25-20"><a href="#cb25-20" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'Asignatura'</span>, fontsize<span class="op">=</span><span class="dv">14</span>)</span>
+<span id="cb25-21"><a href="#cb25-21" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'Calificación Promedio'</span>, fontsize<span class="op">=</span><span class="dv">14</span>)</span>
+<span id="cb25-22"><a href="#cb25-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-23"><a href="#cb25-23" aria-hidden="true" tabindex="-1"></a><span class="co"># Guardar el gráfico como imagen PNG</span></span>
+<span id="cb25-24"><a href="#cb25-24" aria-hidden="true" tabindex="-1"></a>plt.savefig(<span class="st">'grafico_promedios.png'</span>)</span>
+<span id="cb25-25"><a href="#cb25-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-26"><a href="#cb25-26" aria-hidden="true" tabindex="-1"></a><span class="co"># Mostrar el gráfico en pantalla</span></span>
+<span id="cb25-27"><a href="#cb25-27" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<p><a href="images/img_07.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img src="images/img_07.png" class="img-fluid"></a></p>
+</li>
+<li>
+<p>Ejecuta el script en tu terminal para verificar que funciona:</p>
+<div class="sourceCode" id="cb26"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> analisis_calificaciones.py</span></code></pre></div>
+</li>
+<li>
+<p>Haz commits con los cambios:</p>
+<div class="sourceCode" id="cb27"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Añadir análisis inicial de calificaciones"</span></span></code></pre></div>
+<p><a href="images/img_09.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img src="images/img_09.png" class="img-fluid"></a></p>
+<p><a href="images/img_10.png" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img src="images/img_10.png" class="img-fluid"></a></p>
+</li>
+</ol></section><section id="subir-el-proyecto-a-github" class="level3"><h3>5. Subir el Proyecto a GitHub</h3>
+<ol type="1">
+<li>
+<p>Sube los cambios al repositorio remoto en GitHub:</p>
+<div class="sourceCode" id="cb28"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push origin main</span></code></pre></div>
+<p><a href="images/img_11.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img src="images/img_11.png" class="img-fluid"></a></p>
+</li>
+</ol></section><section id="desarrolla-parte-del-proyecto-en-google-colab" class="level3"><h3>6. Desarrolla Parte del Proyecto en Google Colab</h3>
+<ol type="1">
+<li><p>Abre <a href="https://colab.research.google.com/">Google Colab</a>.</p></li>
+<li><p>Carga el archivo <code>calificaciones_estudiantes.csv</code> desde tu máquina local.</p></li>
+<li>
+<p>Realiza el mismo análisis utilizando el código del archivo <code>analisis_calificaciones.py</code>.</p>
+<p><a href="images/img_12.png" class="lightbox" data-gallery="quarto-lightbox-gallery-11"><img src="images/img_12.png" class="img-fluid"></a></p>
+</li>
+<li>
+<p>Guarda el cuaderno y comparte el enlace.</p>
+<p><a href="images/img_13.png" class="lightbox" data-gallery="quarto-lightbox-gallery-12"><img src="images/img_13.png" class="img-fluid"></a></p>
+</li>
+</ol></section><section id="entrega-del-proyecto-1" class="level3"><h3>7. Entrega del Proyecto</h3>
+<p><strong>Estructura Final del Proyecto</strong></p>
+<p>Después de seguir todos los pasos, tu proyecto tendrá la siguiente estructura:</p>
+<pre><code>proyecto_calificaciones/
+├── entorno_calificaciones/      # Carpeta del entorno virtual (excluida por .gitignore)
+├── calificaciones_estudiantes.csv  # Archivo de datos
+├── analisis_calificaciones.py      # Script Python para el análisis
+├── grafico_promedios.png           # Gráfico generado por el script (se generará al ejecutar el script)
+├── README.md                       # Descripción del proyecto
+├── requirements.txt                # Dependencias del proyecto
+└── .gitignore                      # Configuración para excluir archivos no deseados</code></pre>
+<p><strong>Entrega del Proyecto:</strong></p>
+<ol type="1">
+<li>
+<strong>Github</strong>:
+<ul>
+<li><a href="https://github.com/Seth-Nut/proyecto_calificaciones">https://github.com/Seth-Nut/proyecto_calificaciones</a></li>
+</ul>
+</li>
+<li>
+<strong>Google Colab</strong>:
+<ul>
+<li><a href="https://colab.research.google.com/drive/1jGBA7llNPhqmQ5d1eBPByYZwREjY0C7p?usp=sharing">https://colab.research.google.com/drive/1jGBA7llNPhqmQ5d1eBPByYZwREjY0C7p?usp=sharing</a></li>
+</ul>
+</li>
+</ol></section></section><section id="conclusiones" class="level2"><h2>Conclusiones</h2>
+<p>En este recorrido, exploramos herramientas clave para el desarrollo y análisis de proyectos:</p>
+<ol type="1">
+<li>
+<strong>Git:</strong> Brinda control de versiones, permitiendo rastrear y revertir cambios, esencial para trabajar en equipo.</li>
+<li>
+<strong>GitHub:</strong> Amplía las capacidades de Git con herramientas para colaboración, gestión de tareas y automatización.</li>
+<li>
+<strong>Google Colab:</strong> Proporciona un entorno en la nube para ejecutar código Python con acceso gratuito a recursos avanzados, como GPUs, ideal para proyectos colaborativos.</li>
+</ol>
+<p><strong>Sobre el Proyecto</strong></p>
+<p>El proyecto desarrollado aplicó estas herramientas en un análisis de calificaciones de estudiantes. Utilizamos Git para controlar versiones, GitHub para alojar el código y Google Colab para realizar análisis y visualizaciones en un entorno colaborativo. Esto permitió integrar habilidades prácticas de programación, gestión de proyectos y análisis de datos en un contexto real, destacando la importancia de estas tecnologías en la resolución de problemas.</p>
+<div id="quarto-navigation-envelope" class="hidden">
+<p><span class="hidden" data-render-id="quarto-int-sidebar-title">Seth&amp;Nut</span> <span class="hidden" data-render-id="quarto-int-navbar-title">Seth&amp;Nut</span> <span class="hidden" data-render-id="quarto-int-navbar:Blog">Blog</span> <span class="hidden" data-render-id="quarto-int-navbar:/posts/index.html">/posts/index.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Cursos">Cursos</span> <span class="hidden" data-render-id="quarto-int-navbar:/teaching/index.html">/teaching/index.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Eventos">Eventos</span> <span class="hidden" data-render-id="quarto-int-navbar:/talks/index.html">/talks/index.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Nosotros">Nosotros</span> <span class="hidden" data-render-id="quarto-int-navbar:Francisco Alfaro">Francisco Alfaro</span> <span class="hidden" data-render-id="quarto-int-navbar:/fran.html">/fran.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Valeska Canales">Valeska Canales</span> <span class="hidden" data-render-id="quarto-int-navbar:/vale.html">/vale.html</span> <span class="hidden" data-render-id="quarto-int-navbar:https://github.com/Seth-Nut">https://github.com/Seth-Nut</span> <span class="hidden" data-render-id="quarto-int-navbar:https://www.linkedin.com/company/Seth-Nut/">https://www.linkedin.com/company/Seth-Nut/</span> <span class="hidden" data-render-id="quarto-int-navbar:https://seth-nut.github.io/website/">https://seth-nut.github.io/website/</span></p>
+<div class="hidden" data-render-id="footer-left">
+<p>Website creado con <a href="https://quarto.org/">Quarto</a> por Francisco Alfaro. Licencia: <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>.</p>
+</div>
+</div>
+<div id="quarto-meta-markdown" class="hidden">
+<p><span class="hidden" data-render-id="quarto-metatitle">Seth&amp;Nut - Tutorial - Git + GitHub</span> <span class="hidden" data-render-id="quarto-twittercardtitle">Seth&amp;Nut - Tutorial - Git + GitHub</span> <span class="hidden" data-render-id="quarto-ogcardtitle">Seth&amp;Nut - Tutorial - Git + GitHub</span> <span class="hidden" data-render-id="quarto-metasitename">Seth&amp;Nut</span> <span class="hidden" data-render-id="quarto-twittercarddesc">Aprende Git y GitHub con un Mini Proyecto Práctico.</span> <span class="hidden" data-render-id="quarto-ogcardddesc">Aprende Git y GitHub con un Mini Proyecto Práctico.</span></p>
+</div>
+</section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copiado");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copiado");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("fralfaro\.github\.io\/blog\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script><script src="https://giscus.app/client.js" data-repo="Seth-Nut/resources" data-repo-id="R_kgDOMrUO7g" data-category="General" data-category-id="DIC_kwDOMrUO7s4CjYBv" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async>
+</script><input type="hidden" id="giscus-base-theme" value="light"><input type="hidden" id="giscus-alt-theme" value="dark">
+</div> <!-- /content -->
+<footer class="footer"><div class="nav-footer">
+    <div class="nav-footer-left">
+      <div class="footer-contents">Website creado con [Quarto](https://quarto.org/) por Francisco Alfaro. Licencia: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/).</div>  
+    </div>   
+    <div class="nav-footer-center">
+       
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+<li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/Seth-Nut">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/company/Seth-Nut/">
+      <i class="bi bi-linkedin" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://seth-nut.github.io/website/">
+      <i class="bi bi-globe" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+</div>
+  </div>
+</footer><script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","selector":".lightbox","openEffect":"zoom","loop":false});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
+</body>
+</html>
