@@ -1,11 +1,5 @@
 [
   {
-    "listing": "/research/index.html",
-    "items": [
-      "/research/en/2022-ambiagua/index.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
       "/talks/es/2025-escuela/index.html",
@@ -41,21 +35,9 @@
     ]
   },
   {
-    "listing": "/talks/index.html",
+    "listing": "/research/index.html",
     "items": [
-      "/talks/es/2025-escuela/index.html",
-      "/talks/es/2024-mat281/index.html",
-      "/talks/es/2024-uc_ai/index.html",
-      "/talks/es/2024-uc/index.html",
-      "/talks/es/2024-mads/index.html",
-      "/talks/es/2024-latinr/index.html",
-      "/talks/es/2024-ciberseguridad/index.html",
-      "/talks/es/2024-olimpiadas/index.html",
-      "/talks/es/2024-tel/index.html",
-      "/talks/es/2024-chatgpt/index.html",
-      "/talks/es/2024-pyschool/index.html",
-      "/talks/es/2024-pyday/index.html",
-      "/talks/es/2024-techschool/index.html"
+      "/research/en/2022-ambiagua/index.html"
     ]
   },
   {
@@ -83,6 +65,24 @@
       "/posts/2024-08-01-gh_profile/index.html",
       "/posts/2024-08-01-gh_account/index.html",
       "/posts/2024-08-07-markdown/index.html"
+    ]
+  },
+  {
+    "listing": "/talks/index.html",
+    "items": [
+      "/talks/es/2025-escuela/index.html",
+      "/talks/es/2024-mat281/index.html",
+      "/talks/es/2024-uc_ai/index.html",
+      "/talks/es/2024-uc/index.html",
+      "/talks/es/2024-mads/index.html",
+      "/talks/es/2024-latinr/index.html",
+      "/talks/es/2024-ciberseguridad/index.html",
+      "/talks/es/2024-olimpiadas/index.html",
+      "/talks/es/2024-tel/index.html",
+      "/talks/es/2024-chatgpt/index.html",
+      "/talks/es/2024-pyschool/index.html",
+      "/talks/es/2024-pyday/index.html",
+      "/talks/es/2024-techschool/index.html"
     ]
   }
 ]
