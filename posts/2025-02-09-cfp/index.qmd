@@ -4,7 +4,7 @@ subtitle: " Cómo Asegurar que tu Charla Sea Aceptada en una Conferencia Tech."
 
 author: "Francisco Alfaro"
 date: "2025-02-09"
-categories: [cfp, github, markdown]
+categories: [cfp, community, opensource]
 image: "images/cfp.png"
 links:
 - icon: medium
