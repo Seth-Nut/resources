@@ -34,6 +34,8 @@ website:
             href: fran.qmd
           - text: Valeska Canales
             href: vale.qmd
+          - text: Seth & Nut
+            href: seth-nuth.qmd
     right:
       - icon: github
         href: https://github.com/Seth-Nut
@@ -56,6 +58,7 @@ format:
     footnotes-hover: true
     toc: true
     code-link: true
+
 
 editor: visual
 

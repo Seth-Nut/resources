@@ -1,0 +1,56 @@
+---
+title: "Seth & Nut"
+comments: false
+image:  images/seth-nut2.png
+about:
+  template: trestles
+  links:
+    - icon: globe
+      text: Portfolio
+      href: https://sethnut.com/website/
+    - icon: github
+      text: GitHub
+      href: https://github.com/Seth-Nut
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/company/seth-nut
+---
+
+::: {.btn-group role="group" aria-label="About"}
+<a href="seth-nut.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">Español</button></a>
+:::
+
+::: {#hero-heading}
+
+<br><br>
+
+### 🐶 Hola, somos Seth & Nut!
+
+Dos perritos curiosos que acompañamos a nuestro humano en sus aventuras tecnológicas y educativas.
+
+#### 🔍 Sobre Nosotros
+
+- **Seth**: 💛 Tierno, regalón y siempre busca cariño.   
+- **Nut**: ⚡ Enérgica, protectora y lista para la acción.  
+
+### 🎯 Nuestros Intereses
+
+- 🐾 Explorar el mundo 
+- 🧩 Resolver problemas  
+- 🎾 Jugar sin parar  
+  
+
+:::
+
+
+```{=html}
+<style>
+/* Ajusta el tamaño de la imagen de portada en la plantilla 'trestles' */
+.about-image img {
+  max-width: 30%; /* Reduce el tamaño de la imagen al 30% del ancho disponible */
+  height: auto; /* Mantiene la proporción de la imagen */
+  display: block;
+  margin: 0 auto; /* Centra la imagen */
+}
+</style>
+```
