@@ -20,7 +20,7 @@ website:
 
 
   navbar:
-    logo: /images/doberman.png
+    logo: /images/logo-kawai.png
     left:
       - text: Blog
         href: posts/index.qmd
