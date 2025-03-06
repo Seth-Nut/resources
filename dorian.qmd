@@ -1,0 +1,32 @@
+---
+title: "Dorian Villegas R."
+comments: false
+image:  images/dorian.png
+about:
+  template: trestles
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/dovirojas
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/dovirojas/
+---
+
+::: {.btn-group role="group" aria-label="About"}
+<a href="dorian.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">Español</button></a>
+:::
+
+::: {#hero-heading}
+Hola👋 Mi nombre es Dorian!
+
+- **Profesión**: 🏗️ Ingeniero Civil Industrial
+- **Universidad**: 🎓 Universidad de Tarapacá 
+
+### Intereses
+
+  - ⛏️ Industria minera, innovación y optimización de procesos
+  - 📊 Ciencia de datos y tecnologías aplicadas a la ingeniería
+  - 🚀 Desarrollo de herramientas para toma de decisiones
+
+:::
