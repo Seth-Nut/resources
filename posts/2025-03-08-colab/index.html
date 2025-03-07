@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.6.42">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-
-<title>index – Seth&amp;Nut</title>
+<meta name="author" content="Francisco Alfaro">
+<title>Google Colab + AI Agents – Seth&amp;Nut</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,27 +20,26 @@ ul.task-list li input[type="checkbox"] {
 }
 </style>
 
-
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../images/logo_sn.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-a77667d19c6a708a6740552ea07ece93.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/logo_sn.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-a77667d19c6a708a6740552ea07ece93.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -68,81 +65,16 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Enviar",
     "search-label": "Buscar"
   }
-}</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-teaching .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-author','listing-date','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-teaching'] = new List('listing-teaching', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-<style>html{ scroll-behavior: smooth; }</style>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
+}</script><style>html{ scroll-behavior: smooth; }</style>
 </head>
-
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../images/logo-kawai.png" alt="" class="navbar-logo">
-    </a>
-    <a class="navbar-brand" href="../index.html">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/logo-kawai.png" alt="" class="navbar-logo"></a>
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Seth&amp;Nut</span>
     </a>
   </div>
@@ -152,44 +84,44 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../posts/index.html"> 
+<li class="nav-item">
+    <a class="nav-link" href="../../posts/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../teaching/index.html" aria-current="page"> 
+    <a class="nav-link" href="../../teaching/index.html"> 
 <span class="menu-text">Cursos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../talks/index.html"> 
+    <a class="nav-link" href="../../talks/index.html"> 
 <span class="menu-text">Eventos</span></a>
   </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-nosotros" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Nosotros</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-nosotros">    
-        <li>
-    <a class="dropdown-item" href="../fran.html">
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-nosotros">
+<li>
+    <a class="dropdown-item" href="../../fran.html">
  <span class="dropdown-text">Francisco Alfaro</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../vale.html">
+    <a class="dropdown-item" href="../../vale.html">
  <span class="dropdown-text">Valeska Canales</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../dorian.html">
+    <a class="dropdown-item" href="../../dorian.html">
  <span class="dropdown-text">Dorian Villegas</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../seth-nuth.html">
+    <a class="dropdown-item" href="../../seth-nuth.html">
  <span class="dropdown-text">Seth &amp; Nut</span></a>
   </li>  
     </ul>
-  </li>
+</li>
 </ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
+<ul class="navbar-nav navbar-nav-scroll ms-auto">
+<li class="nav-item compact">
     <a class="nav-link" href="https://github.com/Seth-Nut"> <i class="bi bi-github" role="img">
 </i> 
 <span class="menu-text"></span></a>
@@ -205,248 +137,179 @@ window.Quarto = {
 <span class="menu-text"></span></a>
   </li>  
 </ul>
-          </div> <!-- /navcollapse -->
+</div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
-    </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+    </nav></header><!-- content --><header id="title-block-header" class="quarto-title-block default page-columns page-full"><div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Google Colab + AI Agents</h1>
+            <p class="subtitle lead">Explorando las capacidades de Google Colab y su nuevo asistente con inteligencia artificial</p>
+                                <div class="quarto-categories">
+                <div class="quarto-category">python</div>
+                <div class="quarto-category">ai</div>
+                <div class="quarto-category">colab</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Autor/a</div>
+      <div class="quarto-title-meta-contents">
+               <p>Francisco Alfaro </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Fecha de publicación</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">8 de marzo de 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">En esta página</h2>
+        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#cursos" id="toc-cursos" class="nav-link active" data-scroll-target="#cursos">📖 Cursos</a></li>
+<li>
+<a href="#asistente-virtual-en-google-colab" id="toc-asistente-virtual-en-google-colab" class="nav-link active" data-scroll-target="#asistente-virtual-en-google-colab"><strong>Asistente Virtual en Google Colab</strong></a>
+  <ul class="collapse">
+<li><a href="#funciones-principales-del-asistente-ai-en-google-colab" id="toc-funciones-principales-del-asistente-ai-en-google-colab" class="nav-link" data-scroll-target="#funciones-principales-del-asistente-ai-en-google-colab">🔹 <strong>Funciones principales del Asistente AI en Google Colab</strong></a></li>
   </ul>
-</nav>
+</li>
+  <li>
+<a href="#data-science-agent-potenciado-por-gemini" id="toc-data-science-agent-potenciado-por-gemini" class="nav-link" data-scroll-target="#data-science-agent-potenciado-por-gemini"><strong>Data Science Agent Potenciado por Gemini</strong></a>
+  <ul class="collapse">
+<li><a href="#qu%C3%A9-puede-hacer-el-data-science-agent" id="toc-qué-puede-hacer-el-data-science-agent" class="nav-link" data-scroll-target="#qu%C3%A9-puede-hacer-el-data-science-agent">🔹 <strong>¿Qué puede hacer el Data Science Agent?</strong></a></li>
+  <li><a href="#c%C3%B3mo-usar-el-data-science-agent-en-google-colab" id="toc-cómo-usar-el-data-science-agent-en-google-colab" class="nav-link" data-scroll-target="#c%C3%B3mo-usar-el-data-science-agent-en-google-colab">🎯 <strong>¿Cómo usar el Data Science Agent en Google Colab?</strong></a></li>
+  </ul>
+</li>
+  <li><a href="#conclusi%C3%B3n" id="toc-conclusión" class="nav-link" data-scroll-target="#conclusi%C3%B3n"><strong>Conclusión</strong></a></li>
+  </ul></nav>
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content quarto-banner-title-block" id="quarto-document-content"><script src="https://kit.fontawesome.com/1bb720cc6f.js" crossorigin="anonymous"></script><a href="https://medium.com/@fralfaro/google-colab-ai-agents-a5d5e0b42d38" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-brands fa-medium"></i> Medium</button></a> <br><br><img src="images/ai2.png" class="img-fluid quarto-figure-center" style="max-width:50%"><br><hr>
+<p>Google Colab, abreviatura de <em>Google Colaboratory</em>, es un entorno gratuito de notebooks Jupyter alojado en la nube por Google. Permite a los usuarios escribir y ejecutar código Python directamente desde el navegador, sin necesidad de configuraciones locales. Además, ofrece acceso gratuito a potentes unidades de procesamiento gráfico (GPU) y unidades de procesamiento tensorial (TPU), lo que lo convierte en una herramienta ideal para el aprendizaje automático y el análisis de datos.</p>
+<blockquote class="blockquote">
+<p>🔗 <strong>Accede a Google Colab aquí:</strong> <a href="https://colab.research.google.com/">Google Colab</a></p>
+</blockquote>
+<section id="asistente-virtual-en-google-colab" class="level2"><h2 class="anchored" data-anchor-id="asistente-virtual-en-google-colab"><strong>Asistente Virtual en Google Colab</strong></h2>
+<p>Para optimizar la experiencia de los usuarios, Google ha integrado un asistente virtual basado en inteligencia artificial en Colab. Este asistente actúa como una ayuda interactiva para mejorar la eficiencia y accesibilidad de la programación en Python, facilitando el desarrollo de proyectos de ciencia de datos y aprendizaje automático.</p>
+<section id="funciones-principales-del-asistente-ai-en-google-colab" class="level3"><h3 class="anchored" data-anchor-id="funciones-principales-del-asistente-ai-en-google-colab">🔹 <strong>Funciones principales del Asistente AI en Google Colab</strong>
+</h3>
+<ul>
+<li>
+<strong>Autocompletado Inteligente:</strong> Sugiere código mientras el usuario escribe, ayudando a reducir errores y mejorar la productividad.<br>
+</li>
+<li>
+<strong>Corrección y Explicación de Código:</strong> Identifica errores en tiempo real y proporciona explicaciones detalladas sobre su origen y solución.<br>
+</li>
+<li>
+<strong>Generación de Código con Lenguaje Natural:</strong> Permite describir una tarea en lenguaje natural, y el asistente genera el código necesario para ejecutarla.<br>
+</li>
+<li>
+<strong>Soporte para Librerías de Ciencia de Datos:</strong> Proporciona ayuda con <code>pandas</code>, <code>numpy</code>, <code>matplotlib</code>, <code>scikit-learn</code> y otras librerías esenciales.<br>
+</li>
+<li>
+<strong>Optimización de Código:</strong> Sugiere formas más eficientes de escribir código para mejorar el rendimiento.</li>
+</ul>
+<p>🖥 <strong>Ejemplo del Asistente AI de Google Colab</strong></p>
+<div style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 1em;">
+<p><a href="images/generate-cropped.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="images/generate-cropped.gif" class="img-fluid" alt="Ejemplo del asistente AI de Google Colab" width="700"></a></p>
+</div>
+<p><br></p>
+<p>✨ <strong>Ejemplo del Autocompletado de Código</strong></p>
+<div style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 1em;">
+<p><a href="images/auto.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="images/auto.png" class="img-fluid" alt="Ejemplo del autocompletado de código" width="700"></a></p>
+</div>
+<p>Este asistente no solo mejora la productividad de los programadores experimentados, sino que también actúa como una herramienta educativa poderosa para quienes están aprendiendo Python.</p>
+<hr></section></section><section id="data-science-agent-potenciado-por-gemini" class="level2"><h2 class="anchored" data-anchor-id="data-science-agent-potenciado-por-gemini"><strong>Data Science Agent Potenciado por Gemini</strong></h2>
+<p>Google ha llevado la automatización en ciencia de datos un paso más allá con el <strong>Data Science Agent</strong>, una herramienta innovadora impulsada por <strong>Gemini</strong>, su avanzada inteligencia artificial. Este agente está diseñado para <strong>automatizar tareas repetitivas en ciencia de datos</strong> y acelerar los procesos de análisis y modelado predictivo.</p>
+<section id="qué-puede-hacer-el-data-science-agent" class="level3"><h3 class="anchored" data-anchor-id="qué-puede-hacer-el-data-science-agent">🔹 <strong>¿Qué puede hacer el Data Science Agent?</strong>
+</h3>
+<ul>
+<li>✅ <strong>Generación Automática de Notebooks:</strong> El agente puede crear notebooks completos desde cero basándose en instrucciones en lenguaje natural.<br>
+</li>
+<li>✅ <strong>Exploración y Limpieza de Datos:</strong> Detecta valores nulos, datos atípicos, normaliza variables y realiza transformaciones automáticas.<br>
+</li>
+<li>✅ <strong>Visualización Inteligente:</strong> Genera gráficos con <code>matplotlib</code> o <code>seaborn</code> de forma automática, destacando tendencias clave en los datos.<br>
+</li>
+<li>✅ <strong>Construcción de Modelos Predictivos:</strong> El agente selecciona el algoritmo adecuado para una tarea específica y genera el código para entrenar y evaluar el modelo.<br>
+</li>
+<li>✅ <strong>Optimización de Modelos:</strong> Ajusta hiperparámetros utilizando técnicas como <code>GridSearchCV</code> o <code>Optuna</code> para mejorar el rendimiento del modelo.<br>
+</li>
+<li>✅ <strong>Explicación de Resultados:</strong> Genera reportes detallados sobre los modelos entrenados, resaltando la importancia de las variables y la interpretabilidad de las predicciones.</li>
+</ul></section><section id="cómo-usar-el-data-science-agent-en-google-colab" class="level3"><h3 class="anchored" data-anchor-id="cómo-usar-el-data-science-agent-en-google-colab">🎯 <strong>¿Cómo usar el Data Science Agent en Google Colab?</strong>
+</h3>
+<ol type="1">
+<li>
+<strong>Abre un notebook en Google Colab.</strong><br>
+</li>
+<li>
+<strong>Carga tus datos</strong> desde un archivo CSV, Google Drive o una API externa.<br>
+</li>
+<li>
+<strong>Describe en lenguaje natural lo que deseas hacer.</strong> Por ejemplo:
+<ul>
+<li>
+<em>“Explora los datos y genera un resumen estadístico.”</em><br>
+</li>
+<li>
+<em>“Crea un gráfico de barras para la columna ‘ventas’ por categoría.”</em><br>
+</li>
+<li><em>“Entrena un modelo de regresión lineal y evalúa su rendimiento.”</em></li>
+</ul>
+</li>
+</ol>
+<div style="display: grid; grid-template-columns: repeat(1, 1fr); gap: 1em;">
+<p><a href="images/demo1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="images/demo1.png" class="img-fluid" alt="Ejemplo del autocompletado de código1" width="300"></a></p>
+</div>
+<ol start="4" type="1">
+<li>
+<strong>El Data Science Agent generará automáticamente el código necesario</strong> en el notebook para ejecutar la tarea.</li>
+</ol>
+<div style="display: grid; grid-template-columns: repeat(1, 1fr); gap: 1em;">
+<p><a href="images/demo2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="images/demo2.png" class="img-fluid" alt="Ejemplo del autocompletado de código1" width="700"></a></p>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>📌 <strong>Ejemplo en acción:</strong> Explora el Data Science Agent en <a href="https://colab.research.google.com/drive/1LHRXIIapoUsBF0jzJ9V005yEgHmxJcYZ?usp=sharing">Google Colab</a>.</p>
+</div>
+</div>
+<blockquote class="blockquote">
+<p>🔗 <strong>Más información:</strong><br>
+Descubre más sobre el Data Science Agent en el <a href="https://developers.googleblog.com/en/data-science-agent-in-colab-with-gemini/">Blog oficial de Google</a>.</p>
+</blockquote>
+</section></section><section id="conclusión" class="level2"><h2 class="anchored" data-anchor-id="conclusión"><strong>Conclusión</strong></h2>
+<p>Tanto el <strong>Asistente Virtual en Google Colab</strong> como el <strong>Data Science Agent</strong> representan un gran avance en la automatización de la ciencia de datos. Estas herramientas:</p>
+<p>✅ <strong>Mejoran la productividad</strong> al reducir el tiempo necesario para escribir y corregir código.<br>
+✅ <strong>Facilitan el aprendizaje</strong> al proporcionar sugerencias y explicaciones en tiempo real.<br>
+✅ <strong>Automatizan tareas repetitivas</strong>, permitiendo que los usuarios se enfoquen en la interpretación de los resultados.<br>
+✅ <strong>Reducen errores</strong> al ofrecer mejores prácticas y correcciones automáticas.<br>
+✅ <strong>Son accesibles para todos</strong>, sin necesidad de hardware especializado gracias a la computación en la nube.</p>
+<p>La integración de <strong>Gemini en Google Colab</strong> marca el comienzo de una nueva era donde la inteligencia artificial <strong>no solo complementa</strong> el trabajo humano, sino que también <strong>transforma la manera en que abordamos el análisis de datos y la programación en Python</strong>.</p>
+<p>🚀 <strong>El futuro de la ciencia de datos es más accesible e inteligente que nunca.</strong></p>
 
 
-
-
-<section id="cursos" class="level2">
-<h2 class="anchored" data-anchor-id="cursos">📖 Cursos</h2>
-<div id="listing-teaching" class="quarto-listing quarto-listing-container-grid">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-teaching-sort" class="form-select" aria-label="Ordenar por" onchange="window['quarto-listings']['listing-teaching'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Ordenar por</option>
-       <option value="index" data-direction="asc">Por defecto</option>
-         <option value="listing-title" data-direction="asc">
-          Título
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Fecha - Menos reciente
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Fecha - Más reciente
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Autor/a
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filtro">
-    </div>
-</div>
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Q3Vyc28=" data-listing-date-sort="1722729600000" data-listing-file-modified-sort="1741358469158" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="562">
-<a href="../teaching/big_data/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/teaching/bigdata.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Big Data
-</h5>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Francisco Alfaro
-</div>
-<div class="listing-date">
-4 ago 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="Q3Vyc28=" data-listing-date-sort="1722729600000" data-listing-file-modified-sort="1741358469159" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="692">
-<a href="../teaching/software/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/teaching/software.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Diseño de Software
-</h5>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Francisco Alfaro
-</div>
-<div class="listing-date">
-4 ago 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="Q3Vyc28=" data-listing-date-sort="1722643200000" data-listing-file-modified-sort="1741358469158" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="481">
-<a href="../teaching/dl/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/teaching/dl.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Deep Learning
-</h5>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Francisco Alfaro
-</div>
-<div class="listing-date">
-3 ago 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="Q3Vyc28=" data-listing-date-sort="1722643200000" data-listing-file-modified-sort="1741358469159" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="229">
-<a href="../teaching/ml/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/teaching/ml.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Machine Learning
-</h5>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Francisco Alfaro
-</div>
-<div class="listing-date">
-3 ago 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="Q3Vyc28=" data-listing-date-sort="1722556800000" data-listing-file-modified-sort="1741358469159" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="135">
-<a href="../teaching/eda/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/teaching/data.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Data Manipulation
-</h5>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Francisco Alfaro
-</div>
-<div class="listing-date">
-2 ago 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="Q3Vyc28=" data-listing-date-sort="1722470400000" data-listing-file-modified-sort="1741358469159" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="315">
-<a href="../teaching/python/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/teaching/python.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Introducción Python
-</h5>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Francisco Alfaro
-</div>
-<div class="listing-date">
-1 ago 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="Q3Vyc28=" data-listing-date-sort="1722470400000" data-listing-file-modified-sort="1741358469159" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="353">
-<a href="../teaching/r/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/teaching/rlogo.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Introducción R
-</h5>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Francisco Alfaro
-</div>
-<div class="listing-date">
-1 ago 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="Q3Vyc28=" data-listing-date-sort="1722470400000" data-listing-file-modified-sort="1741358469159" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="561">
-<a href="../teaching/tools/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/teaching/work.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Herramientas Básicas
-</h5>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Francisco Alfaro
-</div>
-<div class="listing-date">
-1 ago 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No hay resultados
-</div>
-</div>
-
-
-
-</section>
-
-</main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+</section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -867,10 +730,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
-</script>
+</script><script src="https://giscus.app/client.js" data-repo="Seth-Nut/resources" data-repo-id="R_kgDOMrUO7g" data-category="General" data-category-id="DIC_kwDOMrUO7s4CjYBv" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+</script><input type="hidden" id="giscus-base-theme" value="light"><input type="hidden" id="giscus-alt-theme" value="dark">
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
+<footer class="footer"><div class="nav-footer">
     <div class="nav-footer-left">
 <p>Website creado con <a href="https://quarto.org/">Quarto</a> por Francisco Alfaro. Licencia: <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>.</p>
 </div>   
@@ -879,7 +742,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
-    <li class="nav-item compact">
+<li class="nav-item compact">
     <a class="nav-link" href="https://github.com/Seth-Nut">
       <i class="bi bi-github" role="img">
 </i> 
@@ -898,12 +761,41 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </a>
   </li>  
 </ul>
-    </div>
+</div>
   </div>
-</footer>
+</footer><script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
-
-
-<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
