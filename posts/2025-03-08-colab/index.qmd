@@ -1,0 +1,122 @@
+---
+title: "Google Colab +  AI Agents"
+subtitle: "Explorando las capacidades de Google Colab y su nuevo asistente con inteligencia artificial"
+
+author: "Francisco Alfaro"
+date: "2025-03-08"
+categories: [python, ai, colab]
+image: "images/ai2.png"
+links:
+- icon: medium
+  icon_pack: fab
+  name: Medium
+  url: https://medium.com/@fralfaro/google-colab-ai-agents-a5d5e0b42d38
+filters:
+   - lightbox
+lightbox: auto
+---
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+------------------------------------------------------------------------
+ 
+
+Google Colab, abreviatura de *Google Colaboratory*, es un entorno gratuito de notebooks Jupyter alojado en la nube por Google. Permite a los usuarios escribir y ejecutar código Python directamente desde el navegador, sin necesidad de configuraciones locales. Además, ofrece acceso gratuito a potentes unidades de procesamiento gráfico (GPU) y unidades de procesamiento tensorial (TPU), lo que lo convierte en una herramienta ideal para el aprendizaje automático y el análisis de datos.
+
+> 🔗 **Accede a Google Colab aquí:** [Google Colab](https://colab.research.google.com/)
+
+
+
+## **Asistente Virtual en Google Colab**  
+
+Para optimizar la experiencia de los usuarios, Google ha integrado un asistente virtual basado en inteligencia artificial en Colab. Este asistente actúa como una ayuda interactiva para mejorar la eficiencia y accesibilidad de la programación en Python, facilitando el desarrollo de proyectos de ciencia de datos y aprendizaje automático.
+
+### 🔹 **Funciones principales del Asistente AI en Google Colab**  
+
+- **Autocompletado Inteligente:** Sugiere código mientras el usuario escribe, ayudando a reducir errores y mejorar la productividad.  
+- **Corrección y Explicación de Código:** Identifica errores en tiempo real y proporciona explicaciones detalladas sobre su origen y solución.  
+- **Generación de Código con Lenguaje Natural:** Permite describir una tarea en lenguaje natural, y el asistente genera el código necesario para ejecutarla.  
+- **Soporte para Librerías de Ciencia de Datos:** Proporciona ayuda con `pandas`, `numpy`, `matplotlib`, `scikit-learn` y otras librerías esenciales.  
+- **Optimización de Código:** Sugiere formas más eficientes de escribir código para mejorar el rendimiento.  
+
+🖥 **Ejemplo del Asistente AI de Google Colab**  
+
+::: {style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 1em;"}
+![](images/generate-cropped.gif){fig-alt="Ejemplo del asistente AI de Google Colab" width=700}
+:::
+
+<br>
+
+✨ **Ejemplo del Autocompletado de Código**  
+
+::: {style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 1em;"}
+![](images/auto.png){fig-alt="Ejemplo del autocompletado de código" width=700}
+:::
+
+Este asistente no solo mejora la productividad de los programadores experimentados, sino que también actúa como una herramienta educativa poderosa para quienes están aprendiendo Python.
+
+---
+
+## **Data Science Agent Potenciado por Gemini**  
+
+Google ha llevado la automatización en ciencia de datos un paso más allá con el **Data Science Agent**, una herramienta innovadora impulsada por **Gemini**, su avanzada inteligencia artificial. Este agente está diseñado para **automatizar tareas repetitivas en ciencia de datos** y acelerar los procesos de análisis y modelado predictivo.
+
+### 🔹 **¿Qué puede hacer el Data Science Agent?**  
+
+- ✅ **Generación Automática de Notebooks:** El agente puede crear notebooks completos desde cero basándose en instrucciones en lenguaje natural.  
+- ✅ **Exploración y Limpieza de Datos:** Detecta valores nulos, datos atípicos, normaliza variables y realiza transformaciones automáticas.  
+- ✅ **Visualización Inteligente:** Genera gráficos con `matplotlib` o `seaborn` de forma automática, destacando tendencias clave en los datos.  
+- ✅ **Construcción de Modelos Predictivos:** El agente selecciona el algoritmo adecuado para una tarea específica y genera el código para entrenar y evaluar el modelo.  
+- ✅ **Optimización de Modelos:** Ajusta hiperparámetros utilizando técnicas como `GridSearchCV` o `Optuna` para mejorar el rendimiento del modelo.  
+- ✅ **Explicación de Resultados:** Genera reportes detallados sobre los modelos entrenados, resaltando la importancia de las variables y la interpretabilidad de las predicciones.  
+
+
+### 🎯 **¿Cómo usar el Data Science Agent en Google Colab?**  
+
+1. **Abre un notebook en Google Colab.**  
+2. **Carga tus datos** desde un archivo CSV, Google Drive o una API externa.  
+3. **Describe en lenguaje natural lo que deseas hacer.** Por ejemplo:  
+   - *"Explora los datos y genera un resumen estadístico."*  
+   - *"Crea un gráfico de barras para la columna ‘ventas’ por categoría."*  
+   - *"Entrena un modelo de regresión lineal y evalúa su rendimiento."*  
+  
+::: {style="display: grid; grid-template-columns: repeat(1, 1fr); gap: 1em;"}
+![](images/demo1.png){fig-alt="Ejemplo del autocompletado de código1" width=300}
+:::
+
+4. **El Data Science Agent generará automáticamente el código necesario** en el notebook para ejecutar la tarea.  
+
+
+::: {style="display: grid; grid-template-columns: repeat(1, 1fr); gap: 1em;"}
+![](images/demo2.png){fig-alt="Ejemplo del autocompletado de código1" width=700}
+:::
+
+::: {.callout-note}
+📌 **Ejemplo en acción:**  Explora el Data Science Agent en [Google Colab](https://colab.research.google.com/drive/1LHRXIIapoUsBF0jzJ9V005yEgHmxJcYZ?usp=sharing).
+:::
+
+
+
+> 🔗 **Más información:**  
+Descubre más sobre el Data Science Agent en el [Blog oficial de Google](https://developers.googleblog.com/en/data-science-agent-in-colab-with-gemini/).
+
+
+## **Conclusión**  
+
+Tanto el **Asistente Virtual en Google Colab** como el **Data Science Agent** representan un gran avance en la automatización de la ciencia de datos. Estas herramientas:  
+
+✅ **Mejoran la productividad** al reducir el tiempo necesario para escribir y corregir código.  
+✅ **Facilitan el aprendizaje** al proporcionar sugerencias y explicaciones en tiempo real.  
+✅ **Automatizan tareas repetitivas**, permitiendo que los usuarios se enfoquen en la interpretación de los resultados.  
+✅ **Reducen errores** al ofrecer mejores prácticas y correcciones automáticas.  
+✅ **Son accesibles para todos**, sin necesidad de hardware especializado gracias a la computación en la nube.  
+
+La integración de **Gemini en Google Colab** marca el comienzo de una nueva era donde la inteligencia artificial **no solo complementa** el trabajo humano, sino que también **transforma la manera en que abordamos el análisis de datos y la programación en Python**.  
+
+🚀 **El futuro de la ciencia de datos es más accesible e inteligente que nunca.**
+
