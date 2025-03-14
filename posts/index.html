@@ -80,7 +80,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-categories','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 10,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
     };
 
@@ -223,7 +224,7 @@ window.Quarto = {
   <li><a href="#blog" id="toc-blog" class="nav-link active" data-scroll-target="#blog">📝 Blog</a></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categorías</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="YWk="><span class="quarto-category-count category-cloud-1">ai</span></div><div class="category" data-category="Y2Zw"><span class="quarto-category-count category-cloud-1">cfp</span></div><div class="category" data-category="Y29sYWI="><span class="quarto-category-count category-cloud-1">colab</span></div><div class="category" data-category="Y29tbXVuaXR5"><span class="quarto-category-count category-cloud-1">community</span></div><div class="category" data-category="Z2l0"><span class="quarto-category-count category-cloud-1">git</span></div><div class="category" data-category="Z2l0aHVi"><span class="quarto-category-count category-cloud-4">github</span></div><div class="category" data-category="Z29vZ2xlLWNvbGFi"><span class="quarto-category-count category-cloud-1">google-colab</span></div><div class="category" data-category="anVweXRlci1ub3RlYm9va3M="><span class="quarto-category-count category-cloud-1">jupyter-notebooks</span></div><div class="category" data-category="bWFya2Rvd24="><span class="quarto-category-count category-cloud-5">markdown</span></div><div class="category" data-category="b3BlbnNvdXJjZQ=="><span class="quarto-category-count category-cloud-1">opensource</span></div><div class="category" data-category="cHl0aG9u"><span class="quarto-category-count category-cloud-4">python</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categorías</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="YWk="><span class="quarto-category-count category-cloud-1">ai</span></div><div class="category" data-category="Y2Zw"><span class="quarto-category-count category-cloud-1">cfp</span></div><div class="category" data-category="Y29sYWI="><span class="quarto-category-count category-cloud-1">colab</span></div><div class="category" data-category="Y29tbXVuaXR5"><span class="quarto-category-count category-cloud-1">community</span></div><div class="category" data-category="Z2l0"><span class="quarto-category-count category-cloud-1">git</span></div><div class="category" data-category="Z2l0aHVi"><span class="quarto-category-count category-cloud-4">github</span></div><div class="category" data-category="Z29vZ2xlLWNvbGFi"><span class="quarto-category-count category-cloud-1">google-colab</span></div><div class="category" data-category="anVweXRlci1ub3RlYm9va3M="><span class="quarto-category-count category-cloud-1">jupyter-notebooks</span></div><div class="category" data-category="bWFya2Rvd24="><span class="quarto-category-count category-cloud-5">markdown</span></div><div class="category" data-category="bWF0aGVtYXRpY3M="><span class="quarto-category-count category-cloud-1">mathematics</span></div><div class="category" data-category="b3BlbnNvdXJjZQ=="><span class="quarto-category-count category-cloud-1">opensource</span></div><div class="category" data-category="cHl0aG9u"><span class="quarto-category-count category-cloud-5">python</span></div><div class="category" data-category="dmlzdWFsaXphdGlvbg=="><span class="quarto-category-count category-cloud-1">visualization</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
@@ -259,7 +260,46 @@ window.Quarto = {
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="cHl0aG9uJTJDYWklMkNjb2xhYg==" data-listing-date-sort="1741392000000" data-listing-file-modified-sort="1741358468955" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="832">
+<div class="quarto-post image-right" data-index="0" data-categories="cHl0aG9uJTJDbWF0aGVtYXRpY3MlMkN2aXN1YWxpemF0aW9u" data-listing-date-sort="1741910400000" data-listing-file-modified-sort="1741949077675" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1689">
+<div class="thumbnail">
+<p><a href="../posts/2025-03-14-pi/index.html" class="no-external"></a></p><a href="../posts/2025-03-14-pi/index.html" class="no-external">
+<p><img loading="lazy" src="../posts/2025-03-14-pi/images/manim2.png" class="thumbnail-image"></p>
+</a><p><a href="../posts/2025-03-14-pi/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2025-03-14-pi/index.html" class="no-external">Día de las Matemáticas + Manim</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2025-03-14-pi/index.html" class="no-external">Explorando la conexión entre las matemáticas y la visualización con Manim en Python</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('cHl0aG9u'); return false;">
+python
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('bWF0aGVtYXRpY3M='); return false;">
+mathematics
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('dmlzdWFsaXphdGlvbg=='); return false;">
+visualization
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2025-03-14-pi/index.html" class="no-external">
+<div class="listing-date">
+14 mar 2025
+</div>
+<div class="listing-author">
+Francisco Alfaro
+</div>
+<div class="listing-reading-time">
+9 minutos
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="cHl0aG9uJTJDYWklMkNjb2xhYg==" data-listing-date-sort="1741392000000" data-listing-file-modified-sort="1741949077670" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="832">
 <div class="thumbnail">
 <p><a href="../posts/2025-03-08-colab/index.html" class="no-external"></a></p><a href="../posts/2025-03-08-colab/index.html" class="no-external">
 <p><img loading="lazy" src="../posts/2025-03-08-colab/images/ai2.png" class="thumbnail-image"></p>
@@ -298,7 +338,7 @@ Francisco Alfaro
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="Y2ZwJTJDY29tbXVuaXR5JTJDb3BlbnNvdXJjZQ==" data-listing-date-sort="1739059200000" data-listing-file-modified-sort="1741358468949" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-word-count-sort="2992">
+<div class="quarto-post image-right" data-index="2" data-categories="Y2ZwJTJDY29tbXVuaXR5JTJDb3BlbnNvdXJjZQ==" data-listing-date-sort="1739059200000" data-listing-file-modified-sort="1741949077664" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-word-count-sort="2992">
 <div class="thumbnail">
 <p><a href="../posts/2025-02-09-cfp/index.html" class="no-external"></a></p><a href="../posts/2025-02-09-cfp/index.html" class="no-external">
 <p><img loading="lazy" src="../posts/2025-02-09-cfp/images/cfp.png" class="thumbnail-image"></p>
@@ -337,7 +377,7 @@ Francisco Alfaro
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="Z2l0JTJDZ2l0aHViJTJDcHl0aG9uJTJDZ29vZ2xlLWNvbGFi" data-listing-date-sort="1736640000000" data-listing-file-modified-sort="1741358468949" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="17" data-listing-word-count-sort="3226">
+<div class="quarto-post image-right" data-index="3" data-categories="Z2l0JTJDZ2l0aHViJTJDcHl0aG9uJTJDZ29vZ2xlLWNvbGFi" data-listing-date-sort="1736640000000" data-listing-file-modified-sort="1741949077664" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="17" data-listing-word-count-sort="3226">
 <div class="thumbnail">
 <p><a href="../posts/2025-01-12-github/index.html" class="no-external"></a></p><a href="../posts/2025-01-12-github/index.html" class="no-external">
 <p><img loading="lazy" src="../posts/2025-01-12-github/images/logo.png" class="thumbnail-image"></p>
@@ -379,7 +419,7 @@ Valeska Canales
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="anVweXRlci1ub3RlYm9va3M=" data-listing-date-sort="1720483200000" data-listing-file-modified-sort="1741358468940" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1024">
+<div class="quarto-post image-right" data-index="4" data-categories="anVweXRlci1ub3RlYm9va3M=" data-listing-date-sort="1720483200000" data-listing-file-modified-sort="1741949077655" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1024">
 <div class="thumbnail">
 <p><a href="../posts/2024-08-07-google_colab/index.html" class="no-external"></a></p><a href="../posts/2024-08-07-google_colab/index.html" class="no-external">
 <p><img loading="lazy" src="../posts/2024-08-07-google_colab/images/colab.png" class="thumbnail-image"></p>
@@ -412,7 +452,7 @@ Valeska Canales
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="cHl0aG9uJTJDbWFya2Rvd24=" data-listing-date-sort="1720396800000" data-listing-file-modified-sort="1741358468942" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1083">
+<div class="quarto-post image-right" data-index="5" data-categories="cHl0aG9uJTJDbWFya2Rvd24=" data-listing-date-sort="1720396800000" data-listing-file-modified-sort="1741949077657" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1083">
 <div class="thumbnail">
 <p><a href="../posts/2024-08-07-jb/index.html" class="no-external"></a></p><a href="../posts/2024-08-07-jb/index.html" class="no-external">
 <p><img loading="lazy" src="../posts/2024-08-07-jb/images/jupyter.png" class="thumbnail-image"></p>
@@ -448,7 +488,7 @@ Francisco Alfaro
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="cHl0aG9u" data-listing-date-sort="1720396800000" data-listing-file-modified-sort="1741358468944" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1690">
+<div class="quarto-post image-right" data-index="6" data-categories="cHl0aG9u" data-listing-date-sort="1720396800000" data-listing-file-modified-sort="1741949077659" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1690">
 <div class="thumbnail">
 <p><a href="../posts/2024-08-07-python/index.html" class="no-external"></a></p><a href="../posts/2024-08-07-python/index.html" class="no-external">
 <p><img loading="lazy" src="../posts/2024-08-07-python/images/python.png" class="thumbnail-image"></p>
@@ -481,7 +521,7 @@ Francisco Alfaro
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="Z2l0aHViJTJDbWFya2Rvd24=" data-listing-date-sort="1719964800000" data-listing-file-modified-sort="1741358468938" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1614">
+<div class="quarto-post image-right" data-index="7" data-categories="Z2l0aHViJTJDbWFya2Rvd24=" data-listing-date-sort="1719964800000" data-listing-file-modified-sort="1741949077653" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1614">
 <div class="thumbnail">
 <p><a href="../posts/2024-08-01-gh_readme/index.html" class="no-external"></a></p><a href="../posts/2024-08-01-gh_readme/index.html" class="no-external">
 <p><img loading="lazy" src="../posts/2024-08-01-gh_readme/images/repos3.png" class="thumbnail-image"></p>
@@ -517,7 +557,7 @@ Francisco Alfaro
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="Z2l0aHViJTJDbWFya2Rvd24=" data-listing-date-sort="1719878400000" data-listing-file-modified-sort="1741358468934" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="805">
+<div class="quarto-post image-right" data-index="8" data-categories="Z2l0aHViJTJDbWFya2Rvd24=" data-listing-date-sort="1719878400000" data-listing-file-modified-sort="1741949077649" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="805">
 <div class="thumbnail">
 <p><a href="../posts/2024-08-01-gh_profile/index.html" class="no-external"></a></p><a href="../posts/2024-08-01-gh_profile/index.html" class="no-external">
 <p><img loading="lazy" src="../posts/2024-08-01-gh_profile/images/octo.png" class="thumbnail-image"></p>
@@ -553,7 +593,7 @@ Francisco Alfaro
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="Z2l0aHViJTJDbWFya2Rvd24=" data-listing-date-sort="1719792000000" data-listing-file-modified-sort="1741358468927" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="449">
+<div class="quarto-post image-right" data-index="9" data-categories="Z2l0aHViJTJDbWFya2Rvd24=" data-listing-date-sort="1719792000000" data-listing-file-modified-sort="1741949077642" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="449">
 <div class="thumbnail">
 <p><a href="../posts/2024-08-01-gh_account/index.html" class="no-external"></a></p><a href="../posts/2024-08-01-gh_account/index.html" class="no-external">
 <p><img loading="lazy" src="../posts/2024-08-01-gh_account/images/gh.png" class="thumbnail-image"></p>
@@ -589,10 +629,10 @@ Valeska Canales
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="bWFya2Rvd24=" data-listing-date-sort="1719792000000" data-listing-file-modified-sort="1741358468942" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="305">
+<div class="quarto-post image-right" data-index="10" data-categories="bWFya2Rvd24=" data-listing-date-sort="1719792000000" data-listing-file-modified-sort="1741949077657" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="305">
 <div class="thumbnail">
 <p><a href="../posts/2024-08-07-markdown/index.html" class="no-external"></a></p><a href="../posts/2024-08-07-markdown/index.html" class="no-external">
-<p><img loading="lazy" src="../posts/2024-08-07-markdown/images/markdown.png" class="thumbnail-image"></p>
+<p><img loading="lazy" data-src="../posts/2024-08-07-markdown/images/markdown.png" class="thumbnail-image"></p>
 </a><p><a href="../posts/2024-08-07-markdown/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -626,6 +666,9 @@ Valeska Canales
 <div class="listing-no-matching d-none">
 No hay resultados
 </div>
+<nav id="posts-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
 
 
