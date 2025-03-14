@@ -10,7 +10,7 @@ links:
 - icon: medium
   icon_pack: fab
   name: Medium
-  url: https://medium.com/@fralfaro/google-colab-ai-agents-a5d5e0b42d38
+  url: https://medium.com/@fralfaro/d%C3%ADa-de-las-matem%C3%A1ticas-manim-efd60a93f84f
 filters:
    - lightbox
 lightbox: auto
