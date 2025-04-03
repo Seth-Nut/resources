@@ -117,3 +117,4 @@ En el marco del **Verano Matemático USM-UCHILE 2025**, se llevaron a cabo dos t
 Estos talleres ofrecieron experiencias prácticas e interactivas, motivando a los estudiantes a explorar las matemáticas y la programación de forma creativa y colaborativa.
 
 🌐 Puedes ver más sobre este evento en el siguiente enlace: [Verano Matemático USM-UCHILE](https://seth-nut.github.io/ws-usm_uchile-2025/).
+

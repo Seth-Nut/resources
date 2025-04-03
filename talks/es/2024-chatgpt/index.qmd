@@ -6,7 +6,7 @@ author:
   - "Valeska Canales"
 categories: [AI, chatgpt, duoc-uc, educación]
 date: "2024-09-13"
-image: "images/chatgpt.png"
+image: "images/ciit.jpg"
 links:
 - icon: globe
   icon_pack: fas
@@ -75,3 +75,4 @@ La charla concluye destacando la importancia de los prompts y el uso responsable
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/yBuN6ODxQZYuui?hostedIn=slideshare&amp;page=upload" width="700" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
 
 </iframe>
+

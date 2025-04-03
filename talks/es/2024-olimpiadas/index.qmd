@@ -6,7 +6,7 @@ author:
   - "Valeska Canales"
 categories: [python, matemáticas, educación]
 date: "2024-10-11"
-image: "images/dmat.png"
+image: "images/olimpiadas.png"
 links:
 - icon: globe
   icon_pack: fas
@@ -16,6 +16,10 @@ links:
   icon_pack: fab
   name: LinkedIn
   url: https://www.linkedin.com/posts/faam_educaciaejn-programaciaejn-matemaerticas-activity-7250576828581441536-avBq?utm_source=share&utm_medium=member_desktop
+- icon: newspaper
+  icon_pack: fas
+  name: Noticias
+  url: https://matematica.usm.cl/primera-edicion-de-las-olimpiadas-escolares-de-matematica-usm-en-el-campus-san-joaquin/
 filters:
    - lightbox
 lightbox: auto
@@ -78,3 +82,4 @@ En el marco de las **Olimpiadas de Matemáticas Federico Santa María 2024**, se
 Estos talleres ofrecieron ejemplos prácticos de programación en Python y su aplicación en conceptos matemáticos, motivando a los participantes a aprender de manera activa.
 
 🌐 Puedes verlo en el siguiente enlace: [DMAT-SJ-Olimpiadas](https://fralfaro.github.io/DMAT-SJ-Olimpiadas/).
+

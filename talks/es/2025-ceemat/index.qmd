@@ -6,7 +6,7 @@ author:
   - "Valeska Canales"
 categories: [python, matemáticas, educación]
 date: "2025-04-03"
-image: "images/dmat.png"
+image: "images/ceemat.jpg"
 links:
 - icon: globe
   icon_pack: fas
