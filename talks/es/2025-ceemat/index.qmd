@@ -1,0 +1,108 @@
+---
+title: Mini Curso A.I. + DataStorytelling
+subtitle: UTFSM - CEEMAT
+author: 
+  - "Francisco Alfaro"
+  - "Valeska Canales"
+categories: [python, matemáticas, educación]
+date: "2025-04-03"
+image: "images/dmat.png"
+links:
+- icon: globe
+  icon_pack: fas
+  name: Material
+  url: https://sethnut.com/ceemat_2025/
+- icon: linkedin
+  icon_pack: fab
+  name: LinkedIn
+  url: 
+- icon: instagram
+  icon_pack: fab
+  name: Evento
+  url: https://www.instagram.com/p/DHJqDvYJ1wc/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+
+filters:
+   - lightbox
+lightbox: auto
+---
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+------------------------------------------------------------------------
+
+## 🎉 Finaliza con Éxito el Curso “A.I. + DataStorytelling”
+
+Con mucha alegría y orgullo, destacamos la realización del curso **A.I. + DataStorytelling**, una innovadora propuesta educativa impulsada por el equipo de **Francisco Alfaro** y **Valeska Canales** en colaboración con el **Centro de Estudiantes de Matemática (CEEMAT)** y el **Departamento de Matemática de la USM** (sede San Joaquín).
+
+### 🧠 Inteligencia Artificial para Comunicar con Impacto
+
+Este mini curso, realizado durante el primer semestre de 2025, tuvo como objetivo entregar herramientas prácticas para potenciar la comunicación académica y profesional mediante inteligencia artificial y técnicas de *data storytelling*. Se desarrolló en **4 sesiones** intensivas, donde se combinó teoría, práctica y reflexión ética.
+
+### 🛠️ Contenidos del Curso
+
+- **🎤 Toolkit Google**: Uso práctico de Docs, Sheets, Slides, Colab y Drive para organizar ideas, colaborar y automatizar tareas.
+
+- **🎤 Prompts con ChatGPT**: Diseño de instrucciones efectivas para resolver problemas y reflexionar sobre el uso ético de la IA.
+
+- **🎤 Comunicación Académica**: Estrategias para leer, escribir y exponer mejor, con apoyo de herramientas inteligentes.
+
+- **🎤 Data Storytelling**: Creación de visualizaciones interactivas con Python y Streamlit para contar historias con datos.
+
+
+### 📋 Consideraciones Éticas
+
+Durante todo el curso, se promovió una mirada crítica hacia el uso de la inteligencia artificial, discutiendo límites, riesgos y oportunidades, así como la necesidad de transparencia, consentimiento y responsabilidad en su aplicación.
+
+### 🏆 Certificación
+
+Al finalizar, los estudiantes recibieron un diploma personalizado que certifica su participación activa en el curso. La asistencia y la participación en encuestas y actividades fueron esenciales para su obtención.
+
+### 📸 Fotos del Curso
+
+::: {style="display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: 1em;"}
+![](images/img_01.JPG){group="my-gallery"}
+
+![](images/img_02.JPG){group="my-gallery"}
+
+![](images/img_05.JPG){group="my-gallery"}
+
+![](images/img_04.JPG){group="my-gallery"}
+
+
+![](images/img_13.JPG){group="my-gallery"}
+
+![](images/img_08.JPG){group="my-gallery"}
+
+
+
+![](images/img_06.JPG){group="my-gallery"}
+
+![](images/img_09.JPG){group="my-gallery"}
+
+![](images/img_07.JPG){group="my-gallery"}
+
+![](images/img_14.JPG){group="my-gallery"}
+
+
+![](images/img_10.JPG){group="my-gallery"}
+
+![](images/img_03.JPG){group="my-gallery"}
+
+
+
+:::
+
+### 🙌 Agradecimientos
+
+Agradecemos profundamente a todos los y las estudiantes que participaron, demostrando entusiasmo, curiosidad y compromiso con su proceso de aprendizaje.
+
+También extendemos nuestro agradecimiento al **Centro de Estudiantes ICMAT USM San Joaquín** por su constante apoyo y al **Departamento de Matemáticas** por abrir espacios para la innovación educativa.
+
+¡Nos vemos en un próximo curso! 🚀✨
+
+> 🌐 Puedes revisar el material en el siguiente enlace: [sethnut.com/ceemat_2025](https://sethnut.com/ceemat_2025)
