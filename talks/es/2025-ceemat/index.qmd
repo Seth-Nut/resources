@@ -15,7 +15,7 @@ links:
 - icon: linkedin
   icon_pack: fab
   name: LinkedIn
-  url: 
+  url: https://www.linkedin.com/posts/vcanalesp_educaciaejn-inteligenciaartificial-datastorytelling-activity-7313525389073534976-FOn9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB88NvEBo6pPnMpOTua9-J4QgSkU2szQXrU
 - icon: instagram
   icon_pack: fab
   name: Evento
