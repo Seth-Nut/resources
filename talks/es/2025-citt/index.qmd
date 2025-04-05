@@ -1,0 +1,80 @@
+---
+title: ¡Haz tu propio ChatGPT! - Lanzamiento CITT 2025
+subtitle: DUOC UC
+author: 
+  - "Francisco Alfaro"
+  - "Valeska Canales"
+categories: [AI, chatgpt, duoc-uc, educación]
+date: "2025-04-02"
+image: "images/ciit.jpg"
+links:
+- icon: globe
+  icon_pack: fas
+  name: Material
+  url: https://github.com/sebastiandres/2025_04_02_citt_inauguracion
+- icon: instagram
+  icon_pack: fab
+  name: Instagram
+  url: https://www.instagram.com/duocuc_valparaiso/p/DH_NOMPOjXV/?img_index=1
+
+filters:
+   - lightbox
+lightbox: auto
+---
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+------------------------------------------------------------------------
+
+
+
+## 🎉 Éxito en la Charla **"¡Haz tu propio ChatGPT! Taller de Python + IA para todos"**
+
+Estamos emocionados de felicitar al equipo por su excelente taller, **"¡Haz tu propio ChatGPT! Taller de Python + IA para todos"**, presentado en la inauguración del **CITT 2025** como parte de la **Ruta IE** y el lanzamiento de **Más Mujeres en las TICs**. La actividad introdujo de forma clara y divertida los fundamentos de la inteligencia artificial generativa y su aplicación educativa.
+
+### 🌟 Contenido Destacado
+
+El equipo abordó temas clave como:
+
+- **Computador parlanchín**: funcionamiento de los LLM (tokens, embeddings, tipos de modelos, acceso gratuito vs. de pago).
+- **Actividades prácticas en Streamlit**: creación de un chatbot propio usando Python e IA.
+
+### 👏 ¡Felicitaciones!
+
+Queremos expresar nuestro agradecimiento y reconocimiento al equipo por su trabajo excepcional. El taller inspiró a los asistentes a comprender y aplicar la inteligencia artificial de manera accesible y creativa.
+
+### 📅 Próximos Eventos
+
+Gracias a todos los que hicieron posible este evento. ¡Mantente atento a futuras actividades del CITT!
+
+### 📷 Fotos del Evento
+
+::: {style="display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: 1em;"}
+![](images/img_01.jpeg){group="my-gallery"}
+
+![](images/img_02.jpeg){group="my-gallery"}
+
+![](images/img_03.jpeg){group="my-gallery"}
+
+![](images/img_04.jpeg){group="my-gallery"}
+
+![](images/img_05.jpeg){group="my-gallery"}
+
+![](images/img_06.jpeg){group="my-gallery"}
+
+![](images/img_10.jpeg){group="my-gallery"}
+
+![](images/img_08.jpeg){group="my-gallery"}
+:::
+
+### 📋 Sobre el Taller
+
+**¡Haz tu propio ChatGPT! Taller de Python + IA para todos** es una iniciativa educativa pensada para **democratizar el acceso a la inteligencia artificial**, acercando conceptos complejos de forma práctica y entretenida. A través de actividades con **Streamlit y Python**, los participantes aprenden cómo funcionan los modelos de lenguaje (LLM), cómo construir sus propios asistentes virtuales, y reflexionan sobre el uso ético de la IA.
+
+🌐 Puedes verlo en el siguiente enlace: [Presentación](https://sebastiandres.github.io/2025_04_02_citt_inauguracion/taller/taller.html#/section).
+
