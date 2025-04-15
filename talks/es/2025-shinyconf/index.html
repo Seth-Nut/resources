@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.6.43">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-
-<title>index – Seth&amp;Nut</title>
+<meta name="author" content="Francisco Alfaro">
+<meta name="author" content="Valeska Canales">
+<title>From Data to Narrative - Storytelling with Shiny – Seth&amp;Nut</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,27 +21,26 @@ ul.task-list li input[type="checkbox"] {
 }
 </style>
 
-
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../images/logo_sn.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-a77667d19c6a708a6740552ea07ece93.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../images/logo_sn.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-a77667d19c6a708a6740552ea07ece93.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -68,81 +66,16 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Enviar",
     "search-label": "Buscar"
   }
-}</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-teaching .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-author','listing-date','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-teaching'] = new List('listing-teaching', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-<style>html{ scroll-behavior: smooth; }</style>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
+}</script><style>html{ scroll-behavior: smooth; }</style>
 </head>
-
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
+  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../images/logo-kawai.png" alt="" class="navbar-logo">
-    </a>
-    <a class="navbar-brand" href="../index.html">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../images/logo-kawai.png" alt="" class="navbar-logo"></a>
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Seth&amp;Nut</span>
     </a>
   </div>
@@ -152,44 +85,44 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../posts/index.html"> 
+<li class="nav-item">
+    <a class="nav-link" href="../../../posts/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../teaching/index.html" aria-current="page"> 
+    <a class="nav-link" href="../../../teaching/index.html"> 
 <span class="menu-text">Cursos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../talks/index.html"> 
+    <a class="nav-link" href="../../../talks/index.html"> 
 <span class="menu-text">Eventos</span></a>
   </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-nosotros" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Nosotros</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-nosotros">    
-        <li>
-    <a class="dropdown-item" href="../fran.html">
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-nosotros">
+<li>
+    <a class="dropdown-item" href="../../../fran.html">
  <span class="dropdown-text">Francisco Alfaro</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../vale.html">
+    <a class="dropdown-item" href="../../../vale.html">
  <span class="dropdown-text">Valeska Canales</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../dorian.html">
+    <a class="dropdown-item" href="../../../dorian.html">
  <span class="dropdown-text">Dorian Villegas</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../seth-nuth.html">
+    <a class="dropdown-item" href="../../../seth-nuth.html">
  <span class="dropdown-text">Seth &amp; Nut</span></a>
   </li>  
     </ul>
-  </li>
+</li>
 </ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
+<ul class="navbar-nav navbar-nav-scroll ms-auto">
+<li class="nav-item compact">
     <a class="nav-link" href="https://github.com/Seth-Nut"> <i class="bi bi-github" role="img">
 </i> 
 <span class="menu-text"></span></a>
@@ -205,248 +138,92 @@ window.Quarto = {
 <span class="menu-text"></span></a>
   </li>  
 </ul>
-          </div> <!-- /navcollapse -->
+</div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
-    </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+    </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">En esta página</h2>
+        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#cursos" id="toc-cursos" class="nav-link active" data-scroll-target="#cursos">📖 Cursos</a></li>
+<li>
+<a href="#participaci%C3%B3n-en-la-charla-from-data-to-narrative-interactive-storytelling-with-shiny" id="toc-participación-en-la-charla-from-data-to-narrative-interactive-storytelling-with-shiny" class="nav-link active" data-scroll-target="#participaci%C3%B3n-en-la-charla-from-data-to-narrative-interactive-storytelling-with-shiny">🎉 Participación en la Charla <strong>“From Data to Narrative: Interactive Storytelling with Shiny”</strong></a>
+  <ul class="collapse">
+<li><a href="#contenido-destacado" id="toc-contenido-destacado" class="nav-link" data-scroll-target="#contenido-destacado">🌟 Contenido Destacado</a></li>
+  <li><a href="#felicitaciones" id="toc-felicitaciones" class="nav-link" data-scroll-target="#felicitaciones">👏 ¡Felicitaciones!</a></li>
+  <li><a href="#fotos-del-evento" id="toc-fotos-del-evento" class="nav-link" data-scroll-target="#fotos-del-evento">📷 Fotos del Evento</a></li>
+  <li><a href="#sobre-la-charla" id="toc-sobre-la-charla" class="nav-link" data-scroll-target="#sobre-la-charla">📋 Sobre la Charla</a></li>
   </ul>
-</nav>
+</li>
+  </ul></nav>
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
-
-
-
-
-<section id="cursos" class="level2">
-<h2 class="anchored" data-anchor-id="cursos">📖 Cursos</h2>
-<div id="listing-teaching" class="quarto-listing quarto-listing-container-grid">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-teaching-sort" class="form-select" aria-label="Ordenar por" onchange="window['quarto-listings']['listing-teaching'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Ordenar por</option>
-       <option value="index" data-direction="asc">Por defecto</option>
-         <option value="listing-title" data-direction="asc">
-          Título
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Fecha - Menos reciente
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Fecha - Más reciente
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Autor/a
-        </option>
-     </select>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
+<h1 class="title">From Data to Narrative - Storytelling with Shiny</h1>
+<p class="subtitle lead">Shinyconf 2025</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Shiny</div>
+    <div class="quarto-category">Data Science</div>
+    <div class="quarto-category">Education</div>
   </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filtro">
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Autores/as</div>
+    <div class="quarto-title-meta-contents">
+             <p>Francisco Alfaro </p>
+             <p>Valeska Canales </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Fecha de publicación</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">11 de abril de 2025</p>
     </div>
-</div>
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Q3Vyc28=" data-listing-date-sort="1722729600000" data-listing-file-modified-sort="1744729049248" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="562">
-<a href="../teaching/big_data/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/teaching/bigdata.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Big Data
-</h5>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Francisco Alfaro
-</div>
-<div class="listing-date">
-4 ago 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="Q3Vyc28=" data-listing-date-sort="1722729600000" data-listing-file-modified-sort="1744729049248" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="692">
-<a href="../teaching/software/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/teaching/software.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Diseño de Software
-</h5>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Francisco Alfaro
-</div>
-<div class="listing-date">
-4 ago 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="Q3Vyc28=" data-listing-date-sort="1722643200000" data-listing-file-modified-sort="1744729049248" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="481">
-<a href="../teaching/dl/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/teaching/dl.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Deep Learning
-</h5>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Francisco Alfaro
-</div>
-<div class="listing-date">
-3 ago 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="Q3Vyc28=" data-listing-date-sort="1722643200000" data-listing-file-modified-sort="1744729049248" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="229">
-<a href="../teaching/ml/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/teaching/ml.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Machine Learning
-</h5>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Francisco Alfaro
-</div>
-<div class="listing-date">
-3 ago 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="Q3Vyc28=" data-listing-date-sort="1722556800000" data-listing-file-modified-sort="1744729049248" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="135">
-<a href="../teaching/eda/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/teaching/data.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Data Manipulation
-</h5>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Francisco Alfaro
-</div>
-<div class="listing-date">
-2 ago 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="Q3Vyc28=" data-listing-date-sort="1722470400000" data-listing-file-modified-sort="1744729049248" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="315">
-<a href="../teaching/python/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/teaching/python.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Introducción Python
-</h5>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Francisco Alfaro
-</div>
-<div class="listing-date">
-1 ago 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="Q3Vyc28=" data-listing-date-sort="1722470400000" data-listing-file-modified-sort="1744729049248" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="353">
-<a href="../teaching/r/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/teaching/rlogo.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Introducción R
-</h5>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Francisco Alfaro
-</div>
-<div class="listing-date">
-1 ago 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="Q3Vyc28=" data-listing-date-sort="1722470400000" data-listing-file-modified-sort="1744729049249" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="561">
-<a href="../teaching/tools/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/teaching/work.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Herramientas Básicas
-</h5>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Francisco Alfaro
-</div>
-<div class="listing-date">
-1 ago 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No hay resultados
-</div>
-</div>
+  </div>
+  
+    
+  </div>
+  
 
 
+</header><script src="https://kit.fontawesome.com/1bb720cc6f.js" crossorigin="anonymous"></script><a href="https://sethnut.com/talks/shiny_2025/presentacion.html#/title-slide" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-globe"></i> Material</button></a> <a href="https://www.linkedin.com/posts/faam_shinyconf2025-shiny-datastorytelling-activity-7317919062485839872-RIZs?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAABW-gAgB7do22NXOYm3_l0xBh_2h985EFvc" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-brands fa-linkedin"></i> LinkedIn</button></a> <br><br><img src="images/shinyv2.png" class="img-fluid quarto-figure-center" style="max-width:50%"><br><hr>
+<section id="participación-en-la-charla-from-data-to-narrative-interactive-storytelling-with-shiny" class="level2"><h2 class="anchored" data-anchor-id="participación-en-la-charla-from-data-to-narrative-interactive-storytelling-with-shiny">🎉 Participación en la Charla <strong>“From Data to Narrative: Interactive Storytelling with Shiny”</strong>
+</h2>
+<p>Nos alegra compartir que fuimos parte de la <strong>#ShinyConf2025</strong>, uno de los encuentros más relevantes de la comunidad R y Shiny a nivel mundial. En esta ocasión, Francisco Alfaro presentó la charla <strong>“From Data to Narrative: Interactive Storytelling with Shiny”</strong>, una mirada práctica sobre cómo transformar datos en experiencias interactivas.</p>
+<section id="contenido-destacado" class="level3"><h3 class="anchored" data-anchor-id="contenido-destacado">🌟 Contenido Destacado</h3>
+<p>Durante la charla, se abordaron temas clave como:</p>
+<ul>
+<li>
+<strong>Narrativas visuales</strong>: contar historias con datos en R y Shiny.<br>
+</li>
+<li>
+<strong>Buenas prácticas</strong>: desarrollo claro y modular.<br>
+</li>
+<li>
+<strong>WebR y Shinylive</strong>: apps interactivas directo en el navegador.</li>
+</ul></section><section id="felicitaciones" class="level3"><h3 class="anchored" data-anchor-id="felicitaciones">👏 ¡Felicitaciones!</h3>
+<p>Queremos felicitar a Francisco por representar a la comunidad hispanohablante y aportar con una charla que combinó claridad, creatividad y experiencia técnica. ¡Gracias por inspirar con tu trabajo!</p>
+</section><section id="fotos-del-evento" class="level3"><h3 class="anchored" data-anchor-id="fotos-del-evento">📷 Fotos del Evento</h3>
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;">
+<p><a href="images/img_03.png" class="lightbox" data-gallery="gallery"><img src="images/img_03.png" class="img-fluid"></a></p>
+<p><a href="images/img_01.png" class="lightbox" data-gallery="gallery"><img src="images/img_01.png" class="img-fluid"></a></p>
+<p><a href="images/img_02.png" class="lightbox" data-gallery="gallery"><img src="images/img_02.png" class="img-fluid"></a></p>
+</div>
+</section><section id="sobre-la-charla" class="level3"><h3 class="anchored" data-anchor-id="sobre-la-charla">📋 Sobre la Charla</h3>
+<p><strong>“From Data to Narrative: Interactive Storytelling with Shiny”</strong> es una invitación a repensar cómo comunicamos con datos. A través de ejemplos interactivos y herramientas modernas, se muestra cómo las aplicaciones en Shiny pueden ser una poderosa vía para la <strong>comunicación efectiva de datos</strong>, más allá del análisis tradicional.</p>
+<p>🌐 Puedes verlo en el siguiente enlace: <a href="https://sethnut.com/talks/shiny_2025/presentacion.html#/title-slide">Presentación</a>.</p>
 
-</section>
 
-</main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+</section></section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -867,10 +644,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
-</script>
+</script><script src="https://giscus.app/client.js" data-repo="Seth-Nut/resources" data-repo-id="R_kgDOMrUO7g" data-category="General" data-category-id="DIC_kwDOMrUO7s4CjYBv" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+</script><input type="hidden" id="giscus-base-theme" value="light"><input type="hidden" id="giscus-alt-theme" value="dark">
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
+<footer class="footer"><div class="nav-footer">
     <div class="nav-footer-left">
 <p>Website creado con <a href="https://quarto.org/">Quarto</a> por Francisco Alfaro. Licencia: <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>.</p>
 </div>   
@@ -879,7 +656,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
-    <li class="nav-item compact">
+<li class="nav-item compact">
     <a class="nav-link" href="https://github.com/Seth-Nut">
       <i class="bi bi-github" role="img">
 </i> 
@@ -898,12 +675,41 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </a>
   </li>  
 </ul>
-    </div>
+</div>
   </div>
-</footer>
+</footer><script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
-
-
-<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
