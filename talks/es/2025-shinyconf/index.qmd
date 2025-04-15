@@ -1,0 +1,70 @@
+---
+title:  From Data to Narrative -  Storytelling with Shiny
+subtitle: Shinyconf 2025
+author: 
+  - "Francisco Alfaro"
+  - "Valeska Canales"
+categories: [Shiny, Data Science, Education]
+date: "2025-04-11"
+image: "images/shinyv2.png"
+links:
+- icon: globe
+  icon_pack: fas
+  name: Material
+  url: https://sethnut.com/talks/shiny_2025/presentacion.html#/title-slide
+- icon: linkedin
+  icon_pack: fab
+  name: LinkedIn
+  url: https://www.linkedin.com/posts/faam_shinyconf2025-shiny-datastorytelling-activity-7317919062485839872-RIZs?utm_source=share&utm_medium=member_desktop&rcm=ACoAABW-gAgB7do22NXOYm3_l0xBh_2h985EFvc
+
+filters:
+   - lightbox
+lightbox: auto
+---
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+------------------------------------------------------------------------
+
+## 🎉 Participación en la Charla **"From Data to Narrative: Interactive Storytelling with Shiny"**
+
+Nos alegra compartir que fuimos parte de la **#ShinyConf2025**, uno de los encuentros más relevantes de la comunidad R y Shiny a nivel mundial. En esta ocasión, Francisco Alfaro presentó la charla **"From Data to Narrative: Interactive Storytelling with Shiny"**, una mirada práctica sobre cómo transformar datos en experiencias interactivas.
+
+### 🌟 Contenido Destacado
+
+Durante la charla, se abordaron temas clave como:
+
+- **Narrativas visuales**: contar historias con datos en R y Shiny.  
+- **Buenas prácticas**: desarrollo claro y modular.  
+- **WebR y Shinylive**: apps interactivas directo en el navegador.  
+
+### 👏 ¡Felicitaciones!
+
+Queremos felicitar a Francisco por representar a la comunidad hispanohablante y aportar con una charla que combinó claridad, creatividad y experiencia técnica. ¡Gracias por inspirar con tu trabajo!
+
+
+### 📷 Fotos del Evento
+
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
+
+
+![](images/img_03.png){group="gallery"}
+
+![](images/img_01.png){group="gallery"}
+
+![](images/img_02.png){group="gallery"}
+
+
+:::
+
+### 📋 Sobre la Charla
+
+**"From Data to Narrative: Interactive Storytelling with Shiny"** es una invitación a repensar cómo comunicamos con datos. A través de ejemplos interactivos y herramientas modernas, se muestra cómo las aplicaciones en Shiny pueden ser una poderosa vía para la **comunicación efectiva de datos**, más allá del análisis tradicional.
+
+
+🌐 Puedes verlo en el siguiente enlace: [Presentación](https://sethnut.com/talks/shiny_2025/presentacion.html#/title-slide).
