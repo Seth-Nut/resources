@@ -31,8 +31,6 @@ read_yaml_talks_pt()
 
 ------------------------------------------------------------------------
 
-
-
 ## 🎉 Éxito en la Charla **"¡Haz tu propio ChatGPT! Taller de Python + IA para todos"**
 
 Estamos emocionados de felicitar al equipo por su excelente taller, **"¡Haz tu propio ChatGPT! Taller de Python + IA para todos"**, presentado en la inauguración del **CITT 2025** como parte de la **Ruta IE** y el lanzamiento de **Más Mujeres en las TICs**. La actividad introdujo de forma clara y divertida los fundamentos de la inteligencia artificial generativa y su aplicación educativa.
@@ -41,8 +39,8 @@ Estamos emocionados de felicitar al equipo por su excelente taller, **"¡Haz tu 
 
 El equipo abordó temas clave como:
 
-- **Computador parlanchín**: funcionamiento de los LLM (tokens, embeddings, tipos de modelos, acceso gratuito vs. de pago).
-- **Actividades prácticas en Streamlit**: creación de un chatbot propio usando Python e IA.
+-   **Computador parlanchín**: funcionamiento de los LLM (tokens, embeddings, tipos de modelos, acceso gratuito vs. de pago).
+-   **Actividades prácticas en Streamlit**: creación de un chatbot propio usando Python e IA.
 
 ### 👏 ¡Felicitaciones!
 
@@ -77,4 +75,3 @@ Gracias a todos los que hicieron posible este evento. ¡Mantente atento a futura
 **¡Haz tu propio ChatGPT! Taller de Python + IA para todos** es una iniciativa educativa pensada para **democratizar el acceso a la inteligencia artificial**, acercando conceptos complejos de forma práctica y entretenida. A través de actividades con **Streamlit y Python**, los participantes aprenden cómo funcionan los modelos de lenguaje (LLM), cómo construir sus propios asistentes virtuales, y reflexionan sobre el uso ético de la IA.
 
 🌐 Puedes verlo en el siguiente enlace: [Presentación](https://sebastiandres.github.io/2025_04_02_citt_inauguracion/taller/taller.html#/section).
-

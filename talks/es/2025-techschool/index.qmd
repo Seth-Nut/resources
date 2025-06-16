@@ -1,0 +1,91 @@
+---
+title: No es Magia, es Ciencia - TechSchool 2025
+subtitle: TechSchool
+author: 
+  - "Francisco Alfaro"
+  - "Valeska Canales"
+categories: [AI, chatgpt, duoc-uc, educación]
+date: "2025-05-31"
+image: "images/techschool2.png"
+links:
+- icon: globe
+  icon_pack: fas
+  name: Material
+  url: https://sethnut.com/talks/prompts_chatgpt/presentacion.html#/title-slide
+- icon: linkedin
+  icon_pack: fab
+  name: LinkedIn
+  url: https://www.linkedin.com/posts/faam_techschoollatam-educaciaejntecnolaejgica-activity-7335657195839156225--pvA?utm_source=share&utm_medium=member_desktop&rcm=ACoAABW-gAgB7do22NXOYm3_l0xBh_2h985EFvc
+- icon: instagram
+  icon_pack: fab
+  name: Instagram
+  url: https://www.instagram.com/p/DKfZOebRps7/?utm_source=ig_web_copy_link&igsh=MWwyd3g4Ymhkdzl1dQ==
+
+filters:
+   - lightbox
+lightbox: auto
+---
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+------------------------------------------------------------------------
+
+## 🎉 Éxito en la Primera Edición de **TechSchool Latam 2025**
+
+Muy contento de haber sido parte de la organización de la **primera edición de TechSchool Latam**, un evento interregional que reunió a estudiantes, profesionales y entusiastas de la tecnología con el objetivo de **aprender, compartir experiencias y construir comunidad desde el sur de Chile**.
+
+### 🌟 Una Jornada de Aprendizaje y Comunidad
+
+Durante la jornada se vivió un ambiente lleno de energía, colaboración y entusiasmo. La agenda incluyó:
+
+- Talleres prácticos con Python e inteligencia artificial.
+- Conversatorios sobre educación y tecnología.
+- Espacios de networking y reflexión sobre el futuro del aprendizaje.
+
+Eventos como este nos demuestran que la educación tecnológica **se fortalece con colaboración, espacios abiertos y ganas de hacer las cosas bien**.
+
+### 👏 Reconocimientos Especiales
+
+Quiero agradecer a:
+
+- **Fabian Andres Arismendi Ferrada** por su liderazgo y por invitarme a formar parte del equipo organizador.
+- **Valeska Canales Pozo**, quien no solo apoyó de principio a fin en la coordinación logística, sino que además **cerró la jornada como charlista**, inspirando a los asistentes con su presentación.
+
+Gracias también a **Duoc UC** por apoyar y facilitar este tipo de iniciativas que promueven el desarrollo de habilidades tecnológicas en estudiantes de todo el país.
+
+### 📷 Fotos del Evento
+
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
+![](images/img_01.jpg){group="techschool-gallery"}
+
+![](images/img_04.jpg){group="techschool-gallery"}
+
+![](images/img_06.jpg){group="techschool-gallery"}
+
+![](images/img_09.jpg){group="techschool-gallery"}
+
+![](images/img_07.jpg){group="techschool-gallery"}
+
+![](images/img_08.jpg){group="techschool-gallery"}
+
+![](images/img_02.jpg){group="techschool-gallery"}
+
+![](images/img_03.jpg){group="techschool-gallery"}
+
+![](images/img_10.jpg){group="techschool-gallery"}
+
+
+:::
+
+### 📋 Sobre TechSchool
+
+[TechSchool Latam](https://techschool-latam.com/) es una iniciativa creada para impulsar el aprendizaje práctico en tecnología desde un enfoque inclusivo, colaborativo y regional. En su primera edición, reunió a más de 100 participantes y una decena de charlistas y talleristas comprometidos con la formación tecnológica de nuevas generaciones.
+
+Gracias a todos quienes fueron parte de esta gran jornada.  
+¡Seguimos avanzando! 🌱
+

@@ -1,0 +1,77 @@
+---
+title: Educación Abierta y Comunidad
+subtitle: Pyday 2025
+author: 
+  - "Francisco Alfaro"
+  - "Valeska Canales"
+categories: [github, python, comunidad]
+date: "2025-06-13"
+image: "images/pyday.png"
+links:
+- icon: globe
+  icon_pack: fas
+  name: Material
+  url: https://sethnut.com/talks/comunidad_2025/presentacion.html#/title-slide
+- icon: linkedin
+  icon_pack: fab
+  name: LinkedIn
+  url: https://www.linkedin.com/posts/pythonchiledev_pyday2025-pythonchile-activity-7338942003486875649-I4IS?utm_source=share&utm_medium=member_desktop&rcm=ACoAABW-gAgB7do22NXOYm3_l0xBh_2h985EFvc
+- icon: instagram
+  icon_pack: fab
+  name: Instagram
+  url: https://www.instagram.com/p/DKzgqCCSfBY/?utm_source=ig_web_copy_link&igsh=MW93ZWljbW4zZ284eA==
+filters:
+   - lightbox
+lightbox: auto
+---
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+------------------------------------------------------------------------
+
+
+
+## 🎉 Éxito en la Charla **"Educación Abierta y Comunidad"**
+
+Estamos felices de haber compartido el taller **"Educación Abierta y Comunidad: Democratizando el Aprendizaje en Python"**, presentado en el marco de **PyDay Chile 2025 – Valparaíso**. Esta actividad fue una oportunidad para mostrar cómo el trabajo abierto y colaborativo permite acercar la programación a personas de todas las edades y contextos.
+
+### 🌟 Contenido Destacado
+
+Durante la charla, Francisco Alfaro y Valeska Canales abordaron temas clave como:
+
+* **¿Por qué enseñar Python?**: motivaciones para usarlo como herramienta formativa en distintos niveles educativos.
+* **Educación abierta y el rol de la comunidad**: el poder de compartir conocimiento libremente.
+* **Herramientas para enseñar**: uso de **Quarto**, **Python**, **GitHub** y **Streamlit** para crear contenido accesible, visual e interactivo.
+* **Ejemplos reales**: desde gráficos de Pokémon hasta cálculos de IMC como excusas para enseñar código.
+* **Cómo sumarse**: formas de participar activamente en comunidades como Seth\&Nut y Python Chile.
+
+### 👏 ¡Felicitaciones!
+
+Queremos agradecer especialmente a todas las personas que asistieron y compartieron sus experiencias durante el taller. También destacamos el compromiso de **Valeska Canales** como charlista, quien cerró la jornada con ideas claras, prácticas y motivadoras sobre el valor de enseñar desde la comunidad.
+
+La energía, las preguntas y los comentarios recibidos reafirman que **cuando la educación es abierta, el aprendizaje se multiplica**.
+
+### 📅 Próximos Eventos
+
+Gracias a todos los que participaron en esta charla.
+¡Mantente atento a próximas actividades de Python Chile!
+
+### 📷 Fotos del Evento
+
+::: {style="display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: 1em;"}
+![](images/img_01.jpg){group="pyday-gallery"}
+
+
+:::
+
+### 📋 Sobre el Taller
+
+**Educación Abierta y Comunidad: Democratizando el Aprendizaje en Python** es una iniciativa educativa pensada para inspirar, compartir y enseñar programación de forma **abierta, práctica y colaborativa**. Utilizando herramientas como **Quarto, Python y Streamlit**, demostramos que es posible generar recursos didácticos que mezclen código, visualización y narrativa para **aprender en comunidad**.
+
+🌐 Conoce más en: [https://seth-nut.github.io/resources](https://seth-nut.github.io/resources)
+
