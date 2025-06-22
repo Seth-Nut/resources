@@ -20,7 +20,7 @@ website:
 
 
   navbar:
-    logo: /images/logo-kawai.png
+    logo: /images/doberman.png
     left:
       - text: Blog
         href: posts/index.qmd
@@ -28,6 +28,8 @@ website:
         href: teaching/index.qmd
       - text: Eventos
         href: talks/index.qmd
+      - text: Charlas
+        href: https://sethnut.com/talks/
       - text: Nosotros
         menu:
           - text: Francisco Alfaro
