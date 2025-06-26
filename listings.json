@@ -29,14 +29,9 @@
     ]
   },
   {
-    "listing": "/research/index.html",
-    "items": [
-      "/research/en/2022-ambiagua/index.html"
-    ]
-  },
-  {
     "listing": "/talks/index.html",
     "items": [
+      "/talks/es/2025-bdo/index.html",
       "/talks/es/2025-pyday/index.html",
       "/talks/es/2025-techschool/index.html",
       "/talks/es/2025-pretechschool/index.html",
@@ -59,8 +54,15 @@
     ]
   },
   {
+    "listing": "/research/index.html",
+    "items": [
+      "/research/en/2022-ambiagua/index.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
+      "/talks/es/2025-bdo/index.html",
       "/talks/es/2025-pyday/index.html",
       "/talks/es/2025-techschool/index.html",
       "/talks/es/2025-pretechschool/index.html",
