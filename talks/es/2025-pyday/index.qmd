@@ -63,8 +63,18 @@ Gracias a todos los que participaron en esta charla.
 
 ### 📷 Fotos del Evento
 
-::: {style="display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: 1em;"}
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
 ![](images/img_01.jpg){group="pyday-gallery"}
+
+![](images/img_02.jpg){group="pyday-gallery"}
+
+![](images/img_03.jpg){group="pyday-gallery"}
+
+![](images/img_04.jpg){group="pyday-gallery"}
+
+![](images/img_05.jpg){group="pyday-gallery"}
+
+![](images/img_06.jpg){group="pyday-gallery"}
 
 
 :::

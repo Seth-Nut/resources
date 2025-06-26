@@ -1,0 +1,77 @@
+---
+title:  Mini Curso de Data Storytelling + A.I
+subtitle: OTEC BDO 2025
+author: 
+  - "Francisco Alfaro"
+  - "Valeska Canales"
+categories: [github, python, comunidad]
+date: "2025-06-24"
+image: "images/bdo.png"
+links:
+- icon: globe
+  icon_pack: fas
+  name: Material
+  url: https://sethnut.com/talks/visualization_2024/presentacion.html#/title-slide
+filters:
+   - lightbox
+lightbox: auto
+---
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+------------------------------------------------------------------------
+
+
+
+## 🎉 Éxito en el Mini Curso **"Data Storytelling + A.I."**
+
+Nos alegra haber compartido el mini curso **"Data Storytelling + A.I.: Transforma datos en historias visuales interactivas usando A.I. y herramientas dinámicas"**, una experiencia desarrollada para **OTEC BDO 2025**, donde mostramos cómo combinar visualización, inteligencia artificial y buenas prácticas narrativas para mejorar la forma en que comunicamos datos.
+
+### 🌟 Contenido Destacado
+
+Durante la sesión, **Francisco Alfaro** y **Valeska Canales** guiaron a los participantes a través de un enfoque práctico y creativo que incluyó:
+
+* **¿Por qué contar historias con datos?**: La narrativa como tecnología humana esencial para comunicar y generar impacto.
+* **Principios del Storytelling efectivo**: construir tensión, priorizar detalles clave, aceptar primeros borradores imperfectos y preferir mostrar en vez de explicar.
+* **Visualización que inspira**: uso de herramientas como Matplotlib, Power BI, y Streamlit para crear gráficos claros y expresivos.
+* **Acelerando con A.I.**: exploración de herramientas como **ChatGPT**, **Gemini** y **Napkin AI** para estructurar ideas, generar contenido y desbloquear la creatividad.
+* **Presentaciones que conectan**: integración de código interactivo con **Quarto**, visualizaciones en vivo con **Streamlit Cloud** y demos embebidas que sorprenden.
+
+### 👏 ¡Felicitaciones!
+
+Agradecemos a cada persona que participó activamente en el taller, probó las herramientas y compartió ideas sobre cómo comunicar mejor con datos. En especial, destacamos la participación de **Valeska Canales**, quien cerró con ejemplos potentes sobre cómo presentar datos de forma empática, clara y memorable.
+
+Este curso reafirma que **cuando usamos el poder de la historia y la tecnología, los datos cobran vida**.
+
+### 📅 Próximos Eventos
+
+¡Seguimos compartiendo conocimiento desde la comunidad!
+Pronto anunciaremos nuevos cursos y actividades abiertos para quienes quieran llevar sus presentaciones y análisis de datos al siguiente nivel.
+
+### 📷 Fotos del Evento
+
+::: {style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1em;"}
+![](images/img_01.jpeg){group="pyday-gallery"}
+
+![](images/img_02.jpeg){group="pyday-gallery"}
+
+![](images/img_03.jpeg){group="pyday-gallery"}
+
+![](images/img_04.jpeg){group="pyday-gallery"}
+
+
+
+
+:::
+
+### 📋 Sobre el Mini Curso
+
+**Data Storytelling + A.I.** es una iniciativa educativa pensada para enseñar cómo transformar datos en narrativas visuales interactivas, mezclando herramientas como **Python, Quarto, Streamlit y herramientas de A.I.** de forma práctica e inspiradora.
+
+🌐 Conoce más en: [https://seth-nut.github.io/resources](https://seth-nut.github.io/resources)
+
