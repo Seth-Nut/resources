@@ -1,0 +1,83 @@
+---
+title: Creating, innovating and presenting — Data Storytelling + A.I. 
+subtitle: PyCon Colombia 2025
+author: 
+  - "Francisco Alfaro"
+categories: [storytelling, AI, python]
+date: "2025-07-07"
+image: "images/pcol.png"
+links:
+- icon: globe
+  icon_pack: fas
+  name: Presentación
+  url: https://sethnut.com/talks/shiny_2025/presentacion_pc.html#/title-slide
+- icon: linkedin
+  icon_pack: fab
+  name: LinkedIn
+  url: https://www.linkedin.com/posts/faam_reci%C3%A9n-aterrizado-en-chile-tras-una-de-activity-7349102106156437504-69ge?utm_source=share&utm_medium=member_desktop&rcm=ACoAABW-gAgB7do22NXOYm3_l0xBh_2h985EFvc
+filters:
+   - lightbox
+lightbox: auto
+---
+
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+------------------------------------------------------------------------
+
+## 🎉 Éxito en la Charla **"Creating, innovating and presenting: Data Storytelling + A.I."**
+
+Durante la reciente edición de **PyCon Colombia 2025**, realizada en la ciudad de **Medellín**, el investigador y divulgador **Francisco Alfaro** tuvo la oportunidad de presentar la charla **"Creating, innovating and presenting: Data Storytelling + A.I."**, una propuesta que une el poder de la narrativa, la visualización interactiva y la inteligencia artificial para mejorar la comunicación de datos en entornos técnicos y educativos.
+
+### 🌟 Contenido Destacado
+
+A lo largo de la sesión, se abordó temas clave como:
+
+* **¿Por qué contar historias con datos?**: la narrativa como herramienta esencial para transmitir mensajes con claridad e impacto.
+* **Storytelling técnico**: principios como construir tensión narrativa, elegir los detalles adecuados, y preferir mostrar en vez de explicar.
+* **Visualización dinámica**: demostraciones en vivo utilizando **Python**, **Streamlit** y **Quarto** para crear presentaciones interactivas.
+* **Apoyo de la Inteligencia Artificial**: uso de herramientas como **ChatGPT**, **Gemini** y **Napkin AI** para acelerar procesos creativos, estructurar ideas y generar contenido.
+* **Casos aplicados**: ejemplos reales sobre cómo transformar un análisis de datos en una historia memorable que conecte con la audiencia.
+
+### 👏 ¡Gracias Comunidad Python!
+
+Agradecemos especialmente a todas las personas que participaron de la charla, así como a quienes se acercaron a conversar durante el evento. También destacó el profesionalismo del equipo organizador y la calidez de la comunidad presente.
+
+
+### 📅 Próximas Actividades
+
+Esta charla forma parte de una línea de talleres, cursos y contenidos abiertos orientados a fortalecer el vínculo entre **comunicación, datos y tecnología**.
+Próximamente se anunciarán nuevas instancias formativas abiertas a la comunidad.
+
+### 📷 Fotos del Evento
+
+::: {style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 0.5em;"}
+![](images/img_01.jpg){group="pycon-gallery"}
+:::
+
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
+
+![](images/img_02.jpeg){group="pycon-gallery"}
+
+![](images/img_03.jpeg){group="pycon-gallery"}
+
+![](images/img_04.jpeg){group="pycon-gallery"}
+
+![](images/img_05.jpeg){group="pycon-gallery"}
+
+![](images/img_07.jpeg){group="pycon-gallery"}
+
+![](images/img_08.jpeg){group="pycon-gallery"}
+
+:::
+
+### 📋 Sobre la Charla
+
+**"Creating, innovating and presenting: Data Storytelling + A.I."** es una propuesta formativa diseñada por Francisco Alfaro para enseñar cómo transformar datos en narrativas visuales interactivas. A través de herramientas como **Python**, **Quarto**, **Streamlit** y modelos generativos de **A.I.**, esta charla busca inspirar a profesionales y educadores a comunicar mejor con datos.
+
+🌐 Más recursos y materiales en: [https://seth-nut.github.io/resources](https://seth-nut.github.io/resources)
