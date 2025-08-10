@@ -39,32 +39,30 @@ Nos alegra compartir que fuimos parte de la **#ShinyConf2025**, uno de los encue
 
 Durante la charla, se abordaron temas clave como:
 
-- **Narrativas visuales**: contar historias con datos en R y Shiny.  
-- **Buenas prácticas**: desarrollo claro y modular.  
-- **WebR y Shinylive**: apps interactivas directo en el navegador.  
+-   **Narrativas visuales**: contar historias con datos en R y Shiny.\
+-   **Buenas prácticas**: desarrollo claro y modular.\
+-   **WebR y Shinylive**: apps interactivas directo en el navegador.
 
 ### 👏 ¡Felicitaciones!
 
 Queremos felicitar a Francisco por representar a la comunidad hispanohablante y aportar con una charla que combinó claridad, creatividad y experiencia técnica. ¡Gracias por inspirar con tu trabajo!
 
-
 ### 📷 Fotos del Evento
 
-::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
 
-
-![](images/img_03.png){group="gallery"}
-
-![](images/img_01.png){group="gallery"}
-
-![](images/img_02.png){group="gallery"}
-
-
+::: {style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 1em;"}
+![](images/img_01.png){group="gallery" width="800"}
 :::
+
+::: {style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1em;"}
+![](images/img_03.png){group="gallery" width="500"}
+
+![](images/img_02.png){group="gallery" width="400"}
+:::
+
 
 ### 📋 Sobre la Charla
 
 **"From Data to Narrative: Interactive Storytelling with Shiny"** es una invitación a repensar cómo comunicamos con datos. A través de ejemplos interactivos y herramientas modernas, se muestra cómo las aplicaciones en Shiny pueden ser una poderosa vía para la **comunicación efectiva de datos**, más allá del análisis tradicional.
-
 
 🌐 Puedes verlo en el siguiente enlace: [Presentación](https://sethnut.com/talks/shiny_2025/presentacion.html#/title-slide).

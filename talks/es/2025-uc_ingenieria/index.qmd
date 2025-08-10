@@ -1,0 +1,90 @@
+---
+title:  Jornada para Reimaginar la Educación en Ingeniería
+subtitle: UC Matemática
+author: 
+  - "Francisco Alfaro"
+  - "Valeska Canales"
+categories: [AI, programación, educación]
+date: "2025-07-25"
+image: "images/uc.png"
+links:
+- icon: globe
+  icon_pack: fas
+  name: Material
+  url: https://www.canva.com/design/DAGYPvNs9HY/vDIv8hMUpoqN9M2aLhzvKA/view?utm_content=DAGYPvNs9HY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he1bb6cde0a
+- icon: linkedin
+  icon_pack: fab
+  name: LinkedIn
+  url: https://www.linkedin.com/posts/dccuc_programa-activity-7354266994763833345-hxOM?utm_source=share&utm_medium=member_desktop&rcm=ACoAABW-gAgB7do22NXOYm3_l0xBh_2h985EFvc
+
+filters:
+   - lightbox
+lightbox: auto
+---
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+------------------------------------------------------------------------
+
+## 🎉 Éxito en la "Jornada para Reimaginar la Educación en Ingeniería"
+
+Nos complace destacar la participación de **Francisco Alfaro** y **Valeska Canales** en la "**Jornada para Reimaginar la Educación en Ingeniería**", un evento que reunió a académicos, investigadores y profesionales para repensar el futuro de la formación en ingeniería en Chile y Latinoamérica.  
+## 🌟 Contribución Fundamental
+
+Francisco y Valeska presentaron el póster titulado **"Data Storytelling + A.I."**, donde compartieron ideas innovadoras sobre cómo convertir datos complejos en narrativas claras y cautivadoras utilizando herramientas de inteligencia artificial.
+
+La presentación abordó temas clave como:
+
+-   **Narrativas visuales efectivas:** Estrategias para captar la atención del público y facilitar la toma de decisiones.\
+-   **Teoría de visualización de Noah Iliinsky:** Uso de propósito, contenido, estructura y formato para maximizar el impacto de los datos.\
+-   **IA en acción:** Aplicación de chatbots para personalizar plantillas, generar traducciones contextuales y facilitar el diseño de visualizaciones.
+
+## 👏 ¡Felicitaciones!
+
+Queremos felicitar a **Francisco Alfaro** y **Valeska Canales** por su destacada contribución al evento. Su trabajo inspira a repensar cómo la tecnología y la creatividad pueden enriquecer el proceso de enseñanza-aprendizaje en ingeniería.
+
+## 📅 Próximos Eventos
+
+Agradecemos a todos los participantes y los invitamos a sumarse a próximas actividades que fortalezcan la colaboración en educación en ingeniería, incluyendo talleres prácticos, encuentros SOCHEDI y sesiones de networking académico.
+
+## 📷 Fotos del Evento
+
+::: {style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 1em;"}
+![](images/img_03.jpg){group="my-gallery"  width="800"}
+:::
+
+::: {style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1em;"}
+![](images/img_01.jpg){group="my-gallery"  width="400"}
+
+![](images/img_02.jpg){group="my-gallery"  width="400"}
+:::
+
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
+![](images/img_04.jpg){group="my-gallery"}
+
+
+![](images/img_07.jpg){group="my-gallery"}
+
+![](images/img_08.jpg){group="my-gallery"}
+
+:::
+
+## 📋 Sobre el Póster
+
+El póster **"Data Storytelling + A.I."** destacó las siguientes ideas clave:
+
+-   **Transformación de datos complejos:** Estrategias efectivas para comunicar información de manera clara, atractiva y accesible.\
+-   **Herramientas tecnológicas:** Uso de **Streamlit**, **Quarto** y **ChatGPT** para diseñar visualizaciones y narrativas innovadoras que potencien la comunicación de datos.\
+-   **Optimización con IA:** Aplicación de chatbots de inteligencia artificial para generar contenidos personalizados, ejemplos contextuales y mejorar la experiencia educativa.
+
+Durante la sesión de pósters, se intercambiaron ideas con otros participantes sobre cómo la IA y las buenas prácticas pedagógicas pueden integrarse en los programas de ingeniería.
+
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/tkQohqCfNlexT1?hostedIn=slideshare&page=upload" width="700" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
+
+</iframe>
+
