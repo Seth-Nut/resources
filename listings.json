@@ -1,68 +1,9 @@
 [
   {
-    "listing": "/posts/index.html",
-    "items": [
-      "/posts/2025-03-14-pi/index.html",
-      "/posts/2025-03-08-colab/index.html",
-      "/posts/2025-02-09-cfp/index.html",
-      "/posts/2025-01-12-github/index.html",
-      "/posts/2024-08-07-google_colab/index.html",
-      "/posts/2024-08-07-jb/index.html",
-      "/posts/2024-08-07-python/index.html",
-      "/posts/2024-08-01-gh_readme/index.html",
-      "/posts/2024-08-01-gh_profile/index.html",
-      "/posts/2024-08-01-gh_account/index.html",
-      "/posts/2024-08-07-markdown/index.html"
-    ]
-  },
-  {
-    "listing": "/teaching/index.html",
-    "items": [
-      "/teaching/big_data/index.html",
-      "/teaching/software/index.html",
-      "/teaching/dl/index.html",
-      "/teaching/ml/index.html",
-      "/teaching/eda/index.html",
-      "/teaching/python/index.html",
-      "/teaching/r/index.html",
-      "/teaching/tools/index.html"
-    ]
-  },
-  {
-    "listing": "/research/index.html",
-    "items": [
-      "/research/en/2022-ambiagua/index.html"
-    ]
-  },
-  {
-    "listing": "/talks/index.html",
-    "items": [
-      "/talks/es/2025-pycolombia/index.html",
-      "/talks/es/2025-bdo/index.html",
-      "/talks/es/2025-pyday/index.html",
-      "/talks/es/2025-techschool/index.html",
-      "/talks/es/2025-pretechschool/index.html",
-      "/talks/es/2025-shinyconf/index.html",
-      "/talks/es/2025-ceemat/index.html",
-      "/talks/es/2025-citt/index.html",
-      "/talks/es/2025-escuela/index.html",
-      "/talks/es/2024-mat281/index.html",
-      "/talks/es/2024-uc_ai/index.html",
-      "/talks/es/2024-uc/index.html",
-      "/talks/es/2024-mads/index.html",
-      "/talks/es/2024-latinr/index.html",
-      "/talks/es/2024-ciberseguridad/index.html",
-      "/talks/es/2024-olimpiadas/index.html",
-      "/talks/es/2024-tel/index.html",
-      "/talks/es/2024-chatgpt/index.html",
-      "/talks/es/2024-pyschool/index.html",
-      "/talks/es/2024-pyday/index.html",
-      "/talks/es/2024-techschool/index.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
+      "/talks/es/2025-user/index.html",
+      "/talks/es/2025-uc_ingenieria/index.html",
       "/talks/es/2025-pycolombia/index.html",
       "/talks/es/2025-bdo/index.html",
       "/talks/es/2025-pyday/index.html",
@@ -103,6 +44,69 @@
       "/teaching/python/index.html",
       "/teaching/r/index.html",
       "/teaching/ml/index.html"
+    ]
+  },
+  {
+    "listing": "/talks/index.html",
+    "items": [
+      "/talks/es/2025-user/index.html",
+      "/talks/es/2025-uc_ingenieria/index.html",
+      "/talks/es/2025-pycolombia/index.html",
+      "/talks/es/2025-bdo/index.html",
+      "/talks/es/2025-pyday/index.html",
+      "/talks/es/2025-techschool/index.html",
+      "/talks/es/2025-pretechschool/index.html",
+      "/talks/es/2025-shinyconf/index.html",
+      "/talks/es/2025-ceemat/index.html",
+      "/talks/es/2025-citt/index.html",
+      "/talks/es/2025-escuela/index.html",
+      "/talks/es/2024-mat281/index.html",
+      "/talks/es/2024-uc_ai/index.html",
+      "/talks/es/2024-uc/index.html",
+      "/talks/es/2024-mads/index.html",
+      "/talks/es/2024-latinr/index.html",
+      "/talks/es/2024-ciberseguridad/index.html",
+      "/talks/es/2024-olimpiadas/index.html",
+      "/talks/es/2024-tel/index.html",
+      "/talks/es/2024-chatgpt/index.html",
+      "/talks/es/2024-pyschool/index.html",
+      "/talks/es/2024-pyday/index.html",
+      "/talks/es/2024-techschool/index.html"
+    ]
+  },
+  {
+    "listing": "/teaching/index.html",
+    "items": [
+      "/teaching/big_data/index.html",
+      "/teaching/software/index.html",
+      "/teaching/dl/index.html",
+      "/teaching/ml/index.html",
+      "/teaching/eda/index.html",
+      "/teaching/python/index.html",
+      "/teaching/r/index.html",
+      "/teaching/tools/index.html"
+    ]
+  },
+  {
+    "listing": "/posts/index.html",
+    "items": [
+      "/posts/2025-03-14-pi/index.html",
+      "/posts/2025-03-08-colab/index.html",
+      "/posts/2025-02-09-cfp/index.html",
+      "/posts/2025-01-12-github/index.html",
+      "/posts/2024-08-07-google_colab/index.html",
+      "/posts/2024-08-07-jb/index.html",
+      "/posts/2024-08-07-python/index.html",
+      "/posts/2024-08-01-gh_readme/index.html",
+      "/posts/2024-08-01-gh_profile/index.html",
+      "/posts/2024-08-01-gh_account/index.html",
+      "/posts/2024-08-07-markdown/index.html"
+    ]
+  },
+  {
+    "listing": "/research/index.html",
+    "items": [
+      "/research/en/2022-ambiagua/index.html"
     ]
   }
 ]
