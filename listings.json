@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/talks/es/2025-emma-cc/index.html",
+      "/talks/es/2025-emma-sj/index.html",
       "/talks/es/2025-user/index.html",
       "/talks/es/2025-uc_ingenieria/index.html",
       "/talks/es/2025-pycolombia/index.html",
@@ -49,6 +51,8 @@
   {
     "listing": "/talks/index.html",
     "items": [
+      "/talks/es/2025-emma-cc/index.html",
+      "/talks/es/2025-emma-sj/index.html",
       "/talks/es/2025-user/index.html",
       "/talks/es/2025-uc_ingenieria/index.html",
       "/talks/es/2025-pycolombia/index.html",
