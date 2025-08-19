@@ -43,9 +43,9 @@ Muy contento de haber sido parte de la organización de la **primera edición de
 
 Durante la jornada se vivió un ambiente lleno de energía, colaboración y entusiasmo. La agenda incluyó:
 
-- Talleres prácticos con Python e inteligencia artificial.
-- Conversatorios sobre educación y tecnología.
-- Espacios de networking y reflexión sobre el futuro del aprendizaje.
+-   Talleres prácticos con Python e inteligencia artificial.
+-   Conversatorios sobre educación y tecnología.
+-   Espacios de networking y reflexión sobre el futuro del aprendizaje.
 
 Eventos como este nos demuestran que la educación tecnológica **se fortalece con colaboración, espacios abiertos y ganas de hacer las cosas bien**.
 
@@ -53,8 +53,8 @@ Eventos como este nos demuestran que la educación tecnológica **se fortalece c
 
 Quiero agradecer a:
 
-- **Fabian Andres Arismendi Ferrada** por su liderazgo y por invitarme a formar parte del equipo organizador.
-- **Valeska Canales Pozo**, quien no solo apoyó de principio a fin en la coordinación logística, sino que además **cerró la jornada como charlista**, inspirando a los asistentes con su presentación.
+-   **Fabian Andres Arismendi Ferrada** por su liderazgo y por invitarme a formar parte del equipo organizador.
+-   **Valeska Canales Pozo**, quien no solo apoyó de principio a fin en la coordinación logística, sino que además **cerró la jornada como charlista**, inspirando a los asistentes con su presentación.
 
 Gracias también a **Duoc UC** por apoyar y facilitar este tipo de iniciativas que promueven el desarrollo de habilidades tecnológicas en estudiantes de todo el país.
 
@@ -78,14 +78,11 @@ Gracias también a **Duoc UC** por apoyar y facilitar este tipo de iniciativas q
 ![](images/img_03.jpg){group="techschool-gallery"}
 
 ![](images/img_10.jpg){group="techschool-gallery"}
-
-
 :::
 
 ### 📋 Sobre TechSchool
 
 [TechSchool Latam](https://techschool-latam.com/) es una iniciativa creada para impulsar el aprendizaje práctico en tecnología desde un enfoque inclusivo, colaborativo y regional. En su primera edición, reunió a más de 100 participantes y una decena de charlistas y talleristas comprometidos con la formación tecnológica de nuevas generaciones.
 
-Gracias a todos quienes fueron parte de esta gran jornada.  
+Gracias a todos quienes fueron parte de esta gran jornada.\
 ¡Seguimos avanzando! 🌱
-
