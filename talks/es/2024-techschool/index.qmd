@@ -5,7 +5,7 @@ author:
   - "Francisco Alfaro"
 categories: [github, python, educación]
 date: "2024-04-06"
-image: "images/js_chile2.jpg"
+image: "images/js.png"
 links:
 - icon: globe
   icon_pack: fas

@@ -79,3 +79,13 @@ _others_
 _freeze
 .codegpt
 site_libs
+
+
+# folders
+
+talks/es/2025-devopsday2/
+talks/es/2025-pyschool/
+talks/es/2025-sumemos_ideas/
+talks/es/2025-ceemat2/
+talks/es/2025-aequalis/
+talks/es/2025-bdo2/

@@ -1,0 +1,93 @@
+---
+title: "Platform Engineering Community Day Santiago"
+subtitle: "DUOC UC 2025"
+author: 
+  - "Francisco Alfaro"
+categories: [platform-engineering, devops, community]
+date: "2025-08-26"
+image: "images/devopsday.png"
+links:
+- icon: globe
+  icon_pack: fas
+  name: Webpage
+  url: https://platformengineering.org/
+- icon: instagram
+  icon_pack: fab
+  name: Instagram
+  url: https://www.instagram.com/p/DMs_ADLPSdO/
+- icon: linkedin
+  icon_pack: fab
+  name: LinkedIn
+  url: https://www.linkedin.com/posts/dianewalls_devops-platformengineering-cicd-activity-7365185752936116224-yEit?utm_source=share&utm_medium=member_desktop&rcm=ACoAABW-gAgB7do22NXOYm3_l0xBh_2h985EFvc
+
+filters:
+  - lightbox
+lightbox: auto
+---
+
+```{r}
+#| echo: false
+#| results: asis
+# función genérica para leer metadata de tus charlas
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+------------------------------------------------------------------------
+
+## 🎉 Éxito en el **Panel sobre Platform Engineering**
+
+En el marco del **Platform Engineering Community Day** realizado en el **DUOC UC**, se desarrolló un panel de conversación que reunió a destacados exponentes del área.  
+El espacio permitió discutir las conexiones entre **DevOps** y **Platform Engineering**, abordando tanto desafíos técnicos como experiencias formativas en el ámbito docente y profesional.  
+
+El panel contó con la participación de especialistas del ecosistema local, entre ellos **Francisco Alfaro**, quien compartió su visión sobre la aplicación de Platform Engineering en el día a día laboral y en la docencia, aportando con ejemplos prácticos y reflexiones sobre la formación de nuevas generaciones en tecnología.
+
+### 🌟 Una Experiencia de Aprendizaje Innovadora
+
+Durante el panel y las discusiones, se exploró:
+
+- La relación entre **DevOps** (el *cómo*) y **Platform Engineering** (el *qué*), y cómo en conjunto generan un verdadero *so what*.  
+- La importancia de la **cultura** y el **autoservicio**, tanto en plataformas de desarrollo como en plataformas de datos.  
+- La visión de las plataformas como **productos internos**, con métricas de éxito y mejora continua.  
+- La necesidad de integrar **personas, procesos y herramientas** para asegurar que las soluciones sean sostenibles.  
+- La relevancia del **onboarding y la capacitación** para que las plataformas realmente sean adoptadas.  
+
+
+
+### 👏 Agradecimientos
+
+Un reconocimiento especial a **Open Source Santiago** y **DUOC UC** por la organización del evento, y a todas las personas asistentes por enriquecer la conversación con sus preguntas y experiencias.  
+
+
+### 📷 Fotos del Evento
+
+::: {style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 1em;"}
+![](images/img_01.jpg){group="galeria-evento"}
+:::
+
+::: {style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1em;"}
+![](images/img_02.jpeg){group="galeria-evento"}
+
+![](images/img_03.jpeg){group="galeria-evento"}
+
+:::
+
+::: {style="display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: 1em;"}
+
+![](images/img_04.jpeg){group="galeria-evento"}
+
+![](images/img_05.jpeg){group="galeria-evento"}
+
+![](images/img_06.jpeg){group="galeria-evento"}
+
+![](images/img_07.jpeg){group="galeria-evento"}
+
+:::
+
+
+### 📋 Sobre el Evento
+
+El **Platform Engineering Community Day** fue el segundo pre-evento oficial del **DevOpsDays Santiago 2025**, reuniendo a profesionales, estudiantes y entusiastas de la tecnología para reflexionar sobre el presente y futuro de la ingeniería de plataformas.  
+
+El impacto de este encuentro radica en fortalecer la comunidad, generar puentes entre el mundo académico y el laboral, y promover una visión integral de la tecnología.  
+

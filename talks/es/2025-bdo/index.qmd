@@ -1,6 +1,6 @@
 ---
 title:  Mini Curso de Data Storytelling + A.I
-subtitle: OTEC BDO 2025
+subtitle: BDO + Ñuble Alimentos 2025
 author: 
   - "Francisco Alfaro"
   - "Valeska Canales"

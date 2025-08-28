@@ -1,6 +1,6 @@
 ---
 title: Mini Curso A.I. + DataStorytelling
-subtitle: UTFSM - CEEMAT
+subtitle: 1° Semestre - UTFSM
 author: 
   - "Francisco Alfaro"
   - "Valeska Canales"
@@ -45,14 +45,13 @@ Este mini curso, realizado durante el primer semestre de 2025, tuvo como objetiv
 
 ### 🛠️ Contenidos del Curso
 
-- **🎤 Toolkit Google**: Uso práctico de Docs, Sheets, Slides, Colab y Drive para organizar ideas, colaborar y automatizar tareas.
+-   **🎤 Toolkit Google**: Uso práctico de Docs, Sheets, Slides, Colab y Drive para organizar ideas, colaborar y automatizar tareas.
 
-- **🎤 Prompts con ChatGPT**: Diseño de instrucciones efectivas para resolver problemas y reflexionar sobre el uso ético de la IA.
+-   **🎤 Prompts con ChatGPT**: Diseño de instrucciones efectivas para resolver problemas y reflexionar sobre el uso ético de la IA.
 
-- **🎤 Comunicación Académica**: Estrategias para leer, escribir y exponer mejor, con apoyo de herramientas inteligentes.
+-   **🎤 Comunicación Académica**: Estrategias para leer, escribir y exponer mejor, con apoyo de herramientas inteligentes.
 
-- **🎤 Data Storytelling**: Creación de visualizaciones interactivas con Python y Streamlit para contar historias con datos.
-
+-   **🎤 Data Storytelling**: Creación de visualizaciones interactivas con Python y Streamlit para contar historias con datos.
 
 ### 📋 Consideraciones Éticas
 
@@ -73,12 +72,9 @@ Al finalizar, los estudiantes recibieron un diploma personalizado que certifica 
 
 ![](images/img_04.JPG){group="my-gallery"}
 
-
 ![](images/img_13.JPG){group="my-gallery"}
 
 ![](images/img_08.JPG){group="my-gallery"}
-
-
 
 ![](images/img_06.JPG){group="my-gallery"}
 
@@ -88,13 +84,9 @@ Al finalizar, los estudiantes recibieron un diploma personalizado que certifica 
 
 ![](images/img_14.JPG){group="my-gallery"}
 
-
 ![](images/img_10.JPG){group="my-gallery"}
 
 ![](images/img_03.JPG){group="my-gallery"}
-
-
-
 :::
 
 ### 🙌 Agradecimientos
