@@ -5,7 +5,7 @@
 <meta name="generator" content="quarto-1.7.33">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 <meta name="author" content="Francisco Alfaro">
-<title>Introducción R – Seth&amp;Nut</title>
+<title>Platform Engineering Community Day Santiago – Seth&amp;Nut</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,24 +20,27 @@ ul.task-list li input[type="checkbox"] {
 }
 </style>
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../images/logo_sn.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-a665582c030a995f1375f17fd181896b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../images/logo_sn.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-a665582c030a995f1375f17fd181896b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -70,9 +73,9 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/doberman.png" alt="" class="navbar-logo"></a>
-    <a class="navbar-brand" href="../../index.html">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../images/doberman.png" alt="" class="navbar-logo"></a>
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Seth&amp;Nut</span>
     </a>
   </div>
@@ -83,15 +86,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
 <li class="nav-item">
-    <a class="nav-link" href="../../posts/index.html"> 
+    <a class="nav-link" href="../../../posts/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../teaching/index.html"> 
+    <a class="nav-link" href="../../../teaching/index.html"> 
 <span class="menu-text">Cursos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../talks/index.html"> 
+    <a class="nav-link" href="../../../talks/index.html"> 
 <span class="menu-text">Eventos</span></a>
   </li>  
   <li class="nav-item">
@@ -104,19 +107,19 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-nosotros">
 <li>
-    <a class="dropdown-item" href="../../fran.html">
+    <a class="dropdown-item" href="../../../fran.html">
  <span class="dropdown-text">Francisco Alfaro</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../vale.html">
+    <a class="dropdown-item" href="../../../vale.html">
  <span class="dropdown-text">Valeska Canales</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../dorian.html">
+    <a class="dropdown-item" href="../../../dorian.html">
  <span class="dropdown-text">Dorian Villegas</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../seth-nuth.html">
+    <a class="dropdown-item" href="../../../seth-nuth.html">
  <span class="dropdown-text">Seth &amp; Nut</span></a>
   </li>  
     </ul>
@@ -151,21 +154,24 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
 <li>
-<a href="#contenidos" id="toc-contenidos" class="nav-link active" data-scroll-target="#contenidos">Contenidos</a>
+<a href="#%C3%A9xito-en-el-panel-sobre-platform-engineering" id="toc-éxito-en-el-panel-sobre-platform-engineering" class="nav-link active" data-scroll-target="#%C3%A9xito-en-el-panel-sobre-platform-engineering">🎉 Éxito en el <strong>Panel sobre Platform Engineering</strong></a>
   <ul class="collapse">
-<li><a href="#introducci%C3%B3n-a-r" id="toc-introducción-a-r" class="nav-link" data-scroll-target="#introducci%C3%B3n-a-r">Introducción a R</a></li>
-  <li><a href="#nomenclatura" id="toc-nomenclatura" class="nav-link" data-scroll-target="#nomenclatura">Nomenclatura</a></li>
-  <li><a href="#introducci%C3%B3n-a-dplyr" id="toc-introducción-a-dplyr" class="nav-link" data-scroll-target="#introducci%C3%B3n-a-dplyr">Introducción a dplyr</a></li>
-  <li><a href="#introducci%C3%B3n-a-ggplot2" id="toc-introducción-a-ggplot2" class="nav-link" data-scroll-target="#introducci%C3%B3n-a-ggplot2">Introducción a ggplot2</a></li>
+<li><a href="#una-experiencia-de-aprendizaje-innovadora" id="toc-una-experiencia-de-aprendizaje-innovadora" class="nav-link" data-scroll-target="#una-experiencia-de-aprendizaje-innovadora">🌟 Una Experiencia de Aprendizaje Innovadora</a></li>
+  <li><a href="#agradecimientos" id="toc-agradecimientos" class="nav-link" data-scroll-target="#agradecimientos">👏 Agradecimientos</a></li>
+  <li><a href="#fotos-del-evento" id="toc-fotos-del-evento" class="nav-link" data-scroll-target="#fotos-del-evento">📷 Fotos del Evento</a></li>
+  <li><a href="#sobre-el-evento" id="toc-sobre-el-evento" class="nav-link" data-scroll-target="#sobre-el-evento">📋 Sobre el Evento</a></li>
   </ul>
 </li>
   </ul></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
-<h1 class="title">Introducción R</h1>
+<h1 class="title">Platform Engineering Community Day Santiago</h1>
+<p class="subtitle lead">DUOC UC 2025</p>
   <div class="quarto-categories">
-    <div class="quarto-category">Curso</div>
+    <div class="quarto-category">platform-engineering</div>
+    <div class="quarto-category">devops</div>
+    <div class="quarto-category">community</div>
   </div>
   </div>
 
@@ -183,7 +189,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Fecha de publicación</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">1 de agosto de 2024</p>
+      <p class="date">26 de agosto de 2025</p>
     </div>
   </div>
   
@@ -192,20 +198,43 @@ ul.task-list li input[type="checkbox"] {
   
 
 
-</header><script src="https://kit.fontawesome.com/1bb720cc6f.js" crossorigin="anonymous"></script><a href="https://fralfaro.github.io/r_intro/" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-globe"></i> Material</button></a> <a href="https://github.com/fralfaro/r_intro" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-brands fa-github"></i> GitHub</button></a> <br><br><img src="../../images/teaching/rlogo.png" class="img-fluid quarto-figure-center" style="max-width:50%"><br><hr>
-<section id="contenidos" class="level2"><h2 class="anchored" data-anchor-id="contenidos">Contenidos</h2>
-<section id="introducción-a-r" class="level3"><h3 class="anchored" data-anchor-id="introducción-a-r">Introducción a R</h3>
-<p><strong>R:</strong> R es un lenguaje de programación y entorno de software libre utilizado principalmente para el análisis de datos y la estadística. En este curso, aprenderemos a utilizar R como una herramienta para manipular, analizar y visualizar datos, aprovechando su extenso ecosistema de paquetes especializados.</p>
-<p><strong>Motivación:</strong> ¿Por qué aprender R? R es altamente valorado en el ámbito de la ciencia de datos y la investigación académica debido a su capacidad para realizar análisis estadísticos avanzados y crear visualizaciones detalladas. Además, es una herramienta clave para cualquier persona interesada en la investigación de datos y la estadística, especialmente en áreas como la biología, la economía y las ciencias sociales.</p>
-</section><section id="nomenclatura" class="level3"><h3 class="anchored" data-anchor-id="nomenclatura">Nomenclatura</h3>
-<p><strong>Nombres en R:</strong> Antes de comenzar a programar, es importante familiarizarse con las convenciones de nomenclatura en R. Exploraremos cómo nombrar variables, funciones y otros elementos del código de manera clara y consistente, siguiendo las buenas prácticas de desarrollo en el ecosistema de R.</p>
-<p><strong>Buenas Prácticas:</strong> La coherencia en la nomenclatura es clave para escribir código comprensible y fácil de mantener. Aprenderemos las mejores prácticas para asegurarnos de que nuestro código sea legible tanto para nosotros como para otros colaboradores.</p>
-</section><section id="introducción-a-dplyr" class="level3"><h3 class="anchored" data-anchor-id="introducción-a-dplyr">Introducción a dplyr</h3>
-<p><strong>Manipulación de Datos:</strong> dplyr es uno de los paquetes más poderosos y populares de R para la manipulación de datos. Con dplyr, aprenderemos a filtrar, seleccionar, mutar y organizar conjuntos de datos de forma sencilla y eficiente utilizando un enfoque basado en verbos intuitivos.</p>
-<p><strong>Flujo de Trabajo:</strong> dplyr permite encadenar operaciones de manera fluida y coherente, lo que facilita el análisis de datos sin necesidad de escribir código complejo. Descubriremos cómo realizar transformaciones rápidas y cómo optimizar nuestro flujo de trabajo en R.</p>
-</section><section id="introducción-a-ggplot2" class="level3"><h3 class="anchored" data-anchor-id="introducción-a-ggplot2">Introducción a ggplot2</h3>
-<p><strong>Visualización de Datos:</strong> ggplot2 es el paquete más conocido para la visualización de datos en R. Aprenderemos los principios fundamentales del “Grammar of Graphics” y cómo utilizarlos para crear visualizaciones personalizadas y efectivas que nos permitan comunicar los resultados de nuestros análisis de manera clara.</p>
-<p><strong>Gráficos Personalizados:</strong> Exploraremos cómo generar gráficos como histogramas, gráficos de dispersión, diagramas de cajas y más. También aprenderemos a ajustar detalles visuales, agregar capas a nuestros gráficos y adaptar las visualizaciones a las necesidades específicas de nuestros proyectos.</p>
+</header><script src="https://kit.fontawesome.com/1bb720cc6f.js" crossorigin="anonymous"></script><a href="https://platformengineering.org/" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-globe"></i> Webpage</button></a> <a href="https://www.instagram.com/p/DMs_ADLPSdO/" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-brands fa-instagram"></i> Instagram</button></a> <a href="https://www.linkedin.com/posts/dianewalls_devops-platformengineering-cicd-activity-7365185752936116224-yEit?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAABW-gAgB7do22NXOYm3_l0xBh_2h985EFvc" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-brands fa-linkedin"></i> LinkedIn</button></a> <br><br><img src="images/devopsday.png" class="img-fluid quarto-figure-center" style="max-width:50%"><br><hr>
+<section id="éxito-en-el-panel-sobre-platform-engineering" class="level2"><h2 class="anchored" data-anchor-id="éxito-en-el-panel-sobre-platform-engineering">🎉 Éxito en el <strong>Panel sobre Platform Engineering</strong>
+</h2>
+<p>En el marco del <strong>Platform Engineering Community Day</strong> realizado en el <strong>DUOC UC</strong>, se desarrolló un panel de conversación que reunió a destacados exponentes del área.<br>
+El espacio permitió discutir las conexiones entre <strong>DevOps</strong> y <strong>Platform Engineering</strong>, abordando tanto desafíos técnicos como experiencias formativas en el ámbito docente y profesional.</p>
+<p>El panel contó con la participación de especialistas del ecosistema local, entre ellos <strong>Francisco Alfaro</strong>, quien compartió su visión sobre la aplicación de Platform Engineering en el día a día laboral y en la docencia, aportando con ejemplos prácticos y reflexiones sobre la formación de nuevas generaciones en tecnología.</p>
+<section id="una-experiencia-de-aprendizaje-innovadora" class="level3"><h3 class="anchored" data-anchor-id="una-experiencia-de-aprendizaje-innovadora">🌟 Una Experiencia de Aprendizaje Innovadora</h3>
+<p>Durante el panel y las discusiones, se exploró:</p>
+<ul>
+<li>La relación entre <strong>DevOps</strong> (el <em>cómo</em>) y <strong>Platform Engineering</strong> (el <em>qué</em>), y cómo en conjunto generan un verdadero <em>so what</em>.<br>
+</li>
+<li>La importancia de la <strong>cultura</strong> y el <strong>autoservicio</strong>, tanto en plataformas de desarrollo como en plataformas de datos.<br>
+</li>
+<li>La visión de las plataformas como <strong>productos internos</strong>, con métricas de éxito y mejora continua.<br>
+</li>
+<li>La necesidad de integrar <strong>personas, procesos y herramientas</strong> para asegurar que las soluciones sean sostenibles.<br>
+</li>
+<li>La relevancia del <strong>onboarding y la capacitación</strong> para que las plataformas realmente sean adoptadas.</li>
+</ul></section><section id="agradecimientos" class="level3"><h3 class="anchored" data-anchor-id="agradecimientos">👏 Agradecimientos</h3>
+<p>Un reconocimiento especial a <strong>Open Source Santiago</strong> y <strong>DUOC UC</strong> por la organización del evento, y a todas las personas asistentes por enriquecer la conversación con sus preguntas y experiencias.</p>
+</section><section id="fotos-del-evento" class="level3"><h3 class="anchored" data-anchor-id="fotos-del-evento">📷 Fotos del Evento</h3>
+<div style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 1em;">
+<p><a href="images/img_01.jpg" class="lightbox" data-gallery="galeria-evento"><img src="images/img_01.jpg" class="img-fluid"></a></p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1em;">
+<p><a href="images/img_02.jpeg" class="lightbox" data-gallery="galeria-evento"><img src="images/img_02.jpeg" class="img-fluid"></a></p>
+<p><a href="images/img_03.jpeg" class="lightbox" data-gallery="galeria-evento"><img src="images/img_03.jpeg" class="img-fluid"></a></p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: 1em;">
+<p><a href="images/img_04.jpeg" class="lightbox" data-gallery="galeria-evento"><img src="images/img_04.jpeg" class="img-fluid"></a></p>
+<p><a href="images/img_05.jpeg" class="lightbox" data-gallery="galeria-evento"><img src="images/img_05.jpeg" class="img-fluid"></a></p>
+<p><a href="images/img_06.jpeg" class="lightbox" data-gallery="galeria-evento"><img src="images/img_06.jpeg" class="img-fluid"></a></p>
+<p><a href="images/img_07.jpeg" class="lightbox" data-gallery="galeria-evento"><img src="images/img_07.jpeg" class="img-fluid"></a></p>
+</div>
+</section><section id="sobre-el-evento" class="level3"><h3 class="anchored" data-anchor-id="sobre-el-evento">📋 Sobre el Evento</h3>
+<p>El <strong>Platform Engineering Community Day</strong> fue el segundo pre-evento oficial del <strong>DevOpsDays Santiago 2025</strong>, reuniendo a profesionales, estudiantes y entusiastas de la tecnología para reflexionar sobre el presente y futuro de la ingeniería de plataformas.</p>
+<p>El impacto de este encuentro radica en fortalecer la comunidad, generar puentes entre el mundo académico y el laboral, y promover una visión integral de la tecnología.</p>
 
 
 </section></section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
@@ -669,8 +698,39 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </div>
   </div>
-</footer>
+</footer><script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
-<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
