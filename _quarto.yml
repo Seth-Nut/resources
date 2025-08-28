@@ -69,6 +69,12 @@ editor: visual
 comments:
   giscus:
     repo: Seth-Nut/resources
+    repo-id: R_kgDOMrUO7g
+    category: General          # o el nombre que uses en GitHub
+    mapping: pathname
+    reactions-enabled: true
+    input-position: bottom
+
 
 execute:
   freeze: true
