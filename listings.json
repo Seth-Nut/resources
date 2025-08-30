@@ -15,6 +15,7 @@
   {
     "listing": "/talks/index.html",
     "items": [
+      "/talks/es/2025-sumemos_ideas/index.html",
       "/talks/es/2025-devopsday1/index.html",
       "/talks/es/2025-emma-cc/index.html",
       "/talks/es/2025-emma-sj/index.html",
@@ -44,6 +45,12 @@
     ]
   },
   {
+    "listing": "/research/index.html",
+    "items": [
+      "/research/en/2022-ambiagua/index.html"
+    ]
+  },
+  {
     "listing": "/posts/index.html",
     "items": [
       "/posts/2025-03-14-pi/index.html",
@@ -60,14 +67,9 @@
     ]
   },
   {
-    "listing": "/research/index.html",
-    "items": [
-      "/research/en/2022-ambiagua/index.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
+      "/talks/es/2025-sumemos_ideas/index.html",
       "/talks/es/2025-devopsday1/index.html",
       "/talks/es/2025-emma-cc/index.html",
       "/talks/es/2025-emma-sj/index.html",
