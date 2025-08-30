@@ -1,0 +1,96 @@
+---
+title: "Hola Quarto - compartir • colaborar • enseñar • reimaginar"
+subtitle: "Sumemos Ideas UTFSM 2025"
+author: 
+  - "Francisco Alfaro"
+  - "Valeska Canales"
+categories: [quarto, python, educacion]
+date: "2025-08-29"
+image: "images/sumemos2.png"
+links:
+- icon: globe
+  icon_pack: fas
+  name: Charla
+  url: https://sethnut.com/talks/hello-quarto/presentacion.html#/hello-quarto-title
+- icon: instagram
+  icon_pack: fab
+  name: Instagram
+  url: https://www.instagram.com/p/DNwWxEAXqoQ/?utm_source=ig_web_copy_link&igsh=bDI0aTQ5czFnZGdv
+- icon: linkedin
+  icon_pack: fab
+  name: LinkedIn
+  url: https://www.linkedin.com/posts/vcanalesp_stem-educaciaejn-matemaerticas-activity-7365762486920265728-sUip?utm_source=share&utm_medium=member_desktop&rcm=ACoAABW-gAgB7do22NXOYm3_l0xBh_2h985EFvc
+
+filters:
+  - lightbox
+lightbox: auto
+---
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+------------------------------------------------------------------------
+
+## 🤖 Charla: *Hola Quarto - compartir • colaborar • enseñar • reimaginar*
+
+En el marco de los **Seminarios y Talleres de Matemáticas y Educación STEM** organizados por la **Universidad Técnica Federico Santa María**, se impartió una  charla introductoria a Quarto, una herramienta moderna y versátil que facilita la creación de:
+
+* Documentos académicos reproducibles
+* Presentaciones interactivas
+* Sitios web dinámicos
+
+Todo ello de manera integrada, desde un mismo entorno de trabajo.
+
+### 🌟 Una Herramienta para Innovar
+
+Durante la charla, los participantes pudieron explorar:
+
+* Cómo instalar y configurar Quarto.
+* Creación de documentos reproducibles en PDF, Word y HTML.
+* Elaboración de presentaciones interactivas con RevealJS.
+* Construcción de sitios web académicos y proyectos colaborativos.
+
+La propuesta busca fomentar una **cultura de compartir y colaborar en la docencia e investigación**, facilitando la integración de buenas prácticas en reproducibilidad científica.
+
+### 👏 Agradecimientos
+
+Agradecemos de manera especial a **Estefanía Bravo** por todo su apoyo y por haber facilitado el contacto que hizo posible esta participación.
+
+Asimismo, extendemos nuestro reconocimiento al **Departamento de Matemática de la UTFSM**, por impulsar espacios que integran tecnología, equidad y formación científica, contribuyendo al crecimiento de una comunidad académica más inclusiva e innovadora.
+
+### 📷 Fotos del Taller
+
+::: {style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 1em;"}
+![](images/img_01.jpeg){group="emma-latex"}
+:::
+
+::: {style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1em;"}
+![](images/img_07.jpeg){group="emma-latex"}
+
+![](images/img_08.jpeg){group="emma-latex"}
+:::
+
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
+![](images/img_11.jpeg){group="emma-latex"}
+
+![](images/img_05.jpeg){group="emma-latex"}
+
+![](images/img_03.jpeg){group="emma-latex"}
+
+![](images/img_06.jpeg){group="emma-latex"}
+
+![](images/img_10.jpeg){group="emma-latex"}
+
+![](images/img_02.jpeg){group="emma-latex"}
+
+:::
+
+### 📋  Sobre *Sumemos Ideas*
+
+**Sumemos Ideas** es un espacio de innovación y encuentro que busca integrar **matemáticas, educación y tecnología**, brindando talleres y charlas que inspiran a docentes, estudiantes y la comunidad en general a reimaginar cómo compartimos el conocimiento.
+
+Gracias a todas y todos quienes participaron. ¡Sigamos sumando ideas con Quarto! 🌱
