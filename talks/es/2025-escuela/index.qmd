@@ -63,13 +63,19 @@ Agradecemos a todos los participantes y organizadores que hicieron posible esta 
 
 ### 📷 Fotos del Evento
 
-::: {style="display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: 1em;"}
+::: {style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 1em;"}
 ![](images/img_02.jpeg){group="my-gallery"}
+:::
+
+::: {style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1em;"}
 
 ![](images/img_01.jpeg){group="my-gallery"}
 
 ![](images/img_03.jpeg){group="my-gallery"}
 
+:::
+
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
 ![](images/img_08.jpeg){group="my-gallery"}
 
 ![](images/img_05.jpeg){group="my-gallery"}
@@ -117,4 +123,3 @@ En el marco del **Verano Matemático USM-UCHILE 2025**, se llevaron a cabo dos t
 Estos talleres ofrecieron experiencias prácticas e interactivas, motivando a los estudiantes a explorar las matemáticas y la programación de forma creativa y colaborativa.
 
 🌐 Puedes ver más sobre este evento en el siguiente enlace: [Verano Matemático USM-UCHILE](https://seth-nut.github.io/ws-usm_uchile-2025/).
-

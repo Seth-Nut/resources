@@ -52,9 +52,11 @@ Este curso reafirma que **cuando usamos el poder de la historia y la tecnología
 
 ### 📷 Fotos del Evento
 
-::: {style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1em;"}
+::: {style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 1em;"}
 ![](images/img_01.jpeg){group="pyday-gallery"}
+:::
 
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
 ![](images/img_02.jpeg){group="pyday-gallery"}
 
 ![](images/img_03.jpeg){group="pyday-gallery"}
@@ -67,4 +69,3 @@ Este curso reafirma que **cuando usamos el poder de la historia y la tecnología
 **Data Storytelling + A.I.** es una iniciativa educativa pensada para enseñar cómo transformar datos en narrativas visuales interactivas, mezclando herramientas como **Python, Quarto, Streamlit y herramientas de A.I.** de forma práctica e inspiradora.
 
 🌐 Conoce más en: <https://seth-nut.github.io/resources>
-

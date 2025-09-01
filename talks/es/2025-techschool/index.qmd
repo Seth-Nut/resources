@@ -60,14 +60,18 @@ Gracias también a **Duoc UC** por apoyar y facilitar este tipo de iniciativas q
 
 ### 📷 Fotos del Evento
 
-::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
+::: {style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 1em;"}
 ![](images/img_01.jpg){group="techschool-gallery"}
+:::
 
-![](images/img_04.jpg){group="techschool-gallery"}
-
+::: {style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1em;"}
 ![](images/img_06.jpg){group="techschool-gallery"}
 
 ![](images/img_09.jpg){group="techschool-gallery"}
+:::
+
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
+![](images/img_04.jpg){group="techschool-gallery"}
 
 ![](images/img_07.jpg){group="techschool-gallery"}
 
@@ -86,3 +90,4 @@ Gracias también a **Duoc UC** por apoyar y facilitar este tipo de iniciativas q
 
 Gracias a todos quienes fueron parte de esta gran jornada.\
 ¡Seguimos avanzando! 🌱
+

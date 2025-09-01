@@ -63,15 +63,20 @@ Al finalizar, los estudiantes recibieron un diploma personalizado que certifica 
 
 ### 📸 Fotos del Curso
 
-::: {style="display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: 1em;"}
+::: {style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 1em;"}
 ![](images/img_01.JPG){group="my-gallery"}
 
 ![](images/img_02.JPG){group="my-gallery"}
+:::
 
+
+::: {style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1em;"}
 ![](images/img_05.JPG){group="my-gallery"}
 
 ![](images/img_04.JPG){group="my-gallery"}
+:::
 
+::: {style="display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: 1em;"}
 ![](images/img_13.JPG){group="my-gallery"}
 
 ![](images/img_08.JPG){group="my-gallery"}

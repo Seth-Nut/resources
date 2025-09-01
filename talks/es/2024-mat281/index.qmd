@@ -38,9 +38,9 @@ Nos complace anunciar la **exitosa finalización del curso MAT281 - Aplicaciones
 
 Durante el semestre, los estudiantes desarrollaron habilidades fundamentales como **Data Scientists** utilizando el lenguaje de programación **Python**. Algunas de las competencias adquiridas incluyen:
 
-- **Manipulación de datos**: A través de herramientas como **Pandas** y **NumPy**.
-- **Visualización de datos**: Utilizando librerías como **Matplotlib** y **Seaborn** para comunicar resultados de manera efectiva.
-- **Machine Learning**: Enfocados en resolución de problemas reales con datasets relevantes.
+-   **Manipulación de datos**: A través de herramientas como **Pandas** y **NumPy**.
+-   **Visualización de datos**: Utilizando librerías como **Matplotlib** y **Seaborn** para comunicar resultados de manera efectiva.
+-   **Machine Learning**: Enfocados en resolución de problemas reales con datasets relevantes.
 
 ### 👏 ¡Felicitaciones a Nuestros Estudiantes!
 
@@ -52,29 +52,32 @@ Este curso marca el inicio de un camino lleno de oportunidades en el mundo de la
 
 ### 📷 Fotos de las Presentaciones Finales
 
-::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
+::: {style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 1em;"}
 ![](images/img_01.jpeg){group="my-gallery"}
+:::
 
+::: {style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1em;"}
 ![](images/img_02.jpeg){group="my-gallery"}
 
 ![](images/img_04.jpeg){group="my-gallery"}
 
+:::
+
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
 ![](images/img_05.jpeg){group="my-gallery"}
 
 ![](images/img_06.jpeg){group="my-gallery"}
 
 ![](images/img_07.jpeg){group="my-gallery"}
-
 :::
 
+### 📋 Sobre las Presentaciones
 
-### 📋 Sobre las Presentaciones  
-
-Las presentaciones del curso estuvieron enfocadas en resolver y exponer los principales insights relacionados con el desafío de Kaggle **Spaceship Titanic**. Este problema retador permitió a los estudiantes aplicar sus conocimientos en análisis de datos, visualización y modelado para identificar patrones y responder preguntas clave del dataset, promoviendo el desarrollo de habilidades prácticas en ciencia de datos.  
+Las presentaciones del curso estuvieron enfocadas en resolver y exponer los principales insights relacionados con el desafío de Kaggle **Spaceship Titanic**. Este problema retador permitió a los estudiantes aplicar sus conocimientos en análisis de datos, visualización y modelado para identificar patrones y responder preguntas clave del dataset, promoviendo el desarrollo de habilidades prácticas en ciencia de datos.
 
 **Grupo 1**: Héctor Silva, Sebastián Rosas.
 
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/BEuTmw4Irb1Viv?hostedIn=slideshare&page=upload" width="700" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/BEuTmw4Irb1Viv?hostedIn=slideshare&amp;page=upload" width="700" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
 
 </iframe>
 
@@ -82,7 +85,7 @@ Las presentaciones del curso estuvieron enfocadas en resolver y exponer los prin
 
 **Grupo 2**: Joaquín Ramírez, Nicolás Rodríguez, Vicente Moreno, Alejandro Salas.
 
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/nRhiu326vcBPnW?hostedIn=slideshare&page=upload" width="700" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/nRhiu326vcBPnW?hostedIn=slideshare&amp;page=upload" width="700" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
 
 </iframe>
 
@@ -90,7 +93,7 @@ Las presentaciones del curso estuvieron enfocadas en resolver y exponer los prin
 
 **Grupo 3**: María José Núñez, Alexei Arenas, Andrés Ángel, Tomás Rojas.
 
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/eUNDWTAdYMfD7M?hostedIn=slideshare&page=upload" width="700" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/eUNDWTAdYMfD7M?hostedIn=slideshare&amp;page=upload" width="700" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
 
 </iframe>
 

@@ -63,20 +63,22 @@ Gracias a todos los que participaron en esta charla.
 
 ### 📷 Fotos del Evento
 
-::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
+::: {style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 1em;"}
 ![](images/img_01.jpg){group="pyday-gallery"}
+:::
 
+::: {style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1em;"}
 ![](images/img_02.jpg){group="pyday-gallery"}
 
 ![](images/img_03.jpg){group="pyday-gallery"}
+:::
+
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
+![](images/img_05.jpg){group="pyday-gallery"}
 
 ![](images/img_04.jpg){group="pyday-gallery"}
 
-![](images/img_05.jpg){group="pyday-gallery"}
-
 ![](images/img_06.jpg){group="pyday-gallery"}
-
-
 :::
 
 ### 📋 Sobre el Taller
@@ -84,4 +86,3 @@ Gracias a todos los que participaron en esta charla.
 **Educación Abierta y Comunidad: Democratizando el Aprendizaje en Python** es una iniciativa educativa pensada para inspirar, compartir y enseñar programación de forma **abierta, práctica y colaborativa**. Utilizando herramientas como **Quarto, Python y Streamlit**, demostramos que es posible generar recursos didácticos que mezclen código, visualización y narrativa para **aprender en comunidad**.
 
 🌐 Conoce más en: [https://seth-nut.github.io/resources](https://seth-nut.github.io/resources)
-

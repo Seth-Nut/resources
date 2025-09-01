@@ -52,11 +52,13 @@ Gracias a todos los que hicieron posible este evento. ¡Mantente atento a futura
 
 ### 📷 Fotos del Evento
 
-::: {style="display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: 1em;"}
+::: {style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1em;"}
 ![](images/img_01.jpeg){group="my-gallery"}
 
 ![](images/img_02.jpeg){group="my-gallery"}
+:::
 
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
 ![](images/img_03.jpeg){group="my-gallery"}
 
 ![](images/img_04.jpeg){group="my-gallery"}

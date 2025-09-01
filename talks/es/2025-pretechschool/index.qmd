@@ -35,7 +35,6 @@ read_yaml_talks_pt()
 
 ------------------------------------------------------------------------
 
-
 ## 🎉 Éxito en la Charla **"No es Magia, es Ciencia"**
 
 El pasado **2 de abril de 2025**, realizamos el taller **"No es Magia, es Ciencia: Cómo conversar mejor con asistentes de IA"**, una actividad educativa centrada en entender el funcionamiento de los modelos de lenguaje y cómo aprovecharlos de forma ética, crítica y creativa.
@@ -46,46 +45,47 @@ El pasado **2 de abril de 2025**, realizamos el taller **"No es Magia, es Cienci
 
 Durante la charla, Francisco Alfaro y Valeska Canales guiaron a los asistentes por una ruta clara y entretenida sobre:
 
-* **¿Qué es un LLM?**: cómo funcionan los modelos de lenguaje como ChatGPT, Gemini y otros.
-* **Bits, tokens y representación semántica**: entender cómo la IA procesa el lenguaje.
-* **Diseño de prompts efectivos**: estructura, estrategias como *zero-shot*, *few-shot*, *chain-of-thought* y *chaining*.
-* **Ética y uso responsable de la IA**: protección de datos, buenas prácticas y problemas comunes.
-* **Actividad práctica**: creación de un chatbot con personalidad única (¡como un chef robótico o un superhéroe consejero!).
+-   **¿Qué es un LLM?**: cómo funcionan los modelos de lenguaje como ChatGPT, Gemini y otros.
+-   **Bits, tokens y representación semántica**: entender cómo la IA procesa el lenguaje.
+-   **Diseño de prompts efectivos**: estructura, estrategias como *zero-shot*, *few-shot*, *chain-of-thought* y *chaining*.
+-   **Ética y uso responsable de la IA**: protección de datos, buenas prácticas y problemas comunes.
+-   **Actividad práctica**: creación de un chatbot con personalidad única (¡como un chef robótico o un superhéroe consejero!).
 
 ### 👏 ¡Felicitaciones!
 
-Queremos felicitar a todos los participantes que se animaron a probar, fallar, crear y reflexionar.
-También agradecemos a **Valeska Canales** por su destacada participación como charlista, y al equipo de **Seth\&Nut** por preparar una actividad interactiva que combinó teoría, práctica y humor.
+Queremos felicitar a todos los participantes que se animaron a probar, fallar, crear y reflexionar. También agradecemos a **Valeska Canales** por su destacada participación como charlista, y al equipo de **Seth&Nut** por preparar una actividad interactiva que combinó teoría, práctica y humor.
 
 La actividad demostró que **entender la IA es posible y útil para todas las personas**, sin importar su nivel técnico.
 
 ### 📅 Próximos Eventos
 
-Gracias a todos los que participaron en este taller.
-¡Mantente atento a próximas actividades de Seth&Nut!
+Gracias a todos los que participaron en este taller. ¡Mantente atento a próximas actividades de Seth&Nut!
 
 ### 📷 Fotos del Evento
 
-::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
-
+::: {style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 1em;"}
 ![](images/img_07.jpg){group="noesmagia-gallery"}
+:::
 
+::: {style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1em;"}
 ![](images/img_08.jpg){group="noesmagia-gallery"}
 
 ![](images/img_09.jpg){group="noesmagia-gallery"}
+:::
 
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
 ![](images/img_04.jpeg){group="noesmagia-gallery"}
 
 ![](images/img_05.jpeg){group="noesmagia-gallery"}
 
 ![](images/img_06.jpeg){group="noesmagia-gallery"}
-
 :::
 
 ### 📋 Sobre el Taller
 
-**"No es Magia, es Ciencia"** es una propuesta educativa desarrollada por **Seth\&Nut** que busca desmitificar el uso de los modelos de lenguaje y empoderar a las personas con herramientas prácticas para interactuar mejor con la inteligencia artificial.
+**"No es Magia, es Ciencia"** es una propuesta educativa desarrollada por **Seth&Nut** que busca desmitificar el uso de los modelos de lenguaje y empoderar a las personas con herramientas prácticas para interactuar mejor con la inteligencia artificial.
 
 Desde explicaciones de cómo los modelos generan texto hasta actividades creativas de diseño de asistentes virtuales, el taller promueve un aprendizaje accesible, reflexivo y entretenido.
 
-🌐 Más recursos disponibles en: [https://seth-nut.github.io/resources/](https://seth-nut.github.io/resources/)
+🌐 Más recursos disponibles en: <https://seth-nut.github.io/resources/>
+
