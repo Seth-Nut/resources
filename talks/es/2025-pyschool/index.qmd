@@ -1,0 +1,98 @@
+---
+title: PySchool - Python para Alumnos de Secundaria
+subtitle: Python Chile 
+author: 
+  - "Francisco Alfaro"
+  - "Valeska Canales"
+categories: [python, python-chile, duoc-uc, educación]
+date: "2025-09-01"
+image: "images/pyschool.png"
+links:
+- icon: globe
+  icon_pack: fas
+  name: Escape Rooms
+  url: https://sebastiandres.github.io/pyschool_2025/
+- icon: display
+  icon_pack: fas
+  name: Presentación
+  url: https://docs.google.com/presentation/d/1QS1yDJ9gHeOnQBBj8G4eVv-Pq3zgmG-_9nffE51XwO8/edit?usp=sharing
+filters:
+   - lightbox
+lightbox: auto
+---
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+------------------------------------------------------------------------
+
+
+## 🎉 Éxito en la Primera PySchool Chile
+
+Estamos encantados de felicitar a **Valeska Canales Pozo** y **Francisco Alfaro Medina** por su destacada participación en la segunda **PySchool Chile**. Ambos brillaron como talleristas, ofreciendo sesiones dinámicas, interactivas y muy valoradas por los asistentes.
+
+### 🌟 Aporte Fundamental
+
+Valeska y Francisco jugaron un rol esencial en el evento, entregando conocimientos prácticos y motivación a todos los participantes. Su profesionalismo y entusiasmo fueron clave para el éxito de la PySchool y para la creación de un ambiente de aprendizaje inclusivo y entretenido.
+
+### 🕹️ Escape Rooms de Python
+
+Una de las grandes novedades fueron los **Python Escape Rooms**, donde los estudiantes enfrentaron desafíos de programación en un formato lúdico y colaborativo. Esta metodología no solo enseñó conceptos clave de Python, sino que también fomentó el trabajo en equipo, la creatividad y la resolución de problemas de una manera única.
+
+
+### 👏 ¡Felicitaciones!
+
+Queremos expresar nuestro reconocimiento y agradecimiento por el excelente trabajo de los talleristas y de toda la organización. ¡Felicitaciones a ambos por su gran contribución!
+
+### 📅 Próximos Eventos
+
+Gracias a todos los que hicieron posible este evento. ¡Mantente atento a futuros encuentros y nuevas oportunidades para aprender y divertirte con Python!
+
+### 📷 Fotos del Evento
+
+::: {style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 1em;"}
+![](images/img_01.jpeg){group="my-gallery"}
+:::
+
+::: {style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1em;"}
+![](images/img_02.jpeg){group="my-gallery"}
+
+![](images/img_03.jpeg){group="my-gallery"}
+:::
+
+
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
+![](images/img_14.jpeg){group="my-gallery"}
+
+![](images/img_09.jpeg){group="my-gallery"}
+
+![](images/img_15.jpeg){group="my-gallery"}
+
+![](images/img_13.jpeg){group="my-gallery"}
+
+![](images/img_16.jpeg){group="my-gallery"}
+
+![](images/img_10.jpeg){group="my-gallery"}
+
+![](images/img_04.jpeg){group="my-gallery"}
+
+![](images/img_06.jpeg){group="my-gallery"}
+
+![](images/img_12.jpeg){group="my-gallery"}
+
+![](images/img_08.jpeg){group="my-gallery"}
+
+![](images/img_07.jpeg){group="my-gallery"}
+
+![](images/img_11.jpeg){group="my-gallery"}
+:::
+
+### 📋 Sobre PySchool
+
+**PySchool** es una iniciativa de **Python Chile** y **DUOC** creada para motivar a los estudiantes a aprender Python de forma entretenida. Incluye ejemplos prácticos y autocontenidos para facilitar la comprensión de los conceptos básicos del lenguaje.
+
+🌐 Más información en: [pyschool.cl](https://pyschool.cl/)

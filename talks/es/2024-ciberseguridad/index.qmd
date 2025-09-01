@@ -56,13 +56,18 @@ Agradecemos a todos quienes participaron en la organización y ejecución de est
 
 ### 📷 Fotos del Evento
 
-::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
+::: {style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 1em;"}
 ![](images/img_01.jpg){group="my-gallery"}
-
-![](images/img_02.jpg){group="my-gallery"}
 
 ![](images/img_05.jpg){group="my-gallery"}
 
+:::
+
+
+
+
+
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
 ![](images/img_03.jpg){group="my-gallery"}
 
 ![](images/img_07.jpg){group="my-gallery"}
@@ -89,3 +94,4 @@ La charla concluyó con un llamado a la acción sobre la **responsabilidad de la
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/hTmkePNQttiY5z?hostedIn=slideshare&amp;page=upload" width="700" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
 
 </iframe>
+

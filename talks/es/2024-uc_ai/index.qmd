@@ -55,13 +55,17 @@ Agradecemos a todos los participantes por su interés en este seminario y los in
 
 ## 📷 Fotos del Evento
 
-::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
+::: {style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 1em;"}
 ![](images/img_01.jpeg){group="my-gallery"}
+:::
 
-![](images/img_08.jpeg){group="my-gallery"}
-
+::: {style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1em;"}
 ![](images/img_09.jpeg){group="my-gallery"}
 
+![](images/img_08.jpeg){group="my-gallery"}
+:::
+
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
 ![](images/img_02.jpeg){group="my-gallery"}
 
 ![](images/img_03.jpeg){group="my-gallery"}
@@ -94,3 +98,4 @@ Además, durante el seminario se presentaron otros pósters igualmente interesan
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/EW3hyitoG1fFqW?hostedIn=slideshare&amp;page=upload" width="700" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
 
 </iframe>
+

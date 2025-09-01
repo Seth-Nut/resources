@@ -52,16 +52,26 @@ Agradecemos a todos quienes hicieron posible este evento. ¡Mantente atento a fu
 
 ### 📷 Fotos del Evento
 
-::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
+::: {style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 1em;"}
 ![](images/img_01.jpeg){group="my-gallery"}
 
+
+
+:::
+
+::: {style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1em;"}
 ![](images/img_02.jpeg){group="my-gallery"}
 
 ![](images/img_03.jpeg){group="my-gallery"}
 
-![](images/img_11.jpg){group="my-gallery"}
+
+:::
+
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
 
 ![](images/img_06.jpeg){group="my-gallery"}
+
+![](images/img_11.jpg){group="my-gallery"}
 
 ![](images/img_09.jpeg){group="my-gallery"}
 
@@ -82,4 +92,3 @@ En el marco de las **Olimpiadas de Matemáticas Federico Santa María 2024**, se
 Estos talleres ofrecieron ejemplos prácticos de programación en Python y su aplicación en conceptos matemáticos, motivando a los participantes a aprender de manera activa.
 
 🌐 Puedes verlo en el siguiente enlace: [DMAT-SJ-Olimpiadas](https://fralfaro.github.io/DMAT-SJ-Olimpiadas/).
-

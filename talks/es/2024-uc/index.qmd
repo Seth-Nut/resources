@@ -33,35 +33,38 @@ read_yaml_talks_pt()
 
 ------------------------------------------------------------------------
 
+## 🎉 Éxito en el Segundo Encuentro de Docencia e Innovación en Matemática Universitaria
 
+Nos complace felicitar a **Francisco Alfaro** por su destacada participación en el [Segundo Encuentro de Docencia e Innovación en Matemática Universitaria](https://www.mat.uc.cl/docencia-innovacion.html), realizado el 29 de noviembre de 2024 en la **Facultad de Matemáticas UC**, Campus San Joaquín.
 
-## 🎉 Éxito en el Segundo Encuentro de Docencia e Innovación en Matemática Universitaria  
+## 🌟 Contribución Fundamental
 
-Nos complace felicitar a **Francisco Alfaro** por su destacada participación en el [Segundo Encuentro de Docencia e Innovación en Matemática Universitaria](https://www.mat.uc.cl/docencia-innovacion.html), realizado el 29 de noviembre de 2024 en la **Facultad de Matemáticas UC**, Campus San Joaquín.  
+Francisco Alfaro desempeñó un papel clave durante este evento, compartiendo su experiencia y conocimientos sobre innovación en la enseñanza universitaria. Su presentación abordó cómo herramientas tecnológicas y enfoques colaborativos pueden transformar el aprendizaje de las matemáticas:
 
-## 🌟 Contribución Fundamental  
+Su charla titulada **"Innovación en MAT281: Colab y Evaluaciones Dinámicas"**, explicó cómo la integración de **Google Colab** y sistemas de evaluación más flexibles ha mejorado el acceso de los estudiantes y potenciado su motivación.
 
-Francisco Alfaro desempeñó un papel clave durante este evento, compartiendo su experiencia y conocimientos sobre innovación en la enseñanza universitaria. Su presentación abordó cómo herramientas tecnológicas y enfoques colaborativos pueden transformar el aprendizaje de las matemáticas:  
+## 👏 ¡Felicitaciones!
 
-Su charla titulada **"Innovación en MAT281: Colab y Evaluaciones Dinámicas"**, explicó cómo la integración de **Google Colab** y sistemas de evaluación más flexibles ha mejorado el acceso de los estudiantes y potenciado su motivación.  
+Queremos expresar nuestro agradecimiento a **Francisco Alfaro** por su valiosa contribución, que inspiró a los asistentes a explorar nuevas posibilidades en la enseñanza de matemáticas. ¡Felicitaciones por este logro!
 
-## 👏 ¡Felicitaciones!  
+## 📅 Próximos Eventos
 
-Queremos expresar nuestro agradecimiento a **Francisco Alfaro** por su valiosa contribución, que inspiró a los asistentes a explorar nuevas posibilidades en la enseñanza de matemáticas. ¡Felicitaciones por este logro!  
+Agradecemos a todos los académicos, ayudantes y estudiantes de postgrado que participaron en este exitoso evento. ¡Estén atentos a nuevas actividades relacionadas con la docencia e innovación en matemáticas universitarias!
 
-## 📅 Próximos Eventos  
+## 📷 Fotos del Evento
 
-Agradecemos a todos los académicos, ayudantes y estudiantes de postgrado que participaron en este exitoso evento. ¡Estén atentos a nuevas actividades relacionadas con la docencia e innovación en matemáticas universitarias!  
-
-## 📷 Fotos del Evento  
-
-::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
+::: {style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 1em;"}
 ![](images/img_01.jpeg){group="my-gallery"}
+:::
 
+
+::: {style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1em;"}
 ![](images/img_02.jpeg){group="my-gallery"}
 
 ![](images/img_034.jpeg){group="my-gallery"}
+:::
 
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
 ![](images/img_05.jpeg){group="my-gallery"}
 
 ![](images/img_04.jpeg){group="my-gallery"}
@@ -75,12 +78,12 @@ Agradecemos a todos los académicos, ayudantes y estudiantes de postgrado que pa
 ![](images/img_09.jpeg){group="my-gallery"}
 :::
 
-## 📋 Sobre la Presentación  
+## 📋 Sobre la Presentación
 
-La presentación **"Innovación en MAT281: Colab y Evaluaciones Dinámicas"** destacó los siguientes aspectos:  
+La presentación **"Innovación en MAT281: Colab y Evaluaciones Dinámicas"** destacó los siguientes aspectos:
 
-- **Herramientas tecnológicas:** Uso de **Google Colab** para fomentar la colaboración entre estudiantes y mejorar el acceso al curso.  
-- **Evaluaciones dinámicas:** Métodos flexibles y adaptables para evaluar a los estudiantes de manera más justa y efectiva.  
-- **Impacto positivo:** Cómo estas estrategias han transformado la experiencia educativa en MAT281, motivando a los estudiantes y facilitando su aprendizaje.  
+-   **Herramientas tecnológicas:** Uso de **Google Colab** para fomentar la colaboración entre estudiantes y mejorar el acceso al curso.\
+-   **Evaluaciones dinámicas:** Métodos flexibles y adaptables para evaluar a los estudiantes de manera más justa y efectiva.\
+-   **Impacto positivo:** Cómo estas estrategias han transformado la experiencia educativa en MAT281, motivando a los estudiantes y facilitando su aprendizaje.
 
-🌐 Accede al material de la presentación aquí: [Innovación en MAT281](https://seth-nut.github.io/talks/uc_2024/presentacion.html#/title-slide).  
+🌐 Accede al material de la presentación aquí: [Innovación en MAT281](https://seth-nut.github.io/talks/uc_2024/presentacion.html#/title-slide).

@@ -56,7 +56,17 @@ Gracias a todos los que hicieron posible este evento. ¡Mantente atento a futuro
 
 ### 📷 Fotos del Evento
 
-::: {style="display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: 1em;"}
+::: {style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 1em;"}
+![](images/img_10.jpeg){group="my-gallery"}
+:::
+
+::: {style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1em;"}
+![](images/img_11.jpeg){group="my-gallery"}
+
+![](images/img_12.jpeg){group="my-gallery"}
+:::
+
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
 ![](images/img_03.jpeg){group="my-gallery"}
 
 ![](images/img_04.jpeg){group="my-gallery"}
@@ -74,12 +84,6 @@ Gracias a todos los que hicieron posible este evento. ¡Mantente atento a futuro
 ![](images/img_08.jpeg){group="my-gallery"}
 
 ![](images/img_09.jpeg){group="my-gallery"}
-
-![](images/img_10.jpeg){group="my-gallery"}
-
-![](images/img_11.jpeg){group="my-gallery"}
-
-![](images/img_12.jpeg){group="my-gallery"}
 :::
 
 ### 📋 Sobre la Presentación
