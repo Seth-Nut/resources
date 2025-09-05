@@ -2,238 +2,246 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>fralfaro.github.io/blog/videos.html</loc>
-    <lastmod>2025-09-01T19:50:51.155Z</lastmod>
+    <lastmod>2025-09-05T21:46:16.634Z</lastmod>
   </url>
   <url>
     <loc>fralfaro.github.io/blog/teaching/ml/index.html</loc>
-    <lastmod>2025-09-01T19:50:51.153Z</lastmod>
+    <lastmod>2025-09-05T21:46:16.633Z</lastmod>
   </url>
   <url>
     <loc>fralfaro.github.io/blog/teaching/index.html</loc>
-    <lastmod>2025-09-01T19:50:51.153Z</lastmod>
+    <lastmod>2025-09-05T21:46:16.633Z</lastmod>
   </url>
   <url>
     <loc>fralfaro.github.io/blog/teaching/tools/index.html</loc>
-    <lastmod>2025-09-01T19:50:51.154Z</lastmod>
+    <lastmod>2025-09-05T21:46:16.633Z</lastmod>
   </url>
   <url>
     <loc>fralfaro.github.io/blog/teaching/dl/index.html</loc>
-    <lastmod>2025-09-01T19:50:51.153Z</lastmod>
+    <lastmod>2025-09-05T21:46:16.632Z</lastmod>
   </url>
   <url>
     <loc>fralfaro.github.io/blog/dorian.html</loc>
-    <lastmod>2025-09-01T19:50:50.549Z</lastmod>
+    <lastmod>2025-09-05T21:46:16.013Z</lastmod>
   </url>
   <url>
     <loc>fralfaro.github.io/blog/vale.html</loc>
-    <lastmod>2025-09-01T19:50:51.154Z</lastmod>
+    <lastmod>2025-09-05T21:46:16.633Z</lastmod>
   </url>
   <url>
     <loc>fralfaro.github.io/blog/fran.html</loc>
-    <lastmod>2025-09-01T19:50:50.572Z</lastmod>
+    <lastmod>2025-09-05T21:46:16.036Z</lastmod>
   </url>
   <url>
     <loc>fralfaro.github.io/blog/talks/index.html</loc>
-    <lastmod>2025-09-01T19:50:51.153Z</lastmod>
+    <lastmod>2025-09-05T21:46:16.632Z</lastmod>
   </url>
   <url>
     <loc>fralfaro.github.io/blog/talks/es/2025-uc_ingenieria/index.html</loc>
-    <lastmod>2025-09-01T19:50:51.150Z</lastmod>
+    <lastmod>2025-09-05T21:46:16.630Z</lastmod>
   </url>
   <url>
     <loc>fralfaro.github.io/blog/talks/es/2025-pyschool/index.html</loc>
-    <lastmod>2025-09-01T19:50:51.058Z</lastmod>
+    <lastmod>2025-09-05T21:46:16.538Z</lastmod>
   </url>
   <url>
     <loc>fralfaro.github.io/blog/talks/es/2025-user/index.html</loc>
-    <lastmod>2025-09-01T19:50:51.153Z</lastmod>
+    <lastmod>2025-09-05T21:46:16.632Z</lastmod>
   </url>
   <url>
     <loc>fralfaro.github.io/blog/talks/es/2024-techschool/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.777Z</lastmod>
+    <lastmod>2025-09-05T21:46:16.239Z</lastmod>
   </url>
   <url>
     <loc>fralfaro.github.io/blog/talks/es/2025-pycolombia/index.html</loc>
-    <lastmod>2025-09-01T19:50:51.004Z</lastmod>
+    <lastmod>2025-09-05T21:46:16.483Z</lastmod>
   </url>
   <url>
     <loc>fralfaro.github.io/blog/talks/es/2025-escuela/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.992Z</lastmod>
+    <lastmod>2025-09-05T21:46:16.472Z</lastmod>
   </url>
   <url>
-    <loc>fralfaro.github.io/blog/talks/es/2024-tel/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.779Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/talks/es/2025-shinyconf/index.html</loc>
-    <lastmod>2025-09-01T19:50:51.062Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/talks/es/2025-emma-cc/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.970Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/talks/es/2024-olimpiadas/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.739Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/talks/es/2025-pretechschool/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.998Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/talks/es/2024-mat281/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.730Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/talks/es/2025-bdo/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.800Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/talks/es/2024-latinr/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.718Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/posts/2025-03-08-colab/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.613Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/posts/2025-02-09-cfp/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.606Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/posts/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.697Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/posts/2025-03-14-pi/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.617Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/posts/2024-08-07-jb/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.599Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/posts/2024-08-07-markdown/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.599Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/research/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.700Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/seth-nuth.html</loc>
-    <lastmod>2025-09-01T19:50:50.700Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/research/en/2022-ambiagua/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.700Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/posts/2025-01-12-github/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.606Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/posts/2024-08-07-google_colab/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.598Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/posts/2024-08-01-gh_account/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.585Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/posts/2024-08-01-gh_profile/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.592Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/posts/2024-08-07-python/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.601Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/posts/2024-08-01-gh_readme/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.596Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/talks/es/2024-uc_ai/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.796Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/talks/es/2024-mads/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.727Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/talks/es/2024-pyschool/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.775Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/talks/es/2025-devopsday1/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.963Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/talks/es/2025-techschool/index.html</loc>
-    <lastmod>2025-09-01T19:50:51.076Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/talks/es/2025-ceemat/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.949Z</lastmod>
+    <loc>fralfaro.github.io/blog/talks/es/2025-aequalis/index.html</loc>
+    <lastmod>2025-09-05T21:46:16.268Z</lastmod>
   </url>
   <url>
     <loc>fralfaro.github.io/blog/talks/es/2024-uc/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.787Z</lastmod>
+    <lastmod>2025-09-05T21:46:16.249Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/talks/es/2025-ceemat/index.html</loc>
+    <lastmod>2025-09-05T21:46:16.421Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/talks/es/2025-techschool/index.html</loc>
+    <lastmod>2025-09-05T21:46:16.555Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/talks/es/2024-olimpiadas/index.html</loc>
+    <lastmod>2025-09-05T21:46:16.202Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/talks/es/2025-pretechschool/index.html</loc>
+    <lastmod>2025-09-05T21:46:16.478Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/talks/es/2024-mat281/index.html</loc>
+    <lastmod>2025-09-05T21:46:16.193Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/talks/es/2025-bdo/index.html</loc>
+    <lastmod>2025-09-05T21:46:16.272Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/talks/es/2024-latinr/index.html</loc>
+    <lastmod>2025-09-05T21:46:16.181Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/posts/2025-03-08-colab/index.html</loc>
+    <lastmod>2025-09-05T21:46:16.077Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/posts/2025-02-09-cfp/index.html</loc>
+    <lastmod>2025-09-05T21:46:16.070Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/posts/index.html</loc>
+    <lastmod>2025-09-05T21:46:16.160Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/posts/2025-03-14-pi/index.html</loc>
+    <lastmod>2025-09-05T21:46:16.081Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/posts/2024-08-07-jb/index.html</loc>
+    <lastmod>2025-09-05T21:46:16.063Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/posts/2024-08-07-markdown/index.html</loc>
+    <lastmod>2025-09-05T21:46:16.064Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/research/index.html</loc>
+    <lastmod>2025-09-05T21:46:16.163Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/seth-nuth.html</loc>
+    <lastmod>2025-09-05T21:46:16.163Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/research/en/2022-ambiagua/index.html</loc>
+    <lastmod>2025-09-05T21:46:16.163Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/posts/2025-01-12-github/index.html</loc>
+    <lastmod>2025-09-05T21:46:16.070Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/posts/2024-08-07-google_colab/index.html</loc>
+    <lastmod>2025-09-05T21:46:16.062Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/posts/2024-08-01-gh_account/index.html</loc>
+    <lastmod>2025-09-05T21:46:16.049Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/posts/2024-08-01-gh_profile/index.html</loc>
+    <lastmod>2025-09-05T21:46:16.056Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/posts/2024-08-07-python/index.html</loc>
+    <lastmod>2025-09-05T21:46:16.065Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/posts/2024-08-01-gh_readme/index.html</loc>
+    <lastmod>2025-09-05T21:46:16.060Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/talks/es/2024-uc_ai/index.html</loc>
+    <lastmod>2025-09-05T21:46:16.258Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/talks/es/2024-mads/index.html</loc>
+    <lastmod>2025-09-05T21:46:16.189Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/talks/es/2024-pyschool/index.html</loc>
+    <lastmod>2025-09-05T21:46:16.238Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/talks/es/2025-devopsday1/index.html</loc>
+    <lastmod>2025-09-05T21:46:16.434Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/talks/es/2025-devopsday2/index.html</loc>
+    <lastmod>2025-09-05T21:46:16.443Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/talks/es/2025-emma-cc/index.html</loc>
+    <lastmod>2025-09-05T21:46:16.450Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/talks/es/2025-shinyconf/index.html</loc>
+    <lastmod>2025-09-05T21:46:16.541Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/talks/es/2024-tel/index.html</loc>
+    <lastmod>2025-09-05T21:46:16.241Z</lastmod>
   </url>
   <url>
     <loc>fralfaro.github.io/blog/talks/es/2025-sumemos_ideas/index.html</loc>
-    <lastmod>2025-09-01T19:50:51.069Z</lastmod>
+    <lastmod>2025-09-05T21:46:16.549Z</lastmod>
   </url>
   <url>
     <loc>fralfaro.github.io/blog/talks/es/2024-pyday/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.772Z</lastmod>
+    <lastmod>2025-09-05T21:46:16.234Z</lastmod>
   </url>
   <url>
     <loc>fralfaro.github.io/blog/talks/es/2025-citt/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.957Z</lastmod>
+    <lastmod>2025-09-05T21:46:16.429Z</lastmod>
   </url>
   <url>
     <loc>fralfaro.github.io/blog/talks/es/2025-pyday/index.html</loc>
-    <lastmod>2025-09-01T19:50:51.046Z</lastmod>
+    <lastmod>2025-09-05T21:46:16.525Z</lastmod>
   </url>
   <url>
     <loc>fralfaro.github.io/blog/talks/es/2024-chatgpt/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.705Z</lastmod>
+    <lastmod>2025-09-05T21:46:16.168Z</lastmod>
   </url>
   <url>
     <loc>fralfaro.github.io/blog/talks/es/2024-ciberseguridad/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.713Z</lastmod>
+    <lastmod>2025-09-05T21:46:16.176Z</lastmod>
   </url>
   <url>
     <loc>fralfaro.github.io/blog/talks/es/2025-emma-sj/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.976Z</lastmod>
+    <lastmod>2025-09-05T21:46:16.456Z</lastmod>
   </url>
   <url>
     <loc>fralfaro.github.io/blog/index.html</loc>
-    <lastmod>2025-09-01T19:50:50.582Z</lastmod>
+    <lastmod>2025-09-05T21:46:16.046Z</lastmod>
   </url>
   <url>
     <loc>fralfaro.github.io/blog/quarto.html</loc>
-    <lastmod>2025-09-01T19:50:50.697Z</lastmod>
+    <lastmod>2025-09-05T21:46:16.160Z</lastmod>
   </url>
   <url>
     <loc>fralfaro.github.io/blog/teaching/python/index.html</loc>
-    <lastmod>2025-09-01T19:50:51.153Z</lastmod>
+    <lastmod>2025-09-05T21:46:16.633Z</lastmod>
   </url>
   <url>
     <loc>fralfaro.github.io/blog/teaching/r/index.html</loc>
-    <lastmod>2025-09-01T19:50:51.153Z</lastmod>
+    <lastmod>2025-09-05T21:46:16.633Z</lastmod>
   </url>
   <url>
     <loc>fralfaro.github.io/blog/teaching/eda/index.html</loc>
-    <lastmod>2025-09-01T19:50:51.153Z</lastmod>
+    <lastmod>2025-09-05T21:46:16.633Z</lastmod>
   </url>
   <url>
     <loc>fralfaro.github.io/blog/teaching/big_data/index.html</loc>
-    <lastmod>2025-09-01T19:50:51.153Z</lastmod>
+    <lastmod>2025-09-05T21:46:16.632Z</lastmod>
   </url>
   <url>
     <loc>fralfaro.github.io/blog/teaching/software/index.html</loc>
-    <lastmod>2025-09-01T19:50:51.153Z</lastmod>
+    <lastmod>2025-09-05T21:46:16.633Z</lastmod>
   </url>
 </urlset>

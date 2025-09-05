@@ -15,8 +15,10 @@
   {
     "listing": "/talks/index.html",
     "items": [
+      "/talks/es/2025-devopsday2/index.html",
       "/talks/es/2025-pyschool/index.html",
       "/talks/es/2025-sumemos_ideas/index.html",
+      "/talks/es/2025-aequalis/index.html",
       "/talks/es/2025-devopsday1/index.html",
       "/talks/es/2025-emma-cc/index.html",
       "/talks/es/2025-emma-sj/index.html",
@@ -70,8 +72,10 @@
   {
     "listing": "/index.html",
     "items": [
+      "/talks/es/2025-devopsday2/index.html",
       "/talks/es/2025-pyschool/index.html",
       "/talks/es/2025-sumemos_ideas/index.html",
+      "/talks/es/2025-aequalis/index.html",
       "/talks/es/2025-devopsday1/index.html",
       "/talks/es/2025-emma-cc/index.html",
       "/talks/es/2025-emma-sj/index.html",
