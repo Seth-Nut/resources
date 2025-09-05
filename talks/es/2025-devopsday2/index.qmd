@@ -1,0 +1,96 @@
+---
+title: "DevOpsDays <br> Santiago 2025"
+subtitle: "Inacap 2025"
+author: 
+  - "Francisco Alfaro"
+categories: [devops, tecnología, comunidad]
+date: "2025-09-05"
+image: "images/devopsday.png"
+links:
+- icon: globe
+  icon_pack: fas
+  name: Webpage
+  url: https://santiago.devopsdayschile.cl/
+- icon: linkedin
+  icon_pack: fab
+  name: LinkedIn
+  url: https://www.linkedin.com/company/devopsdayschile/
+
+filters:
+  - lightbox
+lightbox: auto
+---
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+------------------------------------------------------------------------
+
+## ✨ Evento: *DevOpsDays Santiago 2025*
+
+El **5 de septiembre de 2025** se realizó por primera vez en Chile el **DevOpsDays Santiago**, un encuentro internacional que reunió a profesionales de la tecnología, desarrolladores, y entusiastas de la cultura **DevOps y DevSecOps**.
+
+Tuve la oportunidad de participar como **asistente** y también como parte de la comunidad **Python Chile**, compartiendo con referentes locales e internacionales y explorando nuevas perspectivas sobre automatización, innovación y cultura tecnológica.
+
+### 🌟 Una Experiencia de Aprendizaje y Comunidad
+
+Durante la jornada se desarrollaron:
+
+* **3 keynotes** de oradores renombrados en el mundo DevOps.
+* \~**14 charlas y talleres** de speakers seleccionados y patrocinadores.
+* Espacios de networking, actividades y premios que impulsaron la colaboración y el aprendizaje compartido.
+
+### 👏 Agradecimientos
+
+Gracias a la organización de **DevOpsDays Santiago** y a los patrocinadores que hicieron posible este encuentro, así como a la **comunidad Python Chile** por seguir impulsando espacios de colaboración y aprendizaje.  
+
+Un agradecimiento muy especial a [Sergio Canales](https://www.linkedin.com/in/sergio-canales-espinoza/), cuya invitación me permitió vivir esta gran experiencia y ser parte de un evento tan significativo para la comunidad tecnológica.
+
+
+### 📷 Fotos del Evento
+
+::: {style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 1em;"}
+![](images/img_01.jpeg){group="galeria-evento"}
+:::
+
+::: {style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1em;"}
+![](images/img_02.jpeg){group="galeria-evento"}
+
+![](images/img_03.jpeg){group="galeria-evento"}
+
+:::
+
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
+![](images/img_10.jpeg){group="galeria-evento"}
+
+![](images/img_12.jpeg){group="galeria-evento"}
+
+![](images/img_11.jpeg){group="galeria-evento"}
+
+![](images/img_06.jpeg){group="galeria-evento"}
+
+![](images/img_09.jpeg){group="galeria-evento"}
+
+![](images/img_07.jpeg){group="galeria-evento"}
+
+![](images/img_15.jpeg){group="galeria-evento"}
+
+![](images/img_13.jpeg){group="galeria-evento"}
+
+
+![](images/img_14.jpeg){group="galeria-evento"}
+
+:::
+
+### 📋 Sobre el Evento
+
+**DevOpsDays** es un evento tecnológico comunitario global que conecta a profesionales y entusiastas de la automatización, la transformación digital y la innovación en el desarrollo de software.
+
+Su primera edición en Chile marcó un **hito para la comunidad tecnológica nacional**, abriendo un espacio de colaboración entre distintas disciplinas y comunidades.
+
+🚀 *Sigamos impulsando la cultura DevOps y construyendo puentes entre comunidades Open Source.* 
+

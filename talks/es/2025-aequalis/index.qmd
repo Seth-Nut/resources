@@ -1,0 +1,77 @@
+---
+title: "Geoanálisis del Ingreso Universitario y su Impacto Territorial"
+subtitle: "Congreso Aequalis 2025"
+author: 
+  - "Francisco Alfaro, Gabriel Molina"
+  - "Dorian Villegas, Valeska Canales"
+categories: [educación, universidad, geoanálisis]
+date: "2025-08-28"
+image: "images/aequalis.png"
+links:
+- icon: globe
+  icon_pack: fas
+  name: Material
+  url: https://docs.google.com/presentation/d/1iqafn-Lbed8q58TD5FD0B6Lc2R6xPQHFo4xxa9djf5I/edit?usp=sharing
+- icon: linkedin
+  icon_pack: fab
+  name: LinkedIn
+  url: https://www.linkedin.com/posts/foro-aequalis_iii-congreso-de-educaci%C3%B3n-superior-termina-activity-7369409950533496834-rqge?utm_source=share&utm_medium=member_desktop&rcm=ACoAABW-gAgB7do22NXOYm3_l0xBh_2h985EFvc
+- icon: newspaper
+  icon_pack: fas
+  name: Noticias
+  url: https://aequalis.cl/iii-congreso-de-educacion-superior-termina-con-record-de-presentaciones-academicas/
+
+filters:
+  - lightbox
+lightbox: auto
+---
+
+```{r}
+#| echo: false
+#| results: asis
+# función genérica para leer metadata de tus charlas
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+------------------------------------------------------------------------
+
+## ✨ Taller / Charla: *Geoanálisis del Ingreso Universitario y su Impacto Territorial*
+
+En el marco del **III Congreso de Educación Superior AEQUALIS 2025**, se presentó la ponencia **“Geoanálisis del Ingreso Universitario y su Impacto Territorial”**, a cargo de **Francisco Alfaro, Dorian Villegas, Gabriel Molina y Valeska Canales**.
+
+El objetivo fue **analizar la movilidad interregional y las condiciones de ingreso de estudiantes universitarios en Chile**, considerando factores **territoriales, socioeconómicos y de vulnerabilidad**. Este estudio busca dar visibilidad a realidades invisibles en las trayectorias educativas, aportando insumos para políticas más equitativas en educación superior.
+
+### 🌟 Una Experiencia de Aprendizaje Innovadora
+
+Durante la actividad, las y los participantes exploraron:
+
+-   El cruce de bases de datos públicas (SIES, DEMRE, JUNAEB, CEM, ubicación de IES).
+-   Evidencias sobre movilidad interregional, migración y recepción de estudiantes.
+-   Cómo la vulnerabilidad y el puntaje de admisión impactan las trayectorias educativas.
+
+### 👏 Agradecimientos
+
+Un especial agradecimiento a **Fundación AEQUALIS** por la organización de este espacio de diálogo académico y a todas las personas que participaron en las distintas sesiones del Congreso.  
+
+Asimismo, agradecemos a [Gabriel Molina](https://www.linkedin.com/in/gabriel-molinah/?originalSubdomain=cl), cuya investigación y valiosos consejos fueron fundamentales para dar forma a este proyecto y hacerlo posible en el marco del Congreso.
+
+### 📷 Fotos del Evento
+
+::: {style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1em;"}
+![](images/img_01.png){group="galeria-evento"}
+
+![](images/img_02.png){group="galeria-evento"}
+:::
+
+::: {style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 1em;"}
+![](images/img_03.png){group="galeria-evento"}
+:::
+
+### 📋 Sobre el Evento
+
+El **III Congreso de Educación Superior AEQUALIS 2025** reunió a más de **128 ponencias** y se consolidó como un referente de reflexión e innovación en la educación superior en Chile y Latinoamérica.
+
+Este trabajo destacó la importancia de un enfoque territorial para comprender trayectorias educativas y promover la **equidad en el acceso universitario**.
+
+🌱 *Sigamos aprendiendo y compartiendo conocimiento para construir una educación más justa e inclusiva.*
