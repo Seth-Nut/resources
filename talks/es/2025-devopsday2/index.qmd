@@ -54,13 +54,13 @@ Un agradecimiento muy especial a [Sergio Canales](https://www.linkedin.com/in/se
 ### 📷 Fotos del Evento
 
 ::: {style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 1em;"}
-![](images/img_01.jpeg){group="galeria-evento"}
+![](images/img_00.jpg){group="galeria-evento"}
 :::
 
 ::: {style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1em;"}
-![](images/img_02.jpeg){group="galeria-evento"}
+![](images/img_01.jpeg){group="galeria-evento"}
 
-![](images/img_03.jpeg){group="galeria-evento"}
+![](images/img_02.jpeg){group="galeria-evento"}
 
 :::
 
@@ -73,14 +73,13 @@ Un agradecimiento muy especial a [Sergio Canales](https://www.linkedin.com/in/se
 
 ![](images/img_06.jpeg){group="galeria-evento"}
 
-![](images/img_09.jpeg){group="galeria-evento"}
+![](images/img_03.jpeg){group="galeria-evento"}
 
 ![](images/img_07.jpeg){group="galeria-evento"}
 
 ![](images/img_15.jpeg){group="galeria-evento"}
 
 ![](images/img_13.jpeg){group="galeria-evento"}
-
 
 ![](images/img_14.jpeg){group="galeria-evento"}
 
