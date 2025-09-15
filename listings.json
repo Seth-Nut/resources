@@ -15,6 +15,7 @@
   {
     "listing": "/talks/index.html",
     "items": [
+      "/talks/es/2025-bdo2/index.html",
       "/talks/es/2025-devopsday2/index.html",
       "/talks/es/2025-pyschool/index.html",
       "/talks/es/2025-sumemos_ideas/index.html",
@@ -48,6 +49,12 @@
     ]
   },
   {
+    "listing": "/research/index.html",
+    "items": [
+      "/research/en/2022-ambiagua/index.html"
+    ]
+  },
+  {
     "listing": "/posts/index.html",
     "items": [
       "/posts/2025-03-14-pi/index.html",
@@ -64,14 +71,9 @@
     ]
   },
   {
-    "listing": "/research/index.html",
-    "items": [
-      "/research/en/2022-ambiagua/index.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
+      "/talks/es/2025-bdo2/index.html",
       "/talks/es/2025-devopsday2/index.html",
       "/talks/es/2025-pyschool/index.html",
       "/talks/es/2025-sumemos_ideas/index.html",

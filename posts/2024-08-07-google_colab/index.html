@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.34">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -69,14 +69,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../../images/logo_sn.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-a665582c030a995f1375f17fd181896b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-b57379791fcb5f707ee12f5639f381c8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -91,7 +92,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "Sin resultados",
+    "search-no-results-text": "No se han encontrado resultados",
     "search-matching-documents-text": "documentos encontrados",
     "search-copy-link-title": "Copiar el enlace en la búsqueda",
     "search-hide-matches-text": "Ocultar resultados adicionales",
@@ -117,7 +118,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/doberman.png" alt="" class="navbar-logo">
+    <img src="../../images/doberman.png" alt="" class="navbar-logo light-content">
+    <img src="../../images/doberman.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Seth&amp;Nut</span>
@@ -312,8 +314,8 @@ Para aprender más, consulta el <a href="https://github.com/google-gemini/cookbo
 <p>El documento que estás leyendo no es una página web estática, sino un entorno interactivo llamado <strong>cuaderno de Colab</strong> que te permite escribir y ejecutar código.</p>
 <p>Por ejemplo, aquí hay una <strong>celda de código</strong> con un breve script en Python que calcula un valor, lo almacena en una variable y muestra el resultado:</p>
 <div id="cell-5" class="cell" data-outputid="beb4aaca-6eac-4b30-f2ff-ea4308968122">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>seconds_in_a_day <span class="op">=</span> <span class="dv">24</span> <span class="op">*</span> <span class="dv">60</span> <span class="op">*</span> <span class="dv">60</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>seconds_in_a_day</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>seconds_in_a_day <span class="op">=</span> <span class="dv">24</span> <span class="op">*</span> <span class="dv">60</span> <span class="op">*</span> <span class="dv">60</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>seconds_in_a_day</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="0">
 <pre><code>86400</code></pre>
 </div>
@@ -321,8 +323,8 @@ Para aprender más, consulta el <a href="https://github.com/google-gemini/cookbo
 <p>Para ejecutar el código en la celda anterior, selecciónala con un clic y luego presiona el botón de reproducción a la izquierda del código, o usa el atajo de teclado “Command/Ctrl+Enter”. Para editar el código, solo haz clic en la celda y comienza a editar.</p>
 <p>Las variables que defines en una celda pueden ser utilizadas más adelante en otras celdas:</p>
 <div id="cell-7" class="cell" data-outputid="e8f0c2b1-3c1e-4476-f8c2-d8f31cdb5e75">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>seconds_in_a_week <span class="op">=</span> <span class="dv">7</span> <span class="op">*</span> seconds_in_a_day</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>seconds_in_a_week</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>seconds_in_a_week <span class="op">=</span> <span class="dv">7</span> <span class="op">*</span> seconds_in_a_day</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>seconds_in_a_week</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="0">
 <pre><code>604800</code></pre>
 </div>
@@ -335,7 +337,7 @@ Para aprender más, consulta el <a href="https://github.com/google-gemini/cookbo
 <p>Con Colab, puedes aprovechar todo el poder de las bibliotecas de Python populares para analizar y visualizar datos. La celda de código a continuación utiliza <strong>numpy</strong> para generar algunos datos aleatorios y <strong>matplotlib</strong> para visualizarlos. Para editar el código, solo haz clic en la celda y comienza a editar.</p>
 <p>Puedes importar tus propios datos a los cuadernos de Colab desde tu cuenta de Google Drive, incluyendo hojas de cálculo, así como desde GitHub y muchas otras fuentes. Para aprender más sobre cómo importar datos y cómo Colab puede ser utilizado para la ciencia de datos, consulta los enlaces a continuación en <a href="#working-with-data">Trabajando con datos</a>.</p>
 <div id="cell-10" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;height&quot;:249}}" data-outputid="65838ba2-0ea9-41b7-e3f9-a725be449d3b">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> IPython.display <span class="im">as</span> display</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> matplotlib <span class="im">import</span> pyplot <span class="im">as</span> plt</span>
 <span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> io</span>
@@ -354,7 +356,7 @@ Para aprender más, consulta el <a href="https://github.com/google-gemini/cookbo
 <span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>image <span class="op">=</span> <span class="ss">F"data:image/png;base64,</span><span class="sc">{</span>base64<span class="sc">.</span>b64encode(data.getvalue())<span class="sc">.</span>decode()<span class="sc">}</span><span class="ss">"</span></span>
 <span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>alt <span class="op">=</span> <span class="st">"Sample Visualization"</span></span>
 <span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>display.display(display.Markdown(<span class="ss">F"""![</span><span class="sc">{</span>alt<span class="sc">}</span><span class="ss">](</span><span class="sc">{</span>image<span class="sc">}</span><span class="ss">)"""</span>))</span>
-<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>plt.close(fig)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>plt.close(fig)</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display cell-output-markdown">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -482,13 +484,14 @@ Para aprender más, consulta el <a href="https://github.com/google-gemini/cookbo
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
