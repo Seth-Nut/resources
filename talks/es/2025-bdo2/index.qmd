@@ -1,0 +1,71 @@
+---
+title:  Mini Curso de Data Storytelling + A.I
+subtitle: BDO + Fondo Esperanza 2025
+author: 
+  - "Francisco Alfaro"
+categories: [education, storytelling, AI]
+date: "2025-09-09"
+image: "images/bdo.png"
+links:
+- icon: globe
+  icon_pack: fas
+  name: Charla Día 1
+  url: https://sethnut.com/talks/shiny_2025/presentacion_fa1.html#/title-slide
+- icon: globe
+  icon_pack: fas
+  name: Charla Día 2
+  url: https://sethnut.com/talks/shiny_2025/presentacion_fa2.html#/title-slide
+
+
+filters:
+  - lightbox
+lightbox: auto
+--- 
+
+```{r}
+#| echo: false
+#| results: asis
+# función genérica para leer metadata de tus charlas
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+------------------------------------------------------------------------
+
+
+## ✨ Taller / Charla: *Estructuración de Narrativas con Datos*
+
+En el marco del **Programa de Formación en Storytelling y Visualización de Datos**, organizado por **BDO Capacitación y Desarrollo** para **Fondo Esperanza**, se desarrolló el **Módulo 3 – Estructuración de Narrativas con Datos**, impartido por **Francisco Alfaro**.
+
+El objetivo de este módulo fue **desarrollar la habilidad de construir presentaciones persuasivas basadas en datos reales**, aplicando técnicas narrativas y visuales que permitan mantener el interés de la audiencia y conducirla hacia la acción. A través de ejemplos y ejercicios prácticos, buscamos que los participantes aprendieran a diseñar un *pitch* con datos clave, integrando visualizaciones y una estructura narrativa cohesionada.
+
+
+### 🌟 Una Experiencia de Aprendizaje Innovadora
+
+Durante la sesión, las y los participantes exploraron:
+
+* Cómo **seleccionar los datos clave** que cuentan una historia con impacto.
+* Estrategias para **desarrollar una estructura narrativa cohesiva**: contexto, conflicto y resolución.
+* Uso de **visualizaciones como parte de la narrativa**, seleccionando el gráfico adecuado.
+* Creación de **transiciones fluidas** para mantener un relato claro y atractivo.
+
+### 👏 Agradecimientos
+
+Un especial agradecimiento a **Fondo Esperanza** por confiar en este programa, a **BDO Capacitación y Desarrollo** por la organización, y a todas y todos los **participantes** que enriquecieron la experiencia con sus preguntas, ideas y ejemplos prácticos.
+
+
+
+### 📷 Fotos del Evento
+
+::: {style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 1em;"}
+![](images/img_01.png){group="galeria-evento"}
+:::
+
+
+
+### 📋 Sobre el Evento
+
+Este programa busca **potenciar la capacidad de equipos y profesionales para comunicar datos con impacto**, combinando el poder del *storytelling* con técnicas de visualización efectivas. El **Módulo 3** fue un espacio clave para aprender a transformar datos en relatos que conectan con las personas y apoyan la toma de decisiones estratégicas.
+
+💡 *Sigamos construyendo historias con datos que inspiran, motivan y generan acción.* 🌱
+
