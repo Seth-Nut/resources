@@ -1,20 +1,16 @@
 [
   {
-    "listing": "/teaching/index.html",
-    "items": [
-      "/teaching/big_data/index.html",
-      "/teaching/software/index.html",
-      "/teaching/dl/index.html",
-      "/teaching/ml/index.html",
-      "/teaching/eda/index.html",
-      "/teaching/python/index.html",
-      "/teaching/r/index.html",
-      "/teaching/tools/index.html"
-    ]
-  },
-  {
     "listing": "/talks/index.html",
     "items": [
+      "/talks/es/2025-pycon/index.html",
+      "/talks/es/2025-clei/index.html",
+      "/talks/es/2025-datasaturday/index.html",
+      "/talks/es/2025-cup/index.html",
+      "/talks/es/2025-comunidad/index.html",
+      "/talks/es/2025-integridad/index.html",
+      "/talks/es/2025-sochedi/index.html",
+      "/talks/es/2025-olimpiadas/index.html",
+      "/talks/es/2025-openday/index.html",
       "/talks/es/2025-bdo2/index.html",
       "/talks/es/2025-devopsday2/index.html",
       "/talks/es/2025-pyschool/index.html",
@@ -49,6 +45,19 @@
     ]
   },
   {
+    "listing": "/teaching/index.html",
+    "items": [
+      "/teaching/big_data/index.html",
+      "/teaching/software/index.html",
+      "/teaching/dl/index.html",
+      "/teaching/ml/index.html",
+      "/teaching/eda/index.html",
+      "/teaching/python/index.html",
+      "/teaching/r/index.html",
+      "/teaching/tools/index.html"
+    ]
+  },
+  {
     "listing": "/research/index.html",
     "items": [
       "/research/en/2022-ambiagua/index.html"
@@ -73,6 +82,15 @@
   {
     "listing": "/index.html",
     "items": [
+      "/talks/es/2025-pycon/index.html",
+      "/talks/es/2025-clei/index.html",
+      "/talks/es/2025-datasaturday/index.html",
+      "/talks/es/2025-cup/index.html",
+      "/talks/es/2025-comunidad/index.html",
+      "/talks/es/2025-integridad/index.html",
+      "/talks/es/2025-sochedi/index.html",
+      "/talks/es/2025-olimpiadas/index.html",
+      "/talks/es/2025-openday/index.html",
       "/talks/es/2025-bdo2/index.html",
       "/talks/es/2025-devopsday2/index.html",
       "/talks/es/2025-pyschool/index.html",
