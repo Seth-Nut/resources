@@ -1,0 +1,88 @@
+---
+title: "Crea, Innova y Presenta - Data Storytelling + IA"
+subtitle: "Open Tech Community Day"
+author: 
+  - "Francisco Alfaro"
+  - "Juan Etchebarne"
+categories: [datastorytelling, AI, comunidad]
+date: "2025-10-04"
+image: "images/logo.png"
+links:
+- icon: globe
+  icon_pack: fas
+  name: Material
+  url: https://sethnut.com/talks/
+- icon: instagram
+  icon_pack: fab
+  name: Instagram
+  url: https://www.instagram.com/p/DPENXRFEXsT/
+- icon: linkedin
+  icon_pack: fab
+  name: LinkedIn
+  url: https://www.linkedin.com/company/open-tech-community-day/posts/?feedView=all
+filters:
+  - lightbox
+lightbox: auto
+---
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+------------------------------------------------------------------------
+
+## 🎉 Éxito en la Charla **"Crea, Innova y Presenta - Data Storytelling + IA"**
+
+Durante la reciente edición del **Open Tech Community Day 2025**, realizada en la **Universidad de los Andes (Chile)**, los divulgadores **Francisco Alfaro** y **Juan Etchebarne** presentaron la charla **"Crea, Innova y Presenta - Data Storytelling + IA"**, una propuesta que une el poder de la narrativa, la visualización interactiva y la inteligencia artificial para mejorar la comunicación de datos en entornos técnicos, profesionales y educativos.
+
+### 🌟 Contenido Destacado
+
+A lo largo de la sesión, se abordaron temas clave como:
+
+- **¿Por qué contar historias con datos?** La narrativa como herramienta esencial para transmitir mensajes con claridad e impacto.  
+- **Storytelling técnico:** principios como construir tensión narrativa, elegir los detalles adecuados y preferir mostrar antes que explicar.  
+- **Visualización dinámica:** demostraciones en vivo utilizando **Python**, **Streamlit** y **Quarto** para crear presentaciones interactivas.  
+- **Apoyo de la Inteligencia Artificial:** uso de herramientas como **ChatGPT**, **Gemini** y **Napkin AI** para acelerar procesos creativos, estructurar ideas y generar contenido.  
+- **Casos aplicados:** ejemplos reales de cómo transformar un análisis de datos en una historia memorable que conecte con la audiencia.  
+
+### 👏 ¡Gracias Comunidad Tech!
+
+Agradecemos a todas las personas que participaron en la charla, así como a quienes se acercaron a conversar durante el evento.  
+También destacamos el trabajo colaborativo de las comunidades organizadoras —**AWS User Group & Cloud Clubs**, **Python Chile**, **Women Techmakers**, **Tribu IA**, entre otras— por crear un espacio abierto, inclusivo y diverso que fomenta el aprendizaje compartido.
+
+### 📅 Próximas Actividades
+
+Esta charla forma parte de una línea de talleres, cursos y contenidos abiertos orientados a fortalecer el vínculo entre **comunicación, datos e inteligencia artificial**.  
+Próximamente se anunciarán nuevas actividades y colaboraciones abiertas a la comunidad tecnológica y educativa.
+
+### 📷 Fotos del Evento
+
+
+::: {style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 0.5em;"}
+![](images/img_01.jpeg){group="pycon-gallery"}
+:::
+
+::: {style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1em;"}
+![](images/img_04.jpg){group="pycon-gallery"}
+
+![](images/img_07.jpg){group="pycon-gallery"}
+:::
+
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
+![](images/img_06.jpg){group="pycon-gallery"}
+
+![](images/img_08.jpg){group="pycon-gallery"}
+
+![](images/img_09.jpg){group="pycon-gallery"}
+:::
+
+### 📋 Sobre la Charla
+
+**"Crea, Innova y Presenta - Data Storytelling + IA"** es una propuesta formativa diseñada por **Francisco Alfaro** y **Juan Etchebarne** para enseñar cómo transformar datos en narrativas visuales interactivas.  
+A través de herramientas como **Python**, **Quarto**, **Streamlit** y modelos generativos de **A.I.**, esta charla busca inspirar a profesionales y educadores a **comunicar mejor con datos**.
+
+🌐 Más recursos y materiales en: <https://seth-nut.github.io/resources>
+

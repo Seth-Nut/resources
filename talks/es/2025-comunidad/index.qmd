@@ -1,0 +1,71 @@
+---
+title: "Congreso Compromiso Universidad y Comunidad"
+subtitle: "Bogotá 2025"
+author: 
+  - "Francisco Alfaro"
+categories: [comunidad, ai, educación]
+date: "2025-10-16"
+image: "images/logo-colombia.png"
+links:
+- icon: globe
+  icon_pack: fas
+  name: Material
+  url: https://sethnut.com/talks/
+- icon: newspaper
+  icon_pack: fas
+  name: Congreso
+  url: https://ascofade.co/eventos/congreso-internacional-compromiso-universidad-comunidad-juntanzas-aprendizajes-y-perspectivas/
+filters:
+  - lightbox
+lightbox: auto
+---
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+------------------------------------------------------------------------
+
+## 🎉 Participación en el Congreso Internacional *Compromiso Universidad-Comunidad: Juntanzas, Aprendizajes y Perspectivas*
+
+Durante el **Congreso Internacional Compromiso Universidad-Comunidad**, organizado por la **Universidad de Los Andes** los días **16 y 17 de octubre de 2025**, se reunieron académicos, investigadores y agentes comunitarios para reflexionar sobre las colaboraciones entre universidades y comunidades, y sobre los aportes de la **investigación participativa basada en comunidad**.  
+
+El evento, inspirado en la trayectoria de la **Cátedra UNESCO en Investigación Basada en Comunidad y Responsabilidad Social en la Educación Superior**, se desarrolló como un **laboratorio pedagógico** para compartir experiencias, dialogar sobre desafíos locales y globales, y promover la **democratización del conocimiento** a través de juntanzas y aprendizajes colectivos.
+
+
+
+## 💡 Investigación: *Educación Abierta y Comunidad: Democratizando el Aprendizaje en Python a través de Espacios Participativos*
+
+
+
+En América Latina persiste una brecha en el acceso a la enseñanza de programación y pensamiento computacional, reforzada por enfoques educativos poco participativos. Esta investigación explora cómo metodologías abiertas —como *Quarto*, *Google Colab*, *Streamlit* y *GitHub*— pueden co-crear experiencias educativas colaborativas, fomentando la motivación y el aprendizaje en comunidades escolares y universitarias.
+
+Los talleres realizados en Chile mostraron altos niveles de participación y entusiasmo, junto con desafíos como ajustar el ritmo a distintos niveles y ofrecer más apoyo. En conjunto, los resultados evidencian que la educación abierta puede democratizar el acceso a la tecnología y fortalecer el vínculo entre universidad y comunidad.
+
+
+
+
+### 📷 Fotos del Evento
+
+::: {style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 1em;"}
+![](images/img_01.png){group="emma-latex"}
+:::
+
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
+![](images/img_03.jpg){group="emma-latex"}
+
+![](images/img_02.jpg){group="emma-latex"}
+
+![](images/img_04.jpg){group="emma-latex"}
+:::
+
+### 📋 Sobre la Investigación
+
+**“Educación Abierta y Comunidad: Democratizando el Aprendizaje en Python a través de Espacios Participativos”** es una investigación desarrollada por **Francisco Alfaro** y **Valeska Canales** que explora cómo la educación abierta y las tecnologías colaborativas pueden **acercar la programación a comunidades diversas**, fortaleciendo la relación entre **universidad y territorio**.  
+El estudio evidencia que la apertura, la colaboración y el uso de herramientas tecnológicas accesibles son pilares para **una educación más inclusiva, ética y comprometida con el bien común.**
+
+🌐 Más recursos y materiales en: <https://seth-nut.github.io/resources>
+

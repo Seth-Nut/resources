@@ -1,0 +1,80 @@
+---
+title: "II Congreso Internacional en Educación Superior Inclusiva"
+subtitle: "Santiago 2025"
+author: 
+  - "Francisco Alfaro"
+  - "Valeska Canales"
+categories: [inclusión, educación, innovación]
+date: "2025-10-22"
+image: "images/logo-cup.jpg"
+links:
+- icon: globe
+  icon_pack: fas
+  name: Material
+  url: https://sethnut.com/talks/
+- icon: instagram
+  icon_pack: fab
+  name: Instagram
+  url: https://www.instagram.com/p/DQHvgM4j36J/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+- icon: youtube
+  icon_pack: fab
+  name: Youtube
+  url: https://www.youtube.com/live/htGIovZV5I8?si=RoNLFkzPYm82GPNZ&t=9315
+
+filters:
+  - lightbox
+lightbox: auto
+---
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+------------------------------------------------------------------------
+
+## 🎉 Participación en el II Congreso Internacional en Educación Superior Inclusiva
+
+El **II Congreso Internacional en Educación Superior Inclusiva**, realizado en **Chile** y organizado por diversas instituciones académicas, buscó consolidar un espacio de **reflexión, investigación y diálogo** en torno a la inclusión en la educación superior.  
+
+El encuentro reunió a **autoridades, académicos, organismos públicos y organizaciones de la sociedad civil** con el propósito de fortalecer una educación superior más justa, equitativa y sostenible.  
+
+Los principales ejes temáticos del congreso fueron:  
+
+- Avanzar hacia **políticas y prácticas inclusivas** en el sistema universitario.  
+- Fortalecer **redes interinstitucionales y cooperación internacional**.  
+- Generar aprendizajes desde la **investigación aplicada y experiencias de gestión**.  
+
+
+## 💡 Presentación: *Gobernanza Abierta e Inclusión Digital: Tecnologías Colaborativas en la Educación Superior*
+
+
+La inclusión en la educación superior requiere no solo ajustes pedagógicos, sino también **modelos de gobernanza** que aseguren un acceso equitativo a los recursos. En este marco, las **tecnologías abiertas** —como *Quarto*, *Google Colab*, *Streamlit* y *GitHub*— surgen como alternativas sostenibles para reducir costos, eliminar barreras y promover la participación de estudiantes con diversas necesidades. Estas herramientas permiten crear y compartir materiales interactivos y accesibles, fomentando una docencia colaborativa, transparente y financieramente sostenible.
+
+Los resultados preliminares muestran una **reducción de brechas tecnológicas**, **mayor participación estudiantil** y una **gestión más sostenible** de los recursos académicos. En conjunto, se refuerza la idea de que una **gobernanza digital abierta**, basada en el uso de software libre, puede fortalecer la inclusión y consolidar la educación como un bien común.
+
+
+
+### 📷 Fotos del Evento
+
+::: {style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 1em;"}
+![](images/img_01.heic){group="emma-latex"}
+:::
+
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
+![](images/img_02.jpg){group="emma-latex"}
+
+![](images/img_03.jpg){group="emma-latex"}
+
+![](images/img_04.jpg){group="emma-latex"}
+:::
+
+### 📋 Sobre la Presentación
+
+**“Gobernanza Abierta e Inclusión Digital: Tecnologías Colaborativas en la Educación Superior”** es una propuesta que promueve el uso de **tecnologías abiertas como herramientas de equidad** en la educación universitaria.  
+Desarrollada por **Francisco Alfaro**, esta experiencia demuestra cómo la **innovación tecnológica** y la **gobernanza colaborativa** pueden contribuir a **una educación inclusiva, accesible y sostenible** en el tiempo.
+
+🌐 Más recursos y materiales en: <https://seth-nut.github.io/resources>
+

@@ -1,0 +1,42 @@
+---
+title: "Hola Quarto: aprende, comparte, enseña"
+subtitle: "PyCon Chile 2025"
+author: 
+  - "Francisco Alfaro"
+categories: [tema1, tema2, tema3]
+date: "2025-11-08"
+image: "images/pycon-chile.png"
+links:
+- icon: globe
+  icon_pack: fas
+  name: Material
+  url: https://ejemplo.com
+- icon: instagram
+  icon_pack: fab
+  name: Instagram
+  url: https://instagram.com/ejemplo
+- icon: github
+  icon_pack: fab
+  name: Repositorio
+  url: https://github.com/ejemplo
+
+filters:
+  - lightbox
+lightbox: auto
+---
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+------------------------------------------------------------------------
+
+::: callout-note
+## 📅 ¡Próximamente!
+
+Pronto estaremos subiendo toda la información de este evento: materiales, fotos, enlaces y más.\
+¡Vuelve pronto para revivir la experiencia completa!
+:::

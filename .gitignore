@@ -81,21 +81,7 @@ _freeze
 site_libs
 
 
-# folders
-
-talks/es/2025-ceemat2/
-talks/es/2025-aws/
-talks/es/2025-clei/
-talks/es/2025-datasaturday/
-talks/es/2025-icprs/
-talks/es/2025-jnem/
-talks/es/2025-latinr/
-talks/es/2025-ima/
-talks/es/2025-mes13/
-talks/es/2025-nerdearla/
-talks/es/2025-olimpiadas/
-talks/es/2025-pycon/
-talks/es/2025-pydata/
-talks/es/2025-pyladies/
-talks/es/2025-sochedi/
-talks/es/2026-escuela/
+talks/es/2025-mes13
+talks/es/2025-somachi
+talks/es/2025-jnem
+talks/es/2025-nerdearla

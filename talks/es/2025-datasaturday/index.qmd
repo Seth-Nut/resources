@@ -1,0 +1,79 @@
+---
+title: "Crea, Innova y Presenta - Data Storytelling + IA"
+subtitle: "Data Saturday LATAM 2025"
+author: 
+  - "Francisco Alfaro"
+categories: [datastorytelling, AI, comunidad]
+date: "2025-10-25"
+image: "images/datasaturday2.png"
+links:
+- icon: globe
+  icon_pack: fas
+  name: Material
+  url: https://sethnut.com/talks/
+- icon: instagram
+  icon_pack: fab
+  name: Instagram
+  url: https://www.instagram.com/p/DQPzhPxjF1h/?utm_source=ig_web_copy_link
+- icon: linkedin
+  icon_pack: fab
+  name: LinkedIn
+  url: https://www.linkedin.com/company/data-saturday-latam/posts/?feedView=all
+
+filters:
+  - lightbox
+lightbox: auto
+---
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+------------------------------------------------------------------------
+
+## 🎉 Participación en Data Saturday LATAM 2025
+
+El **Data Saturday LATAM 2025**, realizado en **Santiago de Chile**, reunió a profesionales, académicos y entusiastas del mundo de los datos de toda Latinoamérica en una jornada de formación y colaboración dedicada a la **analítica, inteligencia artificial y cultura de datos**.  
+
+Este evento, organizado de manera **voluntaria por la comunidad de datos**, representa una instancia única para compartir conocimiento, fortalecer redes y promover la innovación abierta en la región.  
+
+Cada año, el encuentro se celebra en un país distinto de Latinoamérica, consolidando un movimiento regional que impulsa el aprendizaje colectivo y el desarrollo de capacidades técnicas en torno al **análisis, la ingeniería y la gestión de datos**.
+
+
+
+## 💡 Charla: *Data Storytelling + IA: Cómo Crear Presentaciones que Conectan, Convencen e Inspiran*
+
+En un contexto donde los datos crecen exponencialmente, **comunicar resultados con claridad e impacto** es tan crucial como analizarlos. Esta propuesta mostró cómo **transformar datos en narrativas interactivas**, integrando visualización, diseño e inteligencia artificial mediante herramientas como **Streamlit**, **Quarto** y **ChatGPT**. A través de ejemplos prácticos, se exploró cómo estas tecnologías permiten **automatizar reportes**, **crear dashboards** y **presentar hallazgos de forma comprensible y atractiva** para entornos corporativos, académicos y educativos.
+
+Los participantes aprendieron a **usar IA para enriquecer narrativas**, **automatizar análisis reproducibles con Quarto** y **desarrollar visualizaciones interactivas en Streamlit**, aplicando principios de diseño claros y efectivos. En conjunto, la charla destacó cómo combinar **inteligencia artificial, visualización y comunicación** puede potenciar la toma de decisiones y hacer del análisis de datos una experiencia más accesible y significativa.
+
+
+
+
+### 📷 Fotos del Evento
+
+::: {style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 1em;"}
+![](images/img_01.jpeg){group="emma-latex"}
+
+![](images/img_02.jpg){group="emma-latex"}
+:::
+
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
+![](images/img_06.jpeg){group="emma-latex"}
+
+![](images/img_07.jpeg){group="emma-latex"}
+
+![](images/img_08.jpeg){group="emma-latex"}
+:::
+
+### 📋 Sobre la Charla
+
+**“Data Storytelling + IA: Cómo Crear Presentaciones que Conectan, Convencen e Inspiran”** es una propuesta diseñada por **Francisco Alfaro** para enseñar cómo unir la **analítica de datos**, la **visualización interactiva** y la **inteligencia artificial** en un flujo coherente de comunicación.  
+La charla busca inspirar a profesionales y educadores a **ir más allá de los dashboards**, desarrollando **historias con datos** que informen, persuadan y movilicen la acción.
+
+🌐 Más recursos y materiales en: <https://seth-nut.github.io/resources>
+
+

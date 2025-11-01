@@ -1,0 +1,94 @@
+---
+title: "51st Latin American Informatics Conference"
+subtitle: "Valparaíso 2025"
+author: 
+  - "Francisco Alfaro"
+  - "Valeska Canales"
+  - "Dorian Villegas"
+categories: [educación, matemáticas, programación]
+date: "2025-10-28"
+image: "images/clei.png"
+links:
+- icon: globe
+  icon_pack: fas
+  name: Material
+  url: https://sethnut.com/talks/
+- icon: newspaper
+  icon_pack: fas
+  name: Congreso
+  url: https://conferencia2025.clei.org/
+
+
+filters:
+  - lightbox
+lightbox: auto
+---
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+------------------------------------------------------------------------
+
+## 🎉 Participación en el Congreso Latinoamericano de Informática (CLEI 2025)
+
+El **Congreso Latinoamericano de Informática (CLEI)** es el encuentro más importante de la región en las áreas de **Computación, Informática y sus aplicaciones tecnológicas**.  
+Desde 1974, CLEI se celebra anualmente en distintos países de América Latina, promoviendo el **intercambio de ideas, experiencias y resultados de investigación** entre académicos, profesionales, docentes y estudiantes.
+
+La edición **CLEI 2025** se llevará a cabo en **Valparaíso, Chile**, entre el **27 y el 31 de octubre de 2025**, junto con las **Jornadas Chilenas de Computación (JCC 2025)** y la **IEEE Chilecon 2025**.  
+El evento reunirá cinco tracks principales y seis eventos asociados, consolidándose como un espacio clave para debatir sobre los avances teóricos, prácticos y pedagógicos en informática, ingeniería y educación tecnológica.
+
+
+
+## 💡 Artículo: *Innovación en la Enseñanza de la Matemática mediante Tecnologías Abiertas y Aprendizaje Activo: Experiencia en el Curso MAT281*
+
+
+Este artículo presenta una **experiencia de innovación pedagógica** en el curso *MAT281: Aplicaciones de la Matemática* de la **Universidad Técnica Federico Santa María**, enfocada en integrar **tecnologías abiertas** y **metodologías activas** para fortalecer la enseñanza de la programación matemática en la educación superior. La propuesta combinó el uso de **Google Colab** como entorno principal de trabajo, **evaluaciones interactivas basadas en proyectos reales** y **GitHub como portafolio digital**, promoviendo la motivación, el aprendizaje activo y la colaboración.
+
+El análisis de **notas finales y encuestas de docencia (2019–2024)** evidencia una **mejora sostenida en el rendimiento académico y la valoración del curso**, mostrando el impacto positivo de estas estrategias en la **formación de competencias en programación matemática** y en la **modernización de la enseñanza universitaria**.
+
+### 📷 Fotos del Evento
+
+::: {style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 1em;"}
+![](images/img_01.jpeg){group="emma-latex"}
+:::
+
+::: {style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1em;"}
+![](images/img_02.jpeg){group="emma-latex"}
+
+![](images/img_03.jpeg){group="emma-latex"}
+:::
+
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
+![](images/img_04.jpg){group="emma-latex"}
+
+![](images/img_05.jpg){group="emma-latex"}
+
+![](images/img_06.jpg){group="emma-latex"}
+
+![](images/img_07.jpg){group="emma-latex"}
+
+![](images/img_08.jpg){group="emma-latex"}
+
+![](images/img_09.jpg){group="emma-latex"}
+
+![](images/cena_01.jpg){group="emma-latex"}
+
+![](images/cena_02.jpg){group="emma-latex"}
+
+![](images/cena_03.jpg){group="emma-latex"}
+
+:::
+
+### 📋 Sobre la Investigación
+
+**“Innovación en la Enseñanza de la Matemática mediante Tecnologías Abiertas y Aprendizaje Activo: Experiencia en el Curso MAT281”** propone un modelo replicable de innovación pedagógica basado en la **integración de plataformas abiertas** (*Google Colab, Quarto, GitHub*) y **evaluaciones activas** que promueven la autonomía, la colaboración y la reproducibilidad en el aprendizaje.  
+
+Esta experiencia, desarrollada en la **UTFSM**, busca aportar al debate sobre la **modernización curricular en ingeniería y ciencias aplicadas**, demostrando que la apertura tecnológica puede ser un **motor de calidad, equidad e innovación educativa** en América Latina.
+
+🌐 Más recursos y materiales en: <https://seth-nut.github.io/resources>
+
+

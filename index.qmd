@@ -62,26 +62,42 @@ about:
 
 <!-- ------------------------------------------------------------------------ -->
 
+
+
+Aquí encontrarás materiales creados para **aprender, enseñar y compartir conocimiento** en torno a la **programación, las matemáticas y la inteligencia artificial**.
+Todos los recursos están diseñados para ser **abiertos, interactivos y fáciles de usar**, con ejemplos que puedes ejecutar directamente en tu navegador o en **Google Colab**.
+
+
+
 ## 📝 Blog
 
-[Ver todos nuetros post!](/posts/index.html)
+En esta sección abordamos temas variados de **programación, matemáticas y educación**, desde visualización con **Manim** hasta el uso de **IA y Google Colab** para apoyar el aprendizaje.
+Cada artículo incluye explicaciones paso a paso, ejemplos ejecutables y enlaces de apoyo.
 
+👉 [Ver todos nuestros posts](/posts/index.html)
 
 ::: {#posts}
 :::
 
+
+
 ## 💬 Eventos
 
-[Ver todos nuestros Eventos!](/talks/index.html)
+Compartimos experiencias en **congresos, talleres y charlas**, junto con sus materiales, fotografías y enlaces a redes o grabaciones.
+Cada publicación permite revivir los eventos y acceder a los recursos utilizados.
+
+👉 [Ver todos nuestros eventos](/talks/index.html)
 
 ::: {#talks}
 :::
 
-
-
 ## 📖 Cursos
 
-[Ver todos nuestros cursos!](/teaching/index.html)
+Los cursos están desarrollados en **Quarto** y **Markdown**, con notebooks interactivos que puedes ejecutar directamente o abrir en **Google Colab**.
+Incluyen teoría, práctica y ejercicios guiados para aprender haciendo. Solo necesitas hacer clic en el ícono correspondiente para comenzar.
+
+👉 [Ver todos nuestros cursos](/teaching/index.html)
 
 ::: {#teaching}
 :::
+
