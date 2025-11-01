@@ -76,3 +76,4 @@ Esta charla forma parte de una línea de talleres, cursos y contenidos abiertos 
 **"Creating, innovating and presenting: Data Storytelling + A.I."** es una propuesta formativa diseñada por Francisco Alfaro para enseñar cómo transformar datos en narrativas visuales interactivas. A través de herramientas como **Python**, **Quarto**, **Streamlit** y modelos generativos de **A.I.**, esta charla busca inspirar a profesionales y educadores a comunicar mejor con datos.
 
 🌐 Más recursos y materiales en: <https://seth-nut.github.io/resources>
+

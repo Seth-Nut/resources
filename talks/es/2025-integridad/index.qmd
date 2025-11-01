@@ -46,7 +46,6 @@ La ponencia **“Integridad académica en acción: innovación con open source e
 
 También se abordó el uso ético de **ChatGPT** y **Gemini** en contextos educativos, destacando su potencial para desarrollar pensamiento crítico y creatividad cuando se integran de forma reflexiva. En conjunto, la charla planteó que la **integridad académica** debe entenderse como una práctica viva y transversal, impulsada por una educación **abierta, ética y con propósito**, donde la confianza y la excelencia se construyen colectivamente.
 
-
 ### 📷 Fotos del Evento
 
 ::: {style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 1em;"}
