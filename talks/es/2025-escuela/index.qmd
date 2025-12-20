@@ -68,11 +68,9 @@ Agradecemos a todos los participantes y organizadores que hicieron posible esta 
 :::
 
 ::: {style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1em;"}
-
 ![](images/img_01.jpeg){group="my-gallery"}
 
 ![](images/img_03.jpeg){group="my-gallery"}
-
 :::
 
 ::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
