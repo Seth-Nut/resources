@@ -10,7 +10,7 @@ links:
 - icon: medium
   icon_pack: fab
   name: Medium
-  url: https://medium.com/@fralfaro/d%C3%ADa-de-las-matem%C3%A1ticas-manim-efd60a93f84f
+  url: https://medium.com/@fralfaro/más-allá-de-p-0-05-6d49e90c4183
 filters:
    - lightbox
 lightbox: auto
