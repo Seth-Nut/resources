@@ -7,7 +7,7 @@ author:
   - "Dorian Villegas"
 categories: [matemáticas, eduación, programación]
 date: "2025-12-17"
-image: "images/mes13.png"
+image: "images/mes132.png"
 links:
 - icon: globe
   icon_pack: fas
