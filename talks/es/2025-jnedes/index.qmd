@@ -61,6 +61,8 @@ Agradecemos a **Patricio Videla Jiménez** y **Bárbara Villarroel Oyarzo** por 
 
 ::: {style="display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 1em;"}
 ![](images/img_01.jpg){group="my-gallery"}
+
+![](images/oficial.png){group="my-gallery"}
 :::
 
 ::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}

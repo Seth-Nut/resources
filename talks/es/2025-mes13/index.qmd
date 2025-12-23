@@ -63,6 +63,12 @@ Agradecemos a **Melissa Andrade-Molina** y **Alex Montecino Muñoz** por su gest
 ![](images/img_01.jpg){group="my-gallery"}
 :::
 
+::: {style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1em;"}
+![](images/img_12.heic){group="my-gallery"}
+
+![](images/img_13.heic){group="my-gallery"}
+:::
+
 ::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
 ![](images/img_05.webp){group="my-gallery"}
 
